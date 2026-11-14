@@ -1,0 +1,657 @@
+[
+ {
+  "id": "q01",
+  "split": "dev",
+  "type": "direct",
+  "answerable": true,
+  "question": "What daily sodium limit does a healthy eating pattern set for adults?",
+  "expected_answer": "Less than 2,300 milligrams per day.",
+  "gold": [
+   {
+    "source_id": "fm7-22-2020",
+    "page": 85,
+    "evidence": "Healthy eating patterns limit sodium to less than 2,300 milligrams per day for adults."
+   }
+  ]
+ },
+ {
+  "id": "q02",
+  "split": "dev",
+  "type": "direct",
+  "answerable": true,
+  "question": "How long is the H2F program in Basic Combat Training?",
+  "expected_answer": "10 weeks.",
+  "gold": [
+   {
+    "source_id": "fm7-22-2020",
+    "page": 32,
+    "evidence": "The 10-week H2F program for BCT provides foundational readiness and fundamental physical and mental skills."
+   }
+  ]
+ },
+ {
+  "id": "q03",
+  "split": "dev",
+  "type": "direct",
+  "answerable": true,
+  "question": "Which energy pathway fuels very short, high-power efforts, and for how many seconds?",
+  "expected_answer": "The phosphagen pathway (stored ATP and phosphocreatine), for about 5-10 seconds.",
+  "gold": [
+   {
+    "source_id": "fm7-22-2020",
+    "page": 44,
+    "evidence": "In the phosphagen pathway, adenosine triphosphate stored in the muscle and another molecule called phosphocreatine provide the energy for very short duration (5-10 seconds), high intensity or high power activities."
+   }
+  ]
+ },
+ {
+  "id": "q04",
+  "split": "dev",
+  "type": "paraphrase",
+  "answerable": true,
+  "question": "Which muscle fibers hold up best against fatigue, and what do they give up in return?",
+  "expected_answer": "Type I fibers; they contract more slowly and generate less force.",
+  "gold": [
+   {
+    "source_id": "fm7-22-2020",
+    "page": 47,
+    "evidence": "Type I fibers are more resistant to fatigue than the others , but Type I fibers have a slower contractile speed and generate less force."
+   }
+  ]
+ },
+ {
+  "id": "q05",
+  "split": "dev",
+  "type": "paraphrase",
+  "answerable": true,
+  "question": "What dangerous condition can result from drinking too much water?",
+  "expected_answer": "Hyponatremia: excessive dilution of sodium in the blood.",
+  "gold": [
+   {
+    "source_id": "fm7-22-2020",
+    "page": 91,
+    "evidence": "Overhydrating can cause excessive dilution of sodium in the blood, a potentially life-threatening condition called hyponatremia."
+   },
+   {
+    "source_id": "fm7-22-2020",
+    "page": 93,
+    "evidence": "Too much wa ter can result in hyponatremia."
+   },
+   {
+    "source_id": "fm7-22-2020",
+    "page": 163,
+    "evidence": "It is possible to drink too much water and become overhydrated or hyponatremic."
+   }
+  ]
+ },
+ {
+  "id": "q06",
+  "split": "dev",
+  "type": "conditional",
+  "answerable": true,
+  "question": "When building a ruck marching program, above what load relative to body weight should increases be made with caution?",
+  "expected_answer": "Above 30 percent of body weight.",
+  "gold": [
+   {
+    "source_id": "fm7-22-2020",
+    "page": 70,
+    "evidence": "Loads above 30 percent of body weight should be increased with caution."
+   }
+  ]
+ },
+ {
+  "id": "q07",
+  "split": "dev",
+  "type": "direct",
+  "answerable": true,
+  "question": "How much carbohydrate should a pre-exercise meal contain, and how long before exercise should it be eaten?",
+  "expected_answer": "1 to 4 grams of carbohydrate per kilogram of body weight, eaten 1 to 4 hours before exercise.",
+  "gold": [
+   {
+    "source_id": "fm7-22-2020",
+    "page": 88,
+    "evidence": "Research suggests a pre-exercise meal containing 1 to 4 grams of carbohydrate per kilogram of body weight, consumed 1 to 4 hours prior to exercise provides improved performance."
+   }
+  ]
+ },
+ {
+  "id": "q08",
+  "split": "dev",
+  "type": "table",
+  "answerable": true,
+  "question": "In the endurance heart rate zones table, what percentage of maximum heart rate is zone 2, and what level of effort is it?",
+  "expected_answer": "60-70% of HRmax; aerobic endurance at a moderate level of effort.",
+  "gold": [
+   {
+    "source_id": "fm7-22-2020",
+    "page": 66,
+    "evidence": "2 60–70 Aerobic endurance Moderate"
+   }
+  ]
+ },
+ {
+  "id": "q09",
+  "split": "dev",
+  "type": "metadata",
+  "answerable": true,
+  "question": "In the Nutritional Readiness chapter, how much caffeine from tea or coffee can a Soldier have without negatively affecting hydration status?",
+  "expected_answer": "A small amount, under 200 milligrams; more caffeine may negatively affect fluid balance.",
+  "gold": [
+   {
+    "source_id": "fm7-22-2020",
+    "page": 89,
+    "evidence": "A small amount of caffeine in tea or coffee (< 200 milligrams) should not negatively affect hydration status, but if Soldiers drink more caffeine, their fluid balance may be negatively affected."
+   }
+  ],
+  "filter": {
+   "section": "Chapter 8. Nutritional Readiness"
+  }
+ },
+ {
+  "id": "q10",
+  "split": "dev",
+  "type": "conditional",
+  "answerable": true,
+  "question": "When can a recruit increase the weight for a strength exercise, and by how much?",
+  "expected_answer": "After completing two repetitions over the repetition goal for two consecutive workouts; increase by five to ten percent for the next strength session.",
+  "gold": [
+   {
+    "source_id": "fm7-22-2020",
+    "page": 164,
+    "evidence": "For strength training, if recruits can complete two repetitions over the repetition goal for an exercise for two consecutive workouts, they can increase the weight by five to ten percent for the next strength session."
+   }
+  ]
+ },
+ {
+  "id": "q11",
+  "split": "dev",
+  "type": "direct",
+  "answerable": true,
+  "question": "Which hormone is often called the stress hormone, and what does excessive production of it contribute to?",
+  "expected_answer": "Cortisol; excess contributes to chronic disease, poor executive cognitive function, and increased susceptibility to injury and infection.",
+  "gold": [
+   {
+    "source_id": "fm7-22-2020",
+    "page": 104,
+    "evidence": "One of the hormones released as a result of this protective response is cortisol, often referred to as the “stress hormone.” Excessive production of cortisol contributes to chronic disease, poor executive cognitive function, and increased susceptibility to injury and infection."
+   }
+  ]
+ },
+ {
+  "id": "q12",
+  "split": "dev",
+  "type": "direct",
+  "answerable": true,
+  "question": "How does the talk test distinguish moderate-intensity from vigorous-intensity aerobic activity?",
+  "expected_answer": "At moderate intensity a person can talk but not sing; at vigorous intensity they cannot say more than a few words without pausing for a breath.",
+  "gold": [
+   {
+    "source_id": "hhs-pag-2018",
+    "page": 60,
+    "evidence": "As a rule of thumb, a person doing moderate-intensity aerobic activity can talk, but not sing, during the activity. A person doing vigorous-intensity activity cannot say more than a few words without pausing for a breath."
+   },
+   {
+    "source_id": "hhs-pag-2018",
+    "page": 71,
+    "evidence": "As a rule of thumb, a person doing moderate-intensity aerobic activity can talk, but not sing, during the activity. A person doing vigorous-intensity activity cannot say more than a few words without pausing for a breath."
+   }
+  ]
+ },
+ {
+  "id": "q13",
+  "split": "dev",
+  "type": "metadata",
+  "answerable": true,
+  "question": "According to the Physical Activity Guidelines for Americans, how much physical activity should children and adolescents aged 6 through 17 do?",
+  "expected_answer": "60 minutes (1 hour) or more of moderate-to-vigorous physical activity daily.",
+  "gold": [
+   {
+    "source_id": "hhs-pag-2018",
+    "page": 48,
+    "evidence": "Children and adolescents ages 6 through 17 years should do 60 minutes (1 hour) or more of moderate-to-vigorous physical activity daily"
+   }
+  ],
+  "filter": {
+   "publisher": "HHS"
+  }
+ },
+ {
+  "id": "q14",
+  "split": "dev",
+  "type": "metadata",
+  "answerable": true,
+  "question": "According to the WHO guidelines, how much physical activity should children and adolescents aged 5–17 do?",
+  "expected_answer": "At least an average of 60 minutes per day of moderate- to vigorous-intensity, mostly aerobic, physical activity across the week.",
+  "gold": [
+   {
+    "source_id": "who-pasb-2020",
+    "page": 35,
+    "evidence": "Children and adolescents should do at least an average of 60 minutes per day of moderate- to vigorous-intensity, mostly aerobic, physical activity, across the week."
+   },
+   {
+    "source_id": "who-pasb-2020",
+    "page": 11,
+    "evidence": "Children and adolescents should do at least an average of 60 minutes per day of moderate- to vigorous-intensity, mostly aerobic, physical activity, across the week."
+   }
+  ],
+  "filter": {
+   "publisher": "WHO"
+  }
+ },
+ {
+  "id": "q15",
+  "split": "dev",
+  "type": "direct",
+  "answerable": true,
+  "question": "What target did the WHO Global action plan on physical activity 2018–2030 set for physical inactivity?",
+  "expected_answer": "Reduce physical inactivity by 15% by 2030.",
+  "gold": [
+   {
+    "source_id": "who-pasb-2020",
+    "page": 83,
+    "evidence": "Global action plan on physical activity 2018–2030 set a target to reduce physical inactivity by 15% by 2030"
+   },
+   {
+    "source_id": "who-pasb-2020",
+    "page": 10,
+    "evidence": "Global action plan on physical activity 2018–2030 set a target to reduce physical inactivity by 15% by 2030"
+   },
+   {
+    "source_id": "who-pasb-2020",
+    "page": 25,
+    "evidence": "to achieve a 15% relative reduction in the global prevalence of physical inactivity in adults and adolescents by 2030"
+   }
+  ]
+ },
+ {
+  "id": "q16",
+  "split": "test",
+  "type": "paraphrase",
+  "answerable": true,
+  "question": "Which training period is the longest, and how long can it last?",
+  "expected_answer": "The base period, lasting up to twelve weeks.",
+  "gold": [
+   {
+    "source_id": "fm7-22-2020",
+    "page": 57,
+    "evidence": "BASE 5-17. This is the period when the basic abilities of endurance, strength, speed , and movement skill are emphasized. This period is the longest of all the periods lasting up to twelve weeks."
+   },
+   {
+    "source_id": "fm7-22-2020",
+    "page": 55,
+    "evidence": "Base (4–12 weeks) Build (4–8 weeks) Peak 1 (2–3 weeks) Combat / Peak 2 (2 weeks +) Recovery (4–8 weeks)"
+   },
+   {
+    "source_id": "fm7-22-2020",
+    "page": 56,
+    "evidence": "Base (4–12 weeks) Build (4–8 weeks) Peak 1 (2–3 weeks) Combat / Peak 2 (2 weeks +) Recovery (4–8 weeks)"
+   }
+  ]
+ },
+ {
+  "id": "q17",
+  "split": "test",
+  "type": "conditional",
+  "answerable": true,
+  "question": "What exercise position is off limits for Soldiers who are more than 20 weeks pregnant?",
+  "expected_answer": "They do not perform exercises lying on their backs.",
+  "gold": [
+   {
+    "source_id": "fm7-22-2020",
+    "page": 145,
+    "evidence": "Soldiers more than 20 weeks pregnant do not perform exercises lying on their backs."
+   }
+  ]
+ },
+ {
+  "id": "q18",
+  "split": "test",
+  "type": "metadata",
+  "answerable": true,
+  "question": "In the Sleep Readiness chapter, how many hours of sleep per night should Soldiers get in the two weeks before travel or a mission?",
+  "expected_answer": "8 or more hours of sleep per night.",
+  "gold": [
+   {
+    "source_id": "fm7-22-2020",
+    "page": 127,
+    "evidence": "Up to two weeks prior to trave ling, Soldiers pay down sleep debt and bank sleep by getting 8 or more hours of sleep per night."
+   },
+   {
+    "source_id": "fm7-22-2020",
+    "page": 129,
+    "evidence": "Two weeks prior, get 8 or more hours of sleep per night."
+   }
+  ],
+  "filter": {
+   "section": "Chapter 11. Sleep Readiness"
+  }
+ },
+ {
+  "id": "q19",
+  "split": "test",
+  "type": "direct",
+  "answerable": true,
+  "question": "Besides aerobic and muscle-strengthening activity, what should older adults include in their weekly physical activity?",
+  "expected_answer": "Balance training, as part of multicomponent physical activity.",
+  "gold": [
+   {
+    "source_id": "hhs-pag-2018",
+    "page": 68,
+    "evidence": "As part of their weekly physical activity, older adults should do multicomponent physical activity that includes balance tr aining as well as aerobic and muscle-strengthening activities."
+   },
+   {
+    "source_id": "hhs-pag-2018",
+    "page": 69,
+    "evidence": "In addition, these key guidelines discuss the importance of multicomponent physical activity, which includes balance training along with aerobic and muscle-strengthening activity."
+   },
+   {
+    "source_id": "who-pasb-2020",
+    "page": 53,
+    "evidence": "As part of their weekly physical activity, older adults should do varied multicomponent physical activity that emphasizes functional balance and strength training at moderate or greater intensity, on 3 or more days a week, to enhance functional capacity and to prevent falls."
+   },
+   {
+    "source_id": "who-pasb-2020",
+    "page": 14,
+    "evidence": "As part of their weekly physical activity, older adults should do varied multicomponent physical activity that emphasizes functional balance and strength training at moderate or greater intensity, on 3 or more days a week, to enhance functional capacity and to prevent falls."
+   }
+  ]
+ },
+ {
+  "id": "q20",
+  "split": "test",
+  "type": "metadata",
+  "answerable": true,
+  "question": "According to the WHO guidelines, how many minutes of moderate-intensity aerobic physical activity should adults aged 18–64 do each week for substantial health benefits?",
+  "expected_answer": "At least 150–300 minutes per week (or 75–150 minutes of vigorous-intensity activity, or an equivalent combination).",
+  "gold": [
+   {
+    "source_id": "who-pasb-2020",
+    "page": 42,
+    "evidence": "Adults should do at least 150–300 minutes of moderate-intensity aerobic physical activity"
+   },
+   {
+    "source_id": "who-pasb-2020",
+    "page": 12,
+    "evidence": "Adults should do at least 150– 300 minutes of moderate-intensity aerobic physical activity"
+   }
+  ],
+  "filter": {
+   "publisher": "WHO"
+  }
+ },
+ {
+  "id": "q21",
+  "split": "dev",
+  "type": "direct",
+  "answerable": true,
+  "question": "What is VO2 max?",
+  "expected_answer": "The maximal oxygen consumption: the highest amount of oxygen that can be used during maximal aerobic effort.",
+  "gold": [
+   {
+    "source_id": "fm7-22-2020",
+    "page": 45,
+    "evidence": "The highest amount of oxygen that can be used during maxima l aerobic effort—endurance training— is called the maximal oxygen consumption, or VO2 max."
+   }
+  ]
+ },
+ {
+  "id": "q22",
+  "split": "dev",
+  "type": "direct",
+  "answerable": true,
+  "question": "How much carbohydrate and protein should be consumed after exercise, and how soon?",
+  "expected_answer": "50-100 grams of carbohydrate and 15-25 grams of high-quality protein within 30-60 minutes after exercise.",
+  "gold": [
+   {
+    "source_id": "fm7-22-2020",
+    "page": 89,
+    "evidence": "It is critical to provide the body with 50 –100 grams of carbohydrate (2 grams of carbohydrates per kilogram of body weight) and 15 –25 grams of high -quality protein (5 –9 grams protein per 100 grams of carbohydrates) within 30 –60 minutes after exercise"
+   }
+  ]
+ },
+ {
+  "id": "q23",
+  "split": "dev",
+  "type": "direct",
+  "answerable": true,
+  "question": "What are the signs of heatstroke, and how urgent is it?",
+  "expected_answer": "No sweating, hot dry skin, rapid pulse, rapid breathing, dizziness or confusion, unconsciousness, seizure, or coma; it is a medical emergency (dial 911).",
+  "gold": [
+   {
+    "source_id": "fm7-22-2020",
+    "page": 164,
+    "evidence": "Heatstroke (medical emergency, dial 911): no sweating, hot dry skin, rapid pulse, rapid breathing, dizziness or confusion, unconsciousness, seizure, or coma."
+   }
+  ]
+ },
+ {
+  "id": "q24",
+  "split": "dev",
+  "type": "metadata",
+  "answerable": true,
+  "question": "In the Holistic Health and Fitness Schedules chapter, what is the maximum fluid intake per hour during sustained exertion?",
+  "expected_answer": "No more than 1 1/2 quarts (48 ounces) per hour.",
+  "gold": [
+   {
+    "source_id": "fm7-22-2020",
+    "page": 163,
+    "evidence": "Be sure to limit intake to no more than 11⁄2 quarts per hour (48 ounces) during sustained exertion."
+   }
+  ],
+  "filter": {
+   "section": "Chapter 14. Holistic Health and Fitness Schedules"
+  },
+  "note": "Chapter 8 (p93) gives a different limit: no more than 1 quart per hour. The section filter scopes the question to chapter 14; '11⁄2' is the NFKC form of '1½'."
+ },
+ {
+  "id": "q25",
+  "split": "dev",
+  "type": "direct",
+  "answerable": true,
+  "question": "What do the guidelines recommend for preschool-aged children (ages 3 through 5)?",
+  "expected_answer": "They should be physically active throughout the day to enhance growth and development.",
+  "gold": [
+   {
+    "source_id": "hhs-pag-2018",
+    "page": 47,
+    "evidence": "Preschool-aged children (ages 3 through 5 years) should be physically active throughout the day to enhance growth and development."
+   }
+  ]
+ },
+ {
+  "id": "q26",
+  "split": "dev",
+  "type": "paraphrase",
+  "answerable": true,
+  "question": "What immediate benefits can one bout of moderate-to-vigorous physical activity bring on the same day?",
+  "expected_answer": "Reduced blood pressure, improved insulin sensitivity, improved sleep, reduced anxiety symptoms, and improved aspects of cognition.",
+  "gold": [
+   {
+    "source_id": "hhs-pag-2018",
+    "page": 20,
+    "evidence": "A single session of moderate-to-vigorous physical activity can reduce blood pressure, improve insulin sensitivity, improve sleep, reduce anxiety symptoms, and improve some aspects of cognition on the day that it is performed."
+   }
+  ]
+ },
+ {
+  "id": "q27",
+  "split": "dev",
+  "type": "direct",
+  "answerable": true,
+  "question": "How is sedentary behaviour defined?",
+  "expected_answer": "Time spent sitting, reclining or lying with low energy expenditure while awake.",
+  "gold": [
+   {
+    "source_id": "who-pasb-2020",
+    "page": 39,
+    "evidence": "Sedentary behaviour is defined as time spent sitting or lying with low energy expenditure, while awake"
+   },
+   {
+    "source_id": "who-pasb-2020",
+    "page": 25,
+    "evidence": "sedentary behaviour is defined as any waking behaviour while in a sitting, reclining or lying posture with low energy expenditure"
+   },
+   {
+    "source_id": "who-pasb-2020",
+    "page": 48,
+    "evidence": "sedentary behaviour is defined as time spent sitting or lying with low energy expenditure, while awake"
+   },
+   {
+    "source_id": "who-pasb-2020",
+    "page": 56,
+    "evidence": "sedentary behaviour is defined as time spent sitting or lying with low energy expenditure, while awake"
+   },
+   {
+    "source_id": "who-pasb-2020",
+    "page": 61,
+    "evidence": "sedentary behaviour is defined as time spent sitting or lying with low energy expenditure while awake"
+   },
+   {
+    "source_id": "who-pasb-2020",
+    "page": 68,
+    "evidence": "Sedentary behaviour is defined as time spent sitting or lying with low energy expenditure, while awake"
+   },
+   {
+    "source_id": "hhs-pag-2018",
+    "page": 45,
+    "evidence": "sedentary behavior refers to any waking behavior characterized by a low level of energy expenditure (less than or equal to 1.5 METs) while sitting, reclining, or lying."
+   }
+  ]
+ },
+ {
+  "id": "q28",
+  "split": "test",
+  "type": "paraphrase",
+  "answerable": true,
+  "question": "How can comparing sleep on days off with sleep on duty days reveal a sleep debt?",
+  "expected_answer": "Sleeping two or more hours longer on days off than on duty days indicates a significant sleep debt.",
+  "gold": [
+   {
+    "source_id": "fm7-22-2020",
+    "page": 123,
+    "evidence": "As a rule of thumb, any Soldier who sleeps two or more hours longer on days off (versus duty days) carries a significant sleep debt."
+   }
+  ]
+ },
+ {
+  "id": "q29",
+  "split": "test",
+  "type": "direct",
+  "answerable": true,
+  "question": "Who directs a Soldier's entry into Category 1 reconditioning, and when?",
+  "expected_answer": "The healthcare provider, during the Soldier's initial visit.",
+  "gold": [
+   {
+    "source_id": "fm7-22-2020",
+    "page": 140,
+    "evidence": "Entry into Category 1 is directed by the healthcare provider during the Soldier ’s initial visit."
+   }
+  ]
+ },
+ {
+  "id": "q30",
+  "split": "test",
+  "type": "metadata",
+  "answerable": true,
+  "question": "According to the Physical Activity Guidelines for Americans, how much moderate-intensity aerobic activity should women do each week during pregnancy and the postpartum period?",
+  "expected_answer": "At least 150 minutes (2 hours and 30 minutes) a week.",
+  "gold": [
+   {
+    "source_id": "hhs-pag-2018",
+    "page": 80,
+    "evidence": "Women should do at least 150 minutes (2 hours and 30 minutes) of moderate-intensity aerobic activity a week during pregnancy and the postpartum period."
+   }
+  ],
+  "filter": {
+   "publisher": "HHS"
+  }
+ },
+ {
+  "id": "u01",
+  "split": "dev",
+  "type": "unanswerable",
+  "answerable": false,
+  "expected_behavior": "search_and_abstain",
+  "question": "What physical activity does the WHO recommend for adults recovering from COVID-19?",
+  "absence_reason": "The corpus predates or does not address COVID-19; WHO 2020 covers chronic conditions but never mentions COVID.",
+  "absence_check": "COVID|coronavirus|SARS-CoV",
+  "allowed_pages": []
+ },
+ {
+  "id": "u02",
+  "split": "dev",
+  "type": "unanswerable",
+  "answerable": false,
+  "expected_behavior": "search_and_abstain",
+  "question": "How many minutes of aerobic activity per week do the HHS guidelines recommend specifically for adults with type 1 diabetes?",
+  "absence_reason": "HHS p83 states type 1 diabetes 'was not addressed for the development of the Guidelines'; the chronic-condition advice covers type 2.",
+  "absence_check": "type 1 diabetes|type-1 diabetes",
+  "allowed_pages": [
+   [
+    "hhs-pag-2018",
+    83
+   ]
+  ]
+ },
+ {
+  "id": "u03",
+  "split": "dev",
+  "type": "unanswerable",
+  "answerable": false,
+  "expected_behavior": "search_and_abstain",
+  "question": "What minimum score in points must a Soldier earn on each ACFT event to pass?",
+  "absence_reason": "FM 7-22 names the ACFT 193 times and says Soldiers must 'meet the Army standard' (p176) but contains no scoring scale or point minimums.",
+  "absence_check": "ACFT.{0,120}\\bpoints\\b|\\bpoints\\b.{0,120}ACFT|scoring (scale|table|standard)",
+  "allowed_pages": []
+ },
+ {
+  "id": "u04",
+  "split": "test",
+  "type": "unanswerable",
+  "answerable": false,
+  "expected_behavior": "search_and_abstain",
+  "question": "How many minutes of physical activity per day should a 2-year-old child get?",
+  "absence_reason": "HHS p47: the committee 'did not review evidence for children younger than age 3 years'; WHO 2020 covers ages 5+ and only cites a separate 2019 under-5 guideline (p25, p26, p85) without its numbers.",
+  "absence_check": "toddler|younger than (age )?3|under (age )?3\\b|\\b2-year-old|children under 5",
+  "allowed_pages": [
+   [
+    "hhs-pag-2018",
+    47
+   ],
+   [
+    "who-pasb-2020",
+    25
+   ],
+   [
+    "who-pasb-2020",
+    26
+   ],
+   [
+    "who-pasb-2020",
+    85
+   ]
+  ]
+ },
+ {
+  "id": "u05",
+  "split": "test",
+  "type": "unanswerable",
+  "answerable": false,
+  "expected_behavior": "search_and_abstain",
+  "question": "How many milligrams of omega-3 fatty acids per day does FM 7-22 recommend for Soldiers?",
+  "absence_reason": "FM 7-22 chapter 8 covers nutrition and supplements but never mentions omega-3.",
+  "absence_check": "omega|fish oil|EPA and DHA",
+  "allowed_pages": []
+ },
+ {
+  "id": "u06",
+  "split": "test",
+  "type": "unanswerable",
+  "answerable": false,
+  "expected_behavior": "search_and_abstain",
+  "question": "What daily creatine supplement dose does FM 7-22 recommend for strength training?",
+  "absence_reason": "'creatine' appears only inside 'phosphocreatine' (p44, energy systems); the supplement section (8-46) does not cover creatine.",
+  "absence_check": "\\bcreatine",
+  "allowed_pages": []
+ }
+]

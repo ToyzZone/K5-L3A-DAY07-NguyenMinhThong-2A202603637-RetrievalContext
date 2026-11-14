@@ -1,0 +1,65 @@
+q01 answered searches=1 ctx_evidence=True 3.73s 'Less than 2,300 milligrams per day [fm7-22-2020:p085:para:00]'
+q02 answered searches=1 ctx_evidence=False 1.84s 'The H2F program in Basic Combat Training is in a 10-week block [fm7-22-2020:p023:para:05].'
+q03 answered searches=1 ctx_evidence=True 2.24s 'The phosphagen pathway fuels very short, high intensity or high power activities for 5-10 seconds [f'
+q04 answered searches=1 ctx_evidence=True 2.25s 'Type I (slow oxidative) fibers hold up best against fatigue, but they give up slower contractile spe'
+q05 answered searches=1 ctx_evidence=True 1.95s 'Hyponatremia [fm7-22-2020:p163:para:03] [fm7-22-2020:p091:para:00]'
+q06 answered searches=1 ctx_evidence=True 2.35s 'Loads above 30 percent of body weight should be increased with caution [fm7-22-2020:p070:para:00].'
+q07 answered searches=1 ctx_evidence=True 2.01s 'A pre-exercise meal should contain 1 to 4 grams of carbohydrate per kilogram of body weight and be e'
+q08 answered searches=1 ctx_evidence=True 2.12s 'Zone 2 is 60–70% of maximum heart rate, and its level of effort is Moderate [fm7-22-2020:p066:para:0'
+q09 answered searches=1 ctx_evidence=True 1.85s 'A small amount of caffeine in tea or coffee (< 200 milligrams) should not negatively affect hydratio'
+q10 answered searches=1 ctx_evidence=True 2.04s 'A recruit can increase the weight if they can complete two repetitions over the repetition goal for '
+q11 answered searches=1 ctx_evidence=True 2.09s 'Cortisol is often called the “stress hormone,” and excessive production of it contributes to chronic'
+q12 answered searches=1 ctx_evidence=True 2.16s 'Moderate-intensity aerobic activity lets a person talk, but not sing, during the activity; vigorous-'
+q13 answered searches=1 ctx_evidence=True 3.54s 'Children and adolescents ages 6 through 17 years should do 60 minutes (1 hour) or more of moderate-t'
+q14 answered searches=1 ctx_evidence=True 2.17s 'Children and adolescents aged 5–17 should do at least an average of 60 minutes per day of moderate-t'
+q15 answered searches=1 ctx_evidence=True 2.15s 'The WHO Global action plan on physical activity 2018–2030 set a target to reduce physical inactivity'
+q21 answered searches=1 ctx_evidence=True 2.08s 'VO2 max is the highest amount of oxygen that can be used during maximal aerobic effort; it is the ma'
+q22 answered searches=1 ctx_evidence=True 2.03s '50–100 grams of carbohydrate and 15–25 grams of high-quality protein within 30–60 minutes after exer'
+q23 answered searches=1 ctx_evidence=True 2.15s 'Heatstroke signs are no sweating, hot dry skin, rapid pulse, rapid breathing, dizziness or confusion'
+q24 answered searches=1 ctx_evidence=True 1.86s 'No more than 1 1/2 quarts per hour (48 ounces) during sustained exertion [fm7-22-2020:p163:para:03].'
+q25 answered searches=1 ctx_evidence=True 2.13s 'Preschool-aged children (ages 3 through 5 years) should be physically active throughout the day to e'
+q26 answered searches=1 ctx_evidence=True 2.02s 'A single session of moderate-to-vigorous physical activity can reduce blood pressure, improve insuli'
+q27 answered searches=1 ctx_evidence=True 1.89s 'Sedentary behaviour is defined as time spent sitting or lying with low energy expenditure, while awa'
+u01 abstain  searches=3 ctx_evidence=None 3.91s 'Không đủ bằng chứng để trả lời.'
+u02 abstain  searches=3 ctx_evidence=None 3.77s 'Không đủ bằng chứng để trả lời.'
+u03 abstain  searches=3 ctx_evidence=None 3.96s 'Không đủ bằng chứng để trả lời.'
+{
+ "config": "dense",
+ "method": "dense",
+ "top_k": 3,
+ "budget": 3000,
+ "max_searches": 3,
+ "split": "dev",
+ "model": "gpt-5.4-mini-2026-03-17",
+ "questions": 25,
+ "errors": [],
+ "status": {
+  "answered": 22,
+  "abstain": 3
+ },
+ "tool_use": {
+  "n": 25,
+  "N": 25
+ },
+ "searches_distribution": {
+  "1": 22,
+  "3": 3
+ },
+ "context_evidence_rate": {
+  "n": 21,
+  "N": 22
+ },
+ "abstained_unanswerable": {
+  "n": 3,
+  "N": 3
+ },
+ "abstained_answerable": {
+  "n": 0,
+  "N": 22
+ },
+ "llm_calls": 56,
+ "prompt_tokens": 41118,
+ "completion_tokens": 2909,
+ "median_seconds": 2.13,
+ "total_seconds": 60.3
+}

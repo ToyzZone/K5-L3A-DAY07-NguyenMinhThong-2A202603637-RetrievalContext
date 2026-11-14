@@ -1,0 +1,28 @@
+{
+ "page": 1,
+ "model": "gpt-5.4-2026-03-05",
+ "usage": {
+  "prompt_tokens": 2515,
+  "completion_tokens": 58,
+  "total_tokens": 2573,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  }
+ },
+ "elements": [
+  {
+   "type": "infographic",
+   "label": null,
+   "title": null,
+   "location": "full page",
+   "content": "Global status report on physical activity 2022\nWorld Health Organization\nCover illustration of multiple stylized running human figures in outline."
+  }
+ ]
+}

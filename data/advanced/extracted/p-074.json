@@ -1,0 +1,35 @@
+{
+ "page": 74,
+ "model": "gpt-5.4-2026-03-05",
+ "usage": {
+  "prompt_tokens": 2515,
+  "completion_tokens": 664,
+  "total_tokens": 3179,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  }
+ },
+ "elements": [
+  {
+   "type": "chart",
+   "label": "Figure 25",
+   "title": "National road-design standards addressing safe speed, safe crossing and separation infrastructure, by region and country-income level, 2018",
+   "location": "upper half of page",
+   "content": "Bar chart; y-axis: Percentage of Member States; x-axis groups: WHO regions, World Bank income groups. Legend: Safe speed; Safe crossings; Separated paths; All.\nSafe speed | African Region | ~50\nSafe crossings | African Region | ~55\nSeparated paths | African Region | ~40\nAll | African Region | ~36\nSafe speed | Region of the Americas | ~53\nSafe crossings | Region of the Americas | ~83\nSeparated paths | Region of the Americas | ~37\nAll | Region of the Americas | ~27\nSafe speed | Eastern Mediterranean Region | ~61\nSafe crossings | Eastern Mediterranean Region | ~56\nSeparated paths | Eastern Mediterranean Region | ~22\nAll | Eastern Mediterranean Region | ~11\nSafe speed | European Region | ~78\nSafe crossings | European Region | ~92\nSeparated paths | European Region | ~83\nAll | European Region | ~73\nSafe speed | South-East Asia Region | ~80\nSafe crossings | South-East Asia Region | 100\nSeparated paths | South-East Asia Region | ~60\nAll | South-East Asia Region | ~60\nSafe speed | Western Pacific Region | ~71\nSafe crossings | Western Pacific Region | ~76\nSeparated paths | Western Pacific Region | ~57\nAll | Western Pacific Region | ~38\nSafe speed | Global | ~64\nSafe crossings | Global | ~76\nSeparated paths | Global | ~53\nAll | Global | ~40\nSafe speed | Low-income | ~52\nSafe crossings | Low-income | ~56\nSeparated paths | Low-income | ~41\nAll | Low-income | ~22\nSafe speed | Lower-middle-income | ~60\nSafe crossings | Lower-middle-income | ~65\nSeparated paths | Lower-middle-income | ~44\nAll | Lower-middle-income | ~30\nSafe speed | Upper-middle-income | ~59\nSafe crossings | Upper-middle-income | ~80\nSeparated paths | Upper-middle-income | ~44\nAll | Upper-middle-income | ~31\nSafe speed | High-income | ~81\nSafe crossings | High-income | ~92\nSeparated paths | High-income | ~76\nAll | High-income | ~68"
+  },
+  {
+   "type": "chart",
+   "label": "Figure 26",
+   "title": "National road safety strategy, by region and country-income level, 2018",
+   "location": "lower half of page",
+   "content": "Bar chart; y-axis: Percentage of Member States; x-axis groups: WHO regions, World Bank income groups.\nseries | African Region | ~64\nseries | Region of the Americas | ~77\nseries | Eastern Mediterranean Region | ~72\nseries | European Region | ~90\nseries | South-East Asia Region | 100\nseries | Western Pacific Region | ~90\nseries | Global | ~80\nseries | Low-income | ~63\nseries | Lower-middle-income | ~74\nseries | Upper-middle-income | ~83\nseries | High-income | ~90"
+  }
+ ]
+}

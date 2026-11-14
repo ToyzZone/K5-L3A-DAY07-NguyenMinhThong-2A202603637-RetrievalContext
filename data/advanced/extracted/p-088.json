@@ -1,0 +1,35 @@
+{
+ "page": 88,
+ "model": "gpt-5.4-2026-03-05",
+ "usage": {
+  "prompt_tokens": 2515,
+  "completion_tokens": 244,
+  "total_tokens": 2759,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  }
+ },
+ "elements": [
+  {
+   "type": "box",
+   "label": null,
+   "title": "In 2021:",
+   "location": "middle of page, below section 7.2.1 text, spanning both columns",
+   "content": "In 2021:\n\n• Only 30% of countries (n=59) report implementing national policies promoting physical activity in child-care settings.\n\n• A higher proportion of countries (60%) in the European Region report policy actions in child-care settings compared to around one third of countries in the Region of the Americas, the Eastern Mediterranean Region and the South-East Asia Region.\n\n• This figure falls to 19% in the Western Pacific Region and just 4% in the African Region."
+  },
+  {
+   "type": "box",
+   "label": null,
+   "title": "In 2021:",
+   "location": "bottom of page, below section 7.2.2 text, spanning both columns",
+   "content": "In 2021:\n\n• Just over one third of countries (n=69, 36%) report implementing national workplace physical activity policies, ranging from 6% of countries in the African Region to 58% of countries in the European Region."
+  }
+ ]
+}

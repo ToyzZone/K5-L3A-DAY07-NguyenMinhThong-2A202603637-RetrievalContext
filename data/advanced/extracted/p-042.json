@@ -1,0 +1,28 @@
+{
+ "page": 42,
+ "model": "gpt-5.4-2026-03-05",
+ "usage": {
+  "prompt_tokens": 2515,
+  "completion_tokens": 385,
+  "total_tokens": 2900,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  }
+ },
+ "elements": [
+  {
+   "type": "chart",
+   "label": "Figure 9",
+   "title": "Countries with a national NCD policy including physical activity, by region and country-income level, 2021",
+   "location": "bottom half of page",
+   "content": "Bar chart; y-axis: Percentage of Member States; x-axis groups: WHO regions, World Bank income groups. Legend entries: NCD policy; NCD policy operational.\nNCD policy | African Region | ~78\nNCD policy operational | African Region | ~72\nNCD policy | Region of the Americas | ~82\nNCD policy operational | Region of the Americas | ~50\nNCD policy | Eastern Mediterranean Region | ~76\nNCD policy operational | Eastern Mediterranean Region | ~56\nNCD policy | European Region | ~95\nNCD policy operational | European Region | ~77\nNCD policy | South-East Asia Region | ~90\nNCD policy operational | South-East Asia Region | ~90\nNCD policy | Western Pacific Region | ~84\nNCD policy operational | Western Pacific Region | ~80\nNCD policy | Global | ~85\nNCD policy operational | Global | ~67\nNCD policy | Low-income | ~76\nNCD policy operational | Low-income | ~64\nNCD policy | Lower-middle income | ~77\nNCD policy operational | Lower-middle income | ~58\nNCD policy | Upper-middle income | ~87\nNCD policy operational | Upper-middle income | ~67\nNCD policy | High-income | ~92\nNCD policy operational | High-income | ~75\nNote: 1 An “operational NCD policy” is defined in the WHO NCD CCS survey as a policy, strategy or plan of action that is being used and implemented in the country and has resources and funding available to implement it."
+  }
+ ]
+}

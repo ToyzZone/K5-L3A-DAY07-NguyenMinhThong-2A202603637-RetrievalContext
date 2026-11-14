@@ -1,0 +1,35 @@
+{
+ "page": 44,
+ "model": "gpt-5.4-2026-03-05",
+ "usage": {
+  "prompt_tokens": 2515,
+  "completion_tokens": 764,
+  "total_tokens": 3279,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  }
+ },
+ "elements": [
+  {
+   "type": "chart",
+   "label": "Figure 11",
+   "title": "Countries with a national, standalone physical activity policy, strategy, or action plan, by region and country-income level, 2021",
+   "location": "upper half of page",
+   "content": "Grouped bar chart; y-axis: Percentage of Member States; x-axis groups: WHO regions, World Bank income groups. Legend: Physical activity policy; Physical activity policy, operational.\nPhysical activity policy | African Region | ~17\nPhysical activity policy, operational | African Region | ~13\nPhysical activity policy | Region of the Americas | ~40\nPhysical activity policy, operational | Region of the Americas | ~31\nPhysical activity policy | Eastern Mediterranean Region | ~48\nPhysical activity policy, operational | Eastern Mediterranean Region | ~48\nPhysical activity policy | European Region | ~80\nPhysical activity policy, operational | European Region | ~62\nPhysical activity policy | South-East Asia Region | ~45\nPhysical activity policy, operational | South-East Asia Region | ~27\nPhysical activity policy | Western Pacific Region | ~41\nPhysical activity policy, operational | Western Pacific Region | ~37\nPhysical activity policy | Global | ~47\nPhysical activity policy, operational | Global | ~38\nPhysical activity policy | Low-income | ~13\nPhysical activity policy, operational | Low-income | ~10\nPhysical activity policy | Lower-middle income | ~30\nPhysical activity policy, operational | Lower-middle income | ~26\nPhysical activity policy | Upper-middle income | ~52\nPhysical activity policy, operational | Upper-middle income | ~40\nPhysical activity policy | High-income | ~74\nPhysical activity policy, operational | High-income | ~61"
+  },
+  {
+   "type": "chart",
+   "label": "Figure 12",
+   "title": "Countries with operational standalone national physical activity policy, strategy, or action plan, by region and country-income level, 2017, 2019 and 2021",
+   "location": "lower half of page",
+   "content": "Grouped bar chart; y-axis: Percentage of Member States; x-axis groups: WHO regions, World Bank income groups. Legend: 2017; 2019; 2021.\n2017 | African Region | ~23\n2019 | African Region | ~13\n2021 | African Region | ~13\n2017 | Region of the Americas | ~40\n2019 | Region of the Americas | ~49\n2021 | Region of the Americas | ~31\n2017 | Eastern Mediterranean Region | ~38\n2019 | Eastern Mediterranean Region | ~52\n2021 | Eastern Mediterranean Region | ~48\n2017 | European Region | ~68\n2019 | European Region | ~55\n2021 | European Region | ~64\n2017 | South-East Asia Region | ~45\n2019 | South-East Asia Region | ~36\n2021 | South-East Asia Region | ~27\n2017 | Western Pacific Region | ~33\n2019 | Western Pacific Region | ~30\n2021 | Western Pacific Region | ~37\n2017 | Global | ~43\n2019 | Global | ~40\n2021 | Global | ~38\n2017 | Low-income | ~13\n2019 | Low-income | ~6\n2021 | Low-income | ~10\n2017 | Lower-middle income | ~33\n2019 | Lower-middle income | ~33\n2021 | Lower-middle income | ~26\n2017 | Upper-middle income | ~41\n2019 | Upper-middle income | ~45\n2021 | Upper-middle income | ~40\n2017 | High-income | ~43\n2019 | High-income | ~54\n2021 | High-income | ~61"
+  }
+ ]
+}

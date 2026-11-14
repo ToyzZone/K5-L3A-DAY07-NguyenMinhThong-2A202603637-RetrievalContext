@@ -1,0 +1,28 @@
+{
+ "page": 78,
+ "model": "gpt-5.4-2026-03-05",
+ "usage": {
+  "prompt_tokens": 2515,
+  "completion_tokens": 297,
+  "total_tokens": 2812,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  }
+ },
+ "elements": [
+  {
+   "type": "chart",
+   "label": "FIGURE 29",
+   "title": "National legislation on speed limits meeting best practice, by region and country-income level, 2018",
+   "location": "bottom half of page",
+   "content": "Bar chart; y-axis: Percentage of Member States; x-axis groups: WHO regions, World Bank income groups; legend: Legislation, Best practice.\nLegislation | African region | ~93\nBest practice | African region | ~16\nLegislation | Region of the Americas | ~93\nBest practice | Region of the Americas | ~17\nLegislation | Eastern Mediterranean region | 100\nBest practice | Eastern Mediterranean region | ~22\nLegislation | European region | 100\nBest practice | European region | ~47\nLegislation | South-East Asia region | 100\nBest practice | South-East Asia region | ~10\nLegislation | Western Pacific region | ~95\nBest practice | Western Pacific region | ~24\nLegislation | Global | ~97\nBest practice | Global | ~26\nLegislation | Low-income | ~89\nBest practice | Low-income | ~22\nLegislation | Lower-middle income | ~98\nBest practice | Lower-middle income | ~19\nLegislation | Upper-middle income | ~96\nBest practice | Upper-middle income | ~15\nLegislation | High-income | 100\nBest practice | High-income | ~48"
+  }
+ ]
+}

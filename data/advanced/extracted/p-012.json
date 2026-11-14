@@ -1,0 +1,28 @@
+{
+ "page": 12,
+ "model": "gpt-5.4-2026-03-05",
+ "usage": {
+  "prompt_tokens": 2515,
+  "completion_tokens": 571,
+  "total_tokens": 3086,
+  "prompt_tokens_details": {
+   "cached_tokens": 2048,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  }
+ },
+ "elements": [
+  {
+   "type": "table",
+   "label": "TABLE 1",
+   "title": "Summary of results by GAPPA policy action area",
+   "location": "center of page, spanning most of the page height",
+   "content": "| GAPPA POLICY ACTION AREA | % OF COUNTRIES | CHANGE SINCE 2019 |\n|---|---:|---|\n| Key for colour coding |  | Key for symbols |\n| Good progress > 75% of countries |  | Increase since 2019 |\n| Moderate progress 51–75% of countries |  | No change since 2019 |\n| Poor progress 0–50% of countries |  | Decrease since 2019 |\n| No data available |  | No data available |\n| AREA 1: CHANGING KNOWLEDGE AND MINDSETS |  |  |\n| National communication campaign on physical activity | 52% | Decrease since 2019 |\n| National mass-participation events | 58% | Decrease since 2019 |\n| AREA 2: ENABLING ENVIRONMENTS |  |  |\n| National policy on walking and cycling | 42% | NA |\n| National policy on public transport | 73% | NA |\n| National road design standards for separated infrastructure for pedestrians and cyclists | 53% | NA |\n| National road design standards for safe crossings for pedestrians and cyclists | 76% | NA |\n| National road design standards for management of safe speed | 64% | NA |\n| National road design standards for all three road safety features | 46% | NA |\n| National road safety strategy | 80% | NA |\n| National road safety strategy that is fully funded | 18% | NA |\n| National road safety assessment of all new roads | 48% | NA |\n| National assessment of road safety of existing roads for all road users | 64% | NA |\n| National legislation of speed limits meeting best practice | 26% | NA |\n| National legislation on drink–driving meeting best practice | 26% | NA |\n| National legislation on distracted driving due to use of mobile phone | 89% | NA |\n| National legislation on distracted driving due to use of drugs | 87% | NA |\n| National policy on public open space | NA | NA |\n\nNotes: Colour coding key — Good progress > 75% of countries; Moderate progress 51–75% of countries; Poor progress 0–50% of countries; No data available. Symbol key — Increase since 2019; No change since 2019; Decrease since 2019; No data available."
+  }
+ ]
+}

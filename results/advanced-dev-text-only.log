@@ -1,0 +1,87 @@
+a-d01 table        abstain  searches=4 ctx=False 7.15s 'Không đủ bằng chứng để trả lời.'
+a-d02 table        abstain  searches=4 ctx=False 5.03s 'Không đủ bằng chứng để trả lời.'
+a-d03 table        abstain  searches=4 ctx=False 4.59s 'Không đủ bằng chứng để trả lời.'
+a-d04 image        answered searches=1 ctx=True 2.22s 'In Fig. 8, the GAPPA area placed under “Inputs and enablers of policy action on physical a'
+a-d05 image        answered searches=1 ctx=True 2.03s 'Fig. 8 says the five societal impact areas are population health, the environment, and the'
+a-d06 image        answered searches=1 ctx=True 1.94s 'In Fig. 8, the drivers of physical activity are described as: “ACTIVE ENVIRONMENTS” — “sup'
+a-d07 chart        answered searches=4 ctx=True 5.51s 'The European Region is the only WHO region whose share of countries fell between 2017 and '
+a-d08 chart        abstain  searches=4 ctx=True 5.04s 'Không đủ bằng chứng để trả lời.'
+a-d09 chart        answered searches=1 ctx=True 2.14s 'In Fig. 35, the South-East Asia Region’s highest share of countries is for **community-bas'
+a-d10 multihop     answered searches=3 ctx=True 4.31s 'Table 2 qualifies the GAPPA policy action 1.1 indicator as three features: (1) linked to c'
+a-d11 multihop     answered searches=1 ctx=True 2.07s 'The WHO region with the same proportion for both target types in Fig. 15 is the European R'
+a-d12 multihop     answered searches=1 ctx=True 2.31s 'The report estimated the directly attributable health care costs of physical inactivity fo'
+a-d13 text         answered searches=1 ctx=True 1.92s 'The COSI initiative in Europe is testing parent (proxy) assessment of physical activity am'
+a-d14 text         answered searches=1 ctx=True 2.16s 'According to the report, 65 (39%) of the 168 countries assessed had useable trend data on '
+a-d15 text         answered searches=1 ctx=True 1.94s 'WHO has developed a situational assessment tool aligned with GAPPA (GAPPA-SAT) to systemat'
+a-d16 unanswerable abstain  searches=4 ctx=None 4.36s 'Không đủ bằng chứng để trả lời.'
+a-d17 unanswerable abstain  searches=4 ctx=None 4.7s 'Không đủ bằng chứng để trả lời.'
+a-d18 unanswerable abstain  searches=4 ctx=None 4.64s 'Không đủ bằng chứng để trả lời.'
+{
+ "config": "text-only",
+ "original_first": false,
+ "split": "dev",
+ "model": "gpt-5.4-mini-2026-03-17",
+ "questions": 18,
+ "errors": [],
+ "status": {
+  "abstain": 7,
+  "answered": 11
+ },
+ "by_group": {
+  "chart": {
+   "n": 3,
+   "status": {
+    "answered": 2,
+    "abstain": 1
+   },
+   "context_evidence": 3
+  },
+  "image": {
+   "n": 3,
+   "status": {
+    "answered": 3
+   },
+   "context_evidence": 3
+  },
+  "multihop": {
+   "n": 3,
+   "status": {
+    "answered": 3
+   },
+   "context_evidence": 3
+  },
+  "table": {
+   "n": 3,
+   "status": {
+    "abstain": 3
+   },
+   "context_evidence": 0
+  },
+  "text": {
+   "n": 3,
+   "status": {
+    "answered": 3
+   },
+   "context_evidence": 3
+  },
+  "unanswerable": {
+   "n": 3,
+   "status": {
+    "abstain": 3
+   },
+   "context_evidence": 0
+  }
+ },
+ "searches_distribution": {
+  "1": 9,
+  "3": 1,
+  "4": 8
+ },
+ "llm_calls": 62,
+ "images_sent": 0,
+ "prompt_tokens": 70032,
+ "completion_tokens": 3247,
+ "cost_usd": 0.0671,
+ "median_seconds": 3.3099999999999996,
+ "total_seconds": 64.1
+}

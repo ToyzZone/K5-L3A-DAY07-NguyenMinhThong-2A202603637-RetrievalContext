@@ -1,0 +1,35 @@
+{
+ "page": 28,
+ "model": "gpt-5.4-2026-03-05",
+ "usage": {
+  "prompt_tokens": 2515,
+  "completion_tokens": 104,
+  "total_tokens": 2619,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  }
+ },
+ "elements": [
+  {
+   "type": "infographic",
+   "label": null,
+   "title": "3. Frameworks for action and monitoring progress",
+   "location": "center to lower half of page, with abstract line-art runners across the top",
+   "content": "3.\nFrameworks for action and monitoring progress"
+  },
+  {
+   "type": "photo",
+   "label": null,
+   "title": null,
+   "location": "top portion of page",
+   "content": "Decorative abstract line drawing of multiple running human figures in green, blue, red and yellow."
+  }
+ ]
+}

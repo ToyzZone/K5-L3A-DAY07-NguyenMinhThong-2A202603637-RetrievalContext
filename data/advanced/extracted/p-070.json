@@ -1,0 +1,28 @@
+{
+ "page": 70,
+ "model": "gpt-5.4-2026-03-05",
+ "usage": {
+  "prompt_tokens": 2515,
+  "completion_tokens": 226,
+  "total_tokens": 2741,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  }
+ },
+ "elements": [
+  {
+   "type": "box",
+   "label": null,
+   "title": "In 2018:",
+   "location": "lower half of page, full-width two-column bullet list beneath section 6.1 heading and text, introduced by green rule",
+   "content": "In 2018:\n\n• Less than half of countries (n=73 of 174, 42%) report having national policies that encourage walking and/or cycling as an alternative to car travel.\n\n• 15% of countries (n=27 of 174) report having subnational policies that support walking and/or cycling.\n\n• National policies are more prevalent in the European Region (65%) and the Western Pacific Region (62%) compared to other regions (17–40%), and are more frequently reported by high-income countries (68%) compared to other income groups (19–39%).\n\n• Almost three quarters of countries (n=127 of 174, 73%) have national policies and accompanying investment in public transport to increase the proportion of the urban population that has convenient access to public transport."
+  }
+ ]
+}

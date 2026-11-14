@@ -1,0 +1,35 @@
+{
+ "page": 77,
+ "model": "gpt-5.4-2026-03-05",
+ "usage": {
+  "prompt_tokens": 2515,
+  "completion_tokens": 435,
+  "total_tokens": 2950,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  }
+ },
+ "elements": [
+  {
+   "type": "box",
+   "label": "Box 2.",
+   "title": "Best practice criteria for the assessment of legislation",
+   "location": "middle-lower page, full-width boxed panel with green side bars",
+   "content": "Speed limit legislation:\nThe country has:\n• a national speed limit law;\n• urban speed limits not exceeding 50 km/hr;\n• devolved power to local authorities to modify speed limits for different contexts.\n\nDrink-driving laws:\nThe country has:\n• a national drink-driving law;\n• a BAC limit for the general population not exceeding ≤0.05 g/dl\n• a BAC limit for young and novice drivers not exceeding 0.02 g/dl\n\nSource: (14)"
+  },
+  {
+   "type": "infographic",
+   "label": null,
+   "title": "In 2018:",
+   "location": "bottom of page, below green horizontal rule, two-column bullet summary",
+   "content": "In 2018:\n• 97% of countries (n=168 of 174) report having national speed limit legislation; only 26% (n=46 of 174) have laws meeting the criteria of best-practice speed legislation (see criteria in Box 2, and Fig. 29).\n• 77% of countries (n=134 of 174) report having a national drink-driving law; only 26% of countries (45 of 174) have legislation that met all three criteria for best-practice drink-driving laws (see criteria in Box 2, and Fig. 30).\n• 89% of countries (n=155 of 174) report a national law that restricts the use of drugs while driving, and 87% of countries (n=149 of 174) report having national legislation regulating the use of mobile phones while driving.\n• 75% of countries (n=132 of 175) report having national legislation addressing all four key road-user behaviour risk factors (speed limits, drink-driving, driving under the influence of other drugs, or using a mobile phone when driving, see Fig. 31)."
+  }
+ ]
+}

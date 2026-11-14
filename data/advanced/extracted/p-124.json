@@ -1,0 +1,28 @@
+{
+ "page": 124,
+ "model": "gpt-5.4-2026-03-05",
+ "usage": {
+  "prompt_tokens": 2515,
+  "completion_tokens": 774,
+  "total_tokens": 3289,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  }
+ },
+ "elements": [
+  {
+   "type": "table",
+   "label": null,
+   "title": null,
+   "location": "center of page, full-width two-column glossary table",
+   "content": "| Term | Definition |\n|---|---|\n| Inclusive | The process of including or covering everyone that reflects the willingness, intent, actions, and resources needed to increase accessibility for people with disabilities and other marginalized groups. |\n| Indicators | A specially selected, specific, observable and measurable characteristic that can be used to show changes or progress in a programme or strategy towards achieving a specific outcome or result. Indicators are useful in highlighting problems, identifying trends, and contributing to the process of priority setting, policy formulation and evaluation and monitoring of progress. |\n| In-service training | Professional training or staff development given to employees during the course of employment. |\n| Insufficient physical activity | As defined in WHO recommendations on physical activity (2020): adults aged ≥ 18 years: < 150 minutes of moderate-intensity activity per week; Adolescents: < 60 minutes of moderate- to vigorous-intensity activity daily. |\n| Legislation | A law or laws that have been enacted by the governing bodies in a country. |\n| mHealth | The use of mobile and wireless technologies to support the achievement of health objectives. |\n| Multimodal commute/ trips | The combination of two or more different forms of transport within a single trip from origin to destination. This may consist of different vehicles, such as a car, bicycle, tram, bus or train, or different services, such as stopping or express services. |\n| Multisectoral | An intentional collaboration or partnership between different stakeholder groups (for example government, civil society, private sector and non-government) and across different sectors (for example health, environment, sport, transport, housing, education, planning) to jointly achieve a goal or outcome. This can be in the form of a collaboration, partnership or engagement. |\n| National policy, strategy, action plan: | i. Policy: a specific, official decision or set of decisions designed to carry out a course of action endorsed by a political body, including a set of goals, priorities and main directions for attaining these goals. The policy document may include a strategy to give effect to the policy.\n ii. Strategy: a long-term plan designed to achieve a particular goal.\n iii. Action plan: a scheme of course of action that may correspond to a policy or strategy, with defined activities indicating who does what (type of activities and people responsible for implementation), when (time frame), how, and with what resources to accomplish an objective. |\n| National protocols/ guidelines/standards for chronic diseases and conditions | A recommended, evidence-based course of action to prevent a chronic disease or condition, or to treat or manage a chronic disease or condition, with the aim of preventing complications and improving outcomes and patients’ quality of life. |\n| Operational | A policy, strategy or plan of action that is being used and implemented in the country, and has resources and funding available to implement it. Also applies to a multisectoral commission/mechanism that is functional and meets regularly. |\n| Physical activity | Any bodily movement produced by skeletal muscles that requires energy expenditure. Examples of common types of activity are: walking, cycling, running, dancing, swimming, yoga, and gardening. |\n| Physical inactivity | An insufficient physical activity level to meet present physical activity recommendations. |\n| Primary health care | Health care provided in the community for people making an initial approach to a medical practitioner or clinic for advice on prevention and management of diseases. It is the first point of contact for someone when they contract an illness, suffer an injury, or experience symptoms that are new to them. |"
+  }
+ ]
+}

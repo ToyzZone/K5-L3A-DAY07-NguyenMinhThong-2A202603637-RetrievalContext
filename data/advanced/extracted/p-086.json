@@ -1,0 +1,35 @@
+{
+ "page": 86,
+ "model": "gpt-5.4-2026-03-05",
+ "usage": {
+  "prompt_tokens": 2515,
+  "completion_tokens": 679,
+  "total_tokens": 3194,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  }
+ },
+ "elements": [
+  {
+   "type": "chart",
+   "label": "Figure 33",
+   "title": "Trends in countries reporting a referral component in national protocols on management of physical activity in primary health care, by region and country-income level, 2019 and 2021ᵃ",
+   "location": "upper half of page",
+   "content": "Bar chart; y-axis: Percentage of Member States; x-axis groups: WHO regions, World Bank income groups; legend: 2019, 2021.\n2019 | African Region | ~67\n2021 | African Region | 100\n2019 | Region of the Americas | ~33\n2021 | Region of the Americas | ~53\n2019 | Eastern Mediterranean Region | ~40\n2021 | Eastern Mediterranean Region | ~63\n2019 | European Region | ~62\n2021 | European Region | ~58\n2019 | South-East Asia Region | ~57\n2021 | South-East Asia Region | ~40\n2019 | Western Pacific Region | ~27\n2021 | Western Pacific Region | ~43\n2019 | Global | ~48\n2021 | Global | ~55\n2019 | Low-income | ~50\n2021 | Low-income | 100\n2019 | Lower-middle income | ~70\n2021 | Lower-middle income | ~83\n2019 | Upper-middle income | ~52\n2021 | Upper-middle income | ~52\n2019 | High-income | ~36\n2021 | High-income | ~46\nNotes: ᵃ Percentage of 78 countries reporting a national protocol."
+  },
+  {
+   "type": "chart",
+   "label": "Figure 34",
+   "title": "Trends in the proportion of countries reporting > 50% use of national protocols on management of physical activity in primary health care, by region and country-income level, 2019 and 2021ᵇ",
+   "location": "lower half of page",
+   "content": "Bar chart; y-axis: Percentage of Member States; x-axis groups: WHO regions, World Bank income groups; legend: 2019, 2021.\n2019 | African Region | 0\n2021 | African Region | ~33\n2019 | Region of the Americas | ~44\n2021 | Region of the Americas | ~60\n2019 | Eastern Mediterranean Region | ~80\n2021 | Eastern Mediterranean Region | ~63\n2019 | European Region | ~54\n2021 | European Region | ~52\n2019 | South-East Asia Region | ~71\n2021 | South-East Asia Region | ~80\n2019 | Western Pacific Region | ~67\n2021 | Western Pacific Region | ~64\n2019 | Global | ~57\n2021 | Global | ~58\n2019 | Low-income | 0\n2021 | Low-income | ~50\n2019 | Lower-middle income | ~70\n2021 | Lower-middle income | ~75\n2019 | Upper-middle income | ~68\n2021 | Upper-middle income | ~72\n2019 | High-income | ~46\n2021 | High-income | ~40\nNotes: ᵇ Percentage of 78 countries reporting a national protocol. Note: no countries in the African Region answered “yes” in 2019."
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "page": 35,
+ "model": "gpt-5.4-2026-03-05",
+ "usage": {
+  "prompt_tokens": 2515,
+  "completion_tokens": 840,
+  "total_tokens": 3355,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  }
+ },
+ "elements": [
+  {
+   "type": "table",
+   "label": null,
+   "title": null,
+   "location": "center of page, spanning most of the page height",
+   "content": "| GAPPA POLICY ACTION | DATA AVAILABILITY | SHORT INDICATOR NAME | DATA SOURCE |\n|---|---|---|---|\n| 2.4 Improve road safety to increase pedestrian and cyclist safety |  | National road design standards for separated infrastructure | Road Safety Survey |\n| 2.4 Improve road safety to increase pedestrian and cyclist safety |  | National road design standards for safe crossings | Road Safety Survey |\n| 2.4 Improve road safety to increase pedestrian and cyclist safety |  | National road design standards for safe speed | Road Safety Survey |\n| 2.4 Improve road safety to increase pedestrian and cyclist safety |  | National road safety strategy that is fully funded | Road Safety Survey |\n| 2.4 Improve road safety to increase pedestrian and cyclist safety |  | Road safety assessment of new road infrastructure | Road Safety Survey |\n| 2.4 Improve road safety to increase pedestrian and cyclist safety |  | Road safety assessment of existing road networks | Road Safety Survey |\n| 2.4 Improve road safety to increase pedestrian and cyclist safety |  | Legislation on speed limits meeting best practice | Road Safety Survey |\n| 2.4 Improve road safety to increase pedestrian and cyclist safety |  | Legislation on drink–driving meeting best practice | Road Safety Survey |\n| 2.4 Improve road safety to increase pedestrian and cyclist safety |  | Legislation on distracted driving due to use of mobile phone | Road Safety Survey |\n| 2.4 Improve road safety to increase pedestrian and cyclist safety |  | Legislation on distracted driving due to use of drugs | Road Safety Survey |\n| 2.5 Review building design and regulations to encourage activity in and around buildings such as in public buildings, schools and educational facilities, health care settings and workplaces | No |  |  |\n| GAPPA POLICY ACTION | DATA AVAILABILITY | SHORT INDICATOR NAME | DATA SOURCE |\n| ACTIVE PEOPLE |  |  |  |\n| 3.1 Implement a whole-of-school approach to ensure quality physical education and physical activity opportunities | No |  |  |\n| 3.2 Integrate screening and promotion of physical activity in primary and secondary health care services | Yes | National protocols on the primary health care management of physical inactivity | NCD CCS |\n| 3.3 Implement initiatives across public open spaces and other settings to engage people of all ages and abilities to do regular physical activity, prioritizing the least active and disadvantaged communities | Yes | Policy promoting physical activity in child care | NCD CCS |\n| 3.3 Implement initiatives across public open spaces and other settings to engage people of all ages and abilities to do regular physical activity, prioritizing the least active and disadvantaged communities | Yes | Policy promoting physical activity in the workplace | NCD CCS |\n| 3.3 Implement initiatives across public open spaces and other settings to engage people of all ages and abilities to do regular physical activity, prioritizing the least active and disadvantaged communities | Yes | Policy promoting physical activity through community-based sport | NCD CCS |\n| 3.3 Implement initiatives across public open spaces and other settings to engage people of all ages and abilities to do regular physical activity, prioritizing the least active and disadvantaged communities | Yes | Policy promoting physical activity in public open spaces | NCD CCS |\n| 3.3 Implement initiatives across public open spaces and other settings to engage people of all ages and abilities to do regular physical activity, prioritizing the least active and disadvantaged communities | Yes | Policy promoting walking and cycling | NCD CCS |\n| 3.3 Implement initiatives across public open spaces and other settings to engage people of all ages and abilities to do regular physical activity, prioritizing the least active and disadvantaged communities | Yes | National initiatives to deliver health care via mobile devices (mHealth) | NCD CCS |"
+  }
+ ]
+}

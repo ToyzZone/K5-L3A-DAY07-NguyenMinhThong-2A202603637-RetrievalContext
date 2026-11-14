@@ -1,0 +1,160 @@
+{
+ "criteria_declared_before_test": [
+  "1. Số câu dev đạt (18 câu; đạt = đúng mọi ý của expected_answer và không có ý sai; từ chối ở câu không có đáp án là đạt)",
+  "2. Hòa thì xét context evidence (mọi trang evidence có trong context cuối)",
+  "3. Vẫn hòa thì chọn chi phí thấp hơn"
+ ],
+ "grader": "Claude chấm theo expected_answer, chỉ để chọn cấu hình; nhãn test do người học duyệt từng câu trên ảnh trang gốc",
+ "configs": {
+  "text-only": {
+   "pass": 10,
+   "of": 18,
+   "fail": [
+    "a-d01",
+    "a-d02",
+    "a-d03",
+    "a-d05",
+    "a-d07",
+    "a-d08",
+    "a-d09",
+    "a-d11"
+   ],
+   "context_evidence": "12/15",
+   "model": "gpt-5.4-mini-2026-03-17",
+   "index": "GSRT",
+   "top_k": 4,
+   "budget": 8000,
+   "images_sent": 0,
+   "cost_usd": 0.0671,
+   "median_seconds": 3.3099999999999996
+  },
+  "mm": {
+   "pass": 14,
+   "of": 18,
+   "fail": [
+    "a-d01",
+    "a-d03",
+    "a-d05",
+    "a-d10"
+   ],
+   "context_evidence": "11/15",
+   "model": "gpt-5.4-mini-2026-03-17",
+   "index": "GSR",
+   "top_k": 4,
+   "budget": 8000,
+   "images_sent": 0,
+   "cost_usd": 0.0524,
+   "median_seconds": 2.115
+  },
+  "mm-img": {
+   "pass": 14,
+   "of": 18,
+   "fail": [
+    "a-d01",
+    "a-d03",
+    "a-d05",
+    "a-d10"
+   ],
+   "context_evidence": "11/15",
+   "model": "gpt-5.4-mini-2026-03-17",
+   "index": "GSR",
+   "top_k": 4,
+   "budget": 8000,
+   "images_sent": 28,
+   "cost_usd": 0.0796,
+   "median_seconds": 2.415
+  },
+  "mm-ctx": {
+   "pass": 15,
+   "of": 18,
+   "fail": [
+    "a-d01",
+    "a-d03",
+    "a-d10"
+   ],
+   "context_evidence": "14/15",
+   "model": "gpt-5.4-mini-2026-03-17",
+   "index": "GSRC",
+   "top_k": 4,
+   "budget": 8000,
+   "images_sent": 0,
+   "cost_usd": 0.0548,
+   "median_seconds": 3.105
+  },
+  "mm-ctx-img": {
+   "pass": 16,
+   "of": 18,
+   "fail": [
+    "a-d02",
+    "a-d10"
+   ],
+   "context_evidence": "13/15",
+   "model": "gpt-5.4-mini-2026-03-17",
+   "index": "GSRC",
+   "top_k": 4,
+   "budget": 8000,
+   "images_sent": 39,
+   "cost_usd": 0.0973,
+   "median_seconds": 2.705
+  },
+  "mm-ctx-img-v2": {
+   "pass": 15,
+   "of": 18,
+   "fail": [
+    "a-d01",
+    "a-d07",
+    "a-d10"
+   ],
+   "context_evidence": "15/15",
+   "model": "gpt-5.4-mini-2026-03-17",
+   "index": "GSRC",
+   "top_k": 4,
+   "budget": 8000,
+   "images_sent": 39,
+   "cost_usd": 0.098,
+   "median_seconds": 3.215
+  },
+  "mm-ctx-img-v2-g54": {
+   "pass": 16,
+   "of": 18,
+   "fail": [
+    "a-d01",
+    "a-d10"
+   ],
+   "context_evidence": "14/15",
+   "model": "gpt-5.4-2026-03-05",
+   "index": "GSRC",
+   "top_k": 4,
+   "budget": 8000,
+   "images_sent": 46,
+   "cost_usd": 0.3567,
+   "median_seconds": 4.66
+  },
+  "mm-ctx-img-v2-g54-k6": {
+   "pass": 18,
+   "of": 18,
+   "fail": [],
+   "context_evidence": "15/15",
+   "model": "gpt-5.4-2026-03-05",
+   "index": "GSRC",
+   "top_k": 6,
+   "budget": 12000,
+   "images_sent": 53,
+   "cost_usd": 0.4035,
+   "median_seconds": 4.29
+  }
+ },
+ "failure_reasons": {
+  "a-d01": "Table 2 nằm trên p34–36 (6 chunk): agent từ chối, hoặc đếm sai (v2: \"10 … 4.5, and 4.5\")",
+  "a-d02": "mm-ctx-img chỉ thấy phần p35–36 của bảng và kết luận không có hành động nào \"Partial\"",
+  "a-d03": "Bảng Annex 2 (p128) không in nhãn; trước GSRC không bao giờ được tìm ra",
+  "a-d05": "Fig. 8 nối sang p33 mà không có nhãn; trước GSRC chỉ tìm ra p32",
+  "a-d07": "text-only: sai vùng; v2: nêu vùng sai trước rồi tự sửa giữa câu",
+  "a-d08": "text-only: số liệu biểu đồ không có trong text layer",
+  "a-d09": "text-only: sai nhóm",
+  "a-d10": "lấy số của Table 1 (p108: 52%/58%), hoặc số đọc từ trục Fig. 21 (88/72/80) thay vì 89/73/81 trong văn bản",
+  "a-d11": "text-only: sai vùng"
+ },
+ "chosen": "mm-ctx-img-v2-g54-k6",
+ "caveat": "Dev đã qua 5 vòng phân tích lỗi và đạt 18/18, nên không còn phân biệt được các cấu hình; cùng một cấu hình chạy lại lệch 1–2 câu. Chỉ test là ước lượng không thiên lệch."
+}

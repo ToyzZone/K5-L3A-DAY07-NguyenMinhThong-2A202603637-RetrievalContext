@@ -1,0 +1,28 @@
+{
+ "page": 34,
+ "model": "gpt-5.4-2026-03-05",
+ "usage": {
+  "prompt_tokens": 2515,
+  "completion_tokens": 406,
+  "total_tokens": 2921,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  }
+ },
+ "elements": [
+  {
+   "type": "table",
+   "label": "TABLE 2",
+   "title": "Summary of indicators by GAPPA policy action area",
+   "location": "center of page, spanning most of the upper and middle page",
+   "content": "| GAPPA POLICY ACTION | DATA AVAILABILITY | SHORT INDICATOR NAME | DATA SOURCE |\n|---|---|---|---|\n| **ACTIVE SOCIETIES** |  |  |  |\n| 1.1 Conduct best practice communication campaigns, linked with community-based programmes, aimed at promoting and supporting behaviour change on physical activity | Yes | National communication campaigns on physical activity: that link with community-based initiatives that are supported by environmental improvements that promote the co-benefits of physical activity | NCD Country Capacity Survey (CCS) |\n| 1.2 Conduct national and community-based campaigns linking to the social, economic, and environmental co-benefits of physical activity | Yes | National physical activity communication campaigns promoting co-benefits of physical activity | NCD CCS |\n| 1.3 Conduct free mass-participation physical activity events to encourage and celebrate participation | Yes | National mass-participation events on physical activity | NCD CCS |\n| 1.4 Strengthen workforce skills and knowledge through pre- and in-service training programmes across relevant disciplines both within and outside the health sector | No |  |  |\n| **ACTIVE ENVIRONMENTS** |  |  |  |\n| 2.1 Strengthen integration of urban (land use) planning and transport planning to provide compact and sustainable urban development and support non-motorized transport | Partial | National policy on public transport | Road Safety Survey |\n| 2.2 Improve provision of walking and cycling infrastructure and networks | Partial | National policy encouraging walking and cycling | Road Safety Survey |\n| 2.3 Increase access to safe public open spaces and sport/recreational facilities | No |  | Road Safety Survey |"
+  }
+ ]
+}

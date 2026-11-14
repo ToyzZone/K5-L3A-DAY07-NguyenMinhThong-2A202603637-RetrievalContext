@@ -1,0 +1,28 @@
+{
+ "page": 19,
+ "model": "gpt-5.4-2026-03-05",
+ "usage": {
+  "prompt_tokens": 2515,
+  "completion_tokens": 132,
+  "total_tokens": 2647,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  }
+ },
+ "elements": [
+  {
+   "type": "infographic",
+   "label": null,
+   "title": null,
+   "location": "bottom of page across the width",
+   "content": "ADULTS & OLDER ADULTS\n150 to 300 minutes PER WEEK\n60 minutes PER DAY\n\nCHILDREN & ADOLESCENTS\nOn at least 2 days a week\nmuscle strengthening activities\n\nADULTS\nOn at least 3 days a week\nmulticomponent activities for balance and strength\n\nOLDER ADULTS\nMORE IS BETTER\nmore than 300 minutes PER WEEK\n\nEVERYONE WHO CAN"
+  }
+ ]
+}

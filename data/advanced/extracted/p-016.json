@@ -1,0 +1,28 @@
+{
+ "page": 16,
+ "model": "gpt-5.4-2026-03-05",
+ "usage": {
+  "prompt_tokens": 2515,
+  "completion_tokens": 70,
+  "total_tokens": 2585,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  }
+ },
+ "elements": [
+  {
+   "type": "infographic",
+   "label": null,
+   "title": "1. Introduction",
+   "location": "center-lower portion of page with decorative line-art figures across the top",
+   "content": "Decorative multicoloured line drawings of human figures in motion across the top of the page.\n1.\nIntroduction"
+  }
+ ]
+}

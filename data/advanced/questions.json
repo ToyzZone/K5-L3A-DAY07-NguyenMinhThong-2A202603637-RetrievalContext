@@ -1,0 +1,1198 @@
+[
+  {
+    "id": "a-t01",
+    "split": "test",
+    "group": "table",
+    "tags": [
+      "table",
+      "symbols",
+      "filter"
+    ],
+    "question": "In the report's summary table of results by GAPPA policy action area (Table 1), which indicators in Area 4 'National policy frameworks and governance' are marked as having decreased since 2019, and what percentage of countries does each show?",
+    "answerable": true,
+    "expected_answer": "Four indicators are marked as decreased since 2019: National NCD policy including physical activity (86%); National NCD policy including physical activity that is operational (67%); Either operational national NCD policy including physical activity or a standalone operational physical activity policy (72%); National physical activity targets (53%).",
+    "evidence": [
+      {
+        "page": 13,
+        "printed_page": null,
+        "element": "Table 1",
+        "locator": "Printed page xi; Area 4 block, '% of countries' and 'Change since 2019' columns (red down-chevron = 'Decrease since 2019' per the symbol key on p12)",
+        "value_or_quote": "National NCD policy including physical activity 86% (down); ... that is operational 67% (down); Either operational national NCD policy ... or a standalone operational physical activity policy 72% (down); National physical activity targets 53% (down)"
+      },
+      {
+        "page": 109,
+        "printed_page": 93,
+        "element": "Table 1",
+        "locator": "Duplicate of Table 1 in Chapter 9, same Area 4 rows",
+        "value_or_quote": "same values and symbols as p13"
+      }
+    ],
+    "computation": null,
+    "units": "% of countries",
+    "reason": "Table lookup that requires reading the symbol-only 'Change since 2019' column across several rows; symbols are not in the text layer."
+  },
+  {
+    "id": "a-t02",
+    "split": "test",
+    "group": "table",
+    "tags": [
+      "table",
+      "symbols",
+      "filter"
+    ],
+    "question": "According to Table 1, which Area 3 ('Providing opportunities and programmes for physical activity') indicators show an increase since 2019, and what are their 2021 percentages?",
+    "answerable": true,
+    "expected_answer": "Two indicators: National protocols on the management of physical inactivity in primary health care (40%) and National mobile health (mHealth) initiatives (37%). All other Area 3 indicators have 'NA' for change since 2019.",
+    "evidence": [
+      {
+        "page": 13,
+        "printed_page": null,
+        "element": "Table 1",
+        "locator": "Printed page xi; Area 3 block, 'Change since 2019' column (teal up-chevron = increase)",
+        "value_or_quote": "National protocols on the management of physical inactivity in primary health care 40% (up); National mobile health (mHealth) initiatives 37% (up)"
+      },
+      {
+        "page": 109,
+        "printed_page": 93,
+        "element": "Table 1",
+        "locator": "Duplicate of Table 1, Area 3 rows",
+        "value_or_quote": "same values and symbols as p13"
+      }
+    ],
+    "computation": null,
+    "units": "% of countries",
+    "reason": "Filters table rows by an icon-coded column within one policy area."
+  },
+  {
+    "id": "a-t03",
+    "split": "test",
+    "group": "table",
+    "tags": [
+      "table",
+      "computation"
+    ],
+    "question": "Using Table 1, how many percentage points higher is the share of countries with national surveillance of physical activity in adults than the share with national surveillance in children under the age of 5 years, and how did both indicators change since 2019?",
+    "answerable": true,
+    "expected_answer": "63 percentage points higher (92% for adults vs 29% for children under 5); both indicators are marked as increased since 2019.",
+    "evidence": [
+      {
+        "page": 13,
+        "printed_page": null,
+        "element": "Table 1",
+        "locator": "Printed page xi; Area 4 rows 'National surveillance on physical activity in adults' and '... in children under the age of 5 years'",
+        "value_or_quote": "National surveillance on physical activity in adults 92% (up); National surveillance on physical activity in children under the age of 5 years 29% (up)"
+      }
+    ],
+    "computation": "92% − 29% = 63 percentage points",
+    "units": "percentage points",
+    "reason": "Two-cell table lookup plus subtraction."
+  },
+  {
+    "id": "a-t04",
+    "split": "test",
+    "group": "table",
+    "tags": [
+      "table",
+      "min",
+      "legend"
+    ],
+    "question": "In Table 1, which Area 2 ('Enabling environments') indicator has the lowest reported percentage of countries, what is that value, and which colour-coded progress category does it fall into?",
+    "answerable": true,
+    "expected_answer": "National road safety strategy that is fully funded – 18% of countries, in the 'Poor progress' category (0–50% of countries, red); its change since 2019 is NA.",
+    "evidence": [
+      {
+        "page": 12,
+        "printed_page": null,
+        "element": "Table 1",
+        "locator": "Printed page x; Area 2 block, row 'National road safety strategy that is fully funded'; colour key at top of table",
+        "value_or_quote": "National road safety strategy that is fully funded 18% (red); key: 'Poor progress 0–50% of countries'"
+      },
+      {
+        "page": 108,
+        "printed_page": 92,
+        "element": "Table 1",
+        "locator": "Duplicate of Table 1, Area 2 rows",
+        "value_or_quote": "same value 18% (red)"
+      }
+    ],
+    "computation": null,
+    "units": "% of countries",
+    "reason": "Requires scanning a whole table block for the minimum and mapping the cell colour to the legend."
+  },
+  {
+    "id": "a-t05",
+    "split": "test",
+    "group": "table",
+    "tags": [
+      "table",
+      "missing-data"
+    ],
+    "question": "Which Area 3 indicators in Table 1 have no data available (NA) for the percentage of countries?",
+    "answerable": true,
+    "expected_answer": "Two indicators: 'Provision of quality physical education in schools' and 'Promotion of physical activity for people living with disability' (both are NA for % of countries and for change since 2019).",
+    "evidence": [
+      {
+        "page": 13,
+        "printed_page": null,
+        "element": "Table 1",
+        "locator": "Printed page xi; last two rows of Area 3 block",
+        "value_or_quote": "Provision of quality physical education in schools NA NA; Promotion of physical activity for people living with disability NA NA"
+      }
+    ],
+    "computation": null,
+    "units": null,
+    "reason": "Table lookup identifying missing-data cells within a block."
+  },
+  {
+    "id": "a-t06",
+    "split": "test",
+    "group": "table",
+    "tags": [
+      "table",
+      "computation",
+      "symbols"
+    ],
+    "question": "According to Table 1, what share of countries have national guidelines on physical activity for any age group versus for all age groups, what is the gap in percentage points, and how did each change since 2019?",
+    "answerable": true,
+    "expected_answer": "46% have guidelines for any age group and 30% for all age groups – a gap of 16 percentage points; both are marked as increased since 2019.",
+    "evidence": [
+      {
+        "page": 13,
+        "printed_page": null,
+        "element": "Table 1",
+        "locator": "Printed page xi; Area 4 rows 'National guidelines on physical activity for any age group' / '... for all age groups'",
+        "value_or_quote": "National guidelines on physical activity for any age group 46% (up); National guidelines on physical activity for all age groups 30% (up)"
+      }
+    ],
+    "computation": "46% − 30% = 16 percentage points",
+    "units": "% of countries / percentage points",
+    "reason": "Compares two adjacent table rows, reads the trend symbol and computes a difference."
+  },
+  {
+    "id": "a-t07",
+    "split": "test",
+    "group": "image",
+    "tags": [
+      "image",
+      "infographic"
+    ],
+    "question": "In the infographic summarizing WHO's recommended levels of physical activity (Fig. 1), on how many days a week should older adults do multicomponent activities for balance and strength?",
+    "answerable": true,
+    "expected_answer": "On at least 3 days a week.",
+    "evidence": [
+      {
+        "page": 19,
+        "printed_page": 3,
+        "element": "Fig. 1 (infographic: Summary of recommended levels of physical activity)",
+        "locator": "Right-hand page of the two-page infographic; blue panel above the label 'OLDER ADULTS'",
+        "value_or_quote": "On at least 3 days a week – multicomponent activities for balance and strength – OLDER ADULTS"
+      }
+    ],
+    "computation": null,
+    "units": "days per week",
+    "reason": "Reads an icon/number panel of an infographic; the '3 days' figure is a large graphic numeral not stated in running text."
+  },
+  {
+    "id": "a-t08",
+    "split": "test",
+    "group": "image",
+    "tags": [
+      "image",
+      "infographic"
+    ],
+    "question": "According to Fig. 1's summary of recommended physical activity levels, how much physical activity per week is recommended for pregnant and postpartum women?",
+    "answerable": true,
+    "expected_answer": "150 minutes per week.",
+    "evidence": [
+      {
+        "page": 18,
+        "printed_page": 2,
+        "element": "Fig. 1 (infographic: Summary of recommended levels of physical activity)",
+        "locator": "Left-hand page of the infographic, bottom right: grey box with clock icon above the orange label 'PREGNANT & POSTPARTUM WOMEN'",
+        "value_or_quote": "150 minutes PER WEEK – PREGNANT & POSTPARTUM WOMEN"
+      }
+    ],
+    "computation": null,
+    "units": "minutes per week",
+    "reason": "Links a numeric panel to its population label in an infographic; no running text gives this amount."
+  },
+  {
+    "id": "a-t09",
+    "split": "test",
+    "group": "image",
+    "tags": [
+      "image",
+      "infographic"
+    ],
+    "question": "In Fig. 1, which population group is associated with the 'More is better' panel, and what weekly amount of activity does that panel show?",
+    "answerable": true,
+    "expected_answer": "'Everyone who can' – more than 300 minutes per week.",
+    "evidence": [
+      {
+        "page": 19,
+        "printed_page": 3,
+        "element": "Fig. 1 (infographic: Summary of recommended levels of physical activity)",
+        "locator": "Right-most green panel 'MORE IS BETTER' and its label in the orange label bar",
+        "value_or_quote": "MORE IS BETTER – more than 300 minutes PER WEEK – EVERYONE WHO CAN"
+      }
+    ],
+    "computation": null,
+    "units": "minutes per week",
+    "reason": "Requires associating a panel with the label beneath it in a graphic layout."
+  },
+  {
+    "id": "a-t10",
+    "split": "test",
+    "group": "image",
+    "tags": [
+      "image",
+      "diagram"
+    ],
+    "question": "In the diagram presenting GAPPA policy recommendations as a systems approach (Fig. 7), what is the label of policy action 2.5, and which central 'Create active …' hub does it feed into?",
+    "answerable": true,
+    "expected_answer": "'Implement proactive building policies', which feeds the 'Create active environments' hub.",
+    "evidence": [
+      {
+        "page": 30,
+        "printed_page": 14,
+        "element": "Fig. 7 (diagram: GAPPA policy recommendations as a systems approach to increasing physical activity)",
+        "locator": "Left half of the two-page diagram, green cluster around the 'CREATE ACTIVE ENVIRONMENTS' circle; small circle numbered 2.5",
+        "value_or_quote": "2.5 Implement proactive building policies → CREATE ACTIVE ENVIRONMENTS"
+      }
+    ],
+    "computation": null,
+    "units": null,
+    "reason": "Diagram reading: number badge, label and hub membership exist only in the figure."
+  },
+  {
+    "id": "a-t11",
+    "split": "test",
+    "group": "image",
+    "tags": [
+      "image",
+      "diagram"
+    ],
+    "question": "In Fig. 7 (GAPPA policy recommendations as a systems approach), which policy-action number is labelled 'Develop innovative finance mechanisms', and which hub does it belong to?",
+    "answerable": true,
+    "expected_answer": "Policy action 4.5, part of the 'Create active systems' hub.",
+    "evidence": [
+      {
+        "page": 31,
+        "printed_page": 15,
+        "element": "Fig. 7 (diagram: GAPPA policy recommendations as a systems approach to increasing physical activity)",
+        "locator": "Right half of the diagram, blue-grey cluster above 'CREATE ACTIVE SYSTEMS'",
+        "value_or_quote": "4.5 Develop innovative finance mechanisms (cluster: CREATE ACTIVE SYSTEMS)"
+      }
+    ],
+    "computation": null,
+    "units": null,
+    "reason": "Diagram reading of a numbered node and its cluster."
+  },
+  {
+    "id": "a-t12",
+    "split": "test",
+    "group": "chart",
+    "tags": [
+      "chart",
+      "min"
+    ],
+    "question": "In the chart of adults aged 18+ not meeting WHO physical activity guidelines by WHO region, sex and age group, 2010–2016 (Fig. 2), which WHO region has the lowest prevalence among males aged 18–44 years?",
+    "answerable": true,
+    "expected_answer": "The African Region (its 'Males, 18–44 years' bar is the lowest, roughly 12%; the next lowest is the Western Pacific Region at roughly 15%).",
+    "evidence": [
+      {
+        "page": 24,
+        "printed_page": 8,
+        "element": "Fig. 2 (grouped bar chart)",
+        "locator": "Series 'Males, 18–44 years' (4th bar in each regional group), compared across the six WHO regions; y-axis Prevalence (%)",
+        "value_or_quote": "African Region ≈12% (lowest); Western Pacific ≈15%; South-East Asia ≈18%; European ≈20%; Eastern Mediterranean ≈23%; Americas ≈27% (read from axis)"
+      }
+    ],
+    "computation": null,
+    "units": "% prevalence",
+    "reason": "Compare one series across categories in an unlabelled grouped bar chart; the minimum is unambiguous."
+  },
+  {
+    "id": "a-t13",
+    "split": "test",
+    "group": "chart",
+    "tags": [
+      "chart",
+      "max"
+    ],
+    "question": "In Fig. 10 (countries with an operational national NCD policy including physical activity, by region, 2017, 2019 and 2021), which WHO region reached 100% of Member States in 2019?",
+    "answerable": true,
+    "expected_answer": "The South-East Asia Region (100% in 2019; lower again, about 91%, in 2021).",
+    "evidence": [
+      {
+        "page": 43,
+        "printed_page": 27,
+        "element": "Fig. 10 (grouped bar chart)",
+        "locator": "South-East Asia Region group, 2019 bar (middle shade) reaching the 100 gridline",
+        "value_or_quote": "South-East Asia Region 2019 = 100%"
+      }
+    ],
+    "computation": null,
+    "units": "% of Member States",
+    "reason": "Identify the only bar touching the chart maximum; value not stated in text."
+  },
+  {
+    "id": "a-t14",
+    "split": "test",
+    "group": "chart",
+    "tags": [
+      "chart",
+      "trend"
+    ],
+    "question": "In Fig. 22 (national mass-participation events on physical activity by region and country-income level, 2019 and 2021), which World Bank income group is the only one whose share of countries declined between 2019 and 2021?",
+    "answerable": true,
+    "expected_answer": "Lower-middle-income countries (from about 54% to about 37%); low-income and upper-middle-income were unchanged and high-income rose slightly.",
+    "evidence": [
+      {
+        "page": 64,
+        "printed_page": 48,
+        "element": "Fig. 22 (grouped bar chart)",
+        "locator": "Right panel 'World Bank income groups', 2019 vs 2021 bars",
+        "value_or_quote": "Low-income ≈23→23; Lower-middle-income ≈54→37; Upper-middle-income ≈60→60; High-income ≈82→84 (read from axis)"
+      }
+    ],
+    "computation": null,
+    "units": "% of Member States",
+    "reason": "Compare paired series to find the only decreasing category."
+  },
+  {
+    "id": "a-t15",
+    "split": "test",
+    "group": "chart",
+    "tags": [
+      "chart",
+      "comparison"
+    ],
+    "question": "In Fig. 25 (national road-design standards for safe speed, safe crossings and separated infrastructure, 2018), in which WHO region is the share of countries with standards for safe speed higher than the share with standards for safe crossings?",
+    "answerable": true,
+    "expected_answer": "The Eastern Mediterranean Region (safe speed ≈61% vs safe crossings ≈56%); in every other region safe-crossing standards are more common than safe-speed standards.",
+    "evidence": [
+      {
+        "page": 74,
+        "printed_page": 58,
+        "element": "Fig. 25 (grouped bar chart)",
+        "locator": "Series 'Safe speed' (1st bar) vs 'Safe crossings' (2nd bar) in each WHO region group",
+        "value_or_quote": "EMR: safe speed ≈61, safe crossings ≈56; African 50/55; Americas 53/83; European 78/92; South-East Asia 80/100; Western Pacific 71/76 (read from axis)"
+      }
+    ],
+    "computation": null,
+    "units": "% of Member States",
+    "reason": "Compares two series within each category to find the single reversal."
+  },
+  {
+    "id": "a-t16",
+    "split": "test",
+    "group": "chart",
+    "tags": [
+      "chart",
+      "min"
+    ],
+    "question": "In Fig. 27 (percentage of countries requiring road-safety assessments on existing road networks, by region, 2018), which WHO region has the lowest percentage?",
+    "answerable": true,
+    "expected_answer": "The Region of the Americas (just under 40%, roughly 37%).",
+    "evidence": [
+      {
+        "page": 75,
+        "printed_page": 59,
+        "element": "Fig. 27 (bar chart)",
+        "locator": "WHO regions panel, single series",
+        "value_or_quote": "Americas ≈37 (lowest); African ≈50; Eastern Mediterranean ≈61; European ≈84; South-East Asia ≈80; Western Pacific ≈81 (read from axis)"
+      }
+    ],
+    "computation": null,
+    "units": "% of Member States",
+    "reason": "Identify the minimum bar in a single-series chart; region ranking not given in text."
+  },
+  {
+    "id": "a-t17",
+    "split": "test",
+    "group": "multihop",
+    "tags": [
+      "chart",
+      "text",
+      "computation"
+    ],
+    "question": "High-income countries: what share of the preventable new NCD cases attributable to physical inactivity in 2020–2030 will they account for (per the chart by country-income level), what share of the health-care expenditure on treating illness from physical inactivity will they account for, and what is the difference in percentage points?",
+    "answerable": true,
+    "expected_answer": "26% of the preventable new NCD cases but 70% of the treatment expenditure – a difference of 44 percentage points.",
+    "evidence": [
+      {
+        "page": 27,
+        "printed_page": 11,
+        "element": "Fig. 5 (bar chart: preventable new NCD cases by country-income level, 2020–2030)",
+        "locator": "Data label above the 'High' bar",
+        "value_or_quote": "26%"
+      },
+      {
+        "page": 26,
+        "printed_page": 10,
+        "element": "text §2.2.2 para 4",
+        "locator": "Section 2.2.2 The cost of physical inactivity, right column",
+        "value_or_quote": "The largest economic cost is set to occur among high-income countries, which will account for 70% of expenditure on treatment for illness resulting from physical inactivity."
+      }
+    ],
+    "computation": "70% − 26% = 44 percentage points",
+    "units": "% / percentage points",
+    "reason": "Combines a chart data label with a figure from running text on another page, then subtracts."
+  },
+  {
+    "id": "a-t18",
+    "split": "test",
+    "group": "multihop",
+    "tags": [
+      "chart",
+      "text",
+      "chained"
+    ],
+    "question": "Identify the WHO region where, according to Fig. 33, 100% of countries with national primary-care protocols reported a referral component in 2021. In that region, what percentage of countries with national protocols report that the protocols are used in more than 50% of primary health care facilities?",
+    "answerable": true,
+    "expected_answer": "The African Region; 33% of its countries with national protocols report use in more than 50% of primary health care facilities.",
+    "evidence": [
+      {
+        "page": 86,
+        "printed_page": 70,
+        "element": "Fig. 33 (grouped bar chart: referral component in national protocols, 2019 and 2021)",
+        "locator": "African Region, 2021 bar reaching the 100 gridline (only WHO region at 100%)",
+        "value_or_quote": "African Region 2021 = 100%"
+      },
+      {
+        "page": 85,
+        "printed_page": 69,
+        "element": "text §7.1 'In 2021' bullets",
+        "locator": "Right column, 2nd bullet",
+        "value_or_quote": "Just over half of countries with national protocols (n=45 of 78, 58%) report that these are being used in more than 50% of primary health care facilities (ranging from 33% in the African Region to 80% in the South-East Asia Region)."
+      }
+    ],
+    "computation": null,
+    "units": "% of countries with national protocols",
+    "reason": "Chained reasoning: chart identifies the region, text on the facing page supplies the value."
+  },
+  {
+    "id": "a-t19",
+    "split": "test",
+    "group": "multihop",
+    "tags": [
+      "chart",
+      "text",
+      "chained"
+    ],
+    "question": "Which WHO region shows the largest increase in national mHealth initiatives between 2019 and 2021 in Fig. 36, and what percentage of its countries reported using mobile health programmes in 2021 according to the text of section 7.4?",
+    "answerable": true,
+    "expected_answer": "The South-East Asia Region (rising from roughly 27% in 2019 to 73% in 2021); 73% of its countries.",
+    "evidence": [
+      {
+        "page": 95,
+        "printed_page": 79,
+        "element": "Fig. 36 (grouped bar chart: national mHealth initiatives, 2019 and 2021)",
+        "locator": "WHO regions panel; South-East Asia Region 2019 vs 2021 bars",
+        "value_or_quote": "South-East Asia ≈27→73 (largest rise; others: African ≈15→26, Americas ≈17→34, EMR ≈43→52, European ≈32→38, Western Pacific ≈37→33)"
+      },
+      {
+        "page": 94,
+        "printed_page": 78,
+        "element": "text §7.4 'In 2021' bullets",
+        "locator": "Right column bullet",
+        "value_or_quote": "Use of mobile health programmes is reported by more countries in the South-East Asia Region (73%) and the Eastern Mediterranean Region (52%), compared to less than half of countries in all other regions."
+      }
+    ],
+    "computation": null,
+    "units": "% of countries",
+    "reason": "Chart comparison of changes identifies the region; the exact percentage is taken from text on another page."
+  },
+  {
+    "id": "a-t20",
+    "split": "test",
+    "group": "multihop",
+    "tags": [
+      "chart",
+      "text",
+      "chained"
+    ],
+    "question": "Which WHO region has the lowest share of countries whose drink–driving legislation meets best-practice criteria (Fig. 30), and, according to section 6.2, what proportion of road deaths in that region are pedestrians and cyclists?",
+    "answerable": true,
+    "expected_answer": "The African Region; pedestrians and cyclists account for 44% of road deaths there (the highest proportion of any region).",
+    "evidence": [
+      {
+        "page": 79,
+        "printed_page": 63,
+        "element": "Fig. 30 (grouped bar chart: drink–driving legislation meeting best practice, 2018)",
+        "locator": "Series 'Best practice' across WHO regions",
+        "value_or_quote": "African Region best practice ≈2% (lowest; South-East Asia ≈10%, Western Pacific ≈19%, EMR ≈22%, Americas ≈27%, European ≈53%)"
+      },
+      {
+        "page": 73,
+        "printed_page": 57,
+        "element": "text §6.2 para 2",
+        "locator": "Right column, first paragraph",
+        "value_or_quote": "The African Region has the highest proportion of pedestrian and cyclist fatalities – with these groups accounting for 44% of road deaths (14)."
+      }
+    ],
+    "computation": null,
+    "units": "% of road deaths",
+    "reason": "Chart lookup identifies the region, then text on a different page supplies its statistic."
+  },
+  {
+    "id": "a-t21",
+    "split": "test",
+    "group": "text",
+    "tags": [
+      "text",
+      "temporal"
+    ],
+    "question": "What global target for physical inactivity was originally set in the 2013 NCD monitoring framework, and how did countries change it in 2018?",
+    "answerable": true,
+    "expected_answer": "Originally a 10% relative reduction in the prevalence of insufficient physical activity among adults and adolescents by 2025, using 2010 data as the baseline; in 2018 countries extended the target by 5 years and agreed on a 15% relative reduction by 2030.",
+    "evidence": [
+      {
+        "page": 48,
+        "printed_page": 32,
+        "element": "text §4.3 para 2",
+        "locator": "Section 4.3 Physical activity targets, right column",
+        "value_or_quote": "The target set for physical inactivity was a 10% relative reduction in prevalence of insufficient physical activity among adults and adolescents by 2025, using 2010 data as the baseline. In 2018, countries extended the global target for physical activity by 5 years and agreed on a 15% relative reduction by 2030."
+      }
+    ],
+    "computation": null,
+    "units": "% relative reduction",
+    "reason": "Synthesises two time-conditioned targets (old vs revised) from running text."
+  },
+  {
+    "id": "a-t22",
+    "split": "test",
+    "group": "text",
+    "tags": [
+      "text",
+      "conditional"
+    ],
+    "question": "According to the report, by how much would global GDP increase per year by 2050 if everyone met WHO's physical activity recommendations, and what is that worth?",
+    "answerable": true,
+    "expected_answer": "Global GDP would increase by 0.15%–0.24% per year by 2050, worth up to US$ 314–446 billion per year (in 2019 prices).",
+    "evidence": [
+      {
+        "page": 101,
+        "printed_page": 85,
+        "element": "text §8.2.1 para 2",
+        "locator": "Section 8.2.1 Economic impact of investing in physical activity",
+        "value_or_quote": "a recent study estimated that if everyone met WHO's recommendations on physical activity, this would increase global GDP by between 0.15%–0.24% per year by 2050, worth up to US$ 314– 446 billion per year (in 2019 prices) (11)."
+      }
+    ],
+    "computation": null,
+    "units": "% of GDP per year; US$ billion per year (2019 prices)",
+    "reason": "Locates a conditional economic estimate deep in Chapter 8 running text."
+  },
+  {
+    "id": "a-t23",
+    "split": "test",
+    "group": "text",
+    "tags": [
+      "text",
+      "reasoning"
+    ],
+    "question": "During indicator selection, which two GAPPA policy actions were found to align with UN SDG targets (and which targets), and why were those indicators not used in this first report?",
+    "answerable": true,
+    "expected_answer": "Public open space (SDG Target 11.7) and access to public transport (SDG Target 11.2). They were not suitable because data were only available for some countries and only at city level, not national level.",
+    "evidence": [
+      {
+        "page": 37,
+        "printed_page": 21,
+        "element": "text §3.1.1 para 3",
+        "locator": "Section 3.1.1 Methods and indicator selection, right column",
+        "value_or_quote": "Alignment with UN SDG targets was identified for two GAPPA policy actions: the development of global indicators for public open space (SDG Target 11.7); and access to public transport (SDG Target 11.2). However, at the time of publication, data for both indicators are only available for some countries and only at the city – not national – level. As such, they were not suitable for inclusion in this first report on GAPPA implementation."
+      }
+    ],
+    "computation": null,
+    "units": null,
+    "reason": "Extracts a list plus the stated exclusion rationale from methods text."
+  },
+  {
+    "id": "a-t24",
+    "split": "test",
+    "group": "text",
+    "tags": [
+      "text",
+      "conditional",
+      "box"
+    ],
+    "question": "Under the WHO best-practice criteria used to assess drink–driving laws, what blood alcohol concentration (BAC) limits must a country set for the general population and for young and novice drivers?",
+    "answerable": true,
+    "expected_answer": "General population: a BAC limit not exceeding 0.05 g/dl; young and novice drivers: not exceeding 0.02 g/dl (in addition to having a national drink–driving law).",
+    "evidence": [
+      {
+        "page": 77,
+        "printed_page": 61,
+        "element": "Box 2 (Best practice criteria for the assessment of legislation)",
+        "locator": "'Drink–driving laws' list",
+        "value_or_quote": "The country has: a national drink–driving law; a BAC limit for the general population not exceeding ≤0.05 g/dl; a BAC limit for young and novice drivers not exceeding 0.02 g/dl"
+      }
+    ],
+    "computation": null,
+    "units": "g/dl",
+    "reason": "Conditional lookup in a text box: the limit depends on the driver group."
+  },
+  {
+    "id": "a-t25",
+    "split": "test",
+    "group": "unanswerable",
+    "question": "According to the report, what percentage of adults in Viet Nam did not meet WHO physical activity recommendations in 2016?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The report gives prevalence of insufficient physical activity only globally, by WHO region, sex/age group and country-income level (Figs 2–4, §2.1); it contains no country-level prevalence estimates and never mentions Viet Nam.",
+    "absence_check": "viet\\s*-?\\s*nam",
+    "allowed_pages": [],
+    "evidence": [],
+    "computation": null,
+    "units": null,
+    "reason": "Country-specific statistic for a topic the report covers only at aggregate level; tests abstention."
+  },
+  {
+    "id": "a-t26",
+    "split": "test",
+    "group": "unanswerable",
+    "question": "What percentage of countries reported having national physical activity guidelines specifically for pregnant and postpartum women in 2021?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "National guideline coverage is reported only by age group (under 5, 5–19 years, adults, older adults, all age groups; Fig. 14, Table 1). Pregnant/postpartum women are mentioned only on p18 (Fig. 1 shows WHO's own recommendation of 150 minutes per week for them) and p19 (running text says meeting recommended levels brings benefits 'including among pregnant and postpartum women'); neither page gives any country-guideline share.",
+    "absence_check": "pregnan|postpartum",
+    "allowed_pages": [
+      18,
+      19
+    ],
+    "evidence": [],
+    "computation": null,
+    "units": null,
+    "reason": "Plausible extension of the national-guidelines indicator to a subgroup that is never reported; nearby pages mention the subgroup."
+  },
+  {
+    "id": "a-t27",
+    "split": "test",
+    "group": "unanswerable",
+    "question": "How many steps per day does the report recommend that adults take?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "All recommendations are expressed in minutes per week/day and days per week (Fig. 1); the report gives no step-count target. The only match, p94, mentions pedometers merely as an example of wearable sensor devices.",
+    "absence_check": "pedometer|step count|steps? (per|a|each) day|daily steps",
+    "allowed_pages": [
+      94
+    ],
+    "evidence": [],
+    "computation": null,
+    "units": null,
+    "reason": "On-topic recommendation question whose metric (steps) the report never uses."
+  },
+  {
+    "id": "a-t28",
+    "split": "test",
+    "group": "unanswerable",
+    "question": "On average, how much government budget (in US$) did countries allocate to implementing national physical activity policies in 2021?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The report explicitly states (p112) it 'was unable to present any data on current levels of government and nongovernment budget allocations'. Other matches do not answer: p9, p26, p27 give treatment-cost estimates of physical inactivity (US$ 300 billion / US$ 27 billion a year; INT$ 67.5 billion in 2013); p101 gives a GDP-gain estimate; p15 and p119 recommend reviewing budget allocations without figures; p127 is a reference list entry (US$ health expenditure source).",
+    "absence_check": "US\\s?\\$|INT\\s?\\$|budget",
+    "allowed_pages": [
+      9,
+      15,
+      26,
+      27,
+      101,
+      112,
+      119,
+      127
+    ],
+    "evidence": [],
+    "computation": null,
+    "units": null,
+    "reason": "Funding metric close to the report's cost and financing discussion but never quantified."
+  },
+  {
+    "id": "a-t29",
+    "split": "test",
+    "group": "unanswerable",
+    "question": "What percentage of adults worldwide meet the WHO recommendation for muscle-strengthening activities?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "No prevalence of meeting the muscle-strengthening recommendation is reported. p99 states that national assessment of the proportion of the population meeting guidelines such as muscle-strengthening exercise is an area still 'in need of development'. Other matches: p19 (Fig. 1 recommendation and a bullet 'strengthen muscles and bones'), p20 (Box 1 definition 'skeletal muscles'), p123 and p124 (glossary definitions of fitness and physical activity).",
+    "absence_check": "muscle",
+    "allowed_pages": [
+      19,
+      20,
+      99,
+      123,
+      124
+    ],
+    "evidence": [],
+    "computation": null,
+    "units": null,
+    "reason": "Guideline-adherence statistic that the report identifies as a data gap; tests abstention despite keyword hits."
+  },
+  {
+    "id": "a-t30",
+    "split": "test",
+    "group": "unanswerable",
+    "question": "What percentage of countries reported national policies to limit recreational screen time among children and adolescents in 2021?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "None of the report's 29 indicators covers screen time, and the report states there are no global data on sedentary behaviours (p14). The terms 'screen time' / 'screen-based' never occur.",
+    "absence_check": "screen[- ]?time|screen-based|recreational screen",
+    "allowed_pages": [],
+    "evidence": [],
+    "computation": null,
+    "units": null,
+    "reason": "Sedentary-behaviour policy metric adjacent to the report's topics but never measured."
+  },
+  {
+    "id": "a-d01",
+    "split": "dev",
+    "group": "table",
+    "tags": [
+      "table",
+      "count",
+      "multi-page"
+    ],
+    "question": "In Table 2 (summary of indicators by GAPPA policy action area), for how many of the 20 GAPPA policy actions is data availability recorded as 'No', and which actions are they?",
+    "answerable": true,
+    "expected_answer": "9 policy actions: 1.4, 2.3, 2.5, 3.1, 3.5, 3.6, 4.3, 4.4 and 4.5.",
+    "evidence": [
+      {
+        "page": 34,
+        "printed_page": 18,
+        "element": "Table 2",
+        "locator": "'Data availability' column, Active societies and Active environments sections",
+        "value_or_quote": "1.4 No; 2.3 No (2.1 and 2.2 Partial; 1.1–1.3 Yes)"
+      },
+      {
+        "page": 35,
+        "printed_page": 19,
+        "element": "Table 2",
+        "locator": "'Data availability' column, rows 2.4–3.3",
+        "value_or_quote": "2.5 No; 3.1 No (2.4 blank; 3.2, 3.3 Yes)"
+      },
+      {
+        "page": 36,
+        "printed_page": 20,
+        "element": "Table 2",
+        "locator": "'Data availability' column, rows 3.4–4.5",
+        "value_or_quote": "3.5 No; 3.6 No; 4.3 No; 4.4 No; 4.5 No (3.4, 4.1, 4.2 Yes)"
+      }
+    ],
+    "computation": "1 (Active societies) + 2 (Active environments) + 3 (Active people) + 3 (Active systems) = 9",
+    "units": "policy actions",
+    "reason": "Aggregation across a table that spans three pages."
+  },
+  {
+    "id": "a-d02",
+    "split": "dev",
+    "group": "table",
+    "tags": [
+      "table",
+      "filter"
+    ],
+    "question": "In Table 2, which GAPPA policy actions have 'Partial' data availability, what short indicator name is given for each, and what is their data source?",
+    "answerable": true,
+    "expected_answer": "Action 2.1 (Strengthen integration of urban and transport planning) – 'National policy on public transport'; action 2.2 (Improve provision of walking and cycling infrastructure and networks) – 'National policy encouraging walking and cycling'. Both come from the Road Safety Survey.",
+    "evidence": [
+      {
+        "page": 34,
+        "printed_page": 18,
+        "element": "Table 2",
+        "locator": "Active environments section, rows 2.1 and 2.2; columns Data availability / Short indicator name / Data source",
+        "value_or_quote": "2.1 Partial – National policy on public transport – Road Safety Survey; 2.2 Partial – National policy encouraging walking and cycling – Road Safety Survey"
+      }
+    ],
+    "computation": null,
+    "units": null,
+    "reason": "Row filter on one column, then reading two other columns."
+  },
+  {
+    "id": "a-d03",
+    "split": "dev",
+    "group": "table",
+    "tags": [
+      "table",
+      "annex"
+    ],
+    "question": "According to the data-sources annex (Annex 2), which two data sources were reviewed but not used for the GAPPA indicators?",
+    "answerable": true,
+    "expected_answer": "'WHO: Measuring Age Friendly Cities' and the 'SDG Indicator Framework' (SDG 11.7.1 public open space and 11.2.1 access to public transport, city-level data held by UN-Habitat).",
+    "evidence": [
+      {
+        "page": 128,
+        "printed_page": 112,
+        "element": "Annex 2 table (Data sources)",
+        "locator": "Rows 4 and 5, under the sub-heading 'Other data sources reviewed but not used'",
+        "value_or_quote": "4. WHO: Measuring Age Friendly Cities ... 5. SDG Indicator Framework: ... SDG 11.7.1, public open space; and SDG 11.2.1, access to public transport ... UN-Habitat is the custodian of these two indicators. The data is city level metric"
+      }
+    ],
+    "computation": null,
+    "units": null,
+    "reason": "Uses the table's section split (used vs reviewed-but-not-used) to select rows."
+  },
+  {
+    "id": "a-d04",
+    "split": "dev",
+    "group": "image",
+    "tags": [
+      "image",
+      "diagram"
+    ],
+    "question": "In the GAPPA policy model for increasing physical activity (Fig. 8), which GAPPA area is placed under 'Inputs and enablers of policy action on physical activity and effective policy implementation', and which elements does its box list?",
+    "answerable": true,
+    "expected_answer": "Active systems – governance, leadership, ownership, policy, regulations, data information systems, research, financing, partnerships.",
+    "evidence": [
+      {
+        "page": 32,
+        "printed_page": 16,
+        "element": "Fig. 8 (framework diagram: GAPPA policy model for increasing physical activity)",
+        "locator": "Left blue box under the heading 'INPUTS AND ENABLERS OF POLICY ACTION ON PHYSICAL ACTIVITY AND EFFECTIVE POLICY IMPLEMENTATION'",
+        "value_or_quote": "ACTIVE SYSTEMS governance, leadership, ownership, policy, regulations, data information systems, research, financing, partnerships"
+      }
+    ],
+    "computation": null,
+    "units": null,
+    "reason": "Framework-diagram reading: placement of a box under a column heading."
+  },
+  {
+    "id": "a-d05",
+    "split": "dev",
+    "group": "image",
+    "tags": [
+      "image",
+      "diagram"
+    ],
+    "question": "According to Fig. 8 (GAPPA policy model), which five societal impacts result from more physical activity?",
+    "answerable": true,
+    "expected_answer": "Health and well-being; social development; sustainable environment; economic growth; reduced inequalities.",
+    "evidence": [
+      {
+        "page": 33,
+        "printed_page": 17,
+        "element": "Fig. 8 (framework diagram: GAPPA policy model for increasing physical activity)",
+        "locator": "Right-hand teal box under heading 'SOCIETAL IMPACT'",
+        "value_or_quote": "HEALTH AND WELL-BEING / SOCIAL DEVELOPMENT / SUSTAINABLE ENVIRONMENT / ECONOMIC GROWTH / REDUCED INEQUALITIES"
+      }
+    ],
+    "computation": null,
+    "units": null,
+    "reason": "List carried only by a diagram box (running text mentions just health, environment and economy)."
+  },
+  {
+    "id": "a-d06",
+    "split": "dev",
+    "group": "image",
+    "tags": [
+      "image",
+      "diagram"
+    ],
+    "question": "In Fig. 8, how are the 'Active environments' and 'Active people' drivers of physical activity described?",
+    "answerable": true,
+    "expected_answer": "Active environments: 'supportive environments and facilities'; Active people: 'programmes and services in all key settings'.",
+    "evidence": [
+      {
+        "page": 32,
+        "printed_page": 16,
+        "element": "Fig. 8 (framework diagram: GAPPA policy model for increasing physical activity)",
+        "locator": "Green and yellow boxes in the 'DRIVERS OF PHYSCIAL [sic] ACTIVITY' column",
+        "value_or_quote": "ACTIVE ENVIRONMENTS supportive environments and facilities; ACTIVE PEOPLE programmes and services in all key settings"
+      }
+    ],
+    "computation": null,
+    "units": null,
+    "reason": "Reads box captions in a framework diagram."
+  },
+  {
+    "id": "a-d07",
+    "split": "dev",
+    "group": "chart",
+    "tags": [
+      "chart",
+      "trend"
+    ],
+    "question": "In Fig. 16 (trend in national surveillance of physical activity by region and country-income level, 2017, 2019 and 2021), which WHO region is the only one whose share of countries fell between 2017 and 2019?",
+    "answerable": true,
+    "expected_answer": "The Region of the Americas (from 100% in 2017 to about 94% in 2019, unchanged in 2021).",
+    "evidence": [
+      {
+        "page": 51,
+        "printed_page": 35,
+        "element": "Fig. 16 (grouped bar chart)",
+        "locator": "WHO regions panel, 2017 vs 2019 bars",
+        "value_or_quote": "Americas ≈100→94→94; African ≈77→87; EMR ≈95→100; European ≈94→98; South-East Asia and Western Pacific 100 in all years (read from axis)"
+      }
+    ],
+    "computation": null,
+    "units": "% of Member States",
+    "reason": "Trend comparison across three-year series to find the only decline."
+  },
+  {
+    "id": "a-d08",
+    "split": "dev",
+    "group": "chart",
+    "tags": [
+      "chart",
+      "comparison"
+    ],
+    "question": "In Fig. 23 (national policy on walking and cycling by region and country-income level, 2018), in which WHO region is the share of countries with subnational walking/cycling policies higher than the share with national policies?",
+    "answerable": true,
+    "expected_answer": "The Eastern Mediterranean Region (subnational ≈28% vs national ≈17%).",
+    "evidence": [
+      {
+        "page": 71,
+        "printed_page": 55,
+        "element": "Fig. 23 (grouped bar chart)",
+        "locator": "Series 'National' vs 'Subnational' for each WHO region",
+        "value_or_quote": "EMR national ≈17, subnational ≈28; all other regions national > subnational (read from axis)"
+      }
+    ],
+    "computation": null,
+    "units": "% of Member States",
+    "reason": "Finds the single category where two series reverse order."
+  },
+  {
+    "id": "a-d09",
+    "split": "dev",
+    "group": "chart",
+    "tags": [
+      "chart",
+      "max",
+      "legend"
+    ],
+    "question": "In Fig. 35 (implementation of national policies promoting physical activity across key settings, by region, 2021), which key setting has the highest share of countries in the South-East Asia Region?",
+    "answerable": true,
+    "expected_answer": "Public open spaces (about 45%); community-based initiatives are about 36% and the other four settings (walking and cycling, active ageing, workplace, childcare) about 27% each.",
+    "evidence": [
+      {
+        "page": 92,
+        "printed_page": 76,
+        "element": "Fig. 35 (horizontal grouped bar chart)",
+        "locator": "South-East Asia Region group; 2nd bar = 'Public open spaces' per legend order",
+        "value_or_quote": "Community-based ≈36; Public open spaces ≈45; Walking and cycling ≈27; Active ageing ≈27; Workplace ≈27; Childcare ≈27 (read from axis)"
+      }
+    ],
+    "computation": null,
+    "units": "% of Member States",
+    "reason": "Legend-to-bar mapping in a six-series horizontal chart; the maximum is clear."
+  },
+  {
+    "id": "a-d10",
+    "split": "dev",
+    "group": "multihop",
+    "tags": [
+      "table",
+      "text"
+    ],
+    "question": "Table 2 qualifies the national communication-campaign indicator for GAPPA policy action 1.1 with three features. What are they, and what percentage was reported for each in 2021 in section 5.1?",
+    "answerable": true,
+    "expected_answer": "Campaigns that link with community-based initiatives – 89%; that are supported by environmental improvements (changes) – 73%; that promote the co-benefits of physical activity – 81%.",
+    "evidence": [
+      {
+        "page": 34,
+        "printed_page": 18,
+        "element": "Table 2",
+        "locator": "Row 1.1, 'Short indicator name' column",
+        "value_or_quote": "National communication campaigns on physical activity: that link with community-based initiatives / that are supported by environmental improvements / that promote the co-benefits of physical activity"
+      },
+      {
+        "page": 61,
+        "printed_page": 45,
+        "element": "text §5.1 'In 2021' bullets",
+        "locator": "Bullets below Fig. 20",
+        "value_or_quote": "About three quarters of countries report communications campaigns that include community-based initiatives (89%) or environmental changes (73%) (see Fig. 21). About three quarters of countries (81%) report campaigns that promote the co-benefits ... of physical activity."
+      }
+    ],
+    "computation": null,
+    "units": "%",
+    "reason": "Joins indicator definitions from a table with values in running text on another page."
+  },
+  {
+    "id": "a-d11",
+    "split": "dev",
+    "group": "multihop",
+    "tags": [
+      "chart",
+      "text",
+      "chained"
+    ],
+    "question": "In Fig. 15 (national time-bound NCD targets and national physical activity targets, by region, 2021), which WHO region shows the same proportion of countries for both target types? According to the text, what percentage and how many of that region's countries have a physical activity target?",
+    "answerable": true,
+    "expected_answer": "The South-East Asia Region; 91% – 10 out of 11 countries.",
+    "evidence": [
+      {
+        "page": 49,
+        "printed_page": 33,
+        "element": "Fig. 15 (grouped bar chart)",
+        "locator": "South-East Asia Region: 'NCD target' and 'Physical activity target' bars of equal height",
+        "value_or_quote": "both ≈91%"
+      },
+      {
+        "page": 48,
+        "printed_page": 32,
+        "element": "text §4.3 'In 2021' bullets",
+        "locator": "Left column, 3rd bullet",
+        "value_or_quote": "A reported 91% of countries (10 out of 11) in the South-East Asia Region have a target on physical activity"
+      }
+    ],
+    "computation": null,
+    "units": "% of countries; number of countries",
+    "reason": "Chart pattern identifies the region; exact value and count come from text on the previous page."
+  },
+  {
+    "id": "a-d12",
+    "split": "dev",
+    "group": "multihop",
+    "tags": [
+      "text",
+      "annex"
+    ],
+    "question": "For how many countries, covering what share of the world's population, did the report estimate the direct health-care costs of physical inactivity, and, according to the costing-methodology annex, what is used when a country lacks data on average annual direct health-care costs for specific diseases?",
+    "answerable": true,
+    "expected_answer": "142 countries representing 93.2% of the world's population. Where disease-specific cost data are unavailable, cost estimates from 28 European Member States (Euro-28) are extrapolated, weighted by the ratio of the country's health-care expenditure to the average Euro-28 health expenditure.",
+    "evidence": [
+      {
+        "page": 26,
+        "printed_page": 10,
+        "element": "text §2.2.1 para 1",
+        "locator": "Section 2.2.1 Methods for estimating the burden",
+        "value_or_quote": "the directly attributable health care costs of physical inactivity to the health system were estimated using the best data available for 142 countries, representing 93.2% of the world's population."
+      },
+      {
+        "page": 126,
+        "printed_page": 110,
+        "element": "Annex 1 (Methodology to estimate the cost of physical inactivity)",
+        "locator": "Steps 8 and 9",
+        "value_or_quote": "Step 8. When data on average annual direct health-care costs for specific diseases are unavailable, identify 28 European Member States (Euro-28) cost estimates to be extrapolated the countries (13). Step 9: Extrapolation of costs can be done using the ratio of health care expenditure for the relevant Member State, to the average Euro-28 health expenditure as a weight for the costs (14)."
+      }
+    ],
+    "computation": null,
+    "units": "countries; % of world population",
+    "reason": "Combines the chapter's coverage statement with methodological detail from an annex far away in the document."
+  },
+  {
+    "id": "a-d13",
+    "split": "dev",
+    "group": "text",
+    "tags": [
+      "text",
+      "conditional"
+    ],
+    "question": "Which initiative is testing parent (proxy) assessment of physical activity among children aged 6–9 years, and what is the SUNRISE collaboration testing?",
+    "answerable": true,
+    "expected_answer": "The COSI initiative in Europe tests parent (proxy) assessment for children aged 6–9 years. SUNRISE – a collaboration of over 43 countries across six continents – is testing device-based assessment for surveillance of physical activity in children aged 4 years.",
+    "evidence": [
+      {
+        "page": 99,
+        "printed_page": 83,
+        "element": "text §8.1.2 para 2",
+        "locator": "Section 8.1.2 Ensuring full coverage and inclusion, left column",
+        "value_or_quote": "The SUNRISE collaboration of over 43 countries across six continents is testing the use of device-based assessment for surveillance of physical activity in children aged 4 years ... The COSI initiative in Europe is testing parent (proxy) assessment of physical activity among children aged 6–9 years"
+      }
+    ],
+    "computation": null,
+    "units": null,
+    "reason": "Distinguishes two initiatives by age group and method within one paragraph."
+  },
+  {
+    "id": "a-d14",
+    "split": "dev",
+    "group": "text",
+    "tags": [
+      "text",
+      "definition"
+    ],
+    "question": "According to a recent WHO assessment cited in the report, how many of the countries assessed had usable trend data on adult physical activity, and what counts as trend data?",
+    "answerable": true,
+    "expected_answer": "Only 65 (39%) of the 168 countries assessed; trend data means data from at least two time points collected using consistent methods.",
+    "evidence": [
+      {
+        "page": 98,
+        "printed_page": 82,
+        "element": "text §8.1 para 3",
+        "locator": "Section 8.1, left column",
+        "value_or_quote": "a recent WHO assessment revealed that the majority of countries do not have trend data on physical activity (i.e. data from at least two time points using consistent methods) (6). This analysis revealed only 65 (39%) of the 168 countries assessed had useable trend data on physical activity levels among adults (6)."
+      }
+    ],
+    "computation": null,
+    "units": "countries (%)",
+    "reason": "Specific figure plus its definitional condition from running text."
+  },
+  {
+    "id": "a-d15",
+    "split": "dev",
+    "group": "text",
+    "tags": [
+      "text"
+    ],
+    "question": "What tool has WHO developed to help countries systematically appraise national progress against GAPPA policy recommendations, and what was its availability status at the time of the report?",
+    "answerable": true,
+    "expected_answer": "The GAPPA situational assessment tool (GAPPA-SAT); pilot version 6 was available on request, with publication planned in 2022.",
+    "evidence": [
+      {
+        "page": 45,
+        "printed_page": 29,
+        "element": "text §4.1.3 last para",
+        "locator": "Section 4.1.3 Discussion, right column",
+        "value_or_quote": "WHO has developed a situational assessment tool aligned with GAPPA (GAPPA-SAT) to systematically appraise national progress against GAPPA policy recommendations (28). GAPPA-SAT (pilot version 6) is available on request and publication is planned in 2022."
+      }
+    ],
+    "computation": null,
+    "units": null,
+    "reason": "Finds a named tool and its status in discussion text."
+  },
+  {
+    "id": "a-d16",
+    "split": "dev",
+    "group": "unanswerable",
+    "question": "What is the prevalence of insufficient physical activity among adolescents aged 11–17 years in China?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Adolescent prevalence is reported only globally and by WHO region (Fig. 3, §2.1); there are no country-level estimates and China is never mentioned.",
+    "absence_check": "china|chinese",
+    "allowed_pages": [],
+    "evidence": [],
+    "computation": null,
+    "units": null,
+    "reason": "Country-level statistic for a topic reported only at regional level."
+  },
+  {
+    "id": "a-d17",
+    "split": "dev",
+    "group": "unanswerable",
+    "question": "How many kilometres of protected cycle lanes were built worldwide between 2018 and 2021?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The report tracks only whether national policies/design standards exist and states there are no global data on active transport (p14). Matches do not answer: p30 and p73 mention separated cycle/bicycle lanes qualitatively, p77 uses km only for speeds (50 km/h, 65 km/h; urban limit 50 km/hr in Box 2), p125 is a glossary definition listing bicycle lanes.",
+    "absence_check": "kilomet|\\bkm\\b|cycle lanes?|bicycle lanes?|bike lanes?",
+    "allowed_pages": [
+      30,
+      73,
+      77,
+      125
+    ],
+    "evidence": [],
+    "computation": null,
+    "units": null,
+    "reason": "Infrastructure output metric adjacent to the active-environments chapter but never reported."
+  },
+  {
+    "id": "a-d18",
+    "split": "dev",
+    "group": "unanswerable",
+    "question": "On average, how many hours per day do adults spend sitting, according to the report's global data?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The report states there are no global data on sedentary behaviours (p14). Matches do not answer: p18 (Fig. 1 'LIMIT sedentary time', no amount), p20 (Box 1 definition of sedentary behaviour), p88 (sitting mentioned as an example of occupational sedentary behaviour), p125 (glossary definition).",
+    "absence_check": "sitting|hours (per|a) day|sedentary time",
+    "allowed_pages": [
+      18,
+      20,
+      88,
+      125
+    ],
+    "evidence": [],
+    "computation": null,
+    "units": null,
+    "reason": "Sedentary-behaviour metric close to the report's topic that is explicitly a data gap."
+  }
+]

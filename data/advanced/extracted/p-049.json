@@ -1,0 +1,28 @@
+{
+ "page": 49,
+ "model": "gpt-5.4-2026-03-05",
+ "usage": {
+  "prompt_tokens": 2515,
+  "completion_tokens": 339,
+  "total_tokens": 2854,
+  "prompt_tokens_details": {
+   "cached_tokens": 2048,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  }
+ },
+ "elements": [
+  {
+   "type": "chart",
+   "label": "Figure 15",
+   "title": "National time-bound targets related to nine voluntary NCD targets and a national physical activity target, by region and country-income level, 2021",
+   "location": "upper half of page, centered",
+   "content": "Bar chart; y-axis title: Percentage of Member States; y-axis units: percent; legend entries: NCD target, Physical activity target.\nNCD target | African Region | ~65\nPhysical activity target | African Region | ~50\nNCD target | Region of the Americas | ~68\nPhysical activity target | Region of the Americas | ~53\nNCD target | Eastern Mediterranean Region | ~61\nPhysical activity target | Eastern Mediterranean Region | ~51\nNCD target | European Region | ~52\nPhysical activity target | European Region | ~37\nNCD target | South-East Asia Region | ~90\nPhysical activity target | South-East Asia Region | ~90\nNCD target | Western Pacific Region | ~73\nPhysical activity target | Western Pacific Region | ~66\nNCD target | Global | ~64\nPhysical activity target | Global | ~52\nNCD target | Low-income | ~64\nPhysical activity target | Low-income | ~47\nNCD target | Lower-middle income | ~66\nPhysical activity target | Lower-middle income | ~62\nNCD target | Upper-middle income | ~71\nPhysical activity target | Upper-middle income | ~59\nNCD target | High-income | ~55\nPhysical activity target | High-income | ~38\nGroup labels: WHO regions; World Bank income groups."
+  }
+ ]
+}

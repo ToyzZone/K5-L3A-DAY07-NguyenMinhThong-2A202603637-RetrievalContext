@@ -1,0 +1,28 @@
+{
+ "page": 50,
+ "model": "gpt-5.4-2026-03-05",
+ "usage": {
+  "prompt_tokens": 2515,
+  "completion_tokens": 391,
+  "total_tokens": 2906,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  }
+ },
+ "elements": [
+  {
+   "type": "box",
+   "label": null,
+   "title": "In 2021:",
+   "location": "middle to lower half of page, full width two-column bulleted callout under a blue horizontal rule",
+   "content": "In 2021:\n\n• Almost all countries (n=185, 95%) report conducting population-based surveillance of physical activity in the past 5 years; the Eastern Mediterranean Region, the South-East Asia Region and the Western Pacific Region have the highest proportion of countries reporting physical activity surveillance (100%), while the African Region has the lowest proportion of countries (87%) (see Fig. 16).\n\n• There has been no change in the proportion of countries reporting surveillance of physical activity between 2019 (95%) and 2021.\n\n• Most countries report surveillance of physical activity among adults (n=178, 92%); three quarters of countries (n=146, 75%) report surveillance of physical activity among children and adolescents; while one third of countries (n=57, 29%) report surveillance of physical activity in children under the age of 5 years (mostly countries in the European Region) (see Fig. 17).\n\n• Globally, just under one third of countries (n=52, 27%) report surveillance of physical activity in all three age groups (under 5 years, children and adolescents, and adults including older adults).\n\n• Surveillance of children and adolescents is highest in high-income and upper-middle-income countries (89% and 90% respectively), compared to lower-middle and low-income countries (67% and 32% respectively).\n\n• Around one third of countries report that data on physical activity were last collected more than 5 years ago, and around 10% of countries report that their data were last collected more than 10 years ago (see Fig. 18)."
+  }
+ ]
+}

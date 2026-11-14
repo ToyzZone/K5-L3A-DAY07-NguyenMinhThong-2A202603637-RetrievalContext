@@ -1,0 +1,49 @@
+{
+ "page": 27,
+ "model": "gpt-5.4-2026-03-05",
+ "usage": {
+  "prompt_tokens": 2515,
+  "completion_tokens": 452,
+  "total_tokens": 2967,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  }
+ },
+ "elements": [
+  {
+   "type": "chart",
+   "label": "FIGURE 5",
+   "title": "Number and proportion of preventable new NCD cases attributed to physical inactivity, by country-income level, 2020–2030",
+   "location": "upper half of page",
+   "content": "Bar chart; y-axis title: Millions of preventable cases NCD; x-axis categories: Low, Lower Middle, Upper Middle, High.\nseries | Low | ~25\nseries | Lower Middle | ~204\nseries | Upper Middle | ~139\nseries | High | ~130\npercentage label | Low | 5%\npercentage label | Lower Middle | 41%\npercentage label | Upper Middle | 28%\npercentage label | High | 26%"
+  },
+  {
+   "type": "chart",
+   "label": "FIGURE 6",
+   "title": "Distribution (%) of total number of cases and costs by type of NCD attributed to physical inactivity, 2020–2030",
+   "location": "middle of page",
+   "content": "Grouped bar chart; y-axis title: Percentage of cases and costs; legend: Cases, Costs; x-axis categories: Hypertension, Type 2 diabetes, Coronary heart disease, Stroke, Cancers, Depression, Dementia.\nCases | Hypertension | ~44\nCosts | Hypertension | ~22\nCases | Type 2 diabetes | ~2\nCosts | Type 2 diabetes | ~9\nCases | Coronary heart disease | ~2\nCosts | Coronary heart disease | ~1\nCases | Stroke | ~1\nCosts | Stroke | ~3\nCases | Cancers | ~0.5\nCosts | Cancers | ~14\nCases | Depression | ~40\nCosts | Depression | ~29\nCases | Dementia | ~3\nCosts | Dementia | ~21"
+  },
+  {
+   "type": "infographic",
+   "label": null,
+   "title": null,
+   "location": "bottom of page",
+   "content": "Globally, physical inactivity costs health systems US$ 27 billion a year and by 2030, US$ 300 billion."
+  },
+  {
+   "type": "photo",
+   "label": null,
+   "title": null,
+   "location": "bottom left beside infographic text",
+   "content": "Decorative outline illustration of a running person."
+  }
+ ]
+}

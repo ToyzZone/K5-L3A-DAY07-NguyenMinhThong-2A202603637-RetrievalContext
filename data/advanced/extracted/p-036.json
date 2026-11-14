@@ -1,0 +1,28 @@
+{
+ "page": 36,
+ "model": "gpt-5.4-2026-03-05",
+ "usage": {
+  "prompt_tokens": 2515,
+  "completion_tokens": 336,
+  "total_tokens": 2851,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  }
+ },
+ "elements": [
+  {
+   "type": "table",
+   "label": null,
+   "title": null,
+   "location": "upper and middle page",
+   "content": "| GAPPA POLICY ACTION | DATA AVAILABILITY | SHORT INDICATOR NAME | DATA SOURCE |\n|---|---|---|---|\n| 3.4 Strengthen programmes and services aimed at older adults | Yes | Policy promoting physical activity for older adults | NCD CCS |\n| 3.5 Increase the opportunities for physical activity in the least-active groups, such as girls, women, older adults and vulnerable or marginalized populations | No |  |  |\n| 3.6 Implement whole-of-community (e.g. healthy city) programmes that include promotion of physical activity | No |  |  |\n| 4.1 Strengthen national policy, guidelines, leadership, and governance | Yes | National NCDs policy including physical activity; National physical activity policy, strategy or action plan; National guidelines on physical activity; National physical activity targets; National coordination mechanism for NCDs | NCD CCS |\n| 4.2 Ensure strong data and information systems relevant to physical activity to support effective coordinated policy implementation and evaluation | Yes | National surveillance on physical activity | NCD CCS |\n| 4.3 Support research and development, including the use of digital technologies, to promote physical activity | No |  |  |\n| 4.4 Strengthen advocacy on physical activity | No |  |  |\n| 4.5 Strengthen financing mechanisms to secure sustained implementation of national and subnational action | No |  |  |"
+  }
+ ]
+}

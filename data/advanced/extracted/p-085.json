@@ -1,0 +1,28 @@
+{
+ "page": 85,
+ "model": "gpt-5.4-2026-03-05",
+ "usage": {
+  "prompt_tokens": 2515,
+  "completion_tokens": 311,
+  "total_tokens": 2826,
+  "prompt_tokens_details": {
+   "cached_tokens": 2048,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  }
+ },
+ "elements": [
+  {
+   "type": "chart",
+   "label": "FIGURE 32",
+   "title": "Trends in use of national protocols on management of physical activity in primary care, by region and country-income level, 2019 and 2021",
+   "location": "bottom half of page",
+   "content": "Bar chart; y-axis: Percentage of Member States; x-axis categories grouped as WHO regions and World Bank income groups; legend: 2019, 2021.\n2019 | African Region | ~6\n2021 | African Region | ~6\n2019 | Region of the Americas | ~25\n2021 | Region of the Americas | ~42\n2019 | Eastern Mediterranean Region | ~23\n2021 | Eastern Mediterranean Region | ~37\n2019 | European Region | ~48\n2021 | European Region | ~61\n2019 | South-East Asia Region | ~63\n2021 | South-East Asia Region | ~43\n2019 | Western Pacific Region | ~55\n2021 | Western Pacific Region | ~51\n2019 | Global | ~34\n2021 | Global | ~39\n2019 | Low-income | ~5\n2021 | Low-income | ~5\n2019 | Lower middle-income | ~21\n2021 | Lower middle-income | ~25\n2019 | Upper middle-income | ~41\n2021 | Upper middle-income | ~47\n2019 | High-income | ~48\n2021 | High-income | ~60"
+  }
+ ]
+}

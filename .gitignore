@@ -10,3 +10,7 @@ __pycache__/
 # Local datasets and generated output; share permitted artifacts deliberately
 starter/data/
 starter/results/
+
+# Advanced challenge: source PDF and rendered pages are re-downloadable/re-renderable (see data/advanced/README.md)
+data/advanced/pdf/
+data/advanced/pages/

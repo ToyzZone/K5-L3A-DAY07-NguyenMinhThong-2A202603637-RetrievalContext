@@ -1,0 +1,28 @@
+{
+ "page": 46,
+ "model": "gpt-5.4-2026-03-05",
+ "usage": {
+  "prompt_tokens": 2515,
+  "completion_tokens": 298,
+  "total_tokens": 2813,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  }
+ },
+ "elements": [
+  {
+   "type": "chart",
+   "label": "Figure 13",
+   "title": "National guidelines on physical activity by region and income level, 2019 and 2021",
+   "location": "bottom half of page",
+   "content": "Bar chart; y-axis: Percentage of Member States; x-axis groups: WHO regions, World Bank income groups; legend entries: 2019, 2021.\n2019 | African Region | ~7\n2021 | African Region | ~9\n2019 | Region of the Americas | 40\n2021 | Region of the Americas | 49\n2019 | Eastern Mediterranean Region | 48\n2021 | Eastern Mediterranean Region | 48\n2019 | European Region | 58\n2021 | European Region | 72\n2019 | South-East Asia Region | 45\n2021 | South-East Asia Region | 45\n2019 | Western Pacific Region | 58\n2021 | Western Pacific Region | 62\n2019 | Global | 41\n2021 | Global | 47\n2019 | Low-income | 3\n2021 | Low-income | 3\n2019 | Lower-middle income | 17\n2021 | Lower-middle income | 28\n2019 | Upper-middle income | 48\n2021 | Upper-middle income | 52\n2019 | High-income | 70\n2021 | High-income | 79"
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "page": 102,
+ "model": "gpt-5.4-2026-03-05",
+ "usage": {
+  "prompt_tokens": 2515,
+  "completion_tokens": 74,
+  "total_tokens": 2589,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  }
+ },
+ "elements": [
+  {
+   "type": "infographic",
+   "label": null,
+   "title": "9. Summary of key findings",
+   "location": "center and upper half of page",
+   "content": "Abstract line-drawing illustration of moving human figures in green, blue, red and yellow across the top of the page.\n\n9.\nSummary of key findings"
+  }
+ ]
+}

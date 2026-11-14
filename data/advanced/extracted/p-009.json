@@ -1,0 +1,35 @@
+{
+ "page": 9,
+ "model": "gpt-5.4-2026-03-05",
+ "usage": {
+  "prompt_tokens": 2515,
+  "completion_tokens": 73,
+  "total_tokens": 2588,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  }
+ },
+ "elements": [
+  {
+   "type": "infographic",
+   "label": null,
+   "title": "Executive summary",
+   "location": "top half of page",
+   "content": "Executive summary"
+  },
+  {
+   "type": "box",
+   "label": null,
+   "title": "The cost of physical inactivity",
+   "location": "middle-lower part of page across two columns",
+   "content": "The cost of physical inactivity"
+  }
+ ]
+}

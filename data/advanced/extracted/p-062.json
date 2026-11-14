@@ -1,0 +1,28 @@
+{
+ "page": 62,
+ "model": "gpt-5.4-2026-03-05",
+ "usage": {
+  "prompt_tokens": 2515,
+  "completion_tokens": 505,
+  "total_tokens": 3020,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  }
+ },
+ "elements": [
+  {
+   "type": "chart",
+   "label": "Figure 21",
+   "title": "National physical activity communication campaigns with links to community-based initiatives, supported by environmental changes and promoting co-benefits, by region and country-income level, 2021",
+   "location": "bottom half of page",
+   "content": "Grouped vertical bar chart; y-axis: Percentage of Member States; x-axis groups: WHO regions, World Bank income groups. Legend entries: Linked to community initiatives; Supported by environmental changes; Promotes co-benefits.\nLinked to community initiatives | African Region | 100\nSupported by environmental changes | African Region | ~79\nPromotes co-benefits | African Region | ~79\nLinked to community initiatives | Region of the Americas | ~82\nSupported by environmental changes | Region of the Americas | ~57\nPromotes co-benefits | Region of the Americas | ~77\nLinked to community initiatives | Eastern Mediterranean Region | ~88\nSupported by environmental changes | Eastern Mediterranean Region | ~88\nPromotes co-benefits | Eastern Mediterranean Region | ~79\nLinked to community initiatives | European Region | ~87\nSupported by environmental changes | European Region | ~70\nPromotes co-benefits | European Region | ~78\nLinked to community initiatives | South-East Asia Region | 100\nSupported by environmental changes | South-East Asia Region | 100\nPromotes co-benefits | South-East Asia Region | ~67\nLinked to community initiatives | Western Pacific Region | ~90\nSupported by environmental changes | Western Pacific Region | ~81\nPromotes co-benefits | Western Pacific Region | ~90\nLinked to community initiatives | Global | ~88\nSupported by environmental changes | Global | ~72\nPromotes co-benefits | Global | ~80\nLinked to community initiatives | Low-income | 100\nSupported by environmental changes | Low-income | 100\nPromotes co-benefits | Low-income | ~79\nLinked to community initiatives | Lower-middle income | 100\nSupported by environmental changes | Lower-middle income | ~84\nPromotes co-benefits | Lower-middle income | 100\nLinked to community initiatives | Upper-middle income | ~85\nSupported by environmental changes | Upper-middle income | ~74\nPromotes co-benefits | Upper-middle income | ~77\nLinked to community initiatives | High-income | ~86\nSupported by environmental changes | High-income | ~60\nPromotes co-benefits | High-income | ~77"
+  }
+ ]
+}

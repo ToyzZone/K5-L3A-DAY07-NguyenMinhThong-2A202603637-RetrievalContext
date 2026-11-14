@@ -8,6 +8,7 @@ Agentic RAG trên index Day 6 ([repo Day 6](https://github.com/ToyzZone/K5-L3A-D
 | `agent.py` | Controller gọi OpenAI Chat Completions với 2 tool `search_documents` / `answer`; vòng lặp dùng `starter/agentic.py` (`run_agent`) |
 | `run.py` | Cấu hình thí nghiệm, chạy retrieval/agent, lưu trace + summary, xuất bảng chấm tay |
 | `bench.py` | Tạo `data/questions.json` từ benchmark Day 6 + `data/unanswerable.json`; định nghĩa hit; kiểm chứng benchmark |
+| `advanced.py` | Thử thách nâng cao: trích xuất visual bằng vision model, index `GSRT`/`GSR`/`GSRC`, benchmark 48 câu, agent đa phương thức, chấm pass/fail (xem `data/advanced/README.md`) |
 
 ## Chuẩn bị
 
@@ -33,3 +34,14 @@ Chạy từ thư mục gốc repo:
 Test chỉ chạy một lần sau khi chốt cấu hình: `retrieval test dense hybrid_bm25`, `agent test dense`, `agent test hybrid-bm25`.
 
 Kết quả nằm trong `results/<split>/`: `retrieval.json`, `agent-<config>/{traces,summary,reviews,agent_metrics}.json`, `review_sheet.md`.
+
+Thử thách nâng cao. Tải PDF và render trang theo `data/advanced/README.md` trước:
+
+```bash
+"$PY" src/advanced.py index && "$PY" src/advanced.py verify
+"$PY" src/advanced.py agent dev <config>                    # configs: CONFIGS trong advanced.py
+"$PY" src/advanced.py agent test mm-ctx-img-v2-g54-k6       # cấu hình đã chọn, chạy test một lần
+"$PY" src/advanced.py sheet test mm-ctx-img-v2-g54-k6 && "$PY" src/advanced.py score test mm-ctx-img-v2-g54-k6
+```
+
+Kết quả: `results/advanced/<split>/agent-<config>/`; dev selection: `results/advanced/dev/selection.json`.

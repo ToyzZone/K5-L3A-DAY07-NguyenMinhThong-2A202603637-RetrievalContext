@@ -1,0 +1,35 @@
+{
+ "page": 51,
+ "model": "gpt-5.4-2026-03-05",
+ "usage": {
+  "prompt_tokens": 2515,
+  "completion_tokens": 965,
+  "total_tokens": 3480,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  }
+ },
+ "elements": [
+  {
+   "type": "chart",
+   "label": "Figure 16",
+   "title": "Trend in national surveillance of physical activity by region and country-income level, 2017, 2019 and 2021",
+   "location": "upper half of page",
+   "content": "Bar chart; y-axis: Percentage of Member States; x-axis groups: WHO regions, World Bank income groups. Legend: 2017; 2019; 2021.\n2017 | African Region | ~77\n2019 | African Region | ~86\n2021 | African Region | ~86\n2017 | Region of the Americas | 100\n2019 | Region of the Americas | ~93\n2021 | Region of the Americas | ~95\n2017 | Eastern Mediterranean Region | ~95\n2019 | Eastern Mediterranean Region | 100\n2021 | Eastern Mediterranean Region | 100\n2017 | European Region | ~93\n2019 | European Region | ~97\n2021 | European Region | ~98\n2017 | South-East Asia Region | 100\n2019 | South-East Asia Region | 100\n2021 | South-East Asia Region | 100\n2017 | Western Pacific Region | 100\n2019 | Western Pacific Region | 100\n2021 | Western Pacific Region | 100\n2017 | Global | ~91\n2019 | Global | ~94\n2021 | Global | ~94\n2017 | Low-income | ~82\n2019 | Low-income | ~86\n2021 | Low-income | ~86\n2017 | Lower-middle income | ~98\n2019 | Lower-middle income | ~98\n2021 | Lower-middle income | ~98\n2017 | Upper-middle income | ~94\n2019 | Upper-middle income | ~94\n2021 | Upper-middle income | ~94\n2017 | High-income | ~96\n2019 | High-income | ~98\n2021 | High-income | ~98"
+  },
+  {
+   "type": "chart",
+   "label": "Figure 17",
+   "title": "National surveillance of physical activity by age group, region and country-income level, 2021",
+   "location": "lower half of page",
+   "content": "Bar chart; y-axis: Percentage of Member States; x-axis groups: WHO regions, World Bank income groups. Legend: Under 5y; 5-19y; Adults; All age groups.\nUnder 5y | African Region | ~1\n5-19y | African Region | ~35\nAdults | African Region | ~84\nAll age groups | African Region | ~2\nUnder 5y | Region of the Americas | ~14\n5-19y | Region of the Americas | ~90\nAdults | Region of the Americas | ~88\nAll age groups | Region of the Americas | ~14\nUnder 5y | Eastern Mediterranean Region | 0\n5-19y | Eastern Mediterranean Region | ~89\nAdults | Eastern Mediterranean Region | ~89\nAll age groups | Eastern Mediterranean Region | 0\nUnder 5y | European Region | ~84\n5-19y | European Region | ~86\nAdults | European Region | ~94\nAll age groups | European Region | ~76\nUnder 5y | South-East Asia Region | ~9\n5-19y | South-East Asia Region | ~90\nAdults | South-East Asia Region | 100\nAll age groups | South-East Asia Region | ~9\nUnder 5y | Western Pacific Region | ~20\n5-19y | Western Pacific Region | ~80\nAdults | Western Pacific Region | 100\nAll age groups | Western Pacific Region | ~15\nUnder 5y | Global | ~28\n5-19y | Global | ~75\nAdults | Global | ~92\nAll age groups | Global | ~26\nUnder 5y | Low-income | 0\n5-19y | Low-income | ~31\nAdults | Low-income | ~83\nAll age groups | Low-income | 0\nUnder 5y | Lower-middle income | ~10\n5-19y | Lower-middle income | ~66\nAdults | Lower-middle income | ~92\nAll age groups | Lower-middle income | ~9\nUnder 5y | Upper-middle income | ~32\n5-19y | Upper-middle income | ~89\nAdults | Upper-middle income | ~92\nAll age groups | Upper-middle income | ~31\nUnder 5y | High-income | ~55\n5-19y | High-income | ~88\nAdults | High-income | ~92\nAll age groups | High-income | ~50"
+  }
+ ]
+}

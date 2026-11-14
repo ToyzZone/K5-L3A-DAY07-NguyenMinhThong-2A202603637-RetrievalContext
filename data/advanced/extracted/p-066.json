@@ -1,0 +1,35 @@
+{
+ "page": 66,
+ "model": "gpt-5.4-2026-03-05",
+ "usage": {
+  "prompt_tokens": 2515,
+  "completion_tokens": 108,
+  "total_tokens": 2623,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  }
+ },
+ "elements": [
+  {
+   "type": "infographic",
+   "label": null,
+   "title": "6. Progress towards active environments",
+   "location": "center and upper half of page",
+   "content": "Large section opener artwork with multiple outlined running human figures in light green and one dark green running figure.\n\nText:\n6.\nProgress\ntowards active\nenvironments"
+  },
+  {
+   "type": "diagram",
+   "label": null,
+   "title": null,
+   "location": "bottom left corner",
+   "content": "Green vertical bar with page number: 50"
+  }
+ ]
+}

@@ -1,0 +1,35 @@
+{
+ "page": 79,
+ "model": "gpt-5.4-2026-03-05",
+ "usage": {
+  "prompt_tokens": 2515,
+  "completion_tokens": 602,
+  "total_tokens": 3117,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  }
+ },
+ "elements": [
+  {
+   "type": "chart",
+   "label": "Figure 30",
+   "title": "National legislation on drink-driving meeting best practice criteria, by region and country-income level, 2018",
+   "location": "upper half of page",
+   "content": "Bar chart; y-axis: Percentage of Member States; x-axis groups: WHO regions, World Bank income groups; legend entries: Legislation, Best practice.\nLegislation | African Region | ~81\nBest practice | African Region | ~2\nLegislation | Region of the Americas | ~82\nBest practice | Region of the Americas | ~27\nLegislation | Eastern Mediterranean Region | ~28\nBest practice | Eastern Mediterranean Region | ~22\nLegislation | European Region | ~87\nBest practice | European Region | ~52\nLegislation | South-East Asia Region | ~49\nBest practice | South-East Asia Region | ~10\nLegislation | Western Pacific Region | ~85\nBest practice | Western Pacific Region | ~19\nLegislation | Global | ~76\nBest practice | Global | ~26\nLegislation | Low-income | ~63\nBest practice | Low-income | ~4\nLegislation | Lower-middle income | ~67\nBest practice | Lower-middle income | ~9\nLegislation | Upper-middle income | ~82\nBest practice | Upper-middle income | ~25\nLegislation | High-income | ~83\nBest practice | High-income | ~52"
+  },
+  {
+   "type": "chart",
+   "label": "Figure 31",
+   "title": "National legislation on distracted driving due to mobile phone use, or drug use, by region and country-income level, 2018",
+   "location": "lower half of page",
+   "content": "Bar chart; y-axis: Percentage of Member States; x-axis groups: WHO regions, World Bank income groups; legend entries: Drug use, Mobile phone use.\nDrug use | African Region | ~73\nMobile phone use | African Region | ~83\nDrug use | Region of the Americas | 100\nMobile phone use | Region of the Americas | ~77\nDrug use | Eastern Mediterranean Region | ~94\nMobile phone use | Eastern Mediterranean Region | ~89\nDrug use | European Region | ~98\nMobile phone use | European Region | 100\nDrug use | South-East Asia Region | ~90\nMobile phone use | South-East Asia Region | ~80\nDrug use | Western Pacific Region | ~86\nMobile phone use | Western Pacific Region | ~71\nDrug use | Global | ~89\nMobile phone use | Global | ~86\nDrug use | Low-income | 100\nMobile phone use | Low-income | ~98\nDrug use | Lower-middle income | ~70\nMobile phone use | Lower-middle income | ~70\nDrug use | Upper-middle income | ~88\nMobile phone use | Upper-middle income | ~79\nDrug use | High-income | ~89\nMobile phone use | High-income | ~86"
+  }
+ ]
+}

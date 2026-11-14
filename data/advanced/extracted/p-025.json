@@ -1,0 +1,35 @@
+{
+ "page": 25,
+ "model": "gpt-5.4-2026-03-05",
+ "usage": {
+  "prompt_tokens": 2515,
+  "completion_tokens": 1529,
+  "total_tokens": 4044,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  }
+ },
+ "elements": [
+  {
+   "type": "chart",
+   "label": "FIGURE 3",
+   "title": "Prevalence of school children aged 11–17 years not meeting WHO physical activity guidelines, by WHO region, 2010 and 2016",
+   "location": "top half of page",
+   "content": "Bar chart; y-axis: Prevalence (%); x-axis: WHO regions. Legend: Girls, 2010; Girls, 2016; Boys, 2010; Boys, 2016.\nGirls, 2010 | African Region | ~88\nGirls, 2016 | African Region | ~88\nBoys, 2010 | African Region | ~82\nBoys, 2016 | African Region | ~81\nGirls, 2010 | Region of the Americas | ~86\nGirls, 2016 | Region of the Americas | ~86\nBoys, 2010 | Region of the Americas | ~76\nBoys, 2016 | Region of the Americas | ~75\nGirls, 2010 | Eastern Mediterranean Region | ~89\nGirls, 2016 | Eastern Mediterranean Region | ~89\nBoys, 2010 | Eastern Mediterranean Region | ~83\nBoys, 2016 | Eastern Mediterranean Region | ~84\nGirls, 2010 | European Region | ~86\nGirls, 2016 | European Region | ~86\nBoys, 2010 | European Region | ~77\nBoys, 2016 | European Region | ~77\nGirls, 2010 | South-East Asia Region | ~78\nGirls, 2016 | South-East Asia Region | ~77\nBoys, 2010 | South-East Asia Region | ~75\nBoys, 2016 | South-East Asia Region | ~73\nGirls, 2010 | Western Pacific Region | ~89\nGirls, 2016 | Western Pacific Region | ~89\nBoys, 2010 | Western Pacific Region | ~81\nBoys, 2016 | Western Pacific Region | ~81"
+  },
+  {
+   "type": "chart",
+   "label": "FIGURE 4",
+   "title": "Two scenarios for future global physical activity trends – business as usual or accelerated action to achieve the global target for adults by 2030",
+   "location": "bottom half of page",
+   "content": "Line chart; y-axis: Prevalence (%); x-axis: years 2010 to 2030. Legend: Female; Male; Business as usual, Female; Business as usual, Male; Accelerated action, Female; Accelerated action, Male.\nFemale | 2010 | ~31.5\nFemale | 2011 | ~31.4\nFemale | 2012 | ~31.2\nFemale | 2013 | ~31.1\nFemale | 2014 | ~31.1\nFemale | 2015 | ~31.2\nFemale | 2016 | ~31.5\nMale | 2010 | ~25.5\nMale | 2011 | ~25.0\nMale | 2012 | ~24.6\nMale | 2013 | ~24.3\nMale | 2014 | ~24.0\nMale | 2015 | ~23.7\nMale | 2016 | ~23.4\nBusiness as usual, Female | 2017 | ~31.5\nBusiness as usual, Female | 2018 | ~31.5\nBusiness as usual, Female | 2019 | ~31.5\nBusiness as usual, Female | 2020 | ~31.5\nBusiness as usual, Female | 2021 | ~31.5\nBusiness as usual, Female | 2022 | ~31.5\nBusiness as usual, Female | 2023 | ~31.5\nBusiness as usual, Female | 2024 | ~31.5\nBusiness as usual, Female | 2025 | ~31.5\nBusiness as usual, Female | 2026 | ~31.5\nBusiness as usual, Female | 2027 | ~31.5\nBusiness as usual, Female | 2028 | ~31.5\nBusiness as usual, Female | 2029 | ~31.5\nBusiness as usual, Female | 2030 | ~31.5\nAccelerated action, Female | 2017 | ~31.3\nAccelerated action, Female | 2018 | ~31.0\nAccelerated action, Female | 2019 | ~30.6\nAccelerated action, Female | 2020 | ~30.3\nAccelerated action, Female | 2021 | ~30.1\nAccelerated action, Female | 2022 | ~29.8\nAccelerated action, Female | 2023 | ~29.4\nAccelerated action, Female | 2024 | ~29.1\nAccelerated action, Female | 2025 | ~28.8\nAccelerated action, Female | 2026 | ~28.5\nAccelerated action, Female | 2027 | ~28.2\nAccelerated action, Female | 2028 | ~27.9\nAccelerated action, Female | 2029 | ~27.6\nAccelerated action, Female | 2030 | ~27.2\nBusiness as usual, Male | 2017 | ~23.3\nBusiness as usual, Male | 2018 | ~23.1\nBusiness as usual, Male | 2019 | ~22.9\nBusiness as usual, Male | 2020 | ~22.7\nBusiness as usual, Male | 2021 | ~22.5\nBusiness as usual, Male | 2022 | ~22.3\nBusiness as usual, Male | 2023 | ~22.1\nBusiness as usual, Male | 2024 | ~21.9\nBusiness as usual, Male | 2025 | ~21.8\nBusiness as usual, Male | 2026 | ~21.6\nBusiness as usual, Male | 2027 | ~21.5\nBusiness as usual, Male | 2028 | ~21.4\nBusiness as usual, Male | 2029 | ~21.3\nBusiness as usual, Male | 2030 | ~21.2\nAccelerated action, Male | 2017 | ~23.2\nAccelerated action, Male | 2018 | ~23.0\nAccelerated action, Male | 2019 | ~22.7\nAccelerated action, Male | 2020 | ~22.4\nAccelerated action, Male | 2021 | ~22.1\nAccelerated action, Male | 2022 | ~21.8\nAccelerated action, Male | 2023 | ~21.5\nAccelerated action, Male | 2024 | ~21.2\nAccelerated action, Male | 2025 | ~20.9\nAccelerated action, Male | 2026 | ~20.7\nAccelerated action, Male | 2027 | ~20.4\nAccelerated action, Male | 2028 | ~20.1\nAccelerated action, Male | 2029 | ~19.9\nAccelerated action, Male | 2030 | ~19.6"
+  }
+ ]
+}

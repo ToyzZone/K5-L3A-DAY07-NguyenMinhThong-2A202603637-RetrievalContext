@@ -1,0 +1,28 @@
+{
+ "page": 61,
+ "model": "gpt-5.4-2026-03-05",
+ "usage": {
+  "prompt_tokens": 2515,
+  "completion_tokens": 416,
+  "total_tokens": 2931,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  }
+ },
+ "elements": [
+  {
+   "type": "chart",
+   "label": "FIGURE 20",
+   "title": "National physical activity communication campaigns, by region and country-income level, 2017, 2019 and 2021",
+   "location": "upper half of page, centered",
+   "content": "Bar chart; y-axis: Percentage of Member States; x-axis groups: WHO regions, World Bank income groups. Legend: 2017; 2019; 2021.\n2017 | African Region | ~26\n2019 | African Region | ~23\n2021 | African Region | ~11\n2017 | Region of the Americas | ~57\n2019 | Region of the Americas | ~82\n2021 | Region of the Americas | ~51\n2017 | Eastern Mediterranean Region | ~57\n2019 | Eastern Mediterranean Region | ~52\n2021 | Eastern Mediterranean Region | ~43\n2017 | European Region | ~72\n2019 | European Region | ~94\n2021 | European Region | ~98\n2017 | South-East Asia Region | ~55\n2019 | South-East Asia Region | ~55\n2021 | South-East Asia Region | ~55\n2017 | Western Pacific Region | ~46\n2019 | Western Pacific Region | ~63\n2021 | Western Pacific Region | ~40\n2017 | Global | ~52\n2019 | Global | ~64\n2021 | Global | ~52\n2017 | Low-income | ~10\n2019 | Low-income | ~23\n2021 | Low-income | ~16\n2017 | Lower-middle income | ~40\n2019 | Lower-middle income | ~40\n2021 | Lower-middle income | ~29\n2017 | Upper-middle income | ~55\n2019 | Upper-middle income | ~78\n2021 | Upper-middle income | ~62\n2017 | High-income | ~82\n2019 | High-income | ~93\n2021 | High-income | ~82"
+  }
+ ]
+}

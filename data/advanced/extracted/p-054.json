@@ -1,0 +1,28 @@
+{
+ "page": 54,
+ "model": "gpt-5.4-2026-03-05",
+ "usage": {
+  "prompt_tokens": 2515,
+  "completion_tokens": 302,
+  "total_tokens": 2817,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  }
+ },
+ "elements": [
+  {
+   "type": "chart",
+   "label": "Figure 19",
+   "title": "National coordination mechanism, by region, globally, and country-income level, 2019 and 2021",
+   "location": "upper half of page",
+   "content": "Bar chart; y-axis: Percentage of Member States; x-axis groups: WHO regions, Global, World Bank income groups; legend: 2019, 2021.\n2019 | African Region | ~18\n2021 | African Region | ~22\n2019 | Region of the Americas | ~48\n2021 | Region of the Americas | ~36\n2019 | Eastern Mediterranean Region | ~51\n2021 | Eastern Mediterranean Region | ~56\n2019 | European Region | ~56\n2021 | European Region | ~54\n2019 | South-East Asia Region | ~90\n2021 | South-East Asia Region | ~72\n2019 | Western Pacific Region | ~43\n2021 | Western Pacific Region | ~58\n2019 | Global | ~45\n2021 | Global | ~45\n2019 | Low-income | ~28\n2021 | Low-income | ~18\n2019 | Lower-middle-income | ~32\n2021 | Lower-middle-income | ~45\n2019 | Upper-middle-income | ~52\n2021 | Upper-middle-income | ~52\n2019 | High-income | ~57\n2021 | High-income | ~52"
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "page": 75,
+ "model": "gpt-5.4-2026-03-05",
+ "usage": {
+  "prompt_tokens": 2515,
+  "completion_tokens": 205,
+  "total_tokens": 2720,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  }
+ },
+ "elements": [
+  {
+   "type": "chart",
+   "label": "FIGURE 27",
+   "title": "Percentage of countries requiring road-safety assessments on existing road networks, by region and country-income level, 2018",
+   "location": "bottom half of page",
+   "content": "Bar chart; y-axis title: Percentage of Member States; y-axis scale: 0, 20, 40, 60, 80, 100; x-axis groups: WHO regions, World Bank income groups.\nseries | category | value\n? | African Region | ~50\n? | Region of the Americas | ~37\n? | Eastern Mediterranean Region | ~61\n? | European Region | ~84\n? | South-East Asia Region | ~80\n? | Western Pacific Region | ~81\n? | Global | ~64\n? | Low-income | ~48\n? | Lower-middle income | ~63\n? | Upper-middle income | ~56\n? | High-income | ~84"
+  }
+ ]
+}

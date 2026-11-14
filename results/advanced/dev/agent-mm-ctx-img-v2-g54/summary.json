@@ -1,0 +1,77 @@
+{
+ "config": "mm-ctx-img-v2-g54",
+ "index": "GSRC",
+ "method": "hybrid_bm25",
+ "top_k": 4,
+ "budget": 8000,
+ "max_searches": 4,
+ "images": true,
+ "search_rules": true,
+ "model": "gpt-5.4-2026-03-05",
+ "original_first": false,
+ "split": "dev",
+ "questions": 18,
+ "errors": [],
+ "status": {
+  "abstain": 4,
+  "answered": 14
+ },
+ "by_group": {
+  "chart": {
+   "n": 3,
+   "status": {
+    "answered": 3
+   },
+   "context_evidence": 3
+  },
+  "image": {
+   "n": 3,
+   "status": {
+    "answered": 3
+   },
+   "context_evidence": 3
+  },
+  "multihop": {
+   "n": 3,
+   "status": {
+    "answered": 3
+   },
+   "context_evidence": 2
+  },
+  "table": {
+   "n": 3,
+   "status": {
+    "abstain": 1,
+    "answered": 2
+   },
+   "context_evidence": 3
+  },
+  "text": {
+   "n": 3,
+   "status": {
+    "answered": 3
+   },
+   "context_evidence": 3
+  },
+  "unanswerable": {
+   "n": 3,
+   "status": {
+    "abstain": 3
+   },
+   "context_evidence": 0
+  }
+ },
+ "searches_distribution": {
+  "1": 13,
+  "2": 2,
+  "3": 1,
+  "4": 2
+ },
+ "llm_calls": 46,
+ "images_sent": 46,
+ "prompt_tokens": 124407,
+ "completion_tokens": 3043,
+ "cost_usd": 0.3567,
+ "median_seconds": 4.66,
+ "total_seconds": 92.0
+}

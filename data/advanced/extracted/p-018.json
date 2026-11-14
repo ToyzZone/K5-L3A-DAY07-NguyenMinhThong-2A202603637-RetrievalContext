@@ -1,0 +1,28 @@
+{
+ "page": 18,
+ "model": "gpt-5.4-2026-03-05",
+ "usage": {
+  "prompt_tokens": 2515,
+  "completion_tokens": 140,
+  "total_tokens": 2655,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  }
+ },
+ "elements": [
+  {
+   "type": "infographic",
+   "label": "FIGURE 1",
+   "title": "Summary of recommended levels of physical activity",
+   "location": "bottom half of page",
+   "content": "EVERY MOVE COUNTS\nBeing active has significant health benefits for hearts, bodies and minds, whether you're walking, wheeling or cycling, dancing, doing sport or playing with your kids.\n\nLIMIT\nsedentary time\n\nREPLACE\nwith some physical activity\n\nANY\nIS BETTER\nTHAN NONE\n\n150\nminutes\nPER WEEK\n\nPREGNANT &\nPOSTPARTUM\nWOMEN\n\nSource: (2)"
+  }
+ ]
+}

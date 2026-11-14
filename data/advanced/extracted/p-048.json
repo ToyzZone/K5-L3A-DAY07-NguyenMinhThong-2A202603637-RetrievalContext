@@ -1,0 +1,28 @@
+{
+ "page": 48,
+ "model": "gpt-5.4-2026-03-05",
+ "usage": {
+  "prompt_tokens": 2515,
+  "completion_tokens": 276,
+  "total_tokens": 2791,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  }
+ },
+ "elements": [
+  {
+   "type": "box",
+   "label": null,
+   "title": "In 2021:",
+   "location": "middle of page, below a blue horizontal rule, spanning two columns",
+   "content": "In 2021:\n\n• Around two thirds of countries (n=126, 65%) report having time-bound national targets for NCDs based on the nine voluntary global targets from the NCD Global Monitoring Framework (https://www.who.int/publications/i/item/ncd-surveillance-global-monitoring-framework).\n\n• Just over half of countries (n=102, 55%) have a specific national target for physical activity.\n\n• A reported 91% of countries (10 out of 11) in the South-East Asia Region have a target on physical activity, compared to 67% in the Western Pacific Region. Approximately half of countries in the African Region (51%) have a target, with the figure standing at 54% of countries in the Region of the Americas, 52% in countries in the Eastern Mediterranean Region, and only 38% of countries in the European Region.\n\n• Physical activity targets are more frequently reported by lower- and upper-middle-income countries (63% and 60% respectively), compared to high- and low-income countries (39% and 48% respectively)."
+  }
+ ]
+}

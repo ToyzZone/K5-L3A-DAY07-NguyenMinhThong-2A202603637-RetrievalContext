@@ -1,0 +1,28 @@
+{
+ "page": 92,
+ "model": "gpt-5.4-2026-03-05",
+ "usage": {
+  "prompt_tokens": 2515,
+  "completion_tokens": 765,
+  "total_tokens": 3280,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  }
+ },
+ "elements": [
+  {
+   "type": "chart",
+   "label": "FIGURE 35",
+   "title": "Implementation of national policies promoting physical activity across key settings, by region and country-income level, 2021",
+   "location": "center of page",
+   "content": "Horizontal grouped bar chart; x-axis: Percentage of Member States (0 to 100); y-axis groups: WHO regions, World Bank income groups. Legend entries: Community-based; Public open spaces; Walking and cycling; Active ageing; Workplace; Childcare.\nCommunity-based | African Region | ~11\nPublic open spaces | African Region | ~8\nWalking and cycling | African Region | ~5\nActive ageing | African Region | ~6\nWorkplace | African Region | ~6\nChildcare | African Region | ~4\nCommunity-based | Region of the Americas | ~54\nPublic open spaces | Region of the Americas | ~47\nWalking and cycling | Region of the Americas | ~45\nActive ageing | Region of the Americas | ~37\nWorkplace | Region of the Americas | ~36\nChildcare | Region of the Americas | ~31\nCommunity-based | Eastern Mediterranean Region | ~48\nPublic open spaces | Eastern Mediterranean Region | ~42\nWalking and cycling | Eastern Mediterranean Region | ~43\nActive ageing | Eastern Mediterranean Region | ~38\nWorkplace | Eastern Mediterranean Region | ~33\nChildcare | Eastern Mediterranean Region | ~29\nCommunity-based | European Region | ~75\nPublic open spaces | European Region | ~73\nWalking and cycling | European Region | ~72\nActive ageing | European Region | ~77\nWorkplace | European Region | ~60\nChildcare | European Region | ~60\nCommunity-based | South-East Asia Region | ~36\nPublic open spaces | South-East Asia Region | ~44\nWalking and cycling | South-East Asia Region | ~27\nActive ageing | South-East Asia Region | ~27\nWorkplace | South-East Asia Region | ~27\nChildcare | South-East Asia Region | ~27\nCommunity-based | Western Pacific Region | ~48\nPublic open spaces | Western Pacific Region | ~37\nWalking and cycling | Western Pacific Region | ~41\nActive ageing | Western Pacific Region | ~33\nWorkplace | Western Pacific Region | ~44\nChildcare | Western Pacific Region | ~19\nCommunity-based | Global | ~47\nPublic open spaces | Global | ~42\nWalking and cycling | Global | ~40\nActive ageing | Global | ~40\nWorkplace | Global | ~36\nChildcare | Global | ~30\nCommunity-based | Low-income | ~10\nPublic open spaces | Low-income | ~10\nWalking and cycling | Low-income | ~3\nActive ageing | Low-income | ~3\nWorkplace | Low-income | ~6\nChildcare | Low-income | ~4\nCommunity-based | Lower-middle-income | ~33\nPublic open spaces | Lower-middle-income | ~30\nWalking and cycling | Lower-middle-income | ~28\nActive ageing | Lower-middle-income | ~22\nWorkplace | Lower-middle-income | ~26\nChildcare | Lower-middle-income | ~26\nCommunity-based | Upper-middle-income | ~53\nPublic open spaces | Upper-middle-income | ~50\nWalking and cycling | Upper-middle-income | ~42\nActive ageing | Upper-middle-income | ~40\nWorkplace | Upper-middle-income | ~40\nChildcare | Upper-middle-income | ~33\nCommunity-based | High-income | ~72\nPublic open spaces | High-income | ~60\nWalking and cycling | High-income | ~66\nActive ageing | High-income | ~74\nWorkplace | High-income | ~53\nChildcare | High-income | ~49"
+  }
+ ]
+}

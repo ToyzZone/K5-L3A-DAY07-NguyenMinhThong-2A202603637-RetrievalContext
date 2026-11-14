@@ -1,0 +1,28 @@
+{
+ "page": 53,
+ "model": "gpt-5.4-2026-03-05",
+ "usage": {
+  "prompt_tokens": 2515,
+  "completion_tokens": 170,
+  "total_tokens": 2685,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  }
+ },
+ "elements": [
+  {
+   "type": "box",
+   "label": null,
+   "title": "In 2021:",
+   "location": "lower middle of page, below a horizontal blue rule",
+   "content": "In 2021:\n\n• Just under half of countries (n=89, 46%) report an operational National NCD Coordination mechanism – this is unchanged since 2019.\n\n• More countries in the South-East Asia Region report having national NCD coordinating mechanisms (73% in 2019 and 91% in 2021), while less than a quarter of countries in the African Region report these mechanisms (23%) (see Fig. 19).\n\n• Fewer low-income countries report having a national NCD coordinating mechanism (19%) than middle-income and high-income countries (47–55%)."
+  }
+ ]
+}

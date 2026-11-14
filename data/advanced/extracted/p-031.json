@@ -1,0 +1,28 @@
+{
+ "page": 31,
+ "model": "gpt-5.4-2026-03-05",
+ "usage": {
+  "prompt_tokens": 2515,
+  "completion_tokens": 193,
+  "total_tokens": 2708,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  }
+ },
+ "elements": [
+  {
+   "type": "infographic",
+   "label": "Figure 7",
+   "title": "GAPPA policy recommendations as a systems approach to increasing physical activity",
+   "location": "full page, cropped view of the right-hand side and center",
+   "content": "15%\nRELATIVE REDUCTION IN PHYSICAL INACTIVITY\n\nCREATE ACTIVE SYSTEMS\n4.1 Strengthen policy, leadership and governance\n4.2 Improve and integrate data systems\n4.3 Build research and development\n4.4 Expand advocacy\n4.5 Develop innovative finance mechanisms\n\nCREATE ACTIVE PEOPLE\n3.1 Enhance physical education and school based programs\n3.2 Incorporate physical activity into health and social services\n3.3 Provide programs across multiple settings\n3.4 Improve provision for older adults\n3.5 Prioritize programmes for the least active\n3.6 Implement community-wide initiatives\n\n1.1 Implement social marketing campaigns"
+  }
+ ]
+}

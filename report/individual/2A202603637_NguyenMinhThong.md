@@ -101,19 +101,76 @@ Nhãn tay chỉ cần cho các cấu hình hòa ở tiêu chí 1 (dev) và cho t
 
 ## Thử thách nâng cao (nếu thực hiện)
 
-- Tài liệu, nguồn, quyền sử dụng, số trang và phiên bản:
-- Cách xử lý text, bảng, ảnh, biểu đồ; phạm vi index và phần chưa xử lý:
-- Cách chia benchmark, schema evidence, model và cấu hình đã chốt trên dev:
+**Kết quả: test 29/30 (96,7%) ≥ 90%.** Nhãn pass/fail từng câu đối chiếu với ảnh trang gốc, nằm trong `results/advanced/test/agent-mm-ctx-img-v2-g54-k6/reviews.json` và `score.json`.
 
-| Nhóm test | Đạt / tổng | Tỷ lệ | Lỗi / nhận xét |
-|---|---|---|---|
-| Bảng | | | |
-| Ảnh, sơ đồ | | | |
-| Biểu đồ | | | |
-| Multi-hop | | | |
-| Text | | | |
-| Thiếu bằng chứng | | | |
-| **Toàn bộ** | | | |
+### Tài liệu và trích xuất
 
-- Trace, nhãn và evidence từng câu; thời gian, chi phí, lỗi hệ thống:
-- Giới hạn, cách tái lập và đường dẫn benchmark:
+- WHO, *Global status report on physical activity 2022*: 132 trang PDF, CC BY-NC-SA 3.0 IGO. Nguồn, SHA-256 và lệnh tải lại ghi trong `data/advanced/README.md`; PDF và ảnh trang không commit.
+- Nội dung trực quan được index: 33 biểu đồ, 8 bảng (Table 1, Table 2, các bảng phụ lục), 45 infographic, 25 box, 4 sơ đồ. 4 ảnh chụp trang trí bị bỏ.
+- **Text:** text layer (`pdftotext`), chia đoạn như index B của Day 6.
+- **Visual:** `gpt-5.4` đọc ảnh từng trang (110 dpi) kèm hai dải lề xoay 90°, để đọc được nhãn "FIGURE N" in dọc. Mỗi phần tử thành một chunk; bảng dài tách theo hàng và lặp lại tiêu đề. Chi phí $1,23.
+- **Kiểm chứng trích xuất** (so với ảnh gốc), qua 3 phiên bản:
+  - v1 (mini, gửi kèm text): bịa biểu đồ từ câu "see Fig. 5".
+  - v2 (mini, chỉ ảnh): đọc sai nhãn in dọc.
+  - v3 (bản dùng): đủ Fig. 1–36, mỗi hình đúng một trang. Sửa tay một nhãn bịa ở p30.
+
+### Benchmark (`data/advanced/questions.json`, chia dev/test trước mọi thí nghiệm)
+
+| Split | table | image | chart | multihop | text | unanswerable | Tổng |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| test | 6 | 5 | 5 | 4 | 4 | 6 | 30 |
+| dev | 3 | 3 | 3 | 3 | 3 | 3 | 18 |
+
+- **Câu có đáp án:** evidence gồm trang vật lý, trang in, phần tử (Fig./Table/Box), vị trí và giá trị. Câu multihop có ≥ 2 evidence.
+- **Câu không có đáp án:** có regex kiểm tra trên cả 132 trang. `advanced.py verify` xác nhận regex chỉ khớp ở những trang đã giải thích lý do.
+
+### Thử nghiệm trên dev và lựa chọn
+
+Mọi cấu hình dùng hybrid RRF dense+BM25 (phương pháp đã chọn ở Day 7) và tối đa 4 lần search.
+
+Tiêu chí, chốt trước khi chạy test:
+1. Số câu dev đạt. Đạt = đúng mọi ý của đáp án và không có ý sai; từ chối ở câu không có đáp án cũng tính là đạt.
+2. Nếu hòa: context evidence, tức mọi trang evidence đều có trong context cuối.
+3. Nếu vẫn hòa: chi phí thấp hơn.
+
+Nhãn dev do Claude chấm theo `expected_answer`, chỉ dùng để chọn cấu hình (`results/advanced/dev/selection.json`).
+
+| Cấu hình | Thay đổi so với dòng trên | Dev đạt | Context evidence | Chi phí | Median |
+|---|---|---:|---:|---:|---:|
+| text-only | index GSRT: chỉ text layer, mini | 10/18 | 12/15 | $0,067 | 3,3 s |
+| mm | + chunk visual (GSR) | 14/18 | 11/15 | $0,052 | 2,1 s |
+| mm-img | + gửi ảnh trang của chunk visual | 14/18 | 11/15 | $0,080 | 2,4 s |
+| mm-ctx | GSR + nhãn nối trang (GSRC), không ảnh | 15/18 | 14/15 | $0,055 | 3,1 s |
+| mm-ctx-img | GSRC + ảnh | 16/18 | 13/15 | $0,097 | 2,7 s |
+| mm-ctx-img-v2 | + quy tắc search trong prompt | 15/18 | 15/15 | $0,098 | 3,2 s |
+| mm-ctx-img-v2-g54 | + model `gpt-5.4` | 16/18 | 14/15 | $0,357 | 4,7 s |
+| **mm-ctx-img-v2-g54-k6** | + top_k 6, budget 12000 | **18/18** | **15/15** | $0,404 | 4,3 s |
+
+Mỗi bước sửa một nhóm lỗi tìm thấy khi đọc trace dev:
+
+- **Visual chunk (mm):** chart, bảng và sơ đồ không có trong text layer nên text-only sai cả 3 câu chart.
+- **GSRC (`add_context`):** Table 2 kéo dài p34–36 và Fig. 8 kéo dài p32–33, nhưng nhãn chỉ in ở trang đầu. Vì vậy phần nối trang được kế thừa nhãn ("TABLE 2 (continued …)"). Bảng không có nhãn (Annex 2, p128) được thêm chữ đầu trang làm tiêu đề.
+- **v2:** model gửi lại đúng một query 4 lần (a-d10), hoặc kết luận "không có" sau khi chỉ thấy một phần bảng (a-d02). Prompt thêm hai quy tắc: không lặp query, và tìm đủ các phần của bảng trước khi kết luận.
+- **g54:** mini đếm sai ("10 … 4.5, and 4.5") và tự sửa giữa câu trả lời, trong khi bằng chứng đã nằm trong context.
+- **k6:** Table 2 có 6 chunk, nên câu hỏi về cả bảng cần top_k 6.
+
+Chọn **mm-ctx-img-v2-g54-k6**. Lưu ý: dev đã dùng cho 5 vòng phân tích lỗi và đạt 18/18, tức đã bão hòa. Cùng một cấu hình chạy lại cũng lệch 1–2 câu, nên chỉ test là ước lượng không thiên lệch.
+
+### Kết quả test (chạy 1 lần, cấu hình đã khóa)
+
+| Nhóm | table | image | chart | multihop | text | unanswerable | Tổng |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| Đạt | 6/6 | 4/5 | 5/5 | 4/4 | 4/4 | 6/6 | **29/30** |
+| Context evidence | 5/6 | 5/5 | 5/5 | 4/4 | 4/4 | – | 23/24 |
+
+- **Chi phí và tốc độ:** $0,71 cho 30 câu (77 lần gọi `gpt-5.4`, 93 ảnh trang), median 4,2 s/câu. 22/30 câu chỉ cần 1 lần search.
+- **Câu trượt, a-t09:** model trả lời "OLDER ADULTS", nhưng ảnh trang 19 ghi "EVERYONE WHO CAN" dưới panel "More is better". Gốc lỗi là bản trích xuất p19 xếp nhãn nhóm lệch một cột. Ảnh trang có được gửi kèm, nhưng model vẫn theo bản trích xuất. Lỗi này chỉ lộ ra ở test; mình không sửa rồi chạy lại để giữ test sạch.
+- **Câu đạt nhưng ghi chú, a-t06:** Table 1 không có trong context. Số liệu (46%, 30%, chênh 16, cả hai tăng) đều đúng theo Table 1, nhưng ý "all age groups tăng" chỉ dựa trên một câu chung ở p47.
+- **Câu đạt nhưng ghi chú, a-t28:** câu không có đáp án. Model từ chối đúng và dẫn trang 112 ("unable to present any data on … budget allocations"). Starter vẫn tính là `answered` vì câu trả lời có citation, cùng hiện tượng với q29 ở phần cơ bản.
+
+### Giới hạn
+
+- **Lỗi trích xuất còn sót:** chỉ kiểm tra được những trang có câu hỏi. Lỗi ở p19 cho thấy các trang chưa được hỏi có thể còn lỗi tương tự.
+- **Giá trị đọc từ trục biểu đồ** mang dấu `~`, nên câu hỏi chỉ hỏi cao nhất, thấp nhất hoặc so sánh, không hỏi giá trị chính xác.
+- **Nhãn:** Claude soạn nháp, người học duyệt từng câu dựa trên ảnh trang. Như phần cơ bản, nhãn không độc lập hoàn toàn với AI.
+- **Mẫu nhỏ:** test chỉ có 30 câu, nên 1 câu tương đương 3,3 điểm %. Chi phí trả lời bằng `gpt-5.4` gấp khoảng 4 lần mini.

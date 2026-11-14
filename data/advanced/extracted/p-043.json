@@ -1,0 +1,28 @@
+{
+ "page": 43,
+ "model": "gpt-5.4-2026-03-05",
+ "usage": {
+  "prompt_tokens": 2515,
+  "completion_tokens": 422,
+  "total_tokens": 2937,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  }
+ },
+ "elements": [
+  {
+   "type": "chart",
+   "label": "FIGURE 10",
+   "title": "Countries with an operational, national NCD policy including physical activity, by region and country-income level, 2017, 2019 and 2021",
+   "location": "upper half of page",
+   "content": "Bar chart; y-axis: Percentage of Member States; x-axis groups: WHO regions, World Bank income groups; legend entries: 2017, 2019, 2021.\n2017 | African Region | ~54\n2019 | African Region | ~50\n2021 | African Region | ~56\n2017 | Region of the Americas | ~70\n2019 | Region of the Americas | ~65\n2021 | Region of the Americas | ~50\n2017 | Eastern Mediterranean Region | ~56\n2019 | Eastern Mediterranean Region | ~66\n2021 | Eastern Mediterranean Region | ~56\n2017 | European Region | ~79\n2019 | European Region | ~82\n2021 | European Region | ~76\n2017 | South-East Asia Region | ~81\n2019 | South-East Asia Region | ~99\n2021 | South-East Asia Region | ~90\n2017 | Western Pacific Region | ~77\n2019 | Western Pacific Region | ~88\n2021 | Western Pacific Region | ~80\n2017 | Global | ~70\n2019 | Global | ~71\n2021 | Global | ~66\n2017 | Low-income | ~60\n2019 | Low-income | ~51\n2021 | Low-income | ~64\n2017 | Lower-middle income | ~56\n2019 | Lower-middle income | ~70\n2021 | Lower-middle income | ~58\n2017 | Upper-middle income | ~72\n2019 | Upper-middle income | ~74\n2021 | Upper-middle income | ~66\n2017 | High-income | ~81\n2019 | High-income | ~81\n2021 | High-income | ~74"
+  }
+ ]
+}

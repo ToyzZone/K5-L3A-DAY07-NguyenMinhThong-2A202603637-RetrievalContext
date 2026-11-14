@@ -1,0 +1,35 @@
+{
+ "page": 132,
+ "model": "gpt-5.4-2026-03-05",
+ "usage": {
+  "prompt_tokens": 2515,
+  "completion_tokens": 107,
+  "total_tokens": 2622,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  }
+ },
+ "elements": [
+  {
+   "type": "box",
+   "label": null,
+   "title": null,
+   "location": "bottom left",
+   "content": "For further information, contact:\n\nDepartment of Health Promotion\nWorld Health Organization\n20 avenue Appia\n1211 Geneva 27\nSwitzerland\nWebsite: https://www.who.int/"
+  },
+  {
+   "type": "infographic",
+   "label": null,
+   "title": null,
+   "location": "bottom right",
+   "content": "Barcode\n9789240059153\n9 789240 059153"
+  }
+ ]
+}

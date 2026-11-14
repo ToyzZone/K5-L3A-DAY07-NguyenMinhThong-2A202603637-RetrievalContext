@@ -1,0 +1,28 @@
+{
+ "page": 73,
+ "model": "gpt-5.4-2026-03-05",
+ "usage": {
+  "prompt_tokens": 2515,
+  "completion_tokens": 284,
+  "total_tokens": 2799,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  }
+ },
+ "elements": [
+  {
+   "type": "box",
+   "label": null,
+   "title": "In 2018:",
+   "location": "middle of page, full width shaded/framed callout box below the introductory text",
+   "content": "In 2018:\n\n• About half of countries (n=92 of 174, 53%) report having national design standards for separating pedestrians and cyclists from motorized traffic (see Fig. 25).\n\n• 76% of countries (n=132 of 174) report having national design standards for the provision of safe crossings for pedestrians and cyclists.\n\n• 64% of countries (n=112 of 174) report having national design standards for the management of speed.\n\n• Less than half of countries (n=70 of 174, 40%) report national design standards that address all three road safety criteria (separating pedestrians and cyclists from motorized traffic; safe crossings for pedestrians and cyclists; and design to manage speed).\n\n• Over three quarters of countries (n=139 of 174, 80%) report having a national strategy for road safety, but of these, only 18% (n=25 of 139) report the strategy to be fully funded; 76% (n=106 of 139) report only partial funding for the strategy (see Fig. 26)."
+  }
+ ]
+}

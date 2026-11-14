@@ -1,0 +1,87 @@
+a-d01 table        abstain  searches=1 ctx=False 3.6s 'Không đủ bằng chứng để trả lời.'
+a-d02 table        answered searches=1 ctx=True 2.36s "Table 2 lists two GAPPA policy actions with 'Partial' data availability: 2.1 “Strengthen i"
+a-d03 table        abstain  searches=4 ctx=False 4.51s 'Không đủ bằng chứng để trả lời.'
+a-d04 image        answered searches=1 ctx=True 2.42s 'The GAPPA area is **Active systems** [who-gsr-2022:p032:diagram:00]. Its box lists: **gove'
+a-d05 image        answered searches=1 ctx=False 2.53s 'According to Fig. 8, the five wider societal impacts of more physical activity are: social'
+a-d06 image        answered searches=1 ctx=True 2.29s "In Fig. 8, the 'Active environments' driver is described as 'supportive environments and f"
+a-d07 chart        answered searches=1 ctx=True 2.18s 'The only WHO region whose share of countries fell between 2017 and 2019 in Fig. 16 is the '
+a-d08 chart        answered searches=1 ctx=True 2.41s 'In the Eastern Mediterranean Region, the share of countries with subnational walking/cycli'
+a-d09 chart        answered searches=1 ctx=True 2.24s 'Public open spaces has the highest share in the South-East Asia Region (~44), higher than '
+a-d10 multihop     answered searches=2 ctx=False 3.78s 'Table 2’s national communication-campaign indicator has three features in 2021 section 5.1'
+a-d11 multihop     answered searches=1 ctx=True 2.5s 'The WHO region is the South-East Asia Region: it shows the same proportion for NCD targets'
+a-d12 multihop     answered searches=1 ctx=True 2.09s 'The report estimated the directly attributable health-care costs of physical inactivity fo'
+a-d13 text         answered searches=1 ctx=True 2.03s 'The COSI initiative in Europe is testing parent (proxy) assessment of physical activity am'
+a-d14 text         answered searches=1 ctx=True 2.25s 'The report says 65 (39%) of the 168 countries assessed had useable trend data on physical '
+a-d15 text         answered searches=1 ctx=True 2.07s 'WHO has developed a situational assessment tool aligned with GAPPA (GAPPA-SAT) to systemat'
+a-d16 unanswerable abstain  searches=4 ctx=None 4.89s 'Không đủ bằng chứng để trả lời.'
+a-d17 unanswerable abstain  searches=4 ctx=None 5.45s 'Không đủ bằng chứng để trả lời.'
+a-d18 unanswerable abstain  searches=4 ctx=None 5.57s 'Không đủ bằng chứng để trả lời.'
+{
+ "config": "mm-img",
+ "original_first": false,
+ "split": "dev",
+ "model": "gpt-5.4-mini-2026-03-17",
+ "questions": 18,
+ "errors": [],
+ "status": {
+  "abstain": 5,
+  "answered": 13
+ },
+ "by_group": {
+  "chart": {
+   "n": 3,
+   "status": {
+    "answered": 3
+   },
+   "context_evidence": 3
+  },
+  "image": {
+   "n": 3,
+   "status": {
+    "answered": 3
+   },
+   "context_evidence": 2
+  },
+  "multihop": {
+   "n": 3,
+   "status": {
+    "answered": 3
+   },
+   "context_evidence": 2
+  },
+  "table": {
+   "n": 3,
+   "status": {
+    "abstain": 2,
+    "answered": 1
+   },
+   "context_evidence": 1
+  },
+  "text": {
+   "n": 3,
+   "status": {
+    "answered": 3
+   },
+   "context_evidence": 3
+  },
+  "unanswerable": {
+   "n": 3,
+   "status": {
+    "abstain": 3
+   },
+   "context_evidence": 0
+  }
+ },
+ "searches_distribution": {
+  "1": 13,
+  "2": 1,
+  "4": 4
+ },
+ "llm_calls": 49,
+ "images_sent": 28,
+ "prompt_tokens": 87671,
+ "completion_tokens": 3074,
+ "cost_usd": 0.0796,
+ "median_seconds": 2.415,
+ "total_seconds": 55.2
+}

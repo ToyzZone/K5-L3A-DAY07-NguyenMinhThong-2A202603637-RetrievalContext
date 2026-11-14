@@ -1,0 +1,29 @@
+{
+ "page": 30,
+ "model": "gpt-5.4-2026-03-05",
+ "usage": {
+  "prompt_tokens": 2515,
+  "completion_tokens": 156,
+  "total_tokens": 2671,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  }
+ },
+ "elements": [
+  {
+   "type": "infographic",
+   "label": null,
+   "title": null,
+   "location": "right half of page, extending off the right edge; with a small note at bottom left of page",
+   "content": "CREATE ACTIVE SOCIETIES\n1.2 Promote the co-benefits\n1.3 Provide mass participation events\n1.4 Build workforce capacity\n\nCREATE ACTIVE ENVIRONMENTS\n2.1 Integrate transport and urban planning policies\n2.2 Improve walking and cycling networks\n2.3 Strengthen road safety\n2.4 Improve access to public open spaces\n2.5 Implement proactive building policies\n\nNumbers shown refer to the recommended policy actions. For full details refer to the main report."
+  }
+ ],
+ "manual_correction": "label FIGURE 14 removed: no figure label is printed on p30 (checked left/right margin strips); Figure 14 is on p47"
+}

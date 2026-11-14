@@ -1,0 +1,182 @@
+[
+  {
+    "query_id": "a-t01",
+    "group": "table",
+    "pass": true,
+    "reason": "Đủ 4 chỉ số giảm, đúng 86/67/72/53% — khớp Table 1 (ảnh trang 13; bản lặp p109)."
+  },
+  {
+    "query_id": "a-t02",
+    "group": "table",
+    "pass": true,
+    "reason": "40% và 37%, đều tăng — khớp Table 1 (ảnh trang 13)."
+  },
+  {
+    "query_id": "a-t03",
+    "group": "table",
+    "pass": true,
+    "reason": "92 − 29 = 63 điểm %, cả hai tăng — khớp Table 1 (ảnh trang 13)."
+  },
+  {
+    "query_id": "a-t04",
+    "group": "table",
+    "pass": true,
+    "reason": "18%, nhóm Poor progress (0–50%) — khớp Table 1 trang 12/108."
+  },
+  {
+    "query_id": "a-t05",
+    "group": "table",
+    "pass": true,
+    "reason": "Đúng 2 chỉ số NA — khớp Table 1 (ảnh trang 13)."
+  },
+  {
+    "query_id": "a-t06",
+    "group": "table",
+    "pass": true,
+    "reason": "46% vs 30%, chênh 16, cả hai tăng — đúng theo Table 1 (ảnh trang 13). Lưu ý: context không có Table 1 (ctx=False); số lấy từ đoạn văn p46–47, ý \"all age groups tăng\" dựa trên câu chung ở p47 — đúng nhưng dẫn chứng yếu."
+  },
+  {
+    "query_id": "a-t07",
+    "group": "image",
+    "pass": true,
+    "reason": "At least 3 days a week — khớp Fig. 1 (ảnh trang 19)."
+  },
+  {
+    "query_id": "a-t08",
+    "group": "image",
+    "pass": true,
+    "reason": "150 phút/tuần — khớp Fig. 1 trang 18."
+  },
+  {
+    "query_id": "a-t09",
+    "group": "image",
+    "pass": false,
+    "reason": "Trả lời \"OLDER ADULTS\"; ảnh trang 19 ghi \"EVERYONE WHO CAN\" dưới panel More is better (300 phút/tuần thì đúng). Gốc lỗi: bản trích xuất p19 xếp nhãn nhóm lệch một cột; có gửi ảnh trang nhưng model vẫn theo bản trích xuất."
+  },
+  {
+    "query_id": "a-t10",
+    "group": "image",
+    "pass": true,
+    "reason": "\"Implement proactive building policies\", hub CREATE ACTIVE ENVIRONMENTS — khớp Fig. 7 trang 30."
+  },
+  {
+    "query_id": "a-t11",
+    "group": "image",
+    "pass": true,
+    "reason": "4.5, hub CREATE ACTIVE SYSTEMS — khớp Fig. 7 trang 31."
+  },
+  {
+    "query_id": "a-t12",
+    "group": "chart",
+    "pass": true,
+    "reason": "African Region ~12% — khớp Fig. 2 (ảnh trang 24; thấp nhì là Western Pacific ~15%)."
+  },
+  {
+    "query_id": "a-t13",
+    "group": "chart",
+    "pass": true,
+    "reason": "South-East Asia Region 100% năm 2019 — khớp Fig. 10 (ảnh trang 43, vùng duy nhất chạm 100)."
+  },
+  {
+    "query_id": "a-t14",
+    "group": "chart",
+    "pass": true,
+    "reason": "Lower-middle income, ~53→~36 — khớp Fig. 22 (ảnh trang 64, ~54→37; sai số đọc trục)."
+  },
+  {
+    "query_id": "a-t15",
+    "group": "chart",
+    "pass": true,
+    "reason": "Eastern Mediterranean, safe speed ~61 > safe crossings ~56 — khớp Fig. 25 (ảnh trang 74)."
+  },
+  {
+    "query_id": "a-t16",
+    "group": "chart",
+    "pass": true,
+    "reason": "Region of the Americas ~37% — khớp Fig. 27 (ảnh trang 75)."
+  },
+  {
+    "query_id": "a-t17",
+    "group": "multihop",
+    "pass": true,
+    "reason": "26% (Fig. 5 trang 27), 70% (văn bản trang 9/26), chênh 44 điểm % — đúng."
+  },
+  {
+    "query_id": "a-t18",
+    "group": "multihop",
+    "pass": true,
+    "reason": "African Region (Fig. 33, ảnh trang 86: 100% năm 2021); 33% — khớp Fig. 34 và văn bản trang 85."
+  },
+  {
+    "query_id": "a-t19",
+    "group": "multihop",
+    "pass": true,
+    "reason": "South-East Asia 27→73% (Fig. 36, ảnh trang 95); 73% — khớp văn bản §7.4 trang 94."
+  },
+  {
+    "query_id": "a-t20",
+    "group": "multihop",
+    "pass": true,
+    "reason": "African Region ~2% (Fig. 30, ảnh trang 79); 44% — khớp §6.2 trang 73."
+  },
+  {
+    "query_id": "a-t21",
+    "group": "text",
+    "pass": true,
+    "reason": "10% đến 2025, mốc 2010; 2018 gia hạn 5 năm, 15% đến 2030 — khớp trang 48."
+  },
+  {
+    "query_id": "a-t22",
+    "group": "text",
+    "pass": true,
+    "reason": "0.15%–0.24%/năm đến 2050, US$ 314–446 tỷ/năm (giá 2019) — khớp trang 101."
+  },
+  {
+    "query_id": "a-t23",
+    "group": "text",
+    "pass": true,
+    "reason": "Public open space (SDG 11.7), public transport (SDG 11.2); chỉ một số nước, cấp thành phố — khớp trang 37."
+  },
+  {
+    "query_id": "a-t24",
+    "group": "text",
+    "pass": true,
+    "reason": "≤0.05 g/dl và 0.02 g/dl — khớp Box 2 trang 77."
+  },
+  {
+    "query_id": "a-t25",
+    "group": "unanswerable",
+    "pass": true,
+    "reason": "Từ chối đúng; báo cáo không có số liệu theo quốc gia (regex kiểm tra trên 132 trang)."
+  },
+  {
+    "query_id": "a-t26",
+    "group": "unanswerable",
+    "pass": true,
+    "reason": "Từ chối đúng; hướng dẫn quốc gia chỉ chia theo nhóm tuổi."
+  },
+  {
+    "query_id": "a-t27",
+    "group": "unanswerable",
+    "pass": true,
+    "reason": "Từ chối đúng; báo cáo không có mục tiêu số bước."
+  },
+  {
+    "query_id": "a-t28",
+    "group": "unanswerable",
+    "pass": true,
+    "reason": "Từ chối đúng: nói rõ báo cáo không có số liệu ngân sách, dẫn trang 112 (\"unable to present any data on ... budget allocations\"). Starter tính là \"answered\" vì câu trả lời có citation."
+  },
+  {
+    "query_id": "a-t29",
+    "group": "unanswerable",
+    "pass": true,
+    "reason": "Từ chối đúng; không có tỉ lệ đạt khuyến nghị tăng cơ."
+  },
+  {
+    "query_id": "a-t30",
+    "group": "unanswerable",
+    "pass": true,
+    "reason": "Từ chối đúng; báo cáo không có chỉ số về screen time."
+  }
+]

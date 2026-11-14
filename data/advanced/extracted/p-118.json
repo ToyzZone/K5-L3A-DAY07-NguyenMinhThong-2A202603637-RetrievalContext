@@ -1,0 +1,42 @@
+{
+ "page": 118,
+ "model": "gpt-5.4-2026-03-05",
+ "usage": {
+  "prompt_tokens": 2515,
+  "completion_tokens": 263,
+  "total_tokens": 2778,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  }
+ },
+ "elements": [
+  {
+   "type": "box",
+   "label": null,
+   "title": null,
+   "location": "upper right, beside Recommendation 3 body text",
+   "content": "All countries are recommended to review and, where needed, establish national coordinating mechanisms to strengthen multi-stakeholder collaborations and partnerships, and ensure this is combined with effective engagement at subnational government level and with local communities, including those who are least active."
+  },
+  {
+   "type": "box",
+   "label": null,
+   "title": null,
+   "location": "middle right, beside Recommendation 3 body text",
+   "content": "All countries are recommended to strengthen pre- and in-service training on physical activity relevant to each sector and initiate networks and knowledge transfer nationally and internationally (for example through north-south and south-south collaborations) to help scale knowledge transfer and generate and test innovative solutions across diverse contexts, particularly in low- and middle-income countries."
+  },
+  {
+   "type": "box",
+   "label": null,
+   "title": null,
+   "location": "lower right, beside Recommendation 4 body text",
+   "content": "All countries are encouraged to establish national and subnational (including city-level) monitoring and information systems that can track and collate data across these and other important areas relevant to physical activity, to provide governments and stakeholders at all levels with information that can inform and drive the policy cycle."
+  }
+ ]
+}

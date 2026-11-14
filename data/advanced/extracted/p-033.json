@@ -1,0 +1,28 @@
+{
+ "page": 33,
+ "model": "gpt-5.4-2026-03-05",
+ "usage": {
+  "prompt_tokens": 2515,
+  "completion_tokens": 162,
+  "total_tokens": 2677,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  }
+ },
+ "elements": [
+  {
+   "type": "diagram",
+   "label": null,
+   "title": null,
+   "location": "lower half of page, centered; partial figure with two large teal-outlined boxes and two red-outlined boxes below connected by grey arrows",
+   "content": "BEHAVIOURAL OUTCOMES\n\nMORE PHYSICAL ACTIVITY\n(through walking cycling,\nsport, exercise, recreation and\nactive play)\nBy more people of all ages\nand abilities\n\nSOCIETAL IMPACT\n\nHEALTH\nAND WELL-BEING\n\nSOCIAL DEVELOPMENT\n\nSUSTAINABLE\nENVIRONMENT\n\nECONOMIC GROWTH\n\nREDUCED\nINEQUALITIES\n\nINDICATORS OF OUTCOME\n\nINDICATORS OF IMPACT"
+  }
+ ]
+}

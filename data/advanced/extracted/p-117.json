@@ -1,0 +1,56 @@
+{
+ "page": 117,
+ "model": "gpt-5.4-2026-03-05",
+ "usage": {
+  "prompt_tokens": 2515,
+  "completion_tokens": 320,
+  "total_tokens": 2835,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  }
+ },
+ "elements": [
+  {
+   "type": "box",
+   "label": null,
+   "title": null,
+   "location": "upper right, beside the top body text",
+   "content": "All countries are recommended to invest in building capacity in advocacy for policy action on physical activity and increasing knowledge of the crosscutting contributions of physical activity to national development and to multiple global priorities as set out in the SDGs."
+  },
+  {
+   "type": "box",
+   "label": null,
+   "title": "Recommendation 2. Integrate physical activity into relevant policies and support policy implementation with practical tools and guidance",
+   "location": "middle of page spanning both columns",
+   "content": "Recommendation 2.\nIntegrate physical activity into relevant policies and support policy implementation with practical tools and guidance"
+  },
+  {
+   "type": "box",
+   "label": null,
+   "title": null,
+   "location": "left column, lower middle",
+   "content": "All countries are recommended to review relevant national policies as well as regulations and standards to identify and strengthen the inclusion of physical activity, where relevant, and ensure policy coherence and accountability."
+  },
+  {
+   "type": "box",
+   "label": null,
+   "title": null,
+   "location": "right column, middle",
+   "content": "All countries should strengthen provision of appropriate tools and guidance, combined with workforce training, adapted to local context, to ensure policies to increase physical activity do not remain just an aspiration."
+  },
+  {
+   "type": "box",
+   "label": null,
+   "title": null,
+   "location": "right column, lower middle",
+   "content": "All countries are recommended to invest in strengthening research capacity and knowledge-translation capabilities to build global evidence and local knowledge on how to cost-effectively promote physical activity across the life-course."
+  }
+ ]
+}

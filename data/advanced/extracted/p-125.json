@@ -1,0 +1,28 @@
+{
+ "page": 125,
+ "model": "gpt-5.4-2026-03-05",
+ "usage": {
+  "prompt_tokens": 2515,
+  "completion_tokens": 705,
+  "total_tokens": 3220,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  }
+ },
+ "elements": [
+  {
+   "type": "table",
+   "label": null,
+   "title": null,
+   "location": "center of page, occupying most of the page",
+   "content": "| Term | Definition |\n|---|---|\n| Principles of compact, mixed-land use | A spatial planning and design approach that promotes a higher density of built area and population, with concentration of urban functions. Having a cross section of residential, commercial and community infrastructure in a neighbourhood increases the demand for walking, cycling, and use of public transport. |\n| Productivity losses | Productivity costs are indirect costs that occur when the productivity of individuals is affected by illness, treatment side-effects, disability or premature death. They are usually estimated in terms of lost earnings due to sickness. |\n| Public open space | Open space in the city that can be accessed equitably by city inhabitants, including walkways, sidewalks, bicycle lanes, public parks, squares, recreational green areas, public playgrounds, and open areas of public facilities. |\n| Recreational physical activity | Physical activity performed by an individual that is not required as an essential activity of daily living, and is performed at the discretion of the individual. Such activities include sport participation, exercise or training, or activities such as going for a walk, dancing, and gardening. |\n| Sedentary behaviour | Any waking behaviour characterized by an energy expenditure of 1.5 Metabolic Equivalent of Task or lower while sitting, reclining, or lying. Most desk-based office work, driving a car, and watching television are examples of sedentary behaviours; these can also apply to those unable to stand, such as wheelchair users. |\n| Spatial and urban planning | The methods used by the public sector to influence the distribution of people and activities in spaces of various scales. |\n| Sport | Sport covers a range of activities performed within a set of rules and undertaken as part of leisure or competition. Sporting activities involve physical activity carried out by teams or individuals and may be supported by an institutional framework, such as a sporting agency. |\n| Surveillance | The continuous, systematic collection, analysis and interpretation of health-related data needed for the planning, implementation and evaluation of public health practice. Such surveillance can serve as an early warning system for impending public health emergencies; document the impact of an intervention, or track progress towards specified goals; and monitor and clarify the epidemiology of health problems to allow priorities to be set and inform public health policy and strategies. |\n| Whole-of systems-approach | This involves all stakeholders in the numerous policy opportunities that exist to influence physical activity – policies that can strengthen or weaken each other and which therefore need to be viewed holistically. |\n| Children, adolescents, young people | Children: people aged under 19 years. School-aged children are generally assumed to be aged 5 years or above. Adolescents: aged 10–19 years. Youth: aged 15–24 years. These terms are used in this document to reflect the situation in many countries where young people may be attending secondary school, yet may be older than adolescents (aged 10–19 years). |\n| Universal access | Environments, products and systems to be usable by all people to the greatest extent possible without the need for adaptation or specialized design. |\n| Whole-of-government | The joint activities performed by diverse ministries, public administrations and public agencies in order to provide a common solution or support to particular priorities or issues. |"
+  }
+ ]
+}

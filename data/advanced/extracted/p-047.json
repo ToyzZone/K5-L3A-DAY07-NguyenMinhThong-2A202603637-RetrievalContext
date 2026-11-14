@@ -1,0 +1,28 @@
+{
+ "page": 47,
+ "model": "gpt-5.4-2026-03-05",
+ "usage": {
+  "prompt_tokens": 2515,
+  "completion_tokens": 670,
+  "total_tokens": 3185,
+  "prompt_tokens_details": {
+   "cached_tokens": 2048,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  }
+ },
+ "elements": [
+  {
+   "type": "chart",
+   "label": "Figure 14",
+   "title": "National guidelines on physical activity by age, region, and globally, 2021",
+   "location": "middle of page",
+   "content": "Grouped bar chart; y-axis: Percentage of Member States; x-axis groups: WHO regions, World Bank income groups. Legend entries: Under 5y; 5-19y; Adults; Older adults; All age groups.\nUnder 5y | African Region | ~7\n5-19y | African Region | ~10\nAdults | African Region | ~10\nOlder adults | African Region | ~9\nAll age groups | African Region | ~0\nUnder 5y | Region of the Americas | ~46\n5-19y | Region of the Americas | ~46\nAdults | Region of the Americas | ~46\nOlder adults | Region of the Americas | ~0\nAll age groups | Region of the Americas | ~0\nUnder 5y | Eastern Mediterranean Region | ~24\n5-19y | Eastern Mediterranean Region | ~48\nAdults | Eastern Mediterranean Region | ~24\nOlder adults | Eastern Mediterranean Region | ~0\nAll age groups | Eastern Mediterranean Region | ~0\nUnder 5y | European Region | ~57\n5-19y | European Region | ~71\nAdults | European Region | ~68\nOlder adults | European Region | ~66\nAll age groups | European Region | ~0\nUnder 5y | South-East Asia Region | ~27\n5-19y | South-East Asia Region | ~45\nAdults | South-East Asia Region | ~45\nOlder adults | South-East Asia Region | ~27\nAll age groups | South-East Asia Region | ~0\nUnder 5y | Western Pacific Region | ~19\n5-19y | Western Pacific Region | ~48\nAdults | Western Pacific Region | ~56\nOlder adults | Western Pacific Region | ~41\nAll age groups | Western Pacific Region | ~15\nUnder 5y | Global | ~31\n5-19y | Global | ~44\nAdults | Global | ~43\nOlder adults | Global | ~40\nAll age groups | Global | ~31\nUnder 5y | Low-income | ~2\n5-19y | Low-income | ~2\nAdults | Low-income | ~0\nOlder adults | Low-income | ~0\nAll age groups | Low-income | ~0\nUnder 5y | Lower-middle income | ~17\n5-19y | Lower-middle income | ~26\nAdults | Lower-middle income | ~26\nOlder adults | Lower-middle income | ~17\nAll age groups | Lower-middle income | ~0\nUnder 5y | Upper-middle income | ~37\n5-19y | Upper-middle income | ~47\nAdults | Upper-middle income | ~42\nOlder adults | Upper-middle income | ~0\nAll age groups | Upper-middle income | ~0\nUnder 5y | High-income | ~54\n5-19y | High-income | ~79\nAdults | High-income | ~76\nOlder adults | High-income | ~74\nAll age groups | High-income | ~0"
+  }
+ ]
+}

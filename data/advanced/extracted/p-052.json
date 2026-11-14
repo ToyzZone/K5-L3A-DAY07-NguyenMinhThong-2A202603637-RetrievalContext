@@ -1,0 +1,28 @@
+{
+ "page": 52,
+ "model": "gpt-5.4-2026-03-05",
+ "usage": {
+  "prompt_tokens": 2515,
+  "completion_tokens": 1028,
+  "total_tokens": 3543,
+  "prompt_tokens_details": {
+   "cached_tokens": 2048,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  }
+ },
+ "elements": [
+  {
+   "type": "chart",
+   "label": "Figure 18",
+   "title": "Number of years since last survey of population-level physical activity by region and globally, 2021",
+   "location": "upper half of page",
+   "content": "Grouped bar chart; y-axis title: Number of Member States. x-axis groups: WHO regions; World Bank income groups. Legend entries: Adolescent survey <5y ago; Adolescent survey 5-10y ago; Adolescent survey >10y ago; Adult survey <5y ago; Adult survey 5-10y ago; Adult survey >10y ago.\nAdolescent survey <5y ago | African Region | ~4\nAdolescent survey 5-10y ago | African Region | ~6\nAdolescent survey >10y ago | African Region | ~9\nAdult survey <5y ago | African Region | ~15\nAdult survey 5-10y ago | African Region | ~14\nAdult survey >10y ago | African Region | ~5\nAdolescent survey <5y ago | Region of the Americas | ~12\nAdolescent survey 5-10y ago | Region of the Americas | ~5\nAdolescent survey >10y ago | Region of the Americas | ~13\nAdult survey <5y ago | Region of the Americas | ~10\nAdult survey 5-10y ago | Region of the Americas | ~6\nAdult survey >10y ago | Region of the Americas | ~0\nAdolescent survey <5y ago | Eastern Mediterranean Region | ~1\nAdolescent survey 5-10y ago | Eastern Mediterranean Region | ~11\nAdolescent survey >10y ago | Eastern Mediterranean Region | ~6\nAdult survey <5y ago | Eastern Mediterranean Region | ~11\nAdult survey 5-10y ago | Eastern Mediterranean Region | ~2\nAdult survey >10y ago | Eastern Mediterranean Region | ~1\nAdolescent survey <5y ago | European Region | ~38\nAdolescent survey 5-10y ago | European Region | ~6\nAdolescent survey >10y ago | European Region | ~0\nAdult survey <5y ago | European Region | ~36\nAdult survey 5-10y ago | European Region | ~13\nAdult survey >10y ago | European Region | ~0\nAdolescent survey <5y ago | South-East Asia Region | ~2\nAdolescent survey 5-10y ago | South-East Asia Region | ~8\nAdolescent survey >10y ago | South-East Asia Region | ~0\nAdult survey <5y ago | South-East Asia Region | ~6\nAdult survey 5-10y ago | South-East Asia Region | ~4\nAdult survey >10y ago | South-East Asia Region | ~0\nAdolescent survey <5y ago | Western Pacific Region | ~10\nAdolescent survey 5-10y ago | Western Pacific Region | ~8\nAdolescent survey >10y ago | Western Pacific Region | ~1\nAdult survey <5y ago | Western Pacific Region | ~12\nAdult survey 5-10y ago | Western Pacific Region | ~11\nAdult survey >10y ago | Western Pacific Region | ~1\nAdolescent survey <5y ago | Low-income | ~2\nAdolescent survey 5-10y ago | Low-income | ~6\nAdolescent survey >10y ago | Low-income | ~0\nAdult survey <5y ago | Low-income | ~8\nAdult survey 5-10y ago | Low-income | ~9\nAdult survey >10y ago | Low-income | ~0\nAdolescent survey <5y ago | Lower-middle-income | ~7\nAdolescent survey 5-10y ago | Lower-middle-income | ~13\nAdolescent survey >10y ago | Lower-middle-income | ~7\nAdult survey <5y ago | Lower-middle-income | ~16\nAdult survey 5-10y ago | Lower-middle-income | ~17\nAdult survey >10y ago | Lower-middle-income | ~8\nAdolescent survey <5y ago | Upper-middle-income | ~25\nAdolescent survey 5-10y ago | Upper-middle-income | ~19\nAdolescent survey >10y ago | Upper-middle-income | ~8\nAdult survey <5y ago | Upper-middle-income | ~25\nAdult survey 5-10y ago | Upper-middle-income | ~22\nAdult survey >10y ago | Upper-middle-income | ~5\nAdolescent survey <5y ago | High-income | ~33\nAdolescent survey 5-10y ago | High-income | ~13\nAdolescent survey >10y ago | High-income | ~3\nAdult survey <5y ago | High-income | ~39\nAdult survey 5-10y ago | High-income | ~11\nAdult survey >10y ago | High-income | ~1"
+  }
+ ]
+}

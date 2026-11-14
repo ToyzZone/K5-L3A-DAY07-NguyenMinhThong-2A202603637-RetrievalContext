@@ -1,0 +1,35 @@
+{
+ "page": 22,
+ "model": "gpt-5.4-2026-03-05",
+ "usage": {
+  "prompt_tokens": 2515,
+  "completion_tokens": 102,
+  "total_tokens": 2617,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  }
+ },
+ "elements": [
+  {
+   "type": "infographic",
+   "label": null,
+   "title": null,
+   "location": "top half and center of page",
+   "content": "Abstract line-drawing illustration of multiple moving human figures in green, blue, red and yellow across the top of the page.\n\n2.\nGlobal burden\nof physical\ninactivity"
+  },
+  {
+   "type": "infographic",
+   "label": null,
+   "title": null,
+   "location": "bottom left corner",
+   "content": "Printed page number: 6"
+  }
+ ]
+}

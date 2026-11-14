@@ -1,0 +1,28 @@
+{
+ "page": 38,
+ "model": "gpt-5.4-2026-03-05",
+ "usage": {
+  "prompt_tokens": 2515,
+  "completion_tokens": 55,
+  "total_tokens": 2570,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  }
+ },
+ "elements": [
+  {
+   "type": "infographic",
+   "label": null,
+   "title": "4. Progress towards active systems",
+   "location": "full page, centered lower half with decorative running figures across the top",
+   "content": "4.\nProgress towards active systems"
+  }
+ ]
+}

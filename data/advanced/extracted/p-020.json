@@ -1,0 +1,35 @@
+{
+ "page": 20,
+ "model": "gpt-5.4-2026-03-05",
+ "usage": {
+  "prompt_tokens": 2515,
+  "completion_tokens": 225,
+  "total_tokens": 2740,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  }
+ },
+ "elements": [
+  {
+   "type": "box",
+   "label": "Box 1.",
+   "title": "Defining physical activity",
+   "location": "upper half of page, centered, teal framed box",
+   "content": "Box 1. Defining physical activity\n\nPhysical activity is defined as any bodily movement produced by skeletal muscles that requires energy expenditure (3) and can be done at a variety of intensities, and accumulated through work, domestic chores, transportation or during leisure time, or when participating in sport, walking, cycling, active recreation, and active play.\n\nWhat is physical inactivity?\nPhysical inactivity is defined as doing insufficient physical activity to meet current physical activity recommendations.\n\nWhat is sedentary behaviour?\nSedentary behaviour is defined as any waking behaviour while in a sitting, reclining or lying posture with low energy expenditure (4).\n\nSee the glossary for further information."
+  },
+  {
+   "type": "infographic",
+   "label": null,
+   "title": null,
+   "location": "bottom left of page",
+   "content": "Outline icon of a running person.\n\nPhysical activity provides social, environmental and economic benefits."
+  }
+ ]
+}

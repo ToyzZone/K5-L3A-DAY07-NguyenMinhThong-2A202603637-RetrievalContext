@@ -1,0 +1,35 @@
+{
+ "page": 71,
+ "model": "gpt-5.4-2026-03-05",
+ "usage": {
+  "prompt_tokens": 2515,
+  "completion_tokens": 442,
+  "total_tokens": 2957,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  }
+ },
+ "elements": [
+  {
+   "type": "chart",
+   "label": "Figure 23",
+   "title": "National policy on walking and cycling, by region and country-income level, 2018",
+   "location": "upper half of page",
+   "content": "Grouped vertical bar chart; y-axis: Percentage of Member States; x-axis groups: WHO regions and World Bank income groups; legend: National, Subnational.\nNational | African Region | ~23\nSubnational | African Region | ~5\nNational | Region of the Americas | ~33\nSubnational | Region of the Americas | ~23\nNational | Eastern Mediterranean Region | ~17\nSubnational | Eastern Mediterranean Region | ~28\nNational | European Region | ~65\nSubnational | European Region | ~14\nNational | South-East Asia Region | ~40\nSubnational | South-East Asia Region | ~20\nNational | Western Pacific Region | ~62\nSubnational | Western Pacific Region | ~19\nNational | Global | ~42\nSubnational | Global | ~16\nNational | Low-income | ~18\nSubnational | Low-income | ~3\nNational | Lower-middle-income | ~30\nSubnational | Lower-middle-income | ~16\nNational | Upper-middle-income | ~39\nSubnational | Upper-middle-income | ~18\nNational | High-income | ~68\nSubnational | High-income | ~18"
+  },
+  {
+   "type": "chart",
+   "label": "Figure 24",
+   "title": "National policy on public transport, by region and country-income level, 2018",
+   "location": "lower half of page",
+   "content": "Vertical bar chart; y-axis: Percentage of Member States; x-axis groups: WHO regions and World Bank income groups.\nseries | African Region | ~50\nseries | Region of the Americas | ~73\nseries | Eastern Mediterranean Region | ~83\nseries | European Region | ~83\nseries | South-East Asia Region | ~90\nseries | Western Pacific Region | ~67\nseries | Global | ~73\nseries | Low-income | ~41\nseries | Lower-middle-income | ~77\nseries | Upper-middle-income | ~74\nseries | High-income | ~86"
+  }
+ ]
+}

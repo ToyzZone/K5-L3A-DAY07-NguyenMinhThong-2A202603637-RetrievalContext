@@ -1,0 +1,28 @@
+{
+ "page": 64,
+ "model": "gpt-5.4-2026-03-05",
+ "usage": {
+  "prompt_tokens": 2515,
+  "completion_tokens": 308,
+  "total_tokens": 2823,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  }
+ },
+ "elements": [
+  {
+   "type": "chart",
+   "label": "FIGURE 22",
+   "title": "Trend in national mass-participation events on physical activity, by region, globally and country-income level, 2019 and 2021",
+   "location": "upper half of page",
+   "content": "Bar chart; y-axis: Percentage of Member States; x-axis groups: WHO regions, World Bank income groups; legend: 2019, 2021.\n2019 | African Region | ~35\n2021 | African Region | ~31\n2019 | Region of the Americas | ~65\n2021 | Region of the Americas | ~50\n2019 | Eastern Mediterranean Region | ~47\n2021 | Eastern Mediterranean Region | ~32\n2019 | European Region | ~75\n2021 | European Region | ~90\n2019 | South-East Asia Region | ~44\n2021 | South-East Asia Region | ~35\n2019 | Western Pacific Region | ~73\n2021 | Western Pacific Region | ~58\n2019 | Global | ~58\n2021 | Global | ~55\n2019 | Low-income | ~22\n2021 | Low-income | ~22\n2019 | Lower-middle-income | ~53\n2021 | Lower-middle-income | ~36\n2019 | Upper-middle-income | ~59\n2021 | Upper-middle-income | ~59\n2019 | High-income | ~81\n2021 | High-income | ~83"
+  }
+ ]
+}

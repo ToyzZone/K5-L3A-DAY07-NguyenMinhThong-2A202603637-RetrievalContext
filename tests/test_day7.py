@@ -55,6 +55,33 @@ class Day7Tests(unittest.TestCase):
         t = run_one(retrieval, CONFIGS['dense-orig'], q)
         self.assertEqual((seen, len(t['llm_calls']), t['context_evidence']), (['Sodium limit?'], 1, False))
 
+    def test_advanced_evidence_needs_every_page_and_long_tables_split_with_header(self):
+        import advanced
+        q = {'evidence': [{'page': 27}, {'page': 104}]}
+        self.assertFalse(advanced.evidence_pages_covered([{'page': 27}], q))
+        self.assertTrue(advanced.evidence_pages_covered([{'page': 27}, {'page': 104}, {'page': 5}], q))
+        rows = '\n'.join(f'| row {i} | {i} |' for i in range(200))
+        rec = {'elements': [{'type': 'table', 'label': 'Table 3', 'title': 'T', 'content': rows},
+                            {'type': 'photo', 'content': 'decorative'}]}
+        parts = advanced.visual_chunks(104, rec)
+        self.assertGreater(len(parts), 1)  # split, photo dropped
+        self.assertTrue(all(c.text.startswith('[TABLE] Table 3') and len(c.text) <= advanced.MAX_VISUAL_CHARS for c in parts))
+        self.assertEqual(' '.join(c.text.split('\n', 1)[1] for c in parts).split(), rows.split())  # no row lost
+        self.assertEqual(parts[0].chunk_id, 'who-gsr-2022:p104:table:00-0')
+
+    def test_advanced_context_continues_labels_one_page_only(self):
+        import advanced
+        p34 = {'elements': [{'type': 'table', 'label': 'TABLE 2', 'title': 'Summary'}]}
+        p35 = {'elements': [{'type': 'table', 'label': None, 'title': None}, {'type': 'photo', 'label': None}]}
+        _, prev = advanced.add_context(34, p34, 'x', None)
+        rec, prev = advanced.add_context(35, p35, 'x', prev)
+        rec36, _ = advanced.add_context(36, {'elements': [{'type': 'table', 'label': None}]}, 'x', prev)
+        self.assertEqual(rec['elements'][0]['label'], 'TABLE 2 (continued from printed page 18)')
+        self.assertEqual(rec36['elements'][0]['label'], 'TABLE 2 (continued from printed page 19)')  # no chained suffix
+        self.assertIsNone(rec['elements'][1]['label'])  # photos untouched
+        rec, _ = advanced.add_context(128, {'elements': [{'type': 'table', 'label': None, 'title': None}]}, 'Annex 2: Data sources', None)
+        self.assertEqual((rec['elements'][0]['label'], rec['elements'][0]['title']), (None, 'page begins: Annex 2: Data sources'))
+
     def test_bm25_prefers_rare_term_matches_and_skips_non_matches(self):
         docs = [chunk('a', 'sodium sodium limit'), chunk('b', 'limit limit limit limit'), chunk('c', 'water')]
         ranked = BM25(docs).search('sodium limit')

@@ -1,0 +1,35 @@
+{
+ "page": 80,
+ "model": "gpt-5.4-2026-03-05",
+ "usage": {
+  "prompt_tokens": 2515,
+  "completion_tokens": 120,
+  "total_tokens": 2635,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  }
+ },
+ "elements": [
+  {
+   "type": "infographic",
+   "label": null,
+   "title": "7. Progress towards active people",
+   "location": "center and upper part of page",
+   "content": "Decorative chapter opener with pale orange line drawings of running/walking human figures across the top.\n\nText:\n7.\nProgress\ntowards\nactive people"
+  },
+  {
+   "type": "diagram",
+   "label": null,
+   "title": null,
+   "location": "top of page",
+   "content": "Decorative line-art silhouettes of multiple moving human figures in pale orange and orange; no data labels or explanatory text."
+  }
+ ]
+}

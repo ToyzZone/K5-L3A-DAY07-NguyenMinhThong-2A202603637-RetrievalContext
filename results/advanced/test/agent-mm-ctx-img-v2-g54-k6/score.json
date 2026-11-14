@@ -1,0 +1,36 @@
+{
+ "split": "test",
+ "config": "mm-ctx-img-v2-g54-k6",
+ "by_group": {
+  "chart": {
+   "pass": 5,
+   "n": 5
+  },
+  "image": {
+   "pass": 4,
+   "n": 5
+  },
+  "multihop": {
+   "pass": 4,
+   "n": 4
+  },
+  "table": {
+   "pass": 6,
+   "n": 6
+  },
+  "text": {
+   "pass": 4,
+   "n": 4
+  },
+  "unanswerable": {
+   "pass": 6,
+   "n": 6
+  }
+ },
+ "total": {
+  "pass": 29,
+  "n": 30
+ },
+ "pass_rate": 0.9666666666666667,
+ "meets_90": true
+}

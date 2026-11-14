@@ -1,0 +1,28 @@
+{
+ "page": 63,
+ "model": "gpt-5.4-2026-03-05",
+ "usage": {
+  "prompt_tokens": 2515,
+  "completion_tokens": 240,
+  "total_tokens": 2755,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  }
+ },
+ "elements": [
+  {
+   "type": "box",
+   "label": null,
+   "title": null,
+   "location": "lower half of page, shaded/ruled callout section under the body text",
+   "content": "In 2021:\n\n• Just over half of countries (n=108, 56%) report implementing a national or subnational mass-participation event in the past 2 years to encourage participation in physical activity (see Fig. 22).\n\n• The number of countries that report implementing mass-participation events between 2019 (n=115, 59%) and 2021 (n=108, 56%) declined in all regions except the European Region.\n\n• Countries in the European Region (91%), the Western Pacific Region (59%) and the Region of the Americas (51%) report mass-participation events more frequently compared to around a third of countries in the African Region, the Eastern Mediterranean Region and the South-East Asia Region.\n\n• Low-income countries report conducting mass-participation events much less (just over 20%) in both 2019 and 2021 compared to all other income groups."
+  }
+ ]
+}

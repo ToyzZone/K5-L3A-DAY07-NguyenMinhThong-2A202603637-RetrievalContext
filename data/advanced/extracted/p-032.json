@@ -1,0 +1,28 @@
+{
+ "page": 32,
+ "model": "gpt-5.4-2026-03-05",
+ "usage": {
+  "prompt_tokens": 2515,
+  "completion_tokens": 180,
+  "total_tokens": 2695,
+  "prompt_tokens_details": {
+   "cached_tokens": 2048,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  }
+ },
+ "elements": [
+  {
+   "type": "diagram",
+   "label": "Figure 8",
+   "title": "GAPPA policy model for increasing physical activity",
+   "location": "lower half of page",
+   "content": "GAPPA policy model for increasing physical activity\n\nINPUTS AND ENABLERS OF POLICY ACTION ON PHYSICAL ACTIVITY AND EFFECTIVE POLICY IMPLEMENTATION\n\nDRIVERS OF PHYSICAL ACTIVITY\n\nACTIVE SYSTEMS\ngovernance, leadership,\nownership, policy, regulations,\ndata information systems,\nresearch, financing,\npartnerships\n\nACTIVE SOCIETY\ncommunity-wide\ncampaigns and promotion\n\nACTIVE ENVIRONMENTS\nsupportive environments\nand facilities\n\nACTIVE PEOPLE\nprogrammes and services\nin all key settings\n\nINDICATORS OF POLICY IMPLEMENTATION\n\nWHOLE-OF-SYSTEM MONITORING AND EVALUATION"
+  }
+ ]
+}

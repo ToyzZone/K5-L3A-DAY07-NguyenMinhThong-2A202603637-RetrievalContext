@@ -1,0 +1,28 @@
+{
+ "page": 24,
+ "model": "gpt-5.4-2026-03-05",
+ "usage": {
+  "prompt_tokens": 2515,
+  "completion_tokens": 700,
+  "total_tokens": 3215,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  }
+ },
+ "elements": [
+  {
+   "type": "chart",
+   "label": "FIGURE 2",
+   "title": "Prevalence of adults aged 18+ years not meeting WHO physical activity guidelines, by WHO region, 2010–2016",
+   "location": "bottom half of page",
+   "content": "Grouped bar chart; y-axis: Prevalence (%); x-axis: WHO regions.\nLegend entries: Females, 18-44 years; Females, 45-69 years; Females, 70+ years; Males, 18-44 years; Males, 45-69 years; Males, 70+ years.\nFemales, 18-44 years | African Region | ~18\nFemales, 45-69 years | African Region | ~25\nFemales, 70+ years | African Region | ~35\nMales, 18-44 years | African Region | ~12\nMales, 45-69 years | African Region | ~18\nMales, 70+ years | African Region | ~23\nFemales, 18-44 years | Region of the Americas | ~40\nFemales, 45-69 years | Region of the Americas | ~48\nFemales, 70+ years | Region of the Americas | ~60\nMales, 18-44 years | Region of the Americas | ~27\nMales, 45-69 years | Region of the Americas | ~37\nMales, 70+ years | Region of the Americas | ~46\nFemales, 18-44 years | Eastern Mediterranean Region | ~42\nFemales, 45-69 years | Eastern Mediterranean Region | ~49\nFemales, 70+ years | Eastern Mediterranean Region | ~60\nMales, 18-44 years | Eastern Mediterranean Region | ~22\nMales, 45-69 years | Eastern Mediterranean Region | ~31\nMales, 70+ years | Eastern Mediterranean Region | ~38\nFemales, 18-44 years | European Region | ~26\nFemales, 45-69 years | European Region | ~34\nFemales, 70+ years | European Region | ~46\nMales, 18-44 years | European Region | ~19\nMales, 45-69 years | European Region | ~30\nMales, 70+ years | European Region | ~40\nFemales, 18-44 years | South-East Asia Region | ~34\nFemales, 45-69 years | South-East Asia Region | ~41\nFemales, 70+ years | South-East Asia Region | ~53\nMales, 18-44 years | South-East Asia Region | ~17\nMales, 45-69 years | South-East Asia Region | ~25\nMales, 70+ years | South-East Asia Region | ~34\nFemales, 18-44 years | Western Pacific Region | ~15\nFemales, 45-69 years | Western Pacific Region | ~19\nFemales, 70+ years | Western Pacific Region | ~31\nMales, 18-44 years | Western Pacific Region | ~14\nMales, 45-69 years | Western Pacific Region | ~21\nMales, 70+ years | Western Pacific Region | ~30"
+  }
+ ]
+}

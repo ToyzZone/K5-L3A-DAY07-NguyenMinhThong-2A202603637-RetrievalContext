@@ -1,0 +1,35 @@
+{
+ "page": 13,
+ "model": "gpt-5.4-2026-03-05",
+ "usage": {
+  "prompt_tokens": 2515,
+  "completion_tokens": 494,
+  "total_tokens": 3009,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  }
+ },
+ "elements": [
+  {
+   "type": "infographic",
+   "label": null,
+   "title": "AREA 3: PROVIDING OPPORTUNITIES AND PROGRAMMES FOR PHYSICAL ACTIVITY",
+   "location": "upper middle of page",
+   "content": "GAPPA POLICY ACTION AREA\n% OF COUNTRIES\nCHANGE SINCE 2019\n\nAREA 3: PROVIDING OPPORTUNITIES AND PROGRAMMES FOR PHYSICAL ACTIVITY\n\nNational protocols on the management of physical inactivity in primary health care | 40% | increase\nPromotion of physical activity in childcare settings | 30% | NA\nPromotion of physical activity in the workplace initiatives | 36% | NA\nPromotion of physical activity through community-based and sports initiatives | 47% | NA\nPromotion of physical activity in public open spaces | 42% | NA\nPromotion of walking and cycling | 40% | NA\nPromotion of physical activity as part of active ageing | 40% | NA\nNational mobile health (mHealth) initiatives | 37% | increase\nProvision of quality physical education in schools | NA | NA\nPromotion of physical activity for people living with disability | NA | NA"
+  },
+  {
+   "type": "infographic",
+   "label": null,
+   "title": "AREA 4: NATIONAL POLICY FRAMEWORKS AND GOVERNANCE",
+   "location": "lower middle of page",
+   "content": "GAPPA POLICY ACTION AREA\n% OF COUNTRIES\nCHANGE SINCE 2019\n\nAREA 4: NATIONAL POLICY FRAMEWORKS AND GOVERNANCE\n\nNational NCD policy including physical activity | 86% | decrease\nNational NCD policy including physical activity that is operational | 67% | decrease\nNational physical activity policy | 47% | no change\nNational physical activity policy that is operational | 38% | no change\nEither operational national NCD policy including physical activity or a standalone operational physical activity policy | 72% | decrease\nNational coordination mechanism for NCDs | 46% | no change\nNational guidelines on physical activity for any age group | 46% | increase\nNational guidelines on physical activity for all age groups | 30% | increase\nNational physical activity targets | 53% | decrease\nNational surveillance on physical activity in adults | 92% | increase\nNational surveillance on physical activity in youth | 75% | increase\nNational surveillance on physical activity in children under the age of 5 years | 29% | increase"
+  }
+ ]
+}

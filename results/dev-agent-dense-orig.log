@@ -1,0 +1,67 @@
+q01 answered searches=1 ctx_evidence=True 3.48s 'Healthy eating patterns limit sodium to less than 2,300 milligrams per day for adults [fm7-22-2020:p'
+q02 answered searches=1 ctx_evidence=True 2.48s 'The H2F program for BCT is 10 weeks long [fm7-22-2020:p032:para:00].'
+q03 answered searches=1 ctx_evidence=False 1.55s 'The glycolytic pathway fuels high-intensity exercise lasting up to 90 seconds [fm7-22-2020:p044:para'
+q04 answered searches=1 ctx_evidence=True 1.57s 'Type I fibers hold up best against fatigue, but they give up slower contractile speed and less force'
+q05 answered searches=1 ctx_evidence=True 1.98s 'Drinking too much water can cause hyponatremia, a potentially life-threatening condition caused by e'
+q06 answered searches=1 ctx_evidence=True 1.04s 'Loads above 30 percent of body weight should be increased with caution [fm7-22-2020:p070:para:00].'
+q07 answered searches=1 ctx_evidence=True 1.81s 'A pre-exercise meal should contain 1 to 4 grams of carbohydrate per kilogram of body weight and be c'
+q08 answered searches=1 ctx_evidence=True 1.5s 'Zone 2 is 60–70% of maximum heart rate and the level of effort is Moderate [fm7-22-2020:p066:para:01'
+q09 answered searches=1 ctx_evidence=True 1.02s 'A small amount of caffeine in tea or coffee (< 200 milligrams) should not negatively affect hydratio'
+q10 answered searches=1 ctx_evidence=True 1.29s 'If a recruit can complete two repetitions over the repetition goal for an exercise for two consecuti'
+q11 answered searches=1 ctx_evidence=True 1.5s 'Cortisol is often called the “stress hormone,” and excessive production of it contributes to chronic'
+q12 answered searches=1 ctx_evidence=True 1.74s 'A person doing moderate-intensity aerobic activity can talk, but not sing, during the activity [hhs-'
+q13 answered searches=1 ctx_evidence=True 1.18s 'Children and adolescents ages 6 through 17 years should do 60 minutes (1 hour) or more of moderate-t'
+q14 answered searches=1 ctx_evidence=True 1.16s 'Children and adolescents aged 5–17 should do at least an average of 60 minutes per day of moderate- '
+q15 answered searches=1 ctx_evidence=True 1.16s 'The WHO Global action plan on physical activity 2018–2030 set a target to reduce physical inactivity'
+q21 answered searches=1 ctx_evidence=True 2.14s 'VO2 max is the maximal oxygen consumption: the highest amount of oxygen that can be used during maxi'
+q22 answered searches=1 ctx_evidence=True 1.29s '50–100 grams of carbohydrate and 15–25 grams of high-quality protein within 30–60 minutes after exer'
+q23 answered searches=1 ctx_evidence=True 2.25s 'Heatstroke signs are no sweating, hot dry skin, rapid pulse, rapid breathing, dizziness or confusion'
+q24 answered searches=1 ctx_evidence=True 1.0s 'No more than 1½ quarts per hour (48 ounces) during sustained exertion [fm7-22-2020:p163:para:03].'
+q25 answered searches=1 ctx_evidence=True 1.14s 'Preschool-aged children (ages 3 through 5 years) should be physically active throughout the day to e'
+q26 answered searches=1 ctx_evidence=True 2.13s 'A single session of moderate-to-vigorous physical activity can reduce blood pressure, improve insuli'
+q27 answered searches=1 ctx_evidence=True 1.26s 'Sedentary behaviour is defined as time spent sitting or lying with low energy expenditure, while awa'
+u01 abstain  searches=3 ctx_evidence=None 5.24s 'Không đủ bằng chứng để trả lời.'
+u02 abstain  searches=1 ctx_evidence=None 1.05s 'Không đủ bằng chứng để trả lời.'
+u03 abstain  searches=3 ctx_evidence=None 3.12s 'Không đủ bằng chứng để trả lời.'
+{
+ "config": "dense-orig",
+ "top_k": 3,
+ "budget": 3000,
+ "max_searches": 3,
+ "original_first": true,
+ "method": "dense",
+ "split": "dev",
+ "model": "gpt-5.4-mini-2026-03-17",
+ "questions": 25,
+ "errors": [],
+ "status": {
+  "answered": 22,
+  "abstain": 3
+ },
+ "tool_use": {
+  "n": 25,
+  "N": 25
+ },
+ "searches_distribution": {
+  "1": 23,
+  "3": 2
+ },
+ "context_evidence_rate": {
+  "n": 21,
+  "N": 22
+ },
+ "abstained_unanswerable": {
+  "n": 3,
+  "N": 3
+ },
+ "abstained_answerable": {
+  "n": 0,
+  "N": 22
+ },
+ "llm_calls": 29,
+ "prompt_tokens": 28041,
+ "completion_tokens": 1948,
+ "cost_usd": 0.0298,
+ "median_seconds": 1.5,
+ "total_seconds": 45.1
+}

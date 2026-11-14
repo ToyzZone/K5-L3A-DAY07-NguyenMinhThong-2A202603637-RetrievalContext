@@ -1,0 +1,4297 @@
+{
+ "dense": {
+  "n": 22,
+  "hit1": 16,
+  "hit3": 21,
+  "median_ms": 46.1,
+  "misses_at_3": [
+   "q03"
+  ],
+  "traces": [
+   {
+    "query_id": "q01",
+    "filter": null,
+    "ms": 961.3,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p082:para:01",
+      "score": 0.8366,
+      "hit": false
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p085:para:00",
+      "score": 0.7427,
+      "hit": true
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p084:para:06",
+      "score": 0.7263,
+      "hit": false
+     }
+    ],
+    "hit1": false,
+    "hit3": true
+   },
+   {
+    "query_id": "q02",
+    "filter": null,
+    "ms": 34.7,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p161:para:01",
+      "score": 0.8133,
+      "hit": false
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p032:para:00",
+      "score": 0.784,
+      "hit": true
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p034:para:04",
+      "score": 0.7769,
+      "hit": false
+     }
+    ],
+    "hit1": false,
+    "hit3": true
+   },
+   {
+    "query_id": "q03",
+    "filter": null,
+    "ms": 33.2,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p045:para:01",
+      "score": 0.6909,
+      "hit": false
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p044:para:07",
+      "score": 0.685,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p061:para:02",
+      "score": 0.6635,
+      "hit": false
+     }
+    ],
+    "hit1": false,
+    "hit3": false
+   },
+   {
+    "query_id": "q04",
+    "filter": null,
+    "ms": 32.0,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p047:para:00",
+      "score": 0.7198,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p047:para:02",
+      "score": 0.668,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p065:para:02",
+      "score": 0.6669,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q05",
+    "filter": null,
+    "ms": 31.4,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p091:para:00",
+      "score": 0.7662,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p094:para:01",
+      "score": 0.6639,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p096:para:03",
+      "score": 0.6628,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q06",
+    "filter": null,
+    "ms": 35.6,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p070:para:00",
+      "score": 0.7531,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p071:para:00",
+      "score": 0.7476,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p048:para:06",
+      "score": 0.7207,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q07",
+    "filter": null,
+    "ms": 72.8,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p088:para:01",
+      "score": 0.8964,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p088:para:04",
+      "score": 0.8183,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p088:para:00",
+      "score": 0.8119,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q08",
+    "filter": null,
+    "ms": 59.8,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p066:para:01",
+      "score": 0.8289,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p066:para:03",
+      "score": 0.7727,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p066:para:00",
+      "score": 0.7287,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q09",
+    "filter": {
+     "section": "Chapter 8. Nutritional Readiness"
+    },
+    "ms": 163.4,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p089:para:03",
+      "score": 0.7793,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p090:para:03",
+      "score": 0.7684,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p093:para:04",
+      "score": 0.7583,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q10",
+    "filter": null,
+    "ms": 764.7,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p048:para:00",
+      "score": 0.7606,
+      "hit": false
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p164:para:01",
+      "score": 0.7579,
+      "hit": true
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p086:para:06",
+      "score": 0.753,
+      "hit": false
+     }
+    ],
+    "hit1": false,
+    "hit3": true
+   },
+   {
+    "query_id": "q11",
+    "filter": null,
+    "ms": 119.1,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p104:para:01",
+      "score": 0.7051,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "hhs-pag-2018:p034:para:02",
+      "score": 0.6529,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p104:para:02",
+      "score": 0.6337,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q12",
+    "filter": null,
+    "ms": 67.3,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "hhs-pag-2018:p060:para:04",
+      "score": 0.8643,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "hhs-pag-2018:p060:para:00",
+      "score": 0.8466,
+      "hit": true
+     },
+     {
+      "rank": 3,
+      "id": "hhs-pag-2018:p071:para:02",
+      "score": 0.8464,
+      "hit": true
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q13",
+    "filter": {
+     "publisher": "HHS"
+    },
+    "ms": 46.6,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "hhs-pag-2018:p048:para:02",
+      "score": 0.8665,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "hhs-pag-2018:p018:para:01",
+      "score": 0.8017,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "hhs-pag-2018:p099:para:02",
+      "score": 0.794,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q14",
+    "filter": {
+     "publisher": "WHO"
+    },
+    "ms": 42.8,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "who-pasb-2020:p034:para:00",
+      "score": 0.8323,
+      "hit": false
+     },
+     {
+      "rank": 2,
+      "id": "who-pasb-2020:p011:para:09",
+      "score": 0.8296,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "who-pasb-2020:p011:para:00",
+      "score": 0.8295,
+      "hit": true
+     }
+    ],
+    "hit1": false,
+    "hit3": true
+   },
+   {
+    "query_id": "q15",
+    "filter": null,
+    "ms": 40.8,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "who-pasb-2020:p083:para:00",
+      "score": 0.8717,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "who-pasb-2020:p010:para:06",
+      "score": 0.8119,
+      "hit": true
+     },
+     {
+      "rank": 3,
+      "id": "who-pasb-2020:p026:para:04",
+      "score": 0.7825,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q21",
+    "filter": null,
+    "ms": 36.5,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p045:para:04",
+      "score": 0.7716,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p209:para:02",
+      "score": 0.5653,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p059:para:04",
+      "score": 0.5612,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q22",
+    "filter": null,
+    "ms": 45.1,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p089:para:01",
+      "score": 0.869,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p088:para:04",
+      "score": 0.8256,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p088:para:03",
+      "score": 0.8076,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q23",
+    "filter": null,
+    "ms": 50.7,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p164:para:00",
+      "score": 0.7249,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p163:para:04",
+      "score": 0.6292,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p125:para:02",
+      "score": 0.6065,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q24",
+    "filter": {
+     "section": "Chapter 14. Holistic Health and Fitness Schedules"
+    },
+    "ms": 27.8,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p163:para:03",
+      "score": 0.7441,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p163:para:02",
+      "score": 0.6954,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p213:para:00",
+      "score": 0.6888,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q25",
+    "filter": null,
+    "ms": 51.3,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "hhs-pag-2018:p047:para:05",
+      "score": 0.825,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "hhs-pag-2018:p025:para:02",
+      "score": 0.7172,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "who-pasb-2020:p010:para:02",
+      "score": 0.7163,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q26",
+    "filter": null,
+    "ms": 56.5,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "hhs-pag-2018:p020:para:00",
+      "score": 0.8322,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "hhs-pag-2018:p028:para:02",
+      "score": 0.7792,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "hhs-pag-2018:p063:para:02",
+      "score": 0.7755,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q27",
+    "filter": null,
+    "ms": 45.6,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "who-pasb-2020:p074:para:03",
+      "score": 0.8957,
+      "hit": false
+     },
+     {
+      "rank": 2,
+      "id": "who-pasb-2020:p039:para:02",
+      "score": 0.8767,
+      "hit": true
+     },
+     {
+      "rank": 3,
+      "id": "hhs-pag-2018:p021:para:04",
+      "score": 0.8753,
+      "hit": false
+     }
+    ],
+    "hit1": false,
+    "hit3": true
+   }
+  ]
+ },
+ "tfidf": {
+  "n": 22,
+  "hit1": 11,
+  "hit3": 14,
+  "median_ms": 5.1,
+  "misses_at_3": [
+   "q01",
+   "q02",
+   "q08",
+   "q10",
+   "q22",
+   "q23",
+   "q24",
+   "q26"
+  ],
+  "traces": [
+   {
+    "query_id": "q01",
+    "filter": null,
+    "ms": 6.8,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p082:para:01",
+      "score": 0.3303,
+      "hit": false
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p084:para:06",
+      "score": 0.3294,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p081:para:05",
+      "score": 0.2946,
+      "hit": false
+     }
+    ],
+    "hit1": false,
+    "hit3": false
+   },
+   {
+    "query_id": "q02",
+    "filter": null,
+    "ms": 5.3,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p023:para:05",
+      "score": 0.3195,
+      "hit": false
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p043:para:00",
+      "score": 0.2714,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p034:para:01",
+      "score": 0.2515,
+      "hit": false
+     }
+    ],
+    "hit1": false,
+    "hit3": false
+   },
+   {
+    "query_id": "q03",
+    "filter": null,
+    "ms": 6.7,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p044:para:05",
+      "score": 0.3045,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p061:para:02",
+      "score": 0.243,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p044:para:07",
+      "score": 0.1909,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q04",
+    "filter": null,
+    "ms": 6.9,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p047:para:00",
+      "score": 0.1843,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p047:para:01",
+      "score": 0.1639,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p047:para:02",
+      "score": 0.1592,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q05",
+    "filter": null,
+    "ms": 3.7,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p093:para:04",
+      "score": 0.1569,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "hhs-pag-2018:p100:para:00",
+      "score": 0.1414,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p096:para:03",
+      "score": 0.1318,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q06",
+    "filter": null,
+    "ms": 7.9,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p070:para:00",
+      "score": 0.3968,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "hhs-pag-2018:p037:para:00",
+      "score": 0.1639,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p064:para:04",
+      "score": 0.1601,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q07",
+    "filter": null,
+    "ms": 5.2,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p088:para:01",
+      "score": 0.3455,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p095:para:00",
+      "score": 0.2072,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "hhs-pag-2018:p062:para:01",
+      "score": 0.2018,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q08",
+    "filter": null,
+    "ms": 4.7,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p066:para:00",
+      "score": 0.4768,
+      "hit": false
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p066:para:03",
+      "score": 0.4126,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p050:para:06",
+      "score": 0.4013,
+      "hit": false
+     }
+    ],
+    "hit1": false,
+    "hit3": false
+   },
+   {
+    "query_id": "q09",
+    "filter": {
+     "section": "Chapter 8. Nutritional Readiness"
+    },
+    "ms": 6.8,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p089:para:03",
+      "score": 0.3851,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p081:para:00",
+      "score": 0.1721,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p094:para:00",
+      "score": 0.1482,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q10",
+    "filter": null,
+    "ms": 4.3,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p166:para:02",
+      "score": 0.3165,
+      "hit": false
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p162:para:00",
+      "score": 0.2802,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "hhs-pag-2018:p030:para:02",
+      "score": 0.2497,
+      "hit": false
+     }
+    ],
+    "hit1": false,
+    "hit3": false
+   },
+   {
+    "query_id": "q11",
+    "filter": null,
+    "ms": 4.5,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p104:para:01",
+      "score": 0.27,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p158:para:02",
+      "score": 0.2102,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p086:para:03",
+      "score": 0.1715,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q12",
+    "filter": null,
+    "ms": 5.4,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "hhs-pag-2018:p058:para:01",
+      "score": 0.385,
+      "hit": false
+     },
+     {
+      "rank": 2,
+      "id": "hhs-pag-2018:p050:para:02",
+      "score": 0.3304,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "hhs-pag-2018:p060:para:04",
+      "score": 0.32,
+      "hit": true
+     }
+    ],
+    "hit1": false,
+    "hit3": true
+   },
+   {
+    "query_id": "q13",
+    "filter": {
+     "publisher": "HHS"
+    },
+    "ms": 5.0,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "hhs-pag-2018:p048:para:02",
+      "score": 0.3817,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "hhs-pag-2018:p049:para:04",
+      "score": 0.3127,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "hhs-pag-2018:p052:para:03",
+      "score": 0.3076,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q14",
+    "filter": {
+     "publisher": "WHO"
+    },
+    "ms": 5.3,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "who-pasb-2020:p020:para:00",
+      "score": 0.3487,
+      "hit": false
+     },
+     {
+      "rank": 2,
+      "id": "who-pasb-2020:p011:para:00",
+      "score": 0.3272,
+      "hit": true
+     },
+     {
+      "rank": 3,
+      "id": "who-pasb-2020:p038:para:02",
+      "score": 0.3269,
+      "hit": false
+     }
+    ],
+    "hit1": false,
+    "hit3": true
+   },
+   {
+    "query_id": "q15",
+    "filter": null,
+    "ms": 4.6,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "who-pasb-2020:p010:para:06",
+      "score": 0.4837,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "who-pasb-2020:p025:para:05",
+      "score": 0.4399,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "who-pasb-2020:p083:para:00",
+      "score": 0.4084,
+      "hit": true
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q21",
+    "filter": null,
+    "ms": 2.1,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p045:para:04",
+      "score": 0.5426,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "hhs-pag-2018:p100:para:00",
+      "score": 0.1561,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p048:para:07",
+      "score": 0.1428,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q22",
+    "filter": null,
+    "ms": 3.5,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p095:para:00",
+      "score": 0.2715,
+      "hit": false
+     },
+     {
+      "rank": 2,
+      "id": "hhs-pag-2018:p062:para:01",
+      "score": 0.2339,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p095:para:01",
+      "score": 0.192,
+      "hit": false
+     }
+    ],
+    "hit1": false,
+    "hit3": false
+   },
+   {
+    "query_id": "q23",
+    "filter": null,
+    "ms": 3.7,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "hhs-pag-2018:p069:para:02",
+      "score": 0.1495,
+      "hit": false
+     },
+     {
+      "rank": 2,
+      "id": "hhs-pag-2018:p062:para:01",
+      "score": 0.1404,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p154:para:01",
+      "score": 0.1316,
+      "hit": false
+     }
+    ],
+    "hit1": false,
+    "hit3": false
+   },
+   {
+    "query_id": "q24",
+    "filter": {
+     "section": "Chapter 14. Holistic Health and Fitness Schedules"
+    },
+    "ms": 6.4,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p189:para:00",
+      "score": 0.3591,
+      "hit": false
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p193:para:00",
+      "score": 0.3591,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p195:para:00",
+      "score": 0.3591,
+      "hit": false
+     }
+    ],
+    "hit1": false,
+    "hit3": false
+   },
+   {
+    "query_id": "q25",
+    "filter": null,
+    "ms": 4.9,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "hhs-pag-2018:p047:para:05",
+      "score": 0.5533,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "hhs-pag-2018:p025:para:02",
+      "score": 0.3273,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "hhs-pag-2018:p049:para:04",
+      "score": 0.3115,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q26",
+    "filter": null,
+    "ms": 5.2,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "hhs-pag-2018:p058:para:01",
+      "score": 0.2602,
+      "hit": false
+     },
+     {
+      "rank": 2,
+      "id": "hhs-pag-2018:p063:para:02",
+      "score": 0.2186,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "who-pasb-2020:p071:para:04",
+      "score": 0.2091,
+      "hit": false
+     }
+    ],
+    "hit1": false,
+    "hit3": false
+   },
+   {
+    "query_id": "q27",
+    "filter": null,
+    "ms": 2.5,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "who-pasb-2020:p068:para:03",
+      "score": 0.4548,
+      "hit": false
+     },
+     {
+      "rank": 2,
+      "id": "who-pasb-2020:p074:para:03",
+      "score": 0.3388,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "who-pasb-2020:p025:para:01",
+      "score": 0.3346,
+      "hit": true
+     }
+    ],
+    "hit1": false,
+    "hit3": true
+   }
+  ]
+ },
+ "bm25": {
+  "n": 22,
+  "hit1": 15,
+  "hit3": 19,
+  "median_ms": 5.0,
+  "misses_at_3": [
+   "q02",
+   "q23",
+   "q26"
+  ],
+  "traces": [
+   {
+    "query_id": "q01",
+    "filter": null,
+    "ms": 5.8,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p082:para:01",
+      "score": 27.9367,
+      "hit": false
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p085:para:00",
+      "score": 25.2802,
+      "hit": true
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p084:para:06",
+      "score": 25.0386,
+      "hit": false
+     }
+    ],
+    "hit1": false,
+    "hit3": true
+   },
+   {
+    "query_id": "q02",
+    "filter": null,
+    "ms": 3.8,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p023:para:05",
+      "score": 17.3024,
+      "hit": false
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p043:para:00",
+      "score": 16.8013,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p030:para:00",
+      "score": 16.0702,
+      "hit": false
+     }
+    ],
+    "hit1": false,
+    "hit3": false
+   },
+   {
+    "query_id": "q03",
+    "filter": null,
+    "ms": 4.2,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p044:para:05",
+      "score": 32.4398,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p044:para:07",
+      "score": 22.5255,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p061:para:02",
+      "score": 21.6046,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q04",
+    "filter": null,
+    "ms": 10.3,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p047:para:02",
+      "score": 16.0856,
+      "hit": false
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p047:para:01",
+      "score": 15.6725,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p047:para:00",
+      "score": 15.6522,
+      "hit": true
+     }
+    ],
+    "hit1": false,
+    "hit3": true
+   },
+   {
+    "query_id": "q05",
+    "filter": null,
+    "ms": 2.6,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p093:para:04",
+      "score": 19.2777,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p123:para:02",
+      "score": 13.6971,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p094:para:01",
+      "score": 13.3443,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q06",
+    "filter": null,
+    "ms": 5.0,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p070:para:00",
+      "score": 41.9933,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p064:para:04",
+      "score": 21.6491,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p070:para:04",
+      "score": 18.3768,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q07",
+    "filter": null,
+    "ms": 6.3,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p088:para:01",
+      "score": 28.7098,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p095:para:00",
+      "score": 20.3443,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p088:para:00",
+      "score": 19.6485,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q08",
+    "filter": null,
+    "ms": 5.3,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p066:para:01",
+      "score": 41.8334,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p066:para:00",
+      "score": 33.2878,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p066:para:03",
+      "score": 31.6922,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q09",
+    "filter": {
+     "section": "Chapter 8. Nutritional Readiness"
+    },
+    "ms": 5.3,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p089:para:03",
+      "score": 45.8305,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p081:para:00",
+      "score": 18.4167,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p094:para:00",
+      "score": 16.506,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q10",
+    "filter": null,
+    "ms": 6.2,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p164:para:01",
+      "score": 19.0901,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "hhs-pag-2018:p030:para:02",
+      "score": 17.4147,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p166:para:02",
+      "score": 14.0542,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q11",
+    "filter": null,
+    "ms": 4.5,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p104:para:01",
+      "score": 26.6623,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p086:para:03",
+      "score": 20.4595,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p046:para:01",
+      "score": 17.9499,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q12",
+    "filter": null,
+    "ms": 3.5,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "hhs-pag-2018:p060:para:04",
+      "score": 25.0696,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "hhs-pag-2018:p030:para:00",
+      "score": 21.7472,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "hhs-pag-2018:p060:para:00",
+      "score": 21.6305,
+      "hit": true
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q13",
+    "filter": {
+     "publisher": "HHS"
+    },
+    "ms": 5.8,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "hhs-pag-2018:p048:para:02",
+      "score": 29.1777,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "hhs-pag-2018:p049:para:04",
+      "score": 27.9521,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "hhs-pag-2018:p052:para:03",
+      "score": 23.4425,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q14",
+    "filter": {
+     "publisher": "WHO"
+    },
+    "ms": 5.8,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "who-pasb-2020:p011:para:00",
+      "score": 25.2332,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "who-pasb-2020:p020:para:00",
+      "score": 25.2268,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "who-pasb-2020:p038:para:02",
+      "score": 25.205,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q15",
+    "filter": null,
+    "ms": 4.7,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "who-pasb-2020:p010:para:06",
+      "score": 45.7529,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "who-pasb-2020:p083:para:00",
+      "score": 41.9051,
+      "hit": true
+     },
+     {
+      "rank": 3,
+      "id": "who-pasb-2020:p025:para:05",
+      "score": 39.8133,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q21",
+    "filter": null,
+    "ms": 2.3,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p045:para:04",
+      "score": 21.8704,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p048:para:07",
+      "score": 11.5199,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p022:para:02",
+      "score": 7.3928,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q22",
+    "filter": null,
+    "ms": 5.0,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p095:para:00",
+      "score": 18.5035,
+      "hit": false
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p089:para:01",
+      "score": 16.1818,
+      "hit": true
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p088:para:01",
+      "score": 15.2582,
+      "hit": false
+     }
+    ],
+    "hit1": false,
+    "hit3": true
+   },
+   {
+    "query_id": "q23",
+    "filter": null,
+    "ms": 5.0,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p156:para:02",
+      "score": 13.2139,
+      "hit": false
+     },
+     {
+      "rank": 2,
+      "id": "hhs-pag-2018:p021:para:04",
+      "score": 12.3902,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "hhs-pag-2018:p069:para:02",
+      "score": 11.75,
+      "hit": false
+     }
+    ],
+    "hit1": false,
+    "hit3": false
+   },
+   {
+    "query_id": "q24",
+    "filter": {
+     "section": "Chapter 14. Holistic Health and Fitness Schedules"
+    },
+    "ms": 5.1,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p163:para:03",
+      "score": 20.9367,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p213:para:00",
+      "score": 17.7654,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p177:para:00",
+      "score": 17.6878,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q25",
+    "filter": null,
+    "ms": 4.4,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "hhs-pag-2018:p047:para:05",
+      "score": 38.5435,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "hhs-pag-2018:p049:para:04",
+      "score": 26.2943,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "hhs-pag-2018:p047:para:04",
+      "score": 25.841,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q26",
+    "filter": null,
+    "ms": 6.5,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "hhs-pag-2018:p068:para:00",
+      "score": 18.4887,
+      "hit": false
+     },
+     {
+      "rank": 2,
+      "id": "hhs-pag-2018:p058:para:01",
+      "score": 18.269,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "hhs-pag-2018:p063:para:02",
+      "score": 17.8959,
+      "hit": false
+     }
+    ],
+    "hit1": false,
+    "hit3": false
+   },
+   {
+    "query_id": "q27",
+    "filter": null,
+    "ms": 3.3,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "who-pasb-2020:p074:para:03",
+      "score": 14.8192,
+      "hit": false
+     },
+     {
+      "rank": 2,
+      "id": "who-pasb-2020:p025:para:01",
+      "score": 14.5448,
+      "hit": true
+     },
+     {
+      "rank": 3,
+      "id": "who-pasb-2020:p039:para:02",
+      "score": 14.3635,
+      "hit": true
+     }
+    ],
+    "hit1": false,
+    "hit3": true
+   }
+  ]
+ },
+ "hybrid": {
+  "n": 22,
+  "hit1": 13,
+  "hit3": 20,
+  "median_ms": 40.3,
+  "misses_at_3": [
+   "q02",
+   "q24"
+  ],
+  "traces": [
+   {
+    "query_id": "q01",
+    "filter": null,
+    "ms": 50.2,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p082:para:01",
+      "score": 0.0328,
+      "hit": false
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p084:para:06",
+      "score": 0.032,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p085:para:00",
+      "score": 0.0318,
+      "hit": true
+     }
+    ],
+    "hit1": false,
+    "hit3": true
+   },
+   {
+    "query_id": "q02",
+    "filter": null,
+    "ms": 47.3,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p023:para:05",
+      "score": 0.0313,
+      "hit": false
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p022:para:05",
+      "score": 0.0312,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p043:para:00",
+      "score": 0.0304,
+      "hit": false
+     }
+    ],
+    "hit1": false,
+    "hit3": false
+   },
+   {
+    "query_id": "q03",
+    "filter": null,
+    "ms": 39.7,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p044:para:05",
+      "score": 0.032,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p045:para:01",
+      "score": 0.032,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p044:para:07",
+      "score": 0.032,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q04",
+    "filter": null,
+    "ms": 55.9,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p047:para:00",
+      "score": 0.0328,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p047:para:02",
+      "score": 0.032,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p047:para:01",
+      "score": 0.0318,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q05",
+    "filter": null,
+    "ms": 45.9,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p096:para:03",
+      "score": 0.0317,
+      "hit": false
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p091:para:00",
+      "score": 0.0305,
+      "hit": true
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p094:para:01",
+      "score": 0.03,
+      "hit": false
+     }
+    ],
+    "hit1": false,
+    "hit3": true
+   },
+   {
+    "query_id": "q06",
+    "filter": null,
+    "ms": 40.4,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p070:para:00",
+      "score": 0.0328,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p070:para:04",
+      "score": 0.0292,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p064:para:04",
+      "score": 0.029,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q07",
+    "filter": null,
+    "ms": 39.4,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p088:para:01",
+      "score": 0.0328,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p088:para:04",
+      "score": 0.0313,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p088:para:00",
+      "score": 0.0313,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q08",
+    "filter": null,
+    "ms": 40.2,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p066:para:00",
+      "score": 0.0323,
+      "hit": false
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p066:para:03",
+      "score": 0.0323,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p066:para:01",
+      "score": 0.032,
+      "hit": true
+     }
+    ],
+    "hit1": false,
+    "hit3": true
+   },
+   {
+    "query_id": "q09",
+    "filter": {
+     "section": "Chapter 8. Nutritional Readiness"
+    },
+    "ms": 33.9,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p089:para:03",
+      "score": 0.0328,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p089:para:02",
+      "score": 0.0303,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p094:para:00",
+      "score": 0.0296,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q10",
+    "filter": null,
+    "ms": 37.2,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p164:para:01",
+      "score": 0.0315,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p065:para:00",
+      "score": 0.0295,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p060:para:03",
+      "score": 0.0282,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q11",
+    "filter": null,
+    "ms": 46.8,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p104:para:01",
+      "score": 0.0328,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p158:para:02",
+      "score": 0.0311,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p046:para:01",
+      "score": 0.0308,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q12",
+    "filter": null,
+    "ms": 35.2,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "hhs-pag-2018:p060:para:04",
+      "score": 0.0323,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "hhs-pag-2018:p060:para:00",
+      "score": 0.0315,
+      "hit": true
+     },
+     {
+      "rank": 3,
+      "id": "hhs-pag-2018:p058:para:01",
+      "score": 0.0313,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q13",
+    "filter": {
+     "publisher": "HHS"
+    },
+    "ms": 35.6,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "hhs-pag-2018:p048:para:02",
+      "score": 0.0328,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "hhs-pag-2018:p052:para:03",
+      "score": 0.0313,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "hhs-pag-2018:p018:para:01",
+      "score": 0.0295,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q14",
+    "filter": {
+     "publisher": "WHO"
+    },
+    "ms": 36.3,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "who-pasb-2020:p011:para:00",
+      "score": 0.032,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "who-pasb-2020:p072:para:00",
+      "score": 0.0288,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "who-pasb-2020:p035:para:03",
+      "score": 0.0283,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q15",
+    "filter": null,
+    "ms": 58.0,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "who-pasb-2020:p010:para:06",
+      "score": 0.0325,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "who-pasb-2020:p083:para:00",
+      "score": 0.0323,
+      "hit": true
+     },
+     {
+      "rank": 3,
+      "id": "who-pasb-2020:p025:para:05",
+      "score": 0.0315,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q21",
+    "filter": null,
+    "ms": 46.8,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p045:para:04",
+      "score": 0.0328,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p048:para:07",
+      "score": 0.0304,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p209:para:02",
+      "score": 0.03,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q22",
+    "filter": null,
+    "ms": 34.4,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p088:para:04",
+      "score": 0.0315,
+      "hit": false
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p088:para:01",
+      "score": 0.0312,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p089:para:01",
+      "score": 0.0311,
+      "hit": true
+     }
+    ],
+    "hit1": false,
+    "hit3": true
+   },
+   {
+    "query_id": "q23",
+    "filter": null,
+    "ms": 36.6,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p091:para:00",
+      "score": 0.0288,
+      "hit": false
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p156:para:02",
+      "score": 0.0279,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p164:para:00",
+      "score": 0.0164,
+      "hit": true
+     }
+    ],
+    "hit1": false,
+    "hit3": true
+   },
+   {
+    "query_id": "q24",
+    "filter": {
+     "section": "Chapter 14. Holistic Health and Fitness Schedules"
+    },
+    "ms": 35.8,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p177:para:00",
+      "score": 0.0305,
+      "hit": false
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p199:para:00",
+      "score": 0.0299,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p207:para:00",
+      "score": 0.0297,
+      "hit": false
+     }
+    ],
+    "hit1": false,
+    "hit3": false
+   },
+   {
+    "query_id": "q25",
+    "filter": null,
+    "ms": 133.5,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "hhs-pag-2018:p047:para:05",
+      "score": 0.0328,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "hhs-pag-2018:p025:para:02",
+      "score": 0.0323,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "hhs-pag-2018:p047:para:04",
+      "score": 0.0303,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q26",
+    "filter": null,
+    "ms": 46.0,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "hhs-pag-2018:p063:para:02",
+      "score": 0.032,
+      "hit": false
+     },
+     {
+      "rank": 2,
+      "id": "hhs-pag-2018:p020:para:00",
+      "score": 0.0305,
+      "hit": true
+     },
+     {
+      "rank": 3,
+      "id": "hhs-pag-2018:p058:para:01",
+      "score": 0.0301,
+      "hit": false
+     }
+    ],
+    "hit1": false,
+    "hit3": true
+   },
+   {
+    "query_id": "q27",
+    "filter": null,
+    "ms": 76.5,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "who-pasb-2020:p074:para:03",
+      "score": 0.0325,
+      "hit": false
+     },
+     {
+      "rank": 2,
+      "id": "who-pasb-2020:p025:para:01",
+      "score": 0.031,
+      "hit": true
+     },
+     {
+      "rank": 3,
+      "id": "who-pasb-2020:p068:para:03",
+      "score": 0.0309,
+      "hit": false
+     }
+    ],
+    "hit1": false,
+    "hit3": true
+   }
+  ]
+ },
+ "hybrid_bm25": {
+  "n": 22,
+  "hit1": 14,
+  "hit3": 22,
+  "median_ms": 41.4,
+  "misses_at_3": [],
+  "traces": [
+   {
+    "query_id": "q01",
+    "filter": null,
+    "ms": 41.3,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p082:para:01",
+      "score": 0.0328,
+      "hit": false
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p085:para:00",
+      "score": 0.0323,
+      "hit": true
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p084:para:06",
+      "score": 0.0317,
+      "hit": false
+     }
+    ],
+    "hit1": false,
+    "hit3": true
+   },
+   {
+    "query_id": "q02",
+    "filter": null,
+    "ms": 51.6,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p023:para:05",
+      "score": 0.0313,
+      "hit": false
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p032:para:00",
+      "score": 0.0306,
+      "hit": true
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p022:para:05",
+      "score": 0.0306,
+      "hit": false
+     }
+    ],
+    "hit1": false,
+    "hit3": true
+   },
+   {
+    "query_id": "q03",
+    "filter": null,
+    "ms": 36.4,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p044:para:07",
+      "score": 0.0323,
+      "hit": false
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p044:para:05",
+      "score": 0.032,
+      "hit": true
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p045:para:01",
+      "score": 0.0318,
+      "hit": false
+     }
+    ],
+    "hit1": false,
+    "hit3": true
+   },
+   {
+    "query_id": "q04",
+    "filter": null,
+    "ms": 36.2,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p047:para:02",
+      "score": 0.0325,
+      "hit": false
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p047:para:00",
+      "score": 0.0323,
+      "hit": true
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p047:para:01",
+      "score": 0.0318,
+      "hit": false
+     }
+    ],
+    "hit1": false,
+    "hit3": true
+   },
+   {
+    "query_id": "q05",
+    "filter": null,
+    "ms": 37.2,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p094:para:01",
+      "score": 0.032,
+      "hit": false
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p091:para:00",
+      "score": 0.0313,
+      "hit": true
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p163:para:03",
+      "score": 0.031,
+      "hit": true
+     }
+    ],
+    "hit1": false,
+    "hit3": true
+   },
+   {
+    "query_id": "q06",
+    "filter": null,
+    "ms": 39.6,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p070:para:00",
+      "score": 0.0328,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p070:para:04",
+      "score": 0.0306,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p071:para:00",
+      "score": 0.0296,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q07",
+    "filter": null,
+    "ms": 41.5,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p088:para:01",
+      "score": 0.0328,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p088:para:00",
+      "score": 0.0317,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p090:para:03",
+      "score": 0.0308,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q08",
+    "filter": null,
+    "ms": 39.3,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p066:para:01",
+      "score": 0.0328,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p066:para:00",
+      "score": 0.032,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p066:para:03",
+      "score": 0.032,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q09",
+    "filter": {
+     "section": "Chapter 8. Nutritional Readiness"
+    },
+    "ms": 31.4,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p089:para:03",
+      "score": 0.0328,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p089:para:02",
+      "score": 0.0303,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p094:para:00",
+      "score": 0.0296,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q10",
+    "filter": null,
+    "ms": 37.3,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p164:para:01",
+      "score": 0.0325,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p086:para:06",
+      "score": 0.0298,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p060:para:04",
+      "score": 0.0278,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q11",
+    "filter": null,
+    "ms": 52.6,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p104:para:01",
+      "score": 0.0328,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p046:para:01",
+      "score": 0.031,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p158:para:02",
+      "score": 0.0306,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q12",
+    "filter": null,
+    "ms": 57.2,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "hhs-pag-2018:p060:para:04",
+      "score": 0.0328,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "hhs-pag-2018:p060:para:00",
+      "score": 0.032,
+      "hit": true
+     },
+     {
+      "rank": 3,
+      "id": "hhs-pag-2018:p071:para:02",
+      "score": 0.0315,
+      "hit": true
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q13",
+    "filter": {
+     "publisher": "HHS"
+    },
+    "ms": 32.5,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "hhs-pag-2018:p048:para:02",
+      "score": 0.0328,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "hhs-pag-2018:p052:para:03",
+      "score": 0.0313,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "hhs-pag-2018:p047:para:03",
+      "score": 0.0303,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q14",
+    "filter": {
+     "publisher": "WHO"
+    },
+    "ms": 38.7,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "who-pasb-2020:p011:para:00",
+      "score": 0.0323,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "who-pasb-2020:p035:para:03",
+      "score": 0.0301,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "who-pasb-2020:p072:para:00",
+      "score": 0.0294,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q15",
+    "filter": null,
+    "ms": 237.5,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "who-pasb-2020:p010:para:06",
+      "score": 0.0325,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "who-pasb-2020:p083:para:00",
+      "score": 0.0325,
+      "hit": true
+     },
+     {
+      "rank": 3,
+      "id": "who-pasb-2020:p025:para:05",
+      "score": 0.0313,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q21",
+    "filter": null,
+    "ms": 112.7,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p045:para:04",
+      "score": 0.0328,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p048:para:07",
+      "score": 0.0306,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p048:para:06",
+      "score": 0.0299,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q22",
+    "filter": null,
+    "ms": 72.6,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p089:para:01",
+      "score": 0.0325,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p088:para:01",
+      "score": 0.0315,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p088:para:04",
+      "score": 0.0311,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q23",
+    "filter": null,
+    "ms": 52.1,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p156:para:02",
+      "score": 0.0311,
+      "hit": false
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p091:para:00",
+      "score": 0.0295,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p164:para:00",
+      "score": 0.0164,
+      "hit": true
+     }
+    ],
+    "hit1": false,
+    "hit3": true
+   },
+   {
+    "query_id": "q24",
+    "filter": {
+     "section": "Chapter 14. Holistic Health and Fitness Schedules"
+    },
+    "ms": 55.8,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p163:para:03",
+      "score": 0.0328,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p213:para:00",
+      "score": 0.032,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p177:para:00",
+      "score": 0.031,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q25",
+    "filter": null,
+    "ms": 41.5,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "hhs-pag-2018:p047:para:05",
+      "score": 0.0328,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "hhs-pag-2018:p025:para:02",
+      "score": 0.0318,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "hhs-pag-2018:p047:para:04",
+      "score": 0.0306,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q26",
+    "filter": null,
+    "ms": 38.9,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "hhs-pag-2018:p063:para:02",
+      "score": 0.0317,
+      "hit": false
+     },
+     {
+      "rank": 2,
+      "id": "hhs-pag-2018:p020:para:00",
+      "score": 0.0315,
+      "hit": true
+     },
+     {
+      "rank": 3,
+      "id": "who-pasb-2020:p077:para:01",
+      "score": 0.0303,
+      "hit": false
+     }
+    ],
+    "hit1": false,
+    "hit3": true
+   },
+   {
+    "query_id": "q27",
+    "filter": null,
+    "ms": 50.9,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "who-pasb-2020:p074:para:03",
+      "score": 0.0328,
+      "hit": false
+     },
+     {
+      "rank": 2,
+      "id": "who-pasb-2020:p039:para:02",
+      "score": 0.032,
+      "hit": true
+     },
+     {
+      "rank": 3,
+      "id": "who-pasb-2020:p025:para:01",
+      "score": 0.0313,
+      "hit": true
+     }
+    ],
+    "hit1": false,
+    "hit3": true
+   }
+  ]
+ },
+ "rerank_dense": {
+  "n": 22,
+  "hit1": 20,
+  "hit3": 22,
+  "median_ms": 649.1,
+  "misses_at_3": [],
+  "traces": [
+   {
+    "query_id": "q01",
+    "filter": null,
+    "ms": 59071.6,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p085:para:00",
+      "score": 0.9991,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p082:para:01",
+      "score": 0.997,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p089:para:05",
+      "score": 0.9754,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q02",
+    "filter": null,
+    "ms": 647.5,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p032:para:00",
+      "score": 0.9984,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p053:para:05",
+      "score": 0.7937,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p030:para:02",
+      "score": 0.414,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q03",
+    "filter": null,
+    "ms": 704.0,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p044:para:05",
+      "score": 0.9931,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p044:para:07",
+      "score": 0.5627,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p065:para:04",
+      "score": 0.2961,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q04",
+    "filter": null,
+    "ms": 623.9,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p047:para:00",
+      "score": 0.7458,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p047:para:02",
+      "score": 0.6995,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p047:para:01",
+      "score": 0.268,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q05",
+    "filter": null,
+    "ms": 716.0,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p091:para:00",
+      "score": 0.9043,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p093:para:04",
+      "score": 0.7906,
+      "hit": true
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p163:para:03",
+      "score": 0.7857,
+      "hit": true
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q06",
+    "filter": null,
+    "ms": 706.7,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p070:para:00",
+      "score": 0.9995,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p070:para:03",
+      "score": 0.1121,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p064:para:04",
+      "score": 0.1,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q07",
+    "filter": null,
+    "ms": 770.8,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p088:para:01",
+      "score": 0.9997,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p088:para:00",
+      "score": 0.9701,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p088:para:02",
+      "score": 0.9685,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q08",
+    "filter": null,
+    "ms": 966.1,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p066:para:01",
+      "score": 0.9915,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p066:para:03",
+      "score": 0.9688,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p066:para:00",
+      "score": 0.722,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q09",
+    "filter": {
+     "section": "Chapter 8. Nutritional Readiness"
+    },
+    "ms": 671.3,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p089:para:03",
+      "score": 0.9985,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p089:para:02",
+      "score": 0.3082,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p095:para:03",
+      "score": 0.1239,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q10",
+    "filter": null,
+    "ms": 650.7,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p164:para:01",
+      "score": 0.978,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "hhs-pag-2018:p063:para:00",
+      "score": 0.047,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "hhs-pag-2018:p090:para:03",
+      "score": 0.0281,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q11",
+    "filter": null,
+    "ms": 630.8,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p104:para:01",
+      "score": 0.9692,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p158:para:02",
+      "score": 0.3756,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p104:para:02",
+      "score": 0.0669,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q12",
+    "filter": null,
+    "ms": 739.6,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "hhs-pag-2018:p060:para:04",
+      "score": 0.9952,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "hhs-pag-2018:p071:para:02",
+      "score": 0.9617,
+      "hit": true
+     },
+     {
+      "rank": 3,
+      "id": "hhs-pag-2018:p060:para:00",
+      "score": 0.9479,
+      "hit": true
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q13",
+    "filter": {
+     "publisher": "HHS"
+    },
+    "ms": 587.1,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "hhs-pag-2018:p048:para:02",
+      "score": 0.9998,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "hhs-pag-2018:p048:para:00",
+      "score": 0.9984,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "hhs-pag-2018:p018:para:01",
+      "score": 0.9487,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q14",
+    "filter": {
+     "publisher": "WHO"
+    },
+    "ms": 524.6,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "who-pasb-2020:p011:para:00",
+      "score": 0.9997,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "who-pasb-2020:p036:para:00",
+      "score": 0.9952,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "who-pasb-2020:p035:para:02",
+      "score": 0.9925,
+      "hit": true
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q15",
+    "filter": null,
+    "ms": 566.2,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "who-pasb-2020:p083:para:00",
+      "score": 1.0,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "who-pasb-2020:p010:para:06",
+      "score": 0.9999,
+      "hit": true
+     },
+     {
+      "rank": 3,
+      "id": "who-pasb-2020:p025:para:05",
+      "score": 0.9825,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q21",
+    "filter": null,
+    "ms": 876.1,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p045:para:04",
+      "score": 0.996,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p048:para:06",
+      "score": 0.0915,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p048:para:07",
+      "score": 0.0031,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q22",
+    "filter": null,
+    "ms": 674.6,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p089:para:05",
+      "score": 0.9946,
+      "hit": false
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p089:para:01",
+      "score": 0.9836,
+      "hit": true
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p088:para:03",
+      "score": 0.974,
+      "hit": false
+     }
+    ],
+    "hit1": false,
+    "hit3": true
+   },
+   {
+    "query_id": "q23",
+    "filter": null,
+    "ms": 611.2,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p164:para:00",
+      "score": 0.966,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p091:para:00",
+      "score": 0.0163,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p163:para:04",
+      "score": 0.0136,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q24",
+    "filter": {
+     "section": "Chapter 14. Holistic Health and Fitness Schedules"
+    },
+    "ms": 610.0,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p163:para:03",
+      "score": 0.9661,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p213:para:00",
+      "score": 0.0578,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p163:para:02",
+      "score": 0.0099,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q25",
+    "filter": null,
+    "ms": 557.1,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "hhs-pag-2018:p047:para:05",
+      "score": 0.9997,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "hhs-pag-2018:p047:para:04",
+      "score": 0.9827,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "hhs-pag-2018:p025:para:02",
+      "score": 0.949,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q26",
+    "filter": null,
+    "ms": 589.8,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "hhs-pag-2018:p020:para:00",
+      "score": 0.9962,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "hhs-pag-2018:p031:para:00",
+      "score": 0.9871,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "hhs-pag-2018:p056:para:02",
+      "score": 0.8862,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q27",
+    "filter": null,
+    "ms": 600.8,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "hhs-pag-2018:p021:para:03",
+      "score": 0.9987,
+      "hit": false
+     },
+     {
+      "rank": 2,
+      "id": "hhs-pag-2018:p045:para:01",
+      "score": 0.9977,
+      "hit": true
+     },
+     {
+      "rank": 3,
+      "id": "who-pasb-2020:p039:para:02",
+      "score": 0.9917,
+      "hit": true
+     }
+    ],
+    "hit1": false,
+    "hit3": true
+   }
+  ]
+ },
+ "rerank_hybrid": {
+  "n": 22,
+  "hit1": 20,
+  "hit3": 22,
+  "median_ms": 1041.7,
+  "misses_at_3": [],
+  "traces": [
+   {
+    "query_id": "q01",
+    "filter": null,
+    "ms": 1069.2,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p085:para:00",
+      "score": 0.9991,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p082:para:01",
+      "score": 0.997,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p089:para:05",
+      "score": 0.9754,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q02",
+    "filter": null,
+    "ms": 1245.7,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p032:para:00",
+      "score": 0.9984,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p053:para:05",
+      "score": 0.7937,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p030:para:02",
+      "score": 0.414,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q03",
+    "filter": null,
+    "ms": 973.4,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p044:para:05",
+      "score": 0.9931,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p044:para:07",
+      "score": 0.5627,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p065:para:04",
+      "score": 0.2961,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q04",
+    "filter": null,
+    "ms": 1204.3,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p047:para:00",
+      "score": 0.7458,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p047:para:02",
+      "score": 0.6995,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p047:para:01",
+      "score": 0.268,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q05",
+    "filter": null,
+    "ms": 1098.3,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p091:para:00",
+      "score": 0.9043,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p093:para:04",
+      "score": 0.7906,
+      "hit": true
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p163:para:03",
+      "score": 0.7857,
+      "hit": true
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q06",
+    "filter": null,
+    "ms": 946.4,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p070:para:00",
+      "score": 0.9995,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p070:para:03",
+      "score": 0.1121,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p064:para:04",
+      "score": 0.1,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q07",
+    "filter": null,
+    "ms": 1106.2,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p088:para:01",
+      "score": 0.9997,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p088:para:00",
+      "score": 0.9701,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p088:para:02",
+      "score": 0.9685,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q08",
+    "filter": null,
+    "ms": 1432.2,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p066:para:01",
+      "score": 0.9915,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p066:para:03",
+      "score": 0.9688,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p066:para:00",
+      "score": 0.722,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q09",
+    "filter": {
+     "section": "Chapter 8. Nutritional Readiness"
+    },
+    "ms": 985.7,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p089:para:03",
+      "score": 0.9985,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p081:para:00",
+      "score": 0.9207,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p089:para:02",
+      "score": 0.3082,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q10",
+    "filter": null,
+    "ms": 1302.1,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p164:para:01",
+      "score": 0.978,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "hhs-pag-2018:p063:para:00",
+      "score": 0.047,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p045:para:04",
+      "score": 0.0305,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q11",
+    "filter": null,
+    "ms": 1071.4,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p104:para:01",
+      "score": 0.9692,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p158:para:02",
+      "score": 0.3756,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p104:para:02",
+      "score": 0.0669,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q12",
+    "filter": null,
+    "ms": 977.4,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "hhs-pag-2018:p060:para:04",
+      "score": 0.9952,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "hhs-pag-2018:p071:para:02",
+      "score": 0.9617,
+      "hit": true
+     },
+     {
+      "rank": 3,
+      "id": "hhs-pag-2018:p060:para:00",
+      "score": 0.9479,
+      "hit": true
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q13",
+    "filter": {
+     "publisher": "HHS"
+    },
+    "ms": 1014.2,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "hhs-pag-2018:p048:para:02",
+      "score": 0.9998,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "hhs-pag-2018:p048:para:00",
+      "score": 0.9984,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "hhs-pag-2018:p049:para:04",
+      "score": 0.9962,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q14",
+    "filter": {
+     "publisher": "WHO"
+    },
+    "ms": 964.9,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "who-pasb-2020:p011:para:00",
+      "score": 0.9997,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "who-pasb-2020:p036:para:00",
+      "score": 0.9952,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "who-pasb-2020:p035:para:02",
+      "score": 0.9925,
+      "hit": true
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q15",
+    "filter": null,
+    "ms": 791.5,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "who-pasb-2020:p083:para:00",
+      "score": 1.0,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "who-pasb-2020:p010:para:06",
+      "score": 0.9999,
+      "hit": true
+     },
+     {
+      "rank": 3,
+      "id": "who-pasb-2020:p025:para:05",
+      "score": 0.9825,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q21",
+    "filter": null,
+    "ms": 1310.1,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p045:para:04",
+      "score": 0.996,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p048:para:06",
+      "score": 0.0915,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p048:para:07",
+      "score": 0.0031,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q22",
+    "filter": null,
+    "ms": 1202.0,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p089:para:05",
+      "score": 0.9946,
+      "hit": false
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p089:para:01",
+      "score": 0.9836,
+      "hit": true
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p088:para:03",
+      "score": 0.974,
+      "hit": false
+     }
+    ],
+    "hit1": false,
+    "hit3": true
+   },
+   {
+    "query_id": "q23",
+    "filter": null,
+    "ms": 1190.2,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p164:para:00",
+      "score": 0.966,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p091:para:00",
+      "score": 0.0163,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p163:para:04",
+      "score": 0.0136,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q24",
+    "filter": {
+     "section": "Chapter 14. Holistic Health and Fitness Schedules"
+    },
+    "ms": 656.2,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p163:para:03",
+      "score": 0.9661,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p161:para:00",
+      "score": 0.2264,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p169:para:00",
+      "score": 0.0685,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q25",
+    "filter": null,
+    "ms": 1011.6,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "hhs-pag-2018:p047:para:05",
+      "score": 0.9997,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "hhs-pag-2018:p047:para:04",
+      "score": 0.9827,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "hhs-pag-2018:p025:para:02",
+      "score": 0.949,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q26",
+    "filter": null,
+    "ms": 951.2,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "hhs-pag-2018:p020:para:00",
+      "score": 0.9962,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "hhs-pag-2018:p031:para:00",
+      "score": 0.9871,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "hhs-pag-2018:p068:para:00",
+      "score": 0.9202,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q27",
+    "filter": null,
+    "ms": 849.7,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "hhs-pag-2018:p021:para:03",
+      "score": 0.9987,
+      "hit": false
+     },
+     {
+      "rank": 2,
+      "id": "hhs-pag-2018:p045:para:01",
+      "score": 0.9977,
+      "hit": true
+     },
+     {
+      "rank": 3,
+      "id": "who-pasb-2020:p039:para:02",
+      "score": 0.9917,
+      "hit": true
+     }
+    ],
+    "hit1": false,
+    "hit3": true
+   }
+  ]
+ }
+}

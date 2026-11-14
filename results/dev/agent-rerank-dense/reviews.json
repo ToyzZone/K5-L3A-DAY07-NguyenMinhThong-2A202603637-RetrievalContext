@@ -1,0 +1,197 @@
+[
+ {
+  "query_id": "q01",
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng \"<2,300 mg/ngày\"; p85 nêu nguyên văn.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q02",
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng 10 tuần; trích đúng trang gold p32.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q03",
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng phosphagen, 5–10 giây; p44 nêu nguyên văn.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q04",
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng Type I, co chậm và lực yếu hơn; p47.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q05",
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng hyponatremia; p163 (alt gold) nói uống quá nhiều nước gây hyponatremic.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q06",
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng \"trên 30% trọng lượng cơ thể\"; p70 nêu nguyên văn.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q07",
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng 1–4 g/kg carb, 1–4 giờ trước; p88.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q08",
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng 60–70% HRmax, mức Moderate; bảng 6-5 p66.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q09",
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng \"< 200 mg\" caffeine; p89 nêu nguyên văn.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q10",
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng điều kiện (2 rep vượt mục tiêu, 2 buổi liên tiếp) và mức tăng 5–10%; p164 nêu nguyên văn.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q11",
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng cortisol và đủ 3 hậu quả; p104.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q12",
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng talk test cho cả hai mức; p71 (alt gold).",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q13",
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng 60 phút MVPA/ngày; chi tiết vigorous/cơ có trong p48 para 02.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q14",
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng ≥60 phút/ngày trung bình, chủ yếu aerobic; p11.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q15",
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng giảm 15% vào 2030; p83 nêu nguyên văn.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q21",
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng định nghĩa và đơn vị; p45.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q22",
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng 50–100 g carb + 15–25 g protein trong 30–60 phút; p89 nêu nguyên văn.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q23",
+  "citation_support": [
+   true
+  ],
+  "reason": "Đủ các dấu hiệu và mức khẩn cấp; p164.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q24",
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng 1 1/2 quart (48 oz)/giờ; p163.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q25",
+  "citation_support": [
+   true,
+   true
+  ],
+  "reason": "Đúng khuyến nghị chính; các chi tiết thêm có trong p47 para 04/05.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q26",
+  "citation_support": [
+   true
+  ],
+  "reason": "Đủ 5 lợi ích tức thì; p20 nêu nguyên văn.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "q27",
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng định nghĩa WHO p39.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "u01",
+  "citation_support": [],
+  "reason": "Từ chối, không thêm khẳng định; corpus không nhắc COVID.",
+  "abstention_correct": true
+ },
+ {
+  "query_id": "u02",
+  "citation_support": [],
+  "reason": "Từ chối, không suy từ khuyến nghị type 2; HHS p83 nói type 1 không được xét.",
+  "abstention_correct": true
+ },
+ {
+  "query_id": "u03",
+  "citation_support": [],
+  "reason": "Từ chối, không bịa điểm ACFT; FM 7-22 không có thang điểm.",
+  "abstention_correct": true
+ }
+]

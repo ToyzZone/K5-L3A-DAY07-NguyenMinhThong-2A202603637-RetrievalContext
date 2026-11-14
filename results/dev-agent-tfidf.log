@@ -1,0 +1,65 @@
+q01 answered searches=1 ctx_evidence=True 1.85s 'Healthy eating patterns limit sodium to less than 2,300 milligrams per day for adults [fm7-22-2020:p'
+q02 answered searches=1 ctx_evidence=False 1.83s 'The Basic Combat Training block is a 10-week block [fm7-22-2020:p023:para:05].'
+q03 answered searches=1 ctx_evidence=True 1.94s 'The phosphagen pathway fuels very short, high-power activities for 5-10 seconds [fm7-22-2020:p044:pa'
+q04 answered searches=1 ctx_evidence=True 2.2s 'Type I fibers hold up best against fatigue, but they give up slower contractile speed and less force'
+q05 answered searches=1 ctx_evidence=True 1.84s 'Too much water can result in hyponatremia [fm7-22-2020:p093:para:04].'
+q06 answered searches=1 ctx_evidence=True 2.24s 'Loads above 30 percent of body weight should be increased with caution [fm7-22-2020:p070:para:00].'
+q07 answered searches=1 ctx_evidence=True 1.84s 'A pre-exercise meal should contain 1 to 4 grams of carbohydrate per kilogram of body weight and be e'
+q08 abstain  searches=3 ctx_evidence=False 3.62s 'Không đủ bằng chứng để trả lời.'
+q09 answered searches=1 ctx_evidence=True 3.06s 'A small amount of caffeine in tea or coffee, < 200 milligrams, should not negatively affect hydratio'
+q10 abstain  searches=3 ctx_evidence=False 3.83s 'Không đủ bằng chứng để trả lời.'
+q11 answered searches=1 ctx_evidence=True 2.07s 'Cortisol is often called the “stress hormone,” and excessive production of cortisol contributes to c'
+q12 answered searches=1 ctx_evidence=True 2.2s 'Moderate-intensity aerobic activity: can talk, but not sing, during the activity [hhs-pag-2018:p060:'
+q13 answered searches=1 ctx_evidence=False 1.93s 'Children and adolescents ages 6 through 17 should do 60 minutes or more of moderate- and vigorous-in'
+q14 answered searches=1 ctx_evidence=True 2.11s 'Children and adolescents aged 5–17 should do at least an average of 60 minutes per day of moderate- '
+q15 answered searches=1 ctx_evidence=True 1.83s 'The target was a 15% relative reduction in the global prevalence of physical inactivity by 2030 [who'
+q21 answered searches=1 ctx_evidence=True 1.86s 'VO2 max is the maximal oxygen consumption: the highest amount of oxygen that can be used during maxi'
+q22 abstain  searches=3 ctx_evidence=False 4.1s 'Không đủ bằng chứng để trả lời.'
+q23 answered searches=1 ctx_evidence=True 2.16s 'Heatstroke signs are no sweating, hot dry skin, rapid pulse, rapid breathing, dizziness or confusion'
+q24 abstain  searches=3 ctx_evidence=False 4.14s 'Không đủ bằng chứng để trả lời.'
+q25 answered searches=1 ctx_evidence=True 1.94s 'Preschool-aged children (ages 3 through 5 years) should be physically active throughout the day to e'
+q26 answered searches=3 ctx_evidence=False 3.98s 'It can provide some health benefits on the same day [hhs-pag-2018:p068:para:00].'
+q27 answered searches=1 ctx_evidence=True 1.85s 'Sedentary behaviour is any waking behaviour while in a sitting, reclining or lying posture with low '
+u01 abstain  searches=3 ctx_evidence=None 3.62s 'Không đủ bằng chứng để trả lời.'
+u02 abstain  searches=1 ctx_evidence=None 1.95s 'Không đủ bằng chứng để trả lời.'
+u03 abstain  searches=3 ctx_evidence=None 3.72s 'Không đủ bằng chứng để trả lời.'
+{
+ "config": "tfidf",
+ "method": "tfidf",
+ "top_k": 3,
+ "budget": 3000,
+ "max_searches": 3,
+ "split": "dev",
+ "model": "gpt-5.4-mini-2026-03-17",
+ "questions": 25,
+ "errors": [],
+ "status": {
+  "answered": 18,
+  "abstain": 7
+ },
+ "tool_use": {
+  "n": 25,
+  "N": 25
+ },
+ "searches_distribution": {
+  "1": 18,
+  "3": 7
+ },
+ "context_evidence_rate": {
+  "n": 15,
+  "N": 22
+ },
+ "abstained_unanswerable": {
+  "n": 3,
+  "N": 3
+ },
+ "abstained_answerable": {
+  "n": 4,
+  "N": 22
+ },
+ "llm_calls": 64,
+ "prompt_tokens": 47576,
+ "completion_tokens": 2939,
+ "median_seconds": 2.11,
+ "total_seconds": 63.7
+}

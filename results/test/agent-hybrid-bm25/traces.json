@@ -1,0 +1,2405 @@
+[
+ {
+  "query_id": "q16",
+  "split": "test",
+  "question": "Which training period is the longest, and how long can it last?",
+  "answerable": true,
+  "filter": null,
+  "status": "answered",
+  "answer": "The base period is the longest, lasting up to twelve weeks [fm7-22-2020:p057:para:01].",
+  "citations": [
+   "fm7-22-2020:p057:para:01"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "query": "training period longest how long can it last FM 7-22 phased training period weeks",
+    "filter": null,
+    "results": [
+     {
+      "id": "fm7-22-2020:p057:para:01",
+      "text": "BASE\n5-17. This is the period when the basic abilities of endurance, strength, speed , and movement skill are\nemphasized. This period is the longest of all the periods lasting up to twelve weeks. As most training in this\nperiod is relatively low intensity, it may be predominate in Soldier populations that do not have any pending\nprimary missions, deployments, or high-intensity schooling.\nBUILD\n5-18. This is the four to eight week period when the abilities from the base period are built upon with higher\nintensity and increased volume of training. Training effort begins to mimic the primary goal or mission and\nthe period ends with a simulation of the mission or a test . Leaders might implement a FTX or a practice\nACFT.",
+      "source_id": "fm7-22-2020",
+      "source": "data/pdf/fm7-22-2020.pdf",
+      "page": 57,
+      "metadata": {
+       "document_id": "fm7-22-2020",
+       "source": "data/pdf/fm7-22-2020.pdf",
+       "page": 57,
+       "char_start": 768,
+       "char_end": 1494,
+       "publisher": "US Army",
+       "year": 2020,
+       "section": "Chapter 5. Periodization"
+      },
+      "score": 0.03278688524590164,
+      "strategy": "hybrid"
+     },
+     {
+      "id": "fm7-22-2020:p053:para:05",
+      "text": "5-5. Periodized blocks of training can last from several days to several months. They can be progressed\nover several years. This long-term approach suits the different lengths of Soldier careers. The H2F training\nphases—initial and sustaining —contain training cycles that last from a few days (microcycles) to several\nmonths or more (macrocycles). The H2F System facilitates more deliberate, customized, and comprehensive\napproaches to readiness training for smaller groups and individual Soldiers.\n5-6. The challenge for commanders is optimizing readiness in spite of the frequent changes in the unit ’s\ntraining schedule, Soldier population, and deployment timeline. See Part Four beginning on page 13-1 for",
+      "source_id": "fm7-22-2020",
+      "source": "data/pdf/fm7-22-2020.pdf",
+      "page": 53,
+      "metadata": {
+       "document_id": "fm7-22-2020",
+       "source": "data/pdf/fm7-22-2020.pdf",
+       "page": 53,
+       "char_start": 3277,
+       "char_end": 3987,
+       "publisher": "US Army",
+       "year": 2020,
+       "section": "Chapter 5. Periodization"
+      },
+      "score": 0.031754032258064516,
+      "strategy": "hybrid"
+     },
+     {
+      "id": "fm7-22-2020:p054:para:02",
+      "text": "MICROCYCLE\n5-9. The microcycle consists of the detailed daily training structure across two to fourteen days. The day s\nin the microcycle alternate between endurance and strength sessions as well as between training and recovery\nsessions. Leaders develop these training cycles in conjunction with the operations planning process described\nin FM 7-0. FM 7-0 uses the operations process conducting training events in a step-by-step approach to help\ncommanders and other unit leaders train their Soldiers. With a focus on readiness and high levels of training\nproficiency, FM 7-0 provides the how-to processes of unit training along with practical applications. Leaders\ncomplete this meticulous planning well prior to the start of training.",
+      "source_id": "fm7-22-2020",
+      "source": "data/pdf/fm7-22-2020.pdf",
+      "page": 54,
+      "metadata": {
+       "document_id": "fm7-22-2020",
+       "source": "data/pdf/fm7-22-2020.pdf",
+       "page": 54,
+       "char_start": 1029,
+       "char_end": 1766,
+       "publisher": "US Army",
+       "year": 2020,
+       "section": "Chapter 5. Periodization"
+      },
+      "score": 0.030309988518943745,
+      "strategy": "hybrid"
+     }
+    ],
+    "context": "[fm7-22-2020:p057:para:01 | data/pdf/fm7-22-2020.pdf | page 57]\nBASE\n5-17. This is the period when the basic abilities of endurance, strength, speed , and movement skill are\nemphasized. This period is the longest of all the periods lasting up to twelve weeks. As most training in this\nperiod is relatively low intensity, it may be predominate in Soldier populations that do not have any pending\nprimary missions, deployments, or high-intensity schooling.\nBUILD\n5-18. This is the four to eight week period when the abilities from the base period are built upon with higher\nintensity and increased volume of training. Training effort begins to mimic the primary goal or mission and\nthe period ends with a simulation of the mission or a test . Leaders might implement a FTX or a practice\nACFT.\n\n[fm7-22-2020:p053:para:05 | data/pdf/fm7-22-2020.pdf | page 53]\n5-5. Periodized blocks of training can last from several days to several months. They can be progressed\nover several years. This long-term approach suits the different lengths of Soldier careers. The H2F training\nphases—initial and sustaining —contain training cycles that last from a few days (microcycles) to several\nmonths or more (macrocycles). The H2F System facilitates more deliberate, customized, and comprehensive\napproaches to readiness training for smaller groups and individual Soldiers.\n5-6. The challenge for commanders is optimizing readiness in spite of the frequent changes in the unit ’s\ntraining schedule, Soldier population, and deployment timeline. See Part Four beginning on page 13-1 for\n\n[fm7-22-2020:p054:para:02 | data/pdf/fm7-22-2020.pdf | page 54]\nMICROCYCLE\n5-9. The microcycle consists of the detailed daily training structure across two to fourteen days. The day s\nin the microcycle alternate between endurance and strength sessions as well as between training and recovery\nsessions. Leaders develop these training cycles in conjunction with the operations planning process described\nin FM 7-0. FM 7-0 uses the operations process conducting training events in a step-by-step approach to help\ncommanders and other unit leaders train their Soldiers. With a focus on readiness and high levels of training\nproficiency, FM 7-0 provides the how-to processes of unit training along with practical applications. Leaders\ncomplete this meticulous planning well prior to the start of training.",
+    "context_ids": [
+     "fm7-22-2020:p057:para:01",
+     "fm7-22-2020:p053:para:05",
+     "fm7-22-2020:p054:para:02"
+    ]
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "seconds": 2.21,
+  "llm_calls": [
+   {
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+     "prompt_tokens": 446,
+     "completion_tokens": 33,
+     "total_tokens": 479,
+     "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+     },
+     "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+     }
+    },
+    "seconds": 0.95,
+    "tool_calls": [
+     {
+      "name": "search_documents",
+      "arguments": "{\"query\":\"training period longest how long can it last FM 7-22 phased training period weeks\"}"
+     }
+    ]
+   },
+   {
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+     "prompt_tokens": 1021,
+     "completion_tokens": 60,
+     "total_tokens": 1081,
+     "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+     },
+     "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+     }
+    },
+    "seconds": 1.03,
+    "tool_calls": [
+     {
+      "name": "answer",
+      "arguments": "{\"answer\":\"The base period is the longest, lasting up to twelve weeks [fm7-22-2020:p057:para:01].\",\"citations\":[\"fm7-22-2020:p057:para:01\"]}"
+     }
+    ]
+   }
+  ],
+  "searches": 1,
+  "final_context": "[fm7-22-2020:p057:para:01 | data/pdf/fm7-22-2020.pdf | page 57]\nBASE\n5-17. This is the period when the basic abilities of endurance, strength, speed , and movement skill are\nemphasized. This period is the longest of all the periods lasting up to twelve weeks. As most training in this\nperiod is relatively low intensity, it may be predominate in Soldier populations that do not have any pending\nprimary missions, deployments, or high-intensity schooling.\nBUILD\n5-18. This is the four to eight week period when the abilities from the base period are built upon with higher\nintensity and increased volume of training. Training effort begins to mimic the primary goal or mission and\nthe period ends with a simulation of the mission or a test . Leaders might implement a FTX or a practice\nACFT.\n\n[fm7-22-2020:p053:para:05 | data/pdf/fm7-22-2020.pdf | page 53]\n5-5. Periodized blocks of training can last from several days to several months. They can be progressed\nover several years. This long-term approach suits the different lengths of Soldier careers. The H2F training\nphases—initial and sustaining —contain training cycles that last from a few days (microcycles) to several\nmonths or more (macrocycles). The H2F System facilitates more deliberate, customized, and comprehensive\napproaches to readiness training for smaller groups and individual Soldiers.\n5-6. The challenge for commanders is optimizing readiness in spite of the frequent changes in the unit ’s\ntraining schedule, Soldier population, and deployment timeline. See Part Four beginning on page 13-1 for\n\n[fm7-22-2020:p054:para:02 | data/pdf/fm7-22-2020.pdf | page 54]\nMICROCYCLE\n5-9. The microcycle consists of the detailed daily training structure across two to fourteen days. The day s\nin the microcycle alternate between endurance and strength sessions as well as between training and recovery\nsessions. Leaders develop these training cycles in conjunction with the operations planning process described\nin FM 7-0. FM 7-0 uses the operations process conducting training events in a step-by-step approach to help\ncommanders and other unit leaders train their Soldiers. With a focus on readiness and high levels of training\nproficiency, FM 7-0 provides the how-to processes of unit training along with practical applications. Leaders\ncomplete this meticulous planning well prior to the start of training.",
+  "final_context_ids": [
+   "fm7-22-2020:p057:para:01",
+   "fm7-22-2020:p053:para:05",
+   "fm7-22-2020:p054:para:02"
+  ],
+  "context_evidence": true
+ },
+ {
+  "query_id": "q17",
+  "split": "test",
+  "question": "What exercise position is off limits for Soldiers who are more than 20 weeks pregnant?",
+  "answerable": true,
+  "filter": null,
+  "status": "answered",
+  "answer": "Exercises lying on their backs are off limits for Soldiers more than 20 weeks pregnant [fm7-22-2020:p145:para:01].",
+  "citations": [
+   "fm7-22-2020:p145:para:01"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "query": "pregnant more than 20 weeks exercise position off limits Soldiers prone position FM 7-22",
+    "filter": null,
+    "results": [
+     {
+      "id": "fm7-22-2020:p145:para:01",
+      "text": "• Pregnant Soldiers will not exercise to exhaustion, breathlessness, or fatigue. If\nSoldiers exhibit these signs, leaders coach them to decrease the intensity or to\nstop vaginal bleeding, abdominal pain, regular painful contractions, and amniotic\nfluid leakage.\n• Pregnant Soldiers should be led in slow, deep breathing during all phases of\nexercise to prevent them from hyperventilating.\n• Soldiers more than 20 weeks pregnant do not perform exercises lying on their\nbacks.\n• Soldiers more than 20 weeks pregnant must use a splinting technique to support\ntheir abdomens during all abdominal exercises.\n• Weight bearing activities (running and jogging) for pregnant Soldiers are limited\nto 45-minutes to prevent decreased blood flow to the heart and uterus.",
+      "source_id": "fm7-22-2020",
+      "source": "data/pdf/fm7-22-2020.pdf",
+      "page": 145,
+      "metadata": {
+       "document_id": "fm7-22-2020",
+       "source": "data/pdf/fm7-22-2020.pdf",
+       "page": 145,
+       "char_start": 571,
+       "char_end": 1328,
+       "publisher": "US Army",
+       "year": 2020,
+       "section": "Chapter 12. Special Conditioning"
+      },
+      "score": 0.03252247488101534,
+      "strategy": "hybrid"
+     },
+     {
+      "id": "fm7-22-2020:p145:para:02",
+      "text": "• Pregnant Soldiers are not to perform activities that put them at risk of falling or\nbeing hit in the abdomen.\n• If a Soldier less than 20 weeks pregnant falls during an exercise, she should rest\nfor 10 minutes on her side and notify her health care provider for further\ninstruction. If symptoms of injury exist (such as cramping, bleeding, or swelling),\nthe Soldier should go to the emergency room. If the Soldier is more than 20\nweeks pregnant, then she needs to seek immediate care at the medical treatment\nfacility.",
+      "source_id": "fm7-22-2020",
+      "source": "data/pdf/fm7-22-2020.pdf",
+      "page": 145,
+      "metadata": {
+       "document_id": "fm7-22-2020",
+       "source": "data/pdf/fm7-22-2020.pdf",
+       "page": 145,
+       "char_start": 1329,
+       "char_end": 1849,
+       "publisher": "US Army",
+       "year": 2020,
+       "section": "Chapter 12. Special Conditioning"
+      },
+      "score": 0.03252247488101534,
+      "strategy": "hybrid"
+     },
+     {
+      "id": "fm7-22-2020:p148:para:03",
+      "text": "ACTIVITIES\n12-47. Pregnant Soldiers should plan to exercise three to five times per week for 60 to 90 minutes at each\nsession. Microcycles of one week and mesocycles of two to four weeks allow sequential training and fit\nneatly into the three trimesters of pregnancy and the postpartum period. Leaders can modify periodized\ntraining cycles to accommodate the changes occurring in the pregnant Soldier’s fitness and fatigue levels,\ndirectives from medical providers, and the Soldier’s motivation to train.",
+      "source_id": "fm7-22-2020",
+      "source": "data/pdf/fm7-22-2020.pdf",
+      "page": 148,
+      "metadata": {
+       "document_id": "fm7-22-2020",
+       "source": "data/pdf/fm7-22-2020.pdf",
+       "page": 148,
+       "char_start": 1624,
+       "char_end": 2128,
+       "publisher": "US Army",
+       "year": 2020,
+       "section": "Chapter 12. Special Conditioning"
+      },
+      "score": 0.029273504273504274,
+      "strategy": "hybrid"
+     }
+    ],
+    "context": "[fm7-22-2020:p145:para:01 | data/pdf/fm7-22-2020.pdf | page 145]\n• Pregnant Soldiers will not exercise to exhaustion, breathlessness, or fatigue. If\nSoldiers exhibit these signs, leaders coach them to decrease the intensity or to\nstop vaginal bleeding, abdominal pain, regular painful contractions, and amniotic\nfluid leakage.\n• Pregnant Soldiers should be led in slow, deep breathing during all phases of\nexercise to prevent them from hyperventilating.\n• Soldiers more than 20 weeks pregnant do not perform exercises lying on their\nbacks.\n• Soldiers more than 20 weeks pregnant must use a splinting technique to support\ntheir abdomens during all abdominal exercises.\n• Weight bearing activities (running and jogging) for pregnant Soldiers are limited\nto 45-minutes to prevent decreased blood flow to the heart and uterus.\n\n[fm7-22-2020:p145:para:02 | data/pdf/fm7-22-2020.pdf | page 145]\n• Pregnant Soldiers are not to perform activities that put them at risk of falling or\nbeing hit in the abdomen.\n• If a Soldier less than 20 weeks pregnant falls during an exercise, she should rest\nfor 10 minutes on her side and notify her health care provider for further\ninstruction. If symptoms of injury exist (such as cramping, bleeding, or swelling),\nthe Soldier should go to the emergency room. If the Soldier is more than 20\nweeks pregnant, then she needs to seek immediate care at the medical treatment\nfacility.\n\n[fm7-22-2020:p148:para:03 | data/pdf/fm7-22-2020.pdf | page 148]\nACTIVITIES\n12-47. Pregnant Soldiers should plan to exercise three to five times per week for 60 to 90 minutes at each\nsession. Microcycles of one week and mesocycles of two to four weeks allow sequential training and fit\nneatly into the three trimesters of pregnancy and the postpartum period. Leaders can modify periodized\ntraining cycles to accommodate the changes occurring in the pregnant Soldier’s fitness and fatigue levels,\ndirectives from medical providers, and the Soldier’s motivation to train.",
+    "context_ids": [
+     "fm7-22-2020:p145:para:01",
+     "fm7-22-2020:p145:para:02",
+     "fm7-22-2020:p148:para:03"
+    ]
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "seconds": 1.88,
+  "llm_calls": [
+   {
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+     "prompt_tokens": 449,
+     "completion_tokens": 35,
+     "total_tokens": 484,
+     "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+     },
+     "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+     }
+    },
+    "seconds": 0.79,
+    "tool_calls": [
+     {
+      "name": "search_documents",
+      "arguments": "{\"query\":\"pregnant more than 20 weeks exercise position off limits Soldiers prone position FM 7-22\"}"
+     }
+    ]
+   },
+   {
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+     "prompt_tokens": 950,
+     "completion_tokens": 64,
+     "total_tokens": 1014,
+     "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+     },
+     "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+     }
+    },
+    "seconds": 1.0,
+    "tool_calls": [
+     {
+      "name": "answer",
+      "arguments": "{\"answer\":\"Exercises lying on their backs are off limits for Soldiers more than 20 weeks pregnant [fm7-22-2020:p145:para:01].\",\"citations\":[\"fm7-22-2020:p145:para:01\"]}"
+     }
+    ]
+   }
+  ],
+  "searches": 1,
+  "final_context": "[fm7-22-2020:p145:para:01 | data/pdf/fm7-22-2020.pdf | page 145]\n• Pregnant Soldiers will not exercise to exhaustion, breathlessness, or fatigue. If\nSoldiers exhibit these signs, leaders coach them to decrease the intensity or to\nstop vaginal bleeding, abdominal pain, regular painful contractions, and amniotic\nfluid leakage.\n• Pregnant Soldiers should be led in slow, deep breathing during all phases of\nexercise to prevent them from hyperventilating.\n• Soldiers more than 20 weeks pregnant do not perform exercises lying on their\nbacks.\n• Soldiers more than 20 weeks pregnant must use a splinting technique to support\ntheir abdomens during all abdominal exercises.\n• Weight bearing activities (running and jogging) for pregnant Soldiers are limited\nto 45-minutes to prevent decreased blood flow to the heart and uterus.\n\n[fm7-22-2020:p145:para:02 | data/pdf/fm7-22-2020.pdf | page 145]\n• Pregnant Soldiers are not to perform activities that put them at risk of falling or\nbeing hit in the abdomen.\n• If a Soldier less than 20 weeks pregnant falls during an exercise, she should rest\nfor 10 minutes on her side and notify her health care provider for further\ninstruction. If symptoms of injury exist (such as cramping, bleeding, or swelling),\nthe Soldier should go to the emergency room. If the Soldier is more than 20\nweeks pregnant, then she needs to seek immediate care at the medical treatment\nfacility.\n\n[fm7-22-2020:p148:para:03 | data/pdf/fm7-22-2020.pdf | page 148]\nACTIVITIES\n12-47. Pregnant Soldiers should plan to exercise three to five times per week for 60 to 90 minutes at each\nsession. Microcycles of one week and mesocycles of two to four weeks allow sequential training and fit\nneatly into the three trimesters of pregnancy and the postpartum period. Leaders can modify periodized\ntraining cycles to accommodate the changes occurring in the pregnant Soldier’s fitness and fatigue levels,\ndirectives from medical providers, and the Soldier’s motivation to train.",
+  "final_context_ids": [
+   "fm7-22-2020:p145:para:01",
+   "fm7-22-2020:p145:para:02",
+   "fm7-22-2020:p148:para:03"
+  ],
+  "context_evidence": true
+ },
+ {
+  "query_id": "q18",
+  "split": "test",
+  "question": "In the Sleep Readiness chapter, how many hours of sleep per night should Soldiers get in the two weeks before travel or a mission?",
+  "answerable": true,
+  "filter": {
+   "section": "Chapter 11. Sleep Readiness"
+  },
+  "status": "answered",
+  "answer": "8 or more hours of sleep per night [fm7-22-2020:p129:para:00]",
+  "citations": [
+   "fm7-22-2020:p129:para:00"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "query": "Sleep Readiness chapter two weeks before travel or mission hours of sleep per night Soldiers",
+    "filter": {
+     "section": "Chapter 11. Sleep Readiness"
+    },
+    "results": [
+     {
+      "id": "fm7-22-2020:p129:para:00",
+      "text": "Sleep Readiness\nTable 11-1. Maximizing mission sleep\nBefore\nTwo weeks prior, get 8 or more hours of sleep per night.\nStop caffeine and alcohol consumption at least 6 hours prior to scheduled sleep.\nDuring\nTake naps whenever possible to accumulate 7-8 hours of sleep in every 24 hour period.\nCaffeine can be used to reduce grogginess on awakening.\nSeparate day and night shift sleep areas.\nAfter\nTo reduce sleep debt or deprivation, plan on additional sleep time.\nIncrease sleep to 8 hours every 24 hours to return to optimal alertness and performance.",
+      "source_id": "fm7-22-2020",
+      "source": "data/pdf/fm7-22-2020.pdf",
+      "page": 129,
+      "metadata": {
+       "document_id": "fm7-22-2020",
+       "source": "data/pdf/fm7-22-2020.pdf",
+       "page": 129,
+       "char_start": 0,
+       "char_end": 551,
+       "publisher": "US Army",
+       "year": 2020,
+       "section": "Chapter 11. Sleep Readiness"
+      },
+      "score": 0.032018442622950824,
+      "strategy": "hybrid"
+     },
+     {
+      "id": "fm7-22-2020:p127:para:05",
+      "text": "11-37. The following strategies assist Soldiers coping with jet lag, shift work, and operational missions :\n• Before travel.\n• During travel.\n• After travel.\n• Before missions.\n• During missions.\n• After missions.\n• Continuous operations.\nBefore Travel\n11-38. Up to two weeks prior to trave ling, Soldiers pay down sleep debt and bank sleep by getting 8 or\nmore hours of sleep per night. They do not attempt to pre-adapt to a new time zone. Attempting to pre-adapt\nby moving sleep-wake timing forward or backward is difficult to accomplish and can cause a sleep debt.\nDuring Travel\n11-39. Transcontinental flights east are generally scheduled for evening departure, allowing for in -flight\nsleep during periods of minimal alertness. Transcontinental westward flights are generally scheduled for",
+      "source_id": "fm7-22-2020",
+      "source": "data/pdf/fm7-22-2020.pdf",
+      "page": 127,
+      "metadata": {
+       "document_id": "fm7-22-2020",
+       "source": "data/pdf/fm7-22-2020.pdf",
+       "page": 127,
+       "char_start": 2810,
+       "char_end": 3604,
+       "publisher": "US Army",
+       "year": 2020,
+       "section": "Chapter 11. Sleep Readiness"
+      },
+      "score": 0.03200204813108039,
+      "strategy": "hybrid"
+     },
+     {
+      "id": "fm7-22-2020:p134:para:01",
+      "text": "WHEN TO SEEK EXPERT HELP\n11-76. Soldiers should schedule appointments with healthcare providers if they have persistent daytime\nsleepiness, difficulty staying asleep, difficulty falling sleep, or disturbance of a sleeping partner with snoring\nand/or gasping at night.\nSleep Readiness\nSoldiers should sleep as much as they can, whenever they can, as the situation allows.\nThe vast majority of Soldiers require 7 -8 hours of sleep per night to sustain\nperformance; more sleep is better. Soldiers can maximize sleep and subsequent\nperformance by timing sleep and caffeine use optimally. Finally, only sleep replaces\nlost sleep.",
+      "source_id": "fm7-22-2020",
+      "source": "data/pdf/fm7-22-2020.pdf",
+      "page": 134,
+      "metadata": {
+       "document_id": "fm7-22-2020",
+       "source": "data/pdf/fm7-22-2020.pdf",
+       "page": 134,
+       "char_start": 709,
+       "char_end": 1333,
+       "publisher": "US Army",
+       "year": 2020,
+       "section": "Chapter 11. Sleep Readiness"
+      },
+      "score": 0.031544957774465976,
+      "strategy": "hybrid"
+     }
+    ],
+    "context": "[fm7-22-2020:p129:para:00 | data/pdf/fm7-22-2020.pdf | page 129]\nSleep Readiness\nTable 11-1. Maximizing mission sleep\nBefore\nTwo weeks prior, get 8 or more hours of sleep per night.\nStop caffeine and alcohol consumption at least 6 hours prior to scheduled sleep.\nDuring\nTake naps whenever possible to accumulate 7-8 hours of sleep in every 24 hour period.\nCaffeine can be used to reduce grogginess on awakening.\nSeparate day and night shift sleep areas.\nAfter\nTo reduce sleep debt or deprivation, plan on additional sleep time.\nIncrease sleep to 8 hours every 24 hours to return to optimal alertness and performance.\n\n[fm7-22-2020:p127:para:05 | data/pdf/fm7-22-2020.pdf | page 127]\n11-37. The following strategies assist Soldiers coping with jet lag, shift work, and operational missions :\n• Before travel.\n• During travel.\n• After travel.\n• Before missions.\n• During missions.\n• After missions.\n• Continuous operations.\nBefore Travel\n11-38. Up to two weeks prior to trave ling, Soldiers pay down sleep debt and bank sleep by getting 8 or\nmore hours of sleep per night. They do not attempt to pre-adapt to a new time zone. Attempting to pre-adapt\nby moving sleep-wake timing forward or backward is difficult to accomplish and can cause a sleep debt.\nDuring Travel\n11-39. Transcontinental flights east are generally scheduled for evening departure, allowing for in -flight\nsleep during periods of minimal alertness. Transcontinental westward flights are generally scheduled for\n\n[fm7-22-2020:p134:para:01 | data/pdf/fm7-22-2020.pdf | page 134]\nWHEN TO SEEK EXPERT HELP\n11-76. Soldiers should schedule appointments with healthcare providers if they have persistent daytime\nsleepiness, difficulty staying asleep, difficulty falling sleep, or disturbance of a sleeping partner with snoring\nand/or gasping at night.\nSleep Readiness\nSoldiers should sleep as much as they can, whenever they can, as the situation allows.\nThe vast majority of Soldiers require 7 -8 hours of sleep per night to sustain\nperformance; more sleep is better. Soldiers can maximize sleep and subsequent\nperformance by timing sleep and caffeine use optimally. Finally, only sleep replaces\nlost sleep.",
+    "context_ids": [
+     "fm7-22-2020:p129:para:00",
+     "fm7-22-2020:p127:para:05",
+     "fm7-22-2020:p134:para:01"
+    ]
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "seconds": 3.83,
+  "llm_calls": [
+   {
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+     "prompt_tokens": 459,
+     "completion_tokens": 32,
+     "total_tokens": 491,
+     "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+     },
+     "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+     }
+    },
+    "seconds": 2.04,
+    "tool_calls": [
+     {
+      "name": "search_documents",
+      "arguments": "{\"query\":\"Sleep Readiness chapter two weeks before travel or mission hours of sleep per night Soldiers\"}"
+     }
+    ]
+   },
+   {
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+     "prompt_tokens": 1004,
+     "completion_tokens": 56,
+     "total_tokens": 1060,
+     "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+     },
+     "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+     }
+    },
+    "seconds": 1.67,
+    "tool_calls": [
+     {
+      "name": "answer",
+      "arguments": "{\"answer\":\"8 or more hours of sleep per night [fm7-22-2020:p129:para:00]\",\"citations\":[\"fm7-22-2020:p129:para:00\"]}"
+     }
+    ]
+   }
+  ],
+  "searches": 1,
+  "final_context": "[fm7-22-2020:p129:para:00 | data/pdf/fm7-22-2020.pdf | page 129]\nSleep Readiness\nTable 11-1. Maximizing mission sleep\nBefore\nTwo weeks prior, get 8 or more hours of sleep per night.\nStop caffeine and alcohol consumption at least 6 hours prior to scheduled sleep.\nDuring\nTake naps whenever possible to accumulate 7-8 hours of sleep in every 24 hour period.\nCaffeine can be used to reduce grogginess on awakening.\nSeparate day and night shift sleep areas.\nAfter\nTo reduce sleep debt or deprivation, plan on additional sleep time.\nIncrease sleep to 8 hours every 24 hours to return to optimal alertness and performance.\n\n[fm7-22-2020:p127:para:05 | data/pdf/fm7-22-2020.pdf | page 127]\n11-37. The following strategies assist Soldiers coping with jet lag, shift work, and operational missions :\n• Before travel.\n• During travel.\n• After travel.\n• Before missions.\n• During missions.\n• After missions.\n• Continuous operations.\nBefore Travel\n11-38. Up to two weeks prior to trave ling, Soldiers pay down sleep debt and bank sleep by getting 8 or\nmore hours of sleep per night. They do not attempt to pre-adapt to a new time zone. Attempting to pre-adapt\nby moving sleep-wake timing forward or backward is difficult to accomplish and can cause a sleep debt.\nDuring Travel\n11-39. Transcontinental flights east are generally scheduled for evening departure, allowing for in -flight\nsleep during periods of minimal alertness. Transcontinental westward flights are generally scheduled for\n\n[fm7-22-2020:p134:para:01 | data/pdf/fm7-22-2020.pdf | page 134]\nWHEN TO SEEK EXPERT HELP\n11-76. Soldiers should schedule appointments with healthcare providers if they have persistent daytime\nsleepiness, difficulty staying asleep, difficulty falling sleep, or disturbance of a sleeping partner with snoring\nand/or gasping at night.\nSleep Readiness\nSoldiers should sleep as much as they can, whenever they can, as the situation allows.\nThe vast majority of Soldiers require 7 -8 hours of sleep per night to sustain\nperformance; more sleep is better. Soldiers can maximize sleep and subsequent\nperformance by timing sleep and caffeine use optimally. Finally, only sleep replaces\nlost sleep.",
+  "final_context_ids": [
+   "fm7-22-2020:p129:para:00",
+   "fm7-22-2020:p127:para:05",
+   "fm7-22-2020:p134:para:01"
+  ],
+  "context_evidence": true
+ },
+ {
+  "query_id": "q19",
+  "split": "test",
+  "question": "Besides aerobic and muscle-strengthening activity, what should older adults include in their weekly physical activity?",
+  "answerable": true,
+  "filter": null,
+  "status": "answered",
+  "answer": "Older adults should include multicomponent physical activity that includes balance training, along with aerobic and muscle-strengthening activities [hhs-pag-2018:p068:para:02]. Flexibility activities are also an appropriate component of a physical activity program, though time spent on flexibility alone does not count toward the key guidelines [hhs-pag-2018:p073:para:02].",
+  "citations": [
+   "hhs-pag-2018:p068:para:02",
+   "hhs-pag-2018:p073:para:02"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "query": "older adults weekly physical activity besides aerobic and muscle-strengthening include balance activities flexibility guidelines",
+    "filter": null,
+    "results": [
+     {
+      "id": "hhs-pag-2018:p068:para:02",
+      "text": "Adults should also do muscle-strengthening activities of moderate or greater intensity\nand that involv\ne all major muscle groups on 2 or more days a week, as these activities\nprovide additional health benefits.\nGuidelines just for older adults:\nAs part of their weekly physical activity, older adults should do multicomponent physical\nactivity that includes balance tr\naining as well as aerobic and muscle-strengthening activities.\nOlder adults should determine their level of effort for physical activity relative to their level\nof fitness.\nOlder adults with chr\nonic conditions should understand whether and how their conditions\naff\nect their ability to do regular physical activity safely.",
+      "source_id": "hhs-pag-2018",
+      "source": "data/pdf/hhs-pag-2018.pdf",
+      "page": 68,
+      "metadata": {
+       "document_id": "hhs-pag-2018",
+       "source": "data/pdf/hhs-pag-2018.pdf",
+       "page": 68,
+       "char_start": 902,
+       "char_end": 1594,
+       "publisher": "HHS",
+       "year": 2018,
+       "section": "Chapter 5. Active Older Adults"
+      },
+      "score": 0.03278688524590164,
+      "strategy": "hybrid"
+     },
+     {
+      "id": "hhs-pag-2018:p069:para:00",
+      "text": "Explaining the Key Guidelines\nAs with other adults, the key guidelines for older adults focus mainly on two types of activity—aerobic and\nmuscle-strengthening. In addition, these key guidelines discuss the importance of multicomponent physical\nactivity, which includes balance training along with aerobic and muscle-strengthening activity. Each provides\nimportant health benefits, especially to improve physical function, as explained in Chapter 2. Physical Activity\nand Health.",
+      "source_id": "hhs-pag-2018",
+      "source": "data/pdf/hhs-pag-2018.pdf",
+      "page": 69,
+      "metadata": {
+       "document_id": "hhs-pag-2018",
+       "source": "data/pdf/hhs-pag-2018.pdf",
+       "page": 69,
+       "char_start": 0,
+       "char_end": 478,
+       "publisher": "HHS",
+       "year": 2018,
+       "section": "Chapter 5. Active Older Adults"
+      },
+      "score": 0.03225806451612903,
+      "strategy": "hybrid"
+     },
+     {
+      "id": "hhs-pag-2018:p073:para:02",
+      "text": "Flexibility, Warm-Up, and Cool-Down\nOlder adults should maintain the flexibility necessary for\nregular physical activity and activities of daily life. Flexibility\nactivities enhance the ability of a joint to move through the full\nrange of motion. Stretching exercises are effective in increasing\nflexibility, and thereby can allow people to more easily do\nactivities that require greater flexibility. Although the health\nbenefits of these activities alone are not known and they\nhave not been demonstrated to reduce risk of activity-related\ninjuries, they are an appropriate component of a physical activity program. However, time spent doing flexibility\nactivities by themselves does not count toward meeting the aerobic or muscle-strengthening key guidelines.",
+      "source_id": "hhs-pag-2018",
+      "source": "data/pdf/hhs-pag-2018.pdf",
+      "page": 73,
+      "metadata": {
+       "document_id": "hhs-pag-2018",
+       "source": "data/pdf/hhs-pag-2018.pdf",
+       "page": 73,
+       "char_start": 1488,
+       "char_end": 2249,
+       "publisher": "HHS",
+       "year": 2018,
+       "section": "Chapter 5. Active Older Adults"
+      },
+      "score": 0.03125763125763126,
+      "strategy": "hybrid"
+     }
+    ],
+    "context": "[hhs-pag-2018:p068:para:02 | data/pdf/hhs-pag-2018.pdf | page 68]\nAdults should also do muscle-strengthening activities of moderate or greater intensity\nand that involv\ne all major muscle groups on 2 or more days a week, as these activities\nprovide additional health benefits.\nGuidelines just for older adults:\nAs part of their weekly physical activity, older adults should do multicomponent physical\nactivity that includes balance tr\naining as well as aerobic and muscle-strengthening activities.\nOlder adults should determine their level of effort for physical activity relative to their level\nof fitness.\nOlder adults with chr\nonic conditions should understand whether and how their conditions\naff\nect their ability to do regular physical activity safely.\n\n[hhs-pag-2018:p069:para:00 | data/pdf/hhs-pag-2018.pdf | page 69]\nExplaining the Key Guidelines\nAs with other adults, the key guidelines for older adults focus mainly on two types of activity—aerobic and\nmuscle-strengthening. In addition, these key guidelines discuss the importance of multicomponent physical\nactivity, which includes balance training along with aerobic and muscle-strengthening activity. Each provides\nimportant health benefits, especially to improve physical function, as explained in Chapter 2. Physical Activity\nand Health.\n\n[hhs-pag-2018:p073:para:02 | data/pdf/hhs-pag-2018.pdf | page 73]\nFlexibility, Warm-Up, and Cool-Down\nOlder adults should maintain the flexibility necessary for\nregular physical activity and activities of daily life. Flexibility\nactivities enhance the ability of a joint to move through the full\nrange of motion. Stretching exercises are effective in increasing\nflexibility, and thereby can allow people to more easily do\nactivities that require greater flexibility. Although the health\nbenefits of these activities alone are not known and they\nhave not been demonstrated to reduce risk of activity-related\ninjuries, they are an appropriate component of a physical activity program. However, time spent doing flexibility\nactivities by themselves does not count toward meeting the aerobic or muscle-strengthening key guidelines.",
+    "context_ids": [
+     "hhs-pag-2018:p068:para:02",
+     "hhs-pag-2018:p069:para:00",
+     "hhs-pag-2018:p073:para:02"
+    ]
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "seconds": 2.14,
+  "llm_calls": [
+   {
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+     "prompt_tokens": 451,
+     "completion_tokens": 32,
+     "total_tokens": 483,
+     "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+     },
+     "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+     }
+    },
+    "seconds": 0.86,
+    "tool_calls": [
+     {
+      "name": "search_documents",
+      "arguments": "{\"query\":\"older adults weekly physical activity besides aerobic and muscle-strengthening include balance activities flexibility guidelines\"}"
+     }
+    ]
+   },
+   {
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+     "prompt_tokens": 930,
+     "completion_tokens": 126,
+     "total_tokens": 1056,
+     "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+     },
+     "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+     }
+    },
+    "seconds": 1.17,
+    "tool_calls": [
+     {
+      "name": "answer",
+      "arguments": "{\"answer\":\"Older adults should include multicomponent physical activity that includes balance training, along with aerobic and muscle-strengthening activities [hhs-pag-2018:p068:para:02]. Flexibility activities are also an appropriate component of a physical activity program, though time spent on flexibility alone does not count toward the key guidelines [hhs-pag-2018:p073:para:02].\",\"citations\":[\"hhs-pag-2018:p068:para:02\",\"hhs-pag-2018:p073:para:02\"]}"
+     }
+    ]
+   }
+  ],
+  "searches": 1,
+  "final_context": "[hhs-pag-2018:p068:para:02 | data/pdf/hhs-pag-2018.pdf | page 68]\nAdults should also do muscle-strengthening activities of moderate or greater intensity\nand that involv\ne all major muscle groups on 2 or more days a week, as these activities\nprovide additional health benefits.\nGuidelines just for older adults:\nAs part of their weekly physical activity, older adults should do multicomponent physical\nactivity that includes balance tr\naining as well as aerobic and muscle-strengthening activities.\nOlder adults should determine their level of effort for physical activity relative to their level\nof fitness.\nOlder adults with chr\nonic conditions should understand whether and how their conditions\naff\nect their ability to do regular physical activity safely.\n\n[hhs-pag-2018:p069:para:00 | data/pdf/hhs-pag-2018.pdf | page 69]\nExplaining the Key Guidelines\nAs with other adults, the key guidelines for older adults focus mainly on two types of activity—aerobic and\nmuscle-strengthening. In addition, these key guidelines discuss the importance of multicomponent physical\nactivity, which includes balance training along with aerobic and muscle-strengthening activity. Each provides\nimportant health benefits, especially to improve physical function, as explained in Chapter 2. Physical Activity\nand Health.\n\n[hhs-pag-2018:p073:para:02 | data/pdf/hhs-pag-2018.pdf | page 73]\nFlexibility, Warm-Up, and Cool-Down\nOlder adults should maintain the flexibility necessary for\nregular physical activity and activities of daily life. Flexibility\nactivities enhance the ability of a joint to move through the full\nrange of motion. Stretching exercises are effective in increasing\nflexibility, and thereby can allow people to more easily do\nactivities that require greater flexibility. Although the health\nbenefits of these activities alone are not known and they\nhave not been demonstrated to reduce risk of activity-related\ninjuries, they are an appropriate component of a physical activity program. However, time spent doing flexibility\nactivities by themselves does not count toward meeting the aerobic or muscle-strengthening key guidelines.",
+  "final_context_ids": [
+   "hhs-pag-2018:p068:para:02",
+   "hhs-pag-2018:p069:para:00",
+   "hhs-pag-2018:p073:para:02"
+  ],
+  "context_evidence": true
+ },
+ {
+  "query_id": "q20",
+  "split": "test",
+  "question": "According to the WHO guidelines, how many minutes of moderate-intensity aerobic physical activity should adults aged 18–64 do each week for substantial health benefits?",
+  "answerable": true,
+  "filter": {
+   "publisher": "WHO"
+  },
+  "status": "answered",
+  "answer": "Adults aged 18–64 should do at least 150–300 minutes of moderate-intensity aerobic physical activity throughout the week for substantial health benefits [who-pasb-2020:p012:para:01].",
+  "citations": [
+   "who-pasb-2020:p012:para:01"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "query": "WHO guidelines adults 18-64 moderate-intensity aerobic physical activity substantial health benefits minutes per week",
+    "filter": {
+     "publisher": "WHO"
+    },
+    "results": [
+     {
+      "id": "who-pasb-2020:p012:para:01",
+      "text": "Strong recommendation, moderate certainty evidence\nAdults should do at least 150–\n300 minutes of moderate-intensity\naerobic physical activity; or at\nleast 75–150 minutes of vigorous-\nintensity aerobic physical activity;\nor an equivalent combination of\nmoderate- and vigorous-intensity\nactivity throughout the week,\nfor substantial health benefits.\nStrong recommendation, moderate certainty evidence\nADULTS\n(aged 18–64 years) ADULTS (aged 18–64 years)\n2 Site-specific cancers of: bladder, breast, colon, endometrial,\noesophageal adenocarcinoma, gastric, and renal.\n• Doing some physical activity is better than doing none.\n• If adults are not meeting these recommendations, doing some physical activity will benefit their health.",
+      "source_id": "who-pasb-2020",
+      "source": "data/pdf/who-pasb-2020.pdf",
+      "page": 12,
+      "metadata": {
+       "document_id": "who-pasb-2020",
+       "source": "data/pdf/who-pasb-2020.pdf",
+       "page": 12,
+       "char_start": 585,
+       "char_end": 1313,
+       "publisher": "WHO",
+       "year": 2020,
+       "section": "Executive summary"
+      },
+      "score": 0.03252247488101534,
+      "strategy": "hybrid"
+     },
+     {
+      "id": "who-pasb-2020:p042:para:01",
+      "text": "Strong recommendation, moderate certainty evidence\nAdults should do at least 150–300 minutes of moderate-intensity aerobic physical\nactivity; or at least 75–150 minutes of vigorous-intensity aerobic physical activity;\nor an equivalent combination of moderate- and vigorous-intensity activity\nthroughout the week, for substantial health benefits.\nStrong recommendation, moderate certainty evidence\nAdults should also do muscle-strengthening activities at moderate or greater intensity\nthat involve all major muscle groups on 2 or more days a week, as these provide\nadditional health benefits.",
+      "source_id": "who-pasb-2020",
+      "source": "data/pdf/who-pasb-2020.pdf",
+      "page": 42,
+      "metadata": {
+       "document_id": "who-pasb-2020",
+       "source": "data/pdf/who-pasb-2020.pdf",
+       "page": 42,
+       "char_start": 463,
+       "char_end": 1054,
+       "publisher": "WHO",
+       "year": 2020,
+       "section": "Recommendations: Adults (aged 18-64 years)"
+      },
+      "score": 0.03252247488101534,
+      "strategy": "hybrid"
+     },
+     {
+      "id": "who-pasb-2020:p053:para:01",
+      "text": "Strong recommendation, moderate certainty evidence\nOlder adults should do at least 150–300\nminutes of moderate-intensity aerobic\nphysical activity; or at least 75–150\nminutes of vigorous-intensity aerobic\nphysical activity; or an equivalent\ncombination of moderate- and vigorous-\nintensity activity throughout the week,\nfor substantial health benefits.\nStrong recommendation, moderate certainty evidence\nOlder adults should also do muscle-\nstrengthening activities at moderate\nor greater intensity that involve all\nmajor muscle groups on 2 or more days\na week, as these provide additional\nhealth benefits.",
+      "source_id": "who-pasb-2020",
+      "source": "data/pdf/who-pasb-2020.pdf",
+      "page": 53,
+      "metadata": {
+       "document_id": "who-pasb-2020",
+       "source": "data/pdf/who-pasb-2020.pdf",
+       "page": 53,
+       "char_start": 619,
+       "char_end": 1224,
+       "publisher": "WHO",
+       "year": 2020,
+       "section": "Recommendations: Older adults (aged 65 years and older)"
+      },
+      "score": 0.031746031746031744,
+      "strategy": "hybrid"
+     }
+    ],
+    "context": "[who-pasb-2020:p012:para:01 | data/pdf/who-pasb-2020.pdf | page 12]\nStrong recommendation, moderate certainty evidence\nAdults should do at least 150–\n300 minutes of moderate-intensity\naerobic physical activity; or at\nleast 75–150 minutes of vigorous-\nintensity aerobic physical activity;\nor an equivalent combination of\nmoderate- and vigorous-intensity\nactivity throughout the week,\nfor substantial health benefits.\nStrong recommendation, moderate certainty evidence\nADULTS\n(aged 18–64 years) ADULTS (aged 18–64 years)\n2 Site-specific cancers of: bladder, breast, colon, endometrial,\noesophageal adenocarcinoma, gastric, and renal.\n• Doing some physical activity is better than doing none.\n• If adults are not meeting these recommendations, doing some physical activity will benefit their health.\n\n[who-pasb-2020:p042:para:01 | data/pdf/who-pasb-2020.pdf | page 42]\nStrong recommendation, moderate certainty evidence\nAdults should do at least 150–300 minutes of moderate-intensity aerobic physical\nactivity; or at least 75–150 minutes of vigorous-intensity aerobic physical activity;\nor an equivalent combination of moderate- and vigorous-intensity activity\nthroughout the week, for substantial health benefits.\nStrong recommendation, moderate certainty evidence\nAdults should also do muscle-strengthening activities at moderate or greater intensity\nthat involve all major muscle groups on 2 or more days a week, as these provide\nadditional health benefits.\n\n[who-pasb-2020:p053:para:01 | data/pdf/who-pasb-2020.pdf | page 53]\nStrong recommendation, moderate certainty evidence\nOlder adults should do at least 150–300\nminutes of moderate-intensity aerobic\nphysical activity; or at least 75–150\nminutes of vigorous-intensity aerobic\nphysical activity; or an equivalent\ncombination of moderate- and vigorous-\nintensity activity throughout the week,\nfor substantial health benefits.\nStrong recommendation, moderate certainty evidence\nOlder adults should also do muscle-\nstrengthening activities at moderate\nor greater intensity that involve all\nmajor muscle groups on 2 or more days\na week, as these provide additional\nhealth benefits.",
+    "context_ids": [
+     "who-pasb-2020:p012:para:01",
+     "who-pasb-2020:p042:para:01",
+     "who-pasb-2020:p053:para:01"
+    ]
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "seconds": 1.95,
+  "llm_calls": [
+   {
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+     "prompt_tokens": 463,
+     "completion_tokens": 35,
+     "total_tokens": 498,
+     "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+     },
+     "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+     }
+    },
+    "seconds": 0.92,
+    "tool_calls": [
+     {
+      "name": "search_documents",
+      "arguments": "{\"query\":\"WHO guidelines adults 18-64 moderate-intensity aerobic physical activity substantial health benefits minutes per week\"}"
+     }
+    ]
+   },
+   {
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+     "prompt_tokens": 975,
+     "completion_tokens": 77,
+     "total_tokens": 1052,
+     "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+     },
+     "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+     }
+    },
+    "seconds": 0.93,
+    "tool_calls": [
+     {
+      "name": "answer",
+      "arguments": "{\"answer\":\"Adults aged 18–64 should do at least 150–300 minutes of moderate-intensity aerobic physical activity throughout the week for substantial health benefits [who-pasb-2020:p012:para:01].\",\"citations\":[\"who-pasb-2020:p012:para:01\"]}"
+     }
+    ]
+   }
+  ],
+  "searches": 1,
+  "final_context": "[who-pasb-2020:p012:para:01 | data/pdf/who-pasb-2020.pdf | page 12]\nStrong recommendation, moderate certainty evidence\nAdults should do at least 150–\n300 minutes of moderate-intensity\naerobic physical activity; or at\nleast 75–150 minutes of vigorous-\nintensity aerobic physical activity;\nor an equivalent combination of\nmoderate- and vigorous-intensity\nactivity throughout the week,\nfor substantial health benefits.\nStrong recommendation, moderate certainty evidence\nADULTS\n(aged 18–64 years) ADULTS (aged 18–64 years)\n2 Site-specific cancers of: bladder, breast, colon, endometrial,\noesophageal adenocarcinoma, gastric, and renal.\n• Doing some physical activity is better than doing none.\n• If adults are not meeting these recommendations, doing some physical activity will benefit their health.\n\n[who-pasb-2020:p042:para:01 | data/pdf/who-pasb-2020.pdf | page 42]\nStrong recommendation, moderate certainty evidence\nAdults should do at least 150–300 minutes of moderate-intensity aerobic physical\nactivity; or at least 75–150 minutes of vigorous-intensity aerobic physical activity;\nor an equivalent combination of moderate- and vigorous-intensity activity\nthroughout the week, for substantial health benefits.\nStrong recommendation, moderate certainty evidence\nAdults should also do muscle-strengthening activities at moderate or greater intensity\nthat involve all major muscle groups on 2 or more days a week, as these provide\nadditional health benefits.\n\n[who-pasb-2020:p053:para:01 | data/pdf/who-pasb-2020.pdf | page 53]\nStrong recommendation, moderate certainty evidence\nOlder adults should do at least 150–300\nminutes of moderate-intensity aerobic\nphysical activity; or at least 75–150\nminutes of vigorous-intensity aerobic\nphysical activity; or an equivalent\ncombination of moderate- and vigorous-\nintensity activity throughout the week,\nfor substantial health benefits.\nStrong recommendation, moderate certainty evidence\nOlder adults should also do muscle-\nstrengthening activities at moderate\nor greater intensity that involve all\nmajor muscle groups on 2 or more days\na week, as these provide additional\nhealth benefits.",
+  "final_context_ids": [
+   "who-pasb-2020:p012:para:01",
+   "who-pasb-2020:p042:para:01",
+   "who-pasb-2020:p053:para:01"
+  ],
+  "context_evidence": true
+ },
+ {
+  "query_id": "q28",
+  "split": "test",
+  "question": "How can comparing sleep on days off with sleep on duty days reveal a sleep debt?",
+  "answerable": true,
+  "filter": null,
+  "status": "answered",
+  "answer": "A Soldier who sleeps two or more hours longer on days off than on duty days carries a significant sleep debt [fm7-22-2020:p123:para:02]. Comparing off-duty sleep to duty-day sleep can reveal debt because if sleep is less on duty days, the extra sleep on off days is used to pay it down [fm7-22-2020:p122:para:02].",
+  "citations": [
+   "fm7-22-2020:p123:para:02",
+   "fm7-22-2020:p122:para:02"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "query": "sleep debt days off duty days compare sleep on days off with sleep on duty days how reveal sleep debt",
+    "filter": null,
+    "results": [
+     {
+      "id": "fm7-22-2020:p122:para:02",
+      "text": "These include hormone release, digestion, muscle strength, and\ncardiovascular performance. Circadian rhythms act in tandem with the need to sleep which builds throughout\na day. These rhythms optimize the process of falling asleep, staying asleep, and ensuring quality sleep.\n11-6. However, Soldiers can only achieve such benefits if they get adequate sleep (for most individuals, 7 to\n9 hours of sleep per night) on a regular basis. If they get less sleep (for example, 6 hours per night during the\nduty week), then a “sleep debt” accrues. In such cases, it is better to sleep in on off-duty days and pay down\nthe sleep debt, rather than sacrificing sleep to try to maintain a consistent sleep-wake schedule and strengthen\nthe circadian rhythm of alertness.",
+      "source_id": "fm7-22-2020",
+      "source": "data/pdf/fm7-22-2020.pdf",
+      "page": 122,
+      "metadata": {
+       "document_id": "fm7-22-2020",
+       "source": "data/pdf/fm7-22-2020.pdf",
+       "page": 122,
+       "char_start": 1132,
+       "char_end": 1889,
+       "publisher": "US Army",
+       "year": 2020,
+       "section": "Chapter 11. Sleep Readiness"
+      },
+      "score": 0.03252247488101534,
+      "strategy": "hybrid"
+     },
+     {
+      "id": "fm7-22-2020:p123:para:02",
+      "text": "As a rule of thumb, any Soldier who\nsleeps two or more hours longer on days off (versus duty days) carries a significant sleep debt.\n11-12. Even for those who regularly obtain the generally recommended 7–8 hours of sleep per night, more\nsleep can result in even better alertness and mental acuity. In brain health and mental functioning, there is no\nsuch thing as too much sleep. Therefore, to maximize brain health and functioning in an operational\nenvironment, Soldiers aim to maximize sleep as much as possible within the constraints of the operation. As\nsleep duration increases, so does the likelihood of mission success.",
+      "source_id": "fm7-22-2020",
+      "source": "data/pdf/fm7-22-2020.pdf",
+      "page": 123,
+      "metadata": {
+       "document_id": "fm7-22-2020",
+       "source": "data/pdf/fm7-22-2020.pdf",
+       "page": 123,
+       "char_start": 1225,
+       "char_end": 1851,
+       "publisher": "US Army",
+       "year": 2020,
+       "section": "Chapter 11. Sleep Readiness"
+      },
+      "score": 0.03252247488101534,
+      "strategy": "hybrid"
+     },
+     {
+      "id": "fm7-22-2020:p130:para:02",
+      "text": "Off-duty Safety\n11-52. Following nighttime work, the morning commute back home can be a time of significantly increased\nrisk. For example, ending staff duty or charge of quarters during the early morning hours (around 0700) can\nput sleep-deprived Soldiers behind the steering wheel at a point in the circadian rhythm of alertness when\nthey are at greatest risk for vehicle accidents. Providing post-shift sleeping quarters, scheduling night shifts\nto end during the ascending phase of the circadian rhythm of alertness (after 0900 hours), or providing post-\nshift transportation home can help improve the safety of Soldiers working the night shift.",
+      "source_id": "fm7-22-2020",
+      "source": "data/pdf/fm7-22-2020.pdf",
+      "page": 130,
+      "metadata": {
+       "document_id": "fm7-22-2020",
+       "source": "data/pdf/fm7-22-2020.pdf",
+       "page": 130,
+       "char_start": 1344,
+       "char_end": 1992,
+       "publisher": "US Army",
+       "year": 2020,
+       "section": "Chapter 11. Sleep Readiness"
+      },
+      "score": 0.03057889822595705,
+      "strategy": "hybrid"
+     }
+    ],
+    "context": "[fm7-22-2020:p122:para:02 | data/pdf/fm7-22-2020.pdf | page 122]\nThese include hormone release, digestion, muscle strength, and\ncardiovascular performance. Circadian rhythms act in tandem with the need to sleep which builds throughout\na day. These rhythms optimize the process of falling asleep, staying asleep, and ensuring quality sleep.\n11-6. However, Soldiers can only achieve such benefits if they get adequate sleep (for most individuals, 7 to\n9 hours of sleep per night) on a regular basis. If they get less sleep (for example, 6 hours per night during the\nduty week), then a “sleep debt” accrues. In such cases, it is better to sleep in on off-duty days and pay down\nthe sleep debt, rather than sacrificing sleep to try to maintain a consistent sleep-wake schedule and strengthen\nthe circadian rhythm of alertness.\n\n[fm7-22-2020:p123:para:02 | data/pdf/fm7-22-2020.pdf | page 123]\nAs a rule of thumb, any Soldier who\nsleeps two or more hours longer on days off (versus duty days) carries a significant sleep debt.\n11-12. Even for those who regularly obtain the generally recommended 7–8 hours of sleep per night, more\nsleep can result in even better alertness and mental acuity. In brain health and mental functioning, there is no\nsuch thing as too much sleep. Therefore, to maximize brain health and functioning in an operational\nenvironment, Soldiers aim to maximize sleep as much as possible within the constraints of the operation. As\nsleep duration increases, so does the likelihood of mission success.\n\n[fm7-22-2020:p130:para:02 | data/pdf/fm7-22-2020.pdf | page 130]\nOff-duty Safety\n11-52. Following nighttime work, the morning commute back home can be a time of significantly increased\nrisk. For example, ending staff duty or charge of quarters during the early morning hours (around 0700) can\nput sleep-deprived Soldiers behind the steering wheel at a point in the circadian rhythm of alertness when\nthey are at greatest risk for vehicle accidents. Providing post-shift sleeping quarters, scheduling night shifts\nto end during the ascending phase of the circadian rhythm of alertness (after 0900 hours), or providing post-\nshift transportation home can help improve the safety of Soldiers working the night shift.",
+    "context_ids": [
+     "fm7-22-2020:p122:para:02",
+     "fm7-22-2020:p123:para:02",
+     "fm7-22-2020:p130:para:02"
+    ]
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "seconds": 2.1,
+  "llm_calls": [
+   {
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+     "prompt_tokens": 449,
+     "completion_tokens": 36,
+     "total_tokens": 485,
+     "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+     },
+     "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+     }
+    },
+    "seconds": 0.93,
+    "tool_calls": [
+     {
+      "name": "search_documents",
+      "arguments": "{\"query\":\"sleep debt days off duty days compare sleep on days off with sleep on duty days how reveal sleep debt\"}"
+     }
+    ]
+   },
+   {
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+     "prompt_tokens": 1011,
+     "completion_tokens": 130,
+     "total_tokens": 1141,
+     "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+     },
+     "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+     }
+    },
+    "seconds": 1.07,
+    "tool_calls": [
+     {
+      "name": "answer",
+      "arguments": "{\"answer\":\"A Soldier who sleeps two or more hours longer on days off than on duty days carries a significant sleep debt [fm7-22-2020:p123:para:02]. Comparing off-duty sleep to duty-day sleep can reveal debt because if sleep is less on duty days, the extra sleep on off days is used to pay it down [fm7-22-2020:p122:para:02].\",\"citations\":[\"fm7-22-2020:p123:para:02\",\"fm7-22-2020:p122:para:02\"]}"
+     }
+    ]
+   }
+  ],
+  "searches": 1,
+  "final_context": "[fm7-22-2020:p122:para:02 | data/pdf/fm7-22-2020.pdf | page 122]\nThese include hormone release, digestion, muscle strength, and\ncardiovascular performance. Circadian rhythms act in tandem with the need to sleep which builds throughout\na day. These rhythms optimize the process of falling asleep, staying asleep, and ensuring quality sleep.\n11-6. However, Soldiers can only achieve such benefits if they get adequate sleep (for most individuals, 7 to\n9 hours of sleep per night) on a regular basis. If they get less sleep (for example, 6 hours per night during the\nduty week), then a “sleep debt” accrues. In such cases, it is better to sleep in on off-duty days and pay down\nthe sleep debt, rather than sacrificing sleep to try to maintain a consistent sleep-wake schedule and strengthen\nthe circadian rhythm of alertness.\n\n[fm7-22-2020:p123:para:02 | data/pdf/fm7-22-2020.pdf | page 123]\nAs a rule of thumb, any Soldier who\nsleeps two or more hours longer on days off (versus duty days) carries a significant sleep debt.\n11-12. Even for those who regularly obtain the generally recommended 7–8 hours of sleep per night, more\nsleep can result in even better alertness and mental acuity. In brain health and mental functioning, there is no\nsuch thing as too much sleep. Therefore, to maximize brain health and functioning in an operational\nenvironment, Soldiers aim to maximize sleep as much as possible within the constraints of the operation. As\nsleep duration increases, so does the likelihood of mission success.\n\n[fm7-22-2020:p130:para:02 | data/pdf/fm7-22-2020.pdf | page 130]\nOff-duty Safety\n11-52. Following nighttime work, the morning commute back home can be a time of significantly increased\nrisk. For example, ending staff duty or charge of quarters during the early morning hours (around 0700) can\nput sleep-deprived Soldiers behind the steering wheel at a point in the circadian rhythm of alertness when\nthey are at greatest risk for vehicle accidents. Providing post-shift sleeping quarters, scheduling night shifts\nto end during the ascending phase of the circadian rhythm of alertness (after 0900 hours), or providing post-\nshift transportation home can help improve the safety of Soldiers working the night shift.",
+  "final_context_ids": [
+   "fm7-22-2020:p122:para:02",
+   "fm7-22-2020:p123:para:02",
+   "fm7-22-2020:p130:para:02"
+  ],
+  "context_evidence": true
+ },
+ {
+  "query_id": "q29",
+  "split": "test",
+  "question": "Who directs a Soldier's entry into Category 1 reconditioning, and when?",
+  "answerable": true,
+  "filter": null,
+  "status": "answered",
+  "answer": "A physical therapist or physical therapy specialist may oversee the gym-based reconditioning program Category 1 [fm7-22-2020:p139:para:01]. The document does not state who directs a Soldier’s entry into Category 1 or when, so there is not enough evidence to answer the question as asked [fm7-22-2020:p139:para:01].",
+  "citations": [
+   "fm7-22-2020:p139:para:01"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "query": "Category 1 reconditioning who directs entry when Soldier FM 7-22",
+    "filter": null,
+    "results": [
+     {
+      "id": "fm7-22-2020:p140:para:00",
+      "text": "12-30. Group reconditioning meets scheduling challenges and helps Soldiers avoid re-injury.\nReconditioning that has to be performed in groups due to limitations in personnel or facility support can be\ndelivered by profile category (see paragraphs 12-33 through 12- 37). Schedules for group reconditioning are\ndesigned to control the risk of re-injury. Weeks A and B are intended to alternate throughout a Soldier ’s\nreconditioning until he or she returns to the unit ’s physical training program (see table 12-1, table 12-3 on\npage 12-7, and table 12-5 on page 12-8).",
+      "source_id": "fm7-22-2020",
+      "source": "data/pdf/fm7-22-2020.pdf",
+      "page": 140,
+      "metadata": {
+       "document_id": "fm7-22-2020",
+       "source": "data/pdf/fm7-22-2020.pdf",
+       "page": 140,
+       "char_start": 0,
+       "char_end": 567,
+       "publisher": "US Army",
+       "year": 2020,
+       "section": "Chapter 12. Special Conditioning"
+      },
+      "score": 0.030798389007344232,
+      "strategy": "hybrid"
+     },
+     {
+      "id": "fm7-22-2020:p139:para:01",
+      "text": "Governance\n12-26. In non-H2F resourced units, consolidation of reconditioning programs at the battalion (or equivalent)\nminimizes the administrative and logistical strain on operational unit assets. The brigade surgeon should have\nmedical oversight of the unit reconditioning program. Battalion medical officers act as the liaisons between\nreconditioning program leaders ( RPLs) and the brigade surgeon. The military treatment facility with\nrehabilitation services may provide a physical therapist and a physical therapy specialist as consultants to\noversee the gym-based reconditioning program Category 1 (see paragraph 12-32). The physical therapist can\nassist or coordinate training efforts with the RPL.",
+      "source_id": "fm7-22-2020",
+      "source": "data/pdf/fm7-22-2020.pdf",
+      "page": 139,
+      "metadata": {
+       "document_id": "fm7-22-2020",
+       "source": "data/pdf/fm7-22-2020.pdf",
+       "page": 139,
+       "char_start": 766,
+       "char_end": 1473,
+       "publisher": "US Army",
+       "year": 2020,
+       "section": "Chapter 12. Special Conditioning"
+      },
+      "score": 0.030621785881252923,
+      "strategy": "hybrid"
+     },
+     {
+      "id": "fm7-22-2020:p143:para:01",
+      "text": "30:60 30 second sprint: 60 second walk MMD military movement drill\n4C four for the core Mod modified\nACFT Army Combat Fitness Test PD preparation drill\nCD1 conditioning drill 1 PMCS preventive maintenance checks and services\nCD2 conditioning drill 2 RD recovery drill\nCL1 climbing drill 1 rep repetition\nETM endurance training machine RUD running drill\nFW free weight training SSD shoulder stability drill\nHSD hip stability drill ST1 suspension training drill 1\nMB1 medicine ball drill 1 STC strength training circuit\n12-36. Soldiers will depart Category 3 and the unit ’s Reconditioning Program after completing the exit\ncriteria in table 12-7 or when instructed to return to full training by an H2F or unit medical provider.",
+      "source_id": "fm7-22-2020",
+      "source": "data/pdf/fm7-22-2020.pdf",
+      "page": 143,
+      "metadata": {
+       "document_id": "fm7-22-2020",
+       "source": "data/pdf/fm7-22-2020.pdf",
+       "page": 143,
+       "char_start": 534,
+       "char_end": 1260,
+       "publisher": "US Army",
+       "year": 2020,
+       "section": "Chapter 12. Special Conditioning"
+      },
+      "score": 0.030536130536130537,
+      "strategy": "hybrid"
+     }
+    ],
+    "context": "[fm7-22-2020:p140:para:00 | data/pdf/fm7-22-2020.pdf | page 140]\n12-30. Group reconditioning meets scheduling challenges and helps Soldiers avoid re-injury.\nReconditioning that has to be performed in groups due to limitations in personnel or facility support can be\ndelivered by profile category (see paragraphs 12-33 through 12- 37). Schedules for group reconditioning are\ndesigned to control the risk of re-injury. Weeks A and B are intended to alternate throughout a Soldier ’s\nreconditioning until he or she returns to the unit ’s physical training program (see table 12-1, table 12-3 on\npage 12-7, and table 12-5 on page 12-8).\n\n[fm7-22-2020:p139:para:01 | data/pdf/fm7-22-2020.pdf | page 139]\nGovernance\n12-26. In non-H2F resourced units, consolidation of reconditioning programs at the battalion (or equivalent)\nminimizes the administrative and logistical strain on operational unit assets. The brigade surgeon should have\nmedical oversight of the unit reconditioning program. Battalion medical officers act as the liaisons between\nreconditioning program leaders ( RPLs) and the brigade surgeon. The military treatment facility with\nrehabilitation services may provide a physical therapist and a physical therapy specialist as consultants to\noversee the gym-based reconditioning program Category 1 (see paragraph 12-32). The physical therapist can\nassist or coordinate training efforts with the RPL.\n\n[fm7-22-2020:p143:para:01 | data/pdf/fm7-22-2020.pdf | page 143]\n30:60 30 second sprint: 60 second walk MMD military movement drill\n4C four for the core Mod modified\nACFT Army Combat Fitness Test PD preparation drill\nCD1 conditioning drill 1 PMCS preventive maintenance checks and services\nCD2 conditioning drill 2 RD recovery drill\nCL1 climbing drill 1 rep repetition\nETM endurance training machine RUD running drill\nFW free weight training SSD shoulder stability drill\nHSD hip stability drill ST1 suspension training drill 1\nMB1 medicine ball drill 1 STC strength training circuit\n12-36. Soldiers will depart Category 3 and the unit ’s Reconditioning Program after completing the exit\ncriteria in table 12-7 or when instructed to return to full training by an H2F or unit medical provider.",
+    "context_ids": [
+     "fm7-22-2020:p140:para:00",
+     "fm7-22-2020:p139:para:01",
+     "fm7-22-2020:p143:para:01"
+    ]
+   },
+   {
+    "event": "search",
+    "query": "Category 1 reconditioning directed to enter when Soldier who directs entry paragraph 12-32 FM 7-22",
+    "filter": null,
+    "results": [
+     {
+      "id": "fm7-22-2020:p140:para:00",
+      "text": "12-30. Group reconditioning meets scheduling challenges and helps Soldiers avoid re-injury.\nReconditioning that has to be performed in groups due to limitations in personnel or facility support can be\ndelivered by profile category (see paragraphs 12-33 through 12- 37). Schedules for group reconditioning are\ndesigned to control the risk of re-injury. Weeks A and B are intended to alternate throughout a Soldier ’s\nreconditioning until he or she returns to the unit ’s physical training program (see table 12-1, table 12-3 on\npage 12-7, and table 12-5 on page 12-8).",
+      "source_id": "fm7-22-2020",
+      "source": "data/pdf/fm7-22-2020.pdf",
+      "page": 140,
+      "metadata": {
+       "document_id": "fm7-22-2020",
+       "source": "data/pdf/fm7-22-2020.pdf",
+       "page": 140,
+       "char_start": 0,
+       "char_end": 567,
+       "publisher": "US Army",
+       "year": 2020,
+       "section": "Chapter 12. Special Conditioning"
+      },
+      "score": 0.031746031746031744,
+      "strategy": "hybrid"
+     },
+     {
+      "id": "fm7-22-2020:p139:para:01",
+      "text": "Governance\n12-26. In non-H2F resourced units, consolidation of reconditioning programs at the battalion (or equivalent)\nminimizes the administrative and logistical strain on operational unit assets. The brigade surgeon should have\nmedical oversight of the unit reconditioning program. Battalion medical officers act as the liaisons between\nreconditioning program leaders ( RPLs) and the brigade surgeon. The military treatment facility with\nrehabilitation services may provide a physical therapist and a physical therapy specialist as consultants to\noversee the gym-based reconditioning program Category 1 (see paragraph 12-32). The physical therapist can\nassist or coordinate training efforts with the RPL.",
+      "source_id": "fm7-22-2020",
+      "source": "data/pdf/fm7-22-2020.pdf",
+      "page": 139,
+      "metadata": {
+       "document_id": "fm7-22-2020",
+       "source": "data/pdf/fm7-22-2020.pdf",
+       "page": 139,
+       "char_start": 766,
+       "char_end": 1473,
+       "publisher": "US Army",
+       "year": 2020,
+       "section": "Chapter 12. Special Conditioning"
+      },
+      "score": 0.0315136476426799,
+      "strategy": "hybrid"
+     },
+     {
+      "id": "fm7-22-2020:p136:para:00",
+      "text": "RECONDITIONING\n12-6. Reconditioning is unit-owned. Reconditioning is a unit-driven and unit-run physical readiness training\nprogram for Soldiers who are deconditioned due to illness or injury, are new to the unit, or deconditioned\ndue to deployment or other circumstances. Soldiers who have completed rehabilitation and been given\npermanent profile restrictions may be appropriate for certain reconditioning program elements. All Soldiers\nwill have progressed in their recovery to the point where they can safely train without the direct supervision\nof a healthcare provider or communication between the medical provider and H2F personnel will allow the\nSoldier to safely train in the reconditioning program. Reconditioning returns Soldiers safely and as soon as\npossible to full duty.",
+      "source_id": "fm7-22-2020",
+      "source": "data/pdf/fm7-22-2020.pdf",
+      "page": 136,
+      "metadata": {
+       "document_id": "fm7-22-2020",
+       "source": "data/pdf/fm7-22-2020.pdf",
+       "page": 136,
+       "char_start": 0,
+       "char_end": 785,
+       "publisher": "US Army",
+       "year": 2020,
+       "section": "Chapter 12. Special Conditioning"
+      },
+      "score": 0.03047794966520434,
+      "strategy": "hybrid"
+     }
+    ],
+    "context": "[fm7-22-2020:p140:para:00 | data/pdf/fm7-22-2020.pdf | page 140]\n12-30. Group reconditioning meets scheduling challenges and helps Soldiers avoid re-injury.\nReconditioning that has to be performed in groups due to limitations in personnel or facility support can be\ndelivered by profile category (see paragraphs 12-33 through 12- 37). Schedules for group reconditioning are\ndesigned to control the risk of re-injury. Weeks A and B are intended to alternate throughout a Soldier ’s\nreconditioning until he or she returns to the unit ’s physical training program (see table 12-1, table 12-3 on\npage 12-7, and table 12-5 on page 12-8).\n\n[fm7-22-2020:p139:para:01 | data/pdf/fm7-22-2020.pdf | page 139]\nGovernance\n12-26. In non-H2F resourced units, consolidation of reconditioning programs at the battalion (or equivalent)\nminimizes the administrative and logistical strain on operational unit assets. The brigade surgeon should have\nmedical oversight of the unit reconditioning program. Battalion medical officers act as the liaisons between\nreconditioning program leaders ( RPLs) and the brigade surgeon. The military treatment facility with\nrehabilitation services may provide a physical therapist and a physical therapy specialist as consultants to\noversee the gym-based reconditioning program Category 1 (see paragraph 12-32). The physical therapist can\nassist or coordinate training efforts with the RPL.\n\n[fm7-22-2020:p143:para:01 | data/pdf/fm7-22-2020.pdf | page 143]\n30:60 30 second sprint: 60 second walk MMD military movement drill\n4C four for the core Mod modified\nACFT Army Combat Fitness Test PD preparation drill\nCD1 conditioning drill 1 PMCS preventive maintenance checks and services\nCD2 conditioning drill 2 RD recovery drill\nCL1 climbing drill 1 rep repetition\nETM endurance training machine RUD running drill\nFW free weight training SSD shoulder stability drill\nHSD hip stability drill ST1 suspension training drill 1\nMB1 medicine ball drill 1 STC strength training circuit\n12-36. Soldiers will depart Category 3 and the unit ’s Reconditioning Program after completing the exit\ncriteria in table 12-7 or when instructed to return to full training by an H2F or unit medical provider.",
+    "context_ids": [
+     "fm7-22-2020:p140:para:00",
+     "fm7-22-2020:p139:para:01",
+     "fm7-22-2020:p143:para:01"
+    ]
+   },
+   {
+    "event": "search",
+    "query": "Category 1 reconditioning directed to enter by who when FM 7-22",
+    "filter": null,
+    "results": [
+     {
+      "id": "fm7-22-2020:p140:para:00",
+      "text": "12-30. Group reconditioning meets scheduling challenges and helps Soldiers avoid re-injury.\nReconditioning that has to be performed in groups due to limitations in personnel or facility support can be\ndelivered by profile category (see paragraphs 12-33 through 12- 37). Schedules for group reconditioning are\ndesigned to control the risk of re-injury. Weeks A and B are intended to alternate throughout a Soldier ’s\nreconditioning until he or she returns to the unit ’s physical training program (see table 12-1, table 12-3 on\npage 12-7, and table 12-5 on page 12-8).",
+      "source_id": "fm7-22-2020",
+      "source": "data/pdf/fm7-22-2020.pdf",
+      "page": 140,
+      "metadata": {
+       "document_id": "fm7-22-2020",
+       "source": "data/pdf/fm7-22-2020.pdf",
+       "page": 140,
+       "char_start": 0,
+       "char_end": 567,
+       "publisher": "US Army",
+       "year": 2020,
+       "section": "Chapter 12. Special Conditioning"
+      },
+      "score": 0.0315136476426799,
+      "strategy": "hybrid"
+     },
+     {
+      "id": "fm7-22-2020:p139:para:01",
+      "text": "Governance\n12-26. In non-H2F resourced units, consolidation of reconditioning programs at the battalion (or equivalent)\nminimizes the administrative and logistical strain on operational unit assets. The brigade surgeon should have\nmedical oversight of the unit reconditioning program. Battalion medical officers act as the liaisons between\nreconditioning program leaders ( RPLs) and the brigade surgeon. The military treatment facility with\nrehabilitation services may provide a physical therapist and a physical therapy specialist as consultants to\noversee the gym-based reconditioning program Category 1 (see paragraph 12-32). The physical therapist can\nassist or coordinate training efforts with the RPL.",
+      "source_id": "fm7-22-2020",
+      "source": "data/pdf/fm7-22-2020.pdf",
+      "page": 139,
+      "metadata": {
+       "document_id": "fm7-22-2020",
+       "source": "data/pdf/fm7-22-2020.pdf",
+       "page": 139,
+       "char_start": 766,
+       "char_end": 1473,
+       "publisher": "US Army",
+       "year": 2020,
+       "section": "Chapter 12. Special Conditioning"
+      },
+      "score": 0.03149801587301587,
+      "strategy": "hybrid"
+     },
+     {
+      "id": "fm7-22-2020:p136:para:00",
+      "text": "RECONDITIONING\n12-6. Reconditioning is unit-owned. Reconditioning is a unit-driven and unit-run physical readiness training\nprogram for Soldiers who are deconditioned due to illness or injury, are new to the unit, or deconditioned\ndue to deployment or other circumstances. Soldiers who have completed rehabilitation and been given\npermanent profile restrictions may be appropriate for certain reconditioning program elements. All Soldiers\nwill have progressed in their recovery to the point where they can safely train without the direct supervision\nof a healthcare provider or communication between the medical provider and H2F personnel will allow the\nSoldier to safely train in the reconditioning program. Reconditioning returns Soldiers safely and as soon as\npossible to full duty.",
+      "source_id": "fm7-22-2020",
+      "source": "data/pdf/fm7-22-2020.pdf",
+      "page": 136,
+      "metadata": {
+       "document_id": "fm7-22-2020",
+       "source": "data/pdf/fm7-22-2020.pdf",
+       "page": 136,
+       "char_start": 0,
+       "char_end": 785,
+       "publisher": "US Army",
+       "year": 2020,
+       "section": "Chapter 12. Special Conditioning"
+      },
+      "score": 0.03028233151183971,
+      "strategy": "hybrid"
+     }
+    ],
+    "context": "[fm7-22-2020:p140:para:00 | data/pdf/fm7-22-2020.pdf | page 140]\n12-30. Group reconditioning meets scheduling challenges and helps Soldiers avoid re-injury.\nReconditioning that has to be performed in groups due to limitations in personnel or facility support can be\ndelivered by profile category (see paragraphs 12-33 through 12- 37). Schedules for group reconditioning are\ndesigned to control the risk of re-injury. Weeks A and B are intended to alternate throughout a Soldier ’s\nreconditioning until he or she returns to the unit ’s physical training program (see table 12-1, table 12-3 on\npage 12-7, and table 12-5 on page 12-8).\n\n[fm7-22-2020:p139:para:01 | data/pdf/fm7-22-2020.pdf | page 139]\nGovernance\n12-26. In non-H2F resourced units, consolidation of reconditioning programs at the battalion (or equivalent)\nminimizes the administrative and logistical strain on operational unit assets. The brigade surgeon should have\nmedical oversight of the unit reconditioning program. Battalion medical officers act as the liaisons between\nreconditioning program leaders ( RPLs) and the brigade surgeon. The military treatment facility with\nrehabilitation services may provide a physical therapist and a physical therapy specialist as consultants to\noversee the gym-based reconditioning program Category 1 (see paragraph 12-32). The physical therapist can\nassist or coordinate training efforts with the RPL.\n\n[fm7-22-2020:p143:para:01 | data/pdf/fm7-22-2020.pdf | page 143]\n30:60 30 second sprint: 60 second walk MMD military movement drill\n4C four for the core Mod modified\nACFT Army Combat Fitness Test PD preparation drill\nCD1 conditioning drill 1 PMCS preventive maintenance checks and services\nCD2 conditioning drill 2 RD recovery drill\nCL1 climbing drill 1 rep repetition\nETM endurance training machine RUD running drill\nFW free weight training SSD shoulder stability drill\nHSD hip stability drill ST1 suspension training drill 1\nMB1 medicine ball drill 1 STC strength training circuit\n12-36. Soldiers will depart Category 3 and the unit ’s Reconditioning Program after completing the exit\ncriteria in table 12-7 or when instructed to return to full training by an H2F or unit medical provider.",
+    "context_ids": [
+     "fm7-22-2020:p140:para:00",
+     "fm7-22-2020:p139:para:01",
+     "fm7-22-2020:p143:para:01"
+    ]
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "seconds": 4.23,
+  "llm_calls": [
+   {
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+     "prompt_tokens": 448,
+     "completion_tokens": 31,
+     "total_tokens": 479,
+     "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+     },
+     "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+     }
+    },
+    "seconds": 0.91,
+    "tool_calls": [
+     {
+      "name": "search_documents",
+      "arguments": "{\"query\":\"Category 1 reconditioning who directs entry when Soldier FM 7-22\"}"
+     }
+    ]
+   },
+   {
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+     "prompt_tokens": 1014,
+     "completion_tokens": 39,
+     "total_tokens": 1053,
+     "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+     },
+     "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+     }
+    },
+    "seconds": 0.88,
+    "tool_calls": [
+     {
+      "name": "search_documents",
+      "arguments": "{\"query\":\"Category 1 reconditioning directed to enter when Soldier who directs entry paragraph 12-32 FM 7-22\"}"
+     }
+    ]
+   },
+   {
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+     "prompt_tokens": 1039,
+     "completion_tokens": 32,
+     "total_tokens": 1071,
+     "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+     },
+     "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+     }
+    },
+    "seconds": 0.87,
+    "tool_calls": [
+     {
+      "name": "search_documents",
+      "arguments": "{\"query\":\"Category 1 reconditioning directed to enter by who when FM 7-22\"}"
+     }
+    ]
+   },
+   {
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+     "prompt_tokens": 1063,
+     "completion_tokens": 111,
+     "total_tokens": 1174,
+     "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+     },
+     "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+     }
+    },
+    "seconds": 1.33,
+    "tool_calls": [
+     {
+      "name": "answer",
+      "arguments": "{\"answer\":\"A physical therapist or physical therapy specialist may oversee the gym-based reconditioning program Category 1 [fm7-22-2020:p139:para:01]. The document does not state who directs a Soldier’s entry into Category 1 or when, so there is not enough evidence to answer the question as asked [fm7-22-2020:p139:para:01].\",\"citations\":[\"fm7-22-2020:p139:para:01\"]}"
+     }
+    ]
+   }
+  ],
+  "searches": 3,
+  "final_context": "[fm7-22-2020:p140:para:00 | data/pdf/fm7-22-2020.pdf | page 140]\n12-30. Group reconditioning meets scheduling challenges and helps Soldiers avoid re-injury.\nReconditioning that has to be performed in groups due to limitations in personnel or facility support can be\ndelivered by profile category (see paragraphs 12-33 through 12- 37). Schedules for group reconditioning are\ndesigned to control the risk of re-injury. Weeks A and B are intended to alternate throughout a Soldier ’s\nreconditioning until he or she returns to the unit ’s physical training program (see table 12-1, table 12-3 on\npage 12-7, and table 12-5 on page 12-8).\n\n[fm7-22-2020:p139:para:01 | data/pdf/fm7-22-2020.pdf | page 139]\nGovernance\n12-26. In non-H2F resourced units, consolidation of reconditioning programs at the battalion (or equivalent)\nminimizes the administrative and logistical strain on operational unit assets. The brigade surgeon should have\nmedical oversight of the unit reconditioning program. Battalion medical officers act as the liaisons between\nreconditioning program leaders ( RPLs) and the brigade surgeon. The military treatment facility with\nrehabilitation services may provide a physical therapist and a physical therapy specialist as consultants to\noversee the gym-based reconditioning program Category 1 (see paragraph 12-32). The physical therapist can\nassist or coordinate training efforts with the RPL.\n\n[fm7-22-2020:p143:para:01 | data/pdf/fm7-22-2020.pdf | page 143]\n30:60 30 second sprint: 60 second walk MMD military movement drill\n4C four for the core Mod modified\nACFT Army Combat Fitness Test PD preparation drill\nCD1 conditioning drill 1 PMCS preventive maintenance checks and services\nCD2 conditioning drill 2 RD recovery drill\nCL1 climbing drill 1 rep repetition\nETM endurance training machine RUD running drill\nFW free weight training SSD shoulder stability drill\nHSD hip stability drill ST1 suspension training drill 1\nMB1 medicine ball drill 1 STC strength training circuit\n12-36. Soldiers will depart Category 3 and the unit ’s Reconditioning Program after completing the exit\ncriteria in table 12-7 or when instructed to return to full training by an H2F or unit medical provider.",
+  "final_context_ids": [
+   "fm7-22-2020:p140:para:00",
+   "fm7-22-2020:p139:para:01",
+   "fm7-22-2020:p143:para:01"
+  ],
+  "context_evidence": false
+ },
+ {
+  "query_id": "q30",
+  "split": "test",
+  "question": "According to the Physical Activity Guidelines for Americans, how much moderate-intensity aerobic activity should women do each week during pregnancy and the postpartum period?",
+  "answerable": true,
+  "filter": {
+   "publisher": "HHS"
+  },
+  "status": "answered",
+  "answer": "Women should do at least 150 minutes (2 hours and 30 minutes) of moderate-intensity aerobic activity a week during pregnancy and the postpartum period [hhs-pag-2018:p080:para:03].",
+  "citations": [
+   "hhs-pag-2018:p080:para:03"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "query": "Physical Activity Guidelines for Americans pregnancy postpartum moderate-intensity aerobic activity women each week",
+    "filter": {
+     "publisher": "HHS"
+    },
+    "results": [
+     {
+      "id": "hhs-pag-2018:p080:para:03",
+      "text": "Physical Activity in People With Chronic Health Conditions or Disabilities\nThis section addresses both adults with chronic conditions and adults with disabilities. Some adults with\nchronic conditions may develop an acute or chronic disability as a result of their chronic condition. Some people\nKey Guidelines for Women During\nPregnancy and the Postpartum Period\nWomen should do at least 150 minutes (2 hours and 30 minutes) of moderate-intensity\naerobic activity a week during pregnancy and the postpartum period. Preferably, aerobic\nactivity should be spread throughout the week.\nWomen who habitually engaged in vigorous-intensity aerobic activity or who were\nphysically activ\ne before pregnancy can continue these activities during pregnancy and\nthe postpartum period.",
+      "source_id": "hhs-pag-2018",
+      "source": "data/pdf/hhs-pag-2018.pdf",
+      "page": 80,
+      "metadata": {
+       "document_id": "hhs-pag-2018",
+       "source": "data/pdf/hhs-pag-2018.pdf",
+       "page": 80,
+       "char_start": 1820,
+       "char_end": 2591,
+       "publisher": "HHS",
+       "year": 2018,
+       "section": "Chapter 6. Additional Considerations for Some Adults"
+      },
+      "score": 0.03252247488101534,
+      "strategy": "hybrid"
+     },
+     {
+      "id": "hhs-pag-2018:p044:para:01",
+      "text": "Women During Pregnancy and the Postpartum Period\nModerate-intensity physical activity is safe for generally healthy women during pregnancy. Physical activity\nreduces the risk of excessive weight gain and gestational diabetes during pregnancy. Physical activity\nincreases cardiorespiratory fitness without increasing the risk of negative pregnacy outcomes, such as low\nbirth weight, preterm delivery, or early pregnancy loss. Physical activity during the postpartum period (first\nyear after delivery) also improves the mother’s cardiorespiratory fitness, decreases symptoms of postpartum\ndepression, and, when combined with caloric restriction, can help her return to her pre-pregnancy body weight\nafter delivery.",
+      "source_id": "hhs-pag-2018",
+      "source": "data/pdf/hhs-pag-2018.pdf",
+      "page": 44,
+      "metadata": {
+       "document_id": "hhs-pag-2018",
+       "source": "data/pdf/hhs-pag-2018.pdf",
+       "page": 44,
+       "char_start": 608,
+       "char_end": 1320,
+       "publisher": "HHS",
+       "year": 2018,
+       "section": "Chapter 2. Physical Activity and Health"
+      },
+      "score": 0.032018442622950824,
+      "strategy": "hybrid"
+     },
+     {
+      "id": "hhs-pag-2018:p080:para:00",
+      "text": "Explaining the Key Guidelines\nWomen who are pregnant should be under the care of a health care provider with whom they can discuss\nwhether or how to adjust their physical activity during pregnancy and after the baby is born. Unless a woman\nhas medical reasons to avoid physical activity during pregnancy or the postpartum period, she can begin or\ncontinue light- to moderate-intensity aerobic and muscle-strengthening physical activity. When beginning\nphysical activity during pregnancy, women should increase the amount of physical activity gradually over time.\nWomen who habitually did vigorous-intensity activity or a lot of aerobic or muscle-strengthening physical\nactivity bef\nore pregnancy can continue to be physically active during pregnancy and after giving birth.",
+      "source_id": "hhs-pag-2018",
+      "source": "data/pdf/hhs-pag-2018.pdf",
+      "page": 80,
+      "metadata": {
+       "document_id": "hhs-pag-2018",
+       "source": "data/pdf/hhs-pag-2018.pdf",
+       "page": 80,
+       "char_start": 0,
+       "char_end": 773,
+       "publisher": "HHS",
+       "year": 2018,
+       "section": "Chapter 6. Additional Considerations for Some Adults"
+      },
+      "score": 0.031754032258064516,
+      "strategy": "hybrid"
+     }
+    ],
+    "context": "[hhs-pag-2018:p080:para:03 | data/pdf/hhs-pag-2018.pdf | page 80]\nPhysical Activity in People With Chronic Health Conditions or Disabilities\nThis section addresses both adults with chronic conditions and adults with disabilities. Some adults with\nchronic conditions may develop an acute or chronic disability as a result of their chronic condition. Some people\nKey Guidelines for Women During\nPregnancy and the Postpartum Period\nWomen should do at least 150 minutes (2 hours and 30 minutes) of moderate-intensity\naerobic activity a week during pregnancy and the postpartum period. Preferably, aerobic\nactivity should be spread throughout the week.\nWomen who habitually engaged in vigorous-intensity aerobic activity or who were\nphysically activ\ne before pregnancy can continue these activities during pregnancy and\nthe postpartum period.\n\n[hhs-pag-2018:p044:para:01 | data/pdf/hhs-pag-2018.pdf | page 44]\nWomen During Pregnancy and the Postpartum Period\nModerate-intensity physical activity is safe for generally healthy women during pregnancy. Physical activity\nreduces the risk of excessive weight gain and gestational diabetes during pregnancy. Physical activity\nincreases cardiorespiratory fitness without increasing the risk of negative pregnacy outcomes, such as low\nbirth weight, preterm delivery, or early pregnancy loss. Physical activity during the postpartum period (first\nyear after delivery) also improves the mother’s cardiorespiratory fitness, decreases symptoms of postpartum\ndepression, and, when combined with caloric restriction, can help her return to her pre-pregnancy body weight\nafter delivery.\n\n[hhs-pag-2018:p080:para:00 | data/pdf/hhs-pag-2018.pdf | page 80]\nExplaining the Key Guidelines\nWomen who are pregnant should be under the care of a health care provider with whom they can discuss\nwhether or how to adjust their physical activity during pregnancy and after the baby is born. Unless a woman\nhas medical reasons to avoid physical activity during pregnancy or the postpartum period, she can begin or\ncontinue light- to moderate-intensity aerobic and muscle-strengthening physical activity. When beginning\nphysical activity during pregnancy, women should increase the amount of physical activity gradually over time.\nWomen who habitually did vigorous-intensity activity or a lot of aerobic or muscle-strengthening physical\nactivity bef\nore pregnancy can continue to be physically active during pregnancy and after giving birth.",
+    "context_ids": [
+     "hhs-pag-2018:p080:para:03",
+     "hhs-pag-2018:p044:para:01",
+     "hhs-pag-2018:p080:para:00"
+    ]
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "seconds": 1.83,
+  "llm_calls": [
+   {
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+     "prompt_tokens": 460,
+     "completion_tokens": 31,
+     "total_tokens": 491,
+     "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+     },
+     "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+     }
+    },
+    "seconds": 0.83,
+    "tool_calls": [
+     {
+      "name": "search_documents",
+      "arguments": "{\"query\":\"Physical Activity Guidelines for Americans pregnancy postpartum moderate-intensity aerobic activity women each week\"}"
+     }
+    ]
+   },
+   {
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+     "prompt_tokens": 996,
+     "completion_tokens": 78,
+     "total_tokens": 1074,
+     "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+     },
+     "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+     }
+    },
+    "seconds": 0.9,
+    "tool_calls": [
+     {
+      "name": "answer",
+      "arguments": "{\"answer\":\"Women should do at least 150 minutes (2 hours and 30 minutes) of moderate-intensity aerobic activity a week during pregnancy and the postpartum period [hhs-pag-2018:p080:para:03].\",\"citations\":[\"hhs-pag-2018:p080:para:03\"]}"
+     }
+    ]
+   }
+  ],
+  "searches": 1,
+  "final_context": "[hhs-pag-2018:p080:para:03 | data/pdf/hhs-pag-2018.pdf | page 80]\nPhysical Activity in People With Chronic Health Conditions or Disabilities\nThis section addresses both adults with chronic conditions and adults with disabilities. Some adults with\nchronic conditions may develop an acute or chronic disability as a result of their chronic condition. Some people\nKey Guidelines for Women During\nPregnancy and the Postpartum Period\nWomen should do at least 150 minutes (2 hours and 30 minutes) of moderate-intensity\naerobic activity a week during pregnancy and the postpartum period. Preferably, aerobic\nactivity should be spread throughout the week.\nWomen who habitually engaged in vigorous-intensity aerobic activity or who were\nphysically activ\ne before pregnancy can continue these activities during pregnancy and\nthe postpartum period.\n\n[hhs-pag-2018:p044:para:01 | data/pdf/hhs-pag-2018.pdf | page 44]\nWomen During Pregnancy and the Postpartum Period\nModerate-intensity physical activity is safe for generally healthy women during pregnancy. Physical activity\nreduces the risk of excessive weight gain and gestational diabetes during pregnancy. Physical activity\nincreases cardiorespiratory fitness without increasing the risk of negative pregnacy outcomes, such as low\nbirth weight, preterm delivery, or early pregnancy loss. Physical activity during the postpartum period (first\nyear after delivery) also improves the mother’s cardiorespiratory fitness, decreases symptoms of postpartum\ndepression, and, when combined with caloric restriction, can help her return to her pre-pregnancy body weight\nafter delivery.\n\n[hhs-pag-2018:p080:para:00 | data/pdf/hhs-pag-2018.pdf | page 80]\nExplaining the Key Guidelines\nWomen who are pregnant should be under the care of a health care provider with whom they can discuss\nwhether or how to adjust their physical activity during pregnancy and after the baby is born. Unless a woman\nhas medical reasons to avoid physical activity during pregnancy or the postpartum period, she can begin or\ncontinue light- to moderate-intensity aerobic and muscle-strengthening physical activity. When beginning\nphysical activity during pregnancy, women should increase the amount of physical activity gradually over time.\nWomen who habitually did vigorous-intensity activity or a lot of aerobic or muscle-strengthening physical\nactivity bef\nore pregnancy can continue to be physically active during pregnancy and after giving birth.",
+  "final_context_ids": [
+   "hhs-pag-2018:p080:para:03",
+   "hhs-pag-2018:p044:para:01",
+   "hhs-pag-2018:p080:para:00"
+  ],
+  "context_evidence": true
+ },
+ {
+  "query_id": "u04",
+  "split": "test",
+  "question": "How many minutes of physical activity per day should a 2-year-old child get?",
+  "answerable": false,
+  "filter": null,
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "query": "2-year-old child physical activity minutes per day WHO guidelines under 5 years 180 minutes",
+    "filter": null,
+    "results": [
+     {
+      "id": "hhs-pag-2018:p053:para:01",
+      "text": "Getting and Staying Active: Real-Life Examples\nChildren and adolescents can meet the key guidelines and become regularly physically active in many ways.\nThe first example is for a preschool-aged child showing how light-, moderate-, and vigorous-intensity physical\nactivity can be incorporated throughout the day. The next examples are for a child and for an adolescent who\nare meeting the 60 minutes-a-day key guideline.",
+      "source_id": "hhs-pag-2018",
+      "source": "data/pdf/hhs-pag-2018.pdf",
+      "page": 53,
+      "metadata": {
+       "document_id": "hhs-pag-2018",
+       "source": "data/pdf/hhs-pag-2018.pdf",
+       "page": 53,
+       "char_start": 645,
+       "char_end": 1065,
+       "publisher": "HHS",
+       "year": 2018,
+       "section": "Chapter 3. Active Children and Adolescents"
+      },
+      "score": 0.0293236301369863,
+      "strategy": "hybrid"
+     },
+     {
+      "id": "hhs-pag-2018:p048:para:02",
+      "text": "Key Guidelines for School-Aged Children and Adolescents\nIt is important to provide young people opportunities and encouragement to participate\nin physical activities that are appropriate for their age, that are enjoyable, and that\noffer variety.\nChildren and adolescents ages 6 through 17 years should do 60 minutes (1 hour) or\nmore of moderate-to-vigorous physical activity daily:\n• Aerobic: Most of the 60 minutes or more per day should be either moderate- or\nvigorous-intensity aerobic physical activity and should include vigorous-intensity\nphysical activity on at least 3 days a week.\n• Muscle-strengthening: As part of their 60 minutes or more of daily physical\nactivity, children and adolescents should include muscle-strengthening physical\nactivity on at least 3 days a week.",
+      "source_id": "hhs-pag-2018",
+      "source": "data/pdf/hhs-pag-2018.pdf",
+      "page": 48,
+      "metadata": {
+       "document_id": "hhs-pag-2018",
+       "source": "data/pdf/hhs-pag-2018.pdf",
+       "page": 48,
+       "char_start": 1537,
+       "char_end": 2320,
+       "publisher": "HHS",
+       "year": 2018,
+       "section": "Chapter 3. Active Children and Adolescents"
+      },
+      "score": 0.029051670471052088,
+      "strategy": "hybrid"
+     },
+     {
+      "id": "who-pasb-2020:p037:para:06",
+      "text": "These results were consistent overall with\nother recent reviews (22, 35, 47) and provide support\nto retaining the recommendation that youth and\nadolescents should do regular vigorous-intensity activity\nto improve cardiorespiratory fitness.\nThe GDG concluded that:\n• Evidence affirms the previous WHO recommendation for\n60 minutes of moderate- to vigorous-intensity physical\nactivity per day.\n• Evidence supports amending the previous specification\nof a minimum daily threshold of 60 minutes of physical\nactivity to an average of 60 minutes per day per week,\nwhich more closely reflects the evidence.\n• There is moderate certainty evidence that greater\namounts of vigorous-intensity physical activity are\nassociated with improved cardiorespiratory fitness.",
+      "source_id": "who-pasb-2020",
+      "source": "data/pdf/who-pasb-2020.pdf",
+      "page": 37,
+      "metadata": {
+       "document_id": "who-pasb-2020",
+       "source": "data/pdf/who-pasb-2020.pdf",
+       "page": 37,
+       "char_start": 3277,
+       "char_end": 4032,
+       "publisher": "WHO",
+       "year": 2020,
+       "section": "Recommendations: Children and adolescents (aged 5-17 years)"
+      },
+      "score": 0.02803921568627451,
+      "strategy": "hybrid"
+     }
+    ],
+    "context": "[hhs-pag-2018:p053:para:01 | data/pdf/hhs-pag-2018.pdf | page 53]\nGetting and Staying Active: Real-Life Examples\nChildren and adolescents can meet the key guidelines and become regularly physically active in many ways.\nThe first example is for a preschool-aged child showing how light-, moderate-, and vigorous-intensity physical\nactivity can be incorporated throughout the day. The next examples are for a child and for an adolescent who\nare meeting the 60 minutes-a-day key guideline.\n\n[hhs-pag-2018:p048:para:02 | data/pdf/hhs-pag-2018.pdf | page 48]\nKey Guidelines for School-Aged Children and Adolescents\nIt is important to provide young people opportunities and encouragement to participate\nin physical activities that are appropriate for their age, that are enjoyable, and that\noffer variety.\nChildren and adolescents ages 6 through 17 years should do 60 minutes (1 hour) or\nmore of moderate-to-vigorous physical activity daily:\n• Aerobic: Most of the 60 minutes or more per day should be either moderate- or\nvigorous-intensity aerobic physical activity and should include vigorous-intensity\nphysical activity on at least 3 days a week.\n• Muscle-strengthening: As part of their 60 minutes or more of daily physical\nactivity, children and adolescents should include muscle-strengthening physical\nactivity on at least 3 days a week.\n\n[who-pasb-2020:p037:para:06 | data/pdf/who-pasb-2020.pdf | page 37]\nThese results were consistent overall with\nother recent reviews (22, 35, 47) and provide support\nto retaining the recommendation that youth and\nadolescents should do regular vigorous-intensity activity\nto improve cardiorespiratory fitness.\nThe GDG concluded that:\n• Evidence affirms the previous WHO recommendation for\n60 minutes of moderate- to vigorous-intensity physical\nactivity per day.\n• Evidence supports amending the previous specification\nof a minimum daily threshold of 60 minutes of physical\nactivity to an average of 60 minutes per day per week,\nwhich more closely reflects the evidence.\n• There is moderate certainty evidence that greater\namounts of vigorous-intensity physical activity are\nassociated with improved cardiorespiratory fitness.",
+    "context_ids": [
+     "hhs-pag-2018:p053:para:01",
+     "hhs-pag-2018:p048:para:02",
+     "who-pasb-2020:p037:para:06"
+    ]
+   },
+   {
+    "event": "search",
+    "query": "WHO physical activity children under 5 years 180 minutes per day 2-year-old",
+    "filter": null,
+    "results": [
+     {
+      "id": "who-pasb-2020:p011:para:00",
+      "text": "CHILDREN AND ADOLESCENTS\n(aged 5–17 years)\nIt is recommended that:\nChildren and adolescents should do at least\nan average of 60 minutes per day of moderate-\nto vigorous-intensity, mostly aerobic, physical\nactivity, across the week.\nStrong recommendation, moderate certainty evidence\nVigorous-intensity aerobic activities, as well\nas those that strengthen muscle and bone,\nshould be incorporated at least 3 days a week.\nStrong recommendation, moderate certainty evidence\n• Doing some physical activity is better than doing none.\n• If children and adolescents are not meeting the recommendations, doing some physical activity will benefit their health.",
+      "source_id": "who-pasb-2020",
+      "source": "data/pdf/who-pasb-2020.pdf",
+      "page": 11,
+      "metadata": {
+       "document_id": "who-pasb-2020",
+       "source": "data/pdf/who-pasb-2020.pdf",
+       "page": 11,
+       "char_start": 0,
+       "char_end": 650,
+       "publisher": "WHO",
+       "year": 2020,
+       "section": "Executive summary"
+      },
+      "score": 0.031544957774465976,
+      "strategy": "hybrid"
+     },
+     {
+      "id": "hhs-pag-2018:p048:para:02",
+      "text": "Key Guidelines for School-Aged Children and Adolescents\nIt is important to provide young people opportunities and encouragement to participate\nin physical activities that are appropriate for their age, that are enjoyable, and that\noffer variety.\nChildren and adolescents ages 6 through 17 years should do 60 minutes (1 hour) or\nmore of moderate-to-vigorous physical activity daily:\n• Aerobic: Most of the 60 minutes or more per day should be either moderate- or\nvigorous-intensity aerobic physical activity and should include vigorous-intensity\nphysical activity on at least 3 days a week.\n• Muscle-strengthening: As part of their 60 minutes or more of daily physical\nactivity, children and adolescents should include muscle-strengthening physical\nactivity on at least 3 days a week.",
+      "source_id": "hhs-pag-2018",
+      "source": "data/pdf/hhs-pag-2018.pdf",
+      "page": 48,
+      "metadata": {
+       "document_id": "hhs-pag-2018",
+       "source": "data/pdf/hhs-pag-2018.pdf",
+       "page": 48,
+       "char_start": 1537,
+       "char_end": 2320,
+       "publisher": "HHS",
+       "year": 2018,
+       "section": "Chapter 3. Active Children and Adolescents"
+      },
+      "score": 0.031054405392392875,
+      "strategy": "hybrid"
+     },
+     {
+      "id": "who-pasb-2020:p037:para:06",
+      "text": "These results were consistent overall with\nother recent reviews (22, 35, 47) and provide support\nto retaining the recommendation that youth and\nadolescents should do regular vigorous-intensity activity\nto improve cardiorespiratory fitness.\nThe GDG concluded that:\n• Evidence affirms the previous WHO recommendation for\n60 minutes of moderate- to vigorous-intensity physical\nactivity per day.\n• Evidence supports amending the previous specification\nof a minimum daily threshold of 60 minutes of physical\nactivity to an average of 60 minutes per day per week,\nwhich more closely reflects the evidence.\n• There is moderate certainty evidence that greater\namounts of vigorous-intensity physical activity are\nassociated with improved cardiorespiratory fitness.",
+      "source_id": "who-pasb-2020",
+      "source": "data/pdf/who-pasb-2020.pdf",
+      "page": 37,
+      "metadata": {
+       "document_id": "who-pasb-2020",
+       "source": "data/pdf/who-pasb-2020.pdf",
+       "page": 37,
+       "char_start": 3277,
+       "char_end": 4032,
+       "publisher": "WHO",
+       "year": 2020,
+       "section": "Recommendations: Children and adolescents (aged 5-17 years)"
+      },
+      "score": 0.02886002886002886,
+      "strategy": "hybrid"
+     }
+    ],
+    "context": "[hhs-pag-2018:p053:para:01 | data/pdf/hhs-pag-2018.pdf | page 53]\nGetting and Staying Active: Real-Life Examples\nChildren and adolescents can meet the key guidelines and become regularly physically active in many ways.\nThe first example is for a preschool-aged child showing how light-, moderate-, and vigorous-intensity physical\nactivity can be incorporated throughout the day. The next examples are for a child and for an adolescent who\nare meeting the 60 minutes-a-day key guideline.\n\n[hhs-pag-2018:p048:para:02 | data/pdf/hhs-pag-2018.pdf | page 48]\nKey Guidelines for School-Aged Children and Adolescents\nIt is important to provide young people opportunities and encouragement to participate\nin physical activities that are appropriate for their age, that are enjoyable, and that\noffer variety.\nChildren and adolescents ages 6 through 17 years should do 60 minutes (1 hour) or\nmore of moderate-to-vigorous physical activity daily:\n• Aerobic: Most of the 60 minutes or more per day should be either moderate- or\nvigorous-intensity aerobic physical activity and should include vigorous-intensity\nphysical activity on at least 3 days a week.\n• Muscle-strengthening: As part of their 60 minutes or more of daily physical\nactivity, children and adolescents should include muscle-strengthening physical\nactivity on at least 3 days a week.\n\n[who-pasb-2020:p037:para:06 | data/pdf/who-pasb-2020.pdf | page 37]\nThese results were consistent overall with\nother recent reviews (22, 35, 47) and provide support\nto retaining the recommendation that youth and\nadolescents should do regular vigorous-intensity activity\nto improve cardiorespiratory fitness.\nThe GDG concluded that:\n• Evidence affirms the previous WHO recommendation for\n60 minutes of moderate- to vigorous-intensity physical\nactivity per day.\n• Evidence supports amending the previous specification\nof a minimum daily threshold of 60 minutes of physical\nactivity to an average of 60 minutes per day per week,\nwhich more closely reflects the evidence.\n• There is moderate certainty evidence that greater\namounts of vigorous-intensity physical activity are\nassociated with improved cardiorespiratory fitness.\n\n[who-pasb-2020:p011:para:00 | data/pdf/who-pasb-2020.pdf | page 11]\nCHILDREN AND ADOLESCENTS\n(aged 5–17 years)\nIt is recommended that:\nChildren and adolescents should do at least\nan average of 60 minutes per day of moderate-\nto vigorous-intensity, mostly aerobic, physical\nactivity, across the week.\nStrong recommendation, moderate certainty evidence\nVigorous-intensity aerobic activities, as well\nas those that strengthen muscle and bone,\nshould be incorporated at least 3 days a week.\nStrong recommendation, moderate certainty evidence\n• Doing some physical activity is better than doing none.\n• If children and adolescents are not meeting the recommendations, doing some physical activity will benefit their health.",
+    "context_ids": [
+     "hhs-pag-2018:p053:para:01",
+     "hhs-pag-2018:p048:para:02",
+     "who-pasb-2020:p037:para:06",
+     "who-pasb-2020:p011:para:00"
+    ]
+   },
+   {
+    "event": "search",
+    "query": "WHO under 5 years 180 minutes per day physical activity 2 years old",
+    "filter": null,
+    "results": [
+     {
+      "id": "who-pasb-2020:p045:para:02",
+      "text": "Maximal risk reductions for moderate- to vigorous-\nintensity physical activity were observed at 24 minutes\nper day (equivalent to 168 minutes per week), which\nADULTS (aged 18–64 years)\nclosely reflects the recommendation of 150 minutes\nper week, and provides new device-based evidence\nreinforcing the existing global guidance to adults of\n150–300 minutes of physical activity per week (65). These\nfindings are consistent with the evidence from existing\nreviews (35) and the other new identified reviews (66).",
+      "source_id": "who-pasb-2020",
+      "source": "data/pdf/who-pasb-2020.pdf",
+      "page": 45,
+      "metadata": {
+       "document_id": "who-pasb-2020",
+       "source": "data/pdf/who-pasb-2020.pdf",
+       "page": 45,
+       "char_start": 1394,
+       "char_end": 1902,
+       "publisher": "WHO",
+       "year": 2020,
+       "section": "Recommendations: Adults (aged 18-64 years)"
+      },
+      "score": 0.03225806451612903,
+      "strategy": "hybrid"
+     },
+     {
+      "id": "who-pasb-2020:p037:para:06",
+      "text": "These results were consistent overall with\nother recent reviews (22, 35, 47) and provide support\nto retaining the recommendation that youth and\nadolescents should do regular vigorous-intensity activity\nto improve cardiorespiratory fitness.\nThe GDG concluded that:\n• Evidence affirms the previous WHO recommendation for\n60 minutes of moderate- to vigorous-intensity physical\nactivity per day.\n• Evidence supports amending the previous specification\nof a minimum daily threshold of 60 minutes of physical\nactivity to an average of 60 minutes per day per week,\nwhich more closely reflects the evidence.\n• There is moderate certainty evidence that greater\namounts of vigorous-intensity physical activity are\nassociated with improved cardiorespiratory fitness.",
+      "source_id": "who-pasb-2020",
+      "source": "data/pdf/who-pasb-2020.pdf",
+      "page": 37,
+      "metadata": {
+       "document_id": "who-pasb-2020",
+       "source": "data/pdf/who-pasb-2020.pdf",
+       "page": 37,
+       "char_start": 3277,
+       "char_end": 4032,
+       "publisher": "WHO",
+       "year": 2020,
+       "section": "Recommendations: Children and adolescents (aged 5-17 years)"
+      },
+      "score": 0.03177805800756621,
+      "strategy": "hybrid"
+     },
+     {
+      "id": "hhs-pag-2018:p086:para:02",
+      "text": "Raymond: A 42-Year-Old Man With Type 2 Diabetes\nRaymond is a 42-year-old man with type 2 diabetes. Recently, at the\nrecommendation of his physician, he started paying more attention to his\nactivity levels. He received a step counter for his birthday, and he uses\nit to track his daily activity and stay motivated.\nAfter a few months of increasing his physical activity, Raymond now\ndoes the equivalent of at leas\nt 150 minutes of moderate-intensity aerobic\nactivity each week, plus muscle-strengthening activities 3 days a week.\n• Raymond walks briskly to and from the bus stop each weekday\n(10 minutes each day).\n• He walks with a coworker during lunch 3 times a week (25\nminutes each day).",
+      "source_id": "hhs-pag-2018",
+      "source": "data/pdf/hhs-pag-2018.pdf",
+      "page": 86,
+      "metadata": {
+       "document_id": "hhs-pag-2018",
+       "source": "data/pdf/hhs-pag-2018.pdf",
+       "page": 86,
+       "char_start": 1281,
+       "char_end": 1972,
+       "publisher": "HHS",
+       "year": 2018,
+       "section": "Chapter 6. Additional Considerations for Some Adults"
+      },
+      "score": 0.031024531024531024,
+      "strategy": "hybrid"
+     }
+    ],
+    "context": "[hhs-pag-2018:p053:para:01 | data/pdf/hhs-pag-2018.pdf | page 53]\nGetting and Staying Active: Real-Life Examples\nChildren and adolescents can meet the key guidelines and become regularly physically active in many ways.\nThe first example is for a preschool-aged child showing how light-, moderate-, and vigorous-intensity physical\nactivity can be incorporated throughout the day. The next examples are for a child and for an adolescent who\nare meeting the 60 minutes-a-day key guideline.\n\n[hhs-pag-2018:p048:para:02 | data/pdf/hhs-pag-2018.pdf | page 48]\nKey Guidelines for School-Aged Children and Adolescents\nIt is important to provide young people opportunities and encouragement to participate\nin physical activities that are appropriate for their age, that are enjoyable, and that\noffer variety.\nChildren and adolescents ages 6 through 17 years should do 60 minutes (1 hour) or\nmore of moderate-to-vigorous physical activity daily:\n• Aerobic: Most of the 60 minutes or more per day should be either moderate- or\nvigorous-intensity aerobic physical activity and should include vigorous-intensity\nphysical activity on at least 3 days a week.\n• Muscle-strengthening: As part of their 60 minutes or more of daily physical\nactivity, children and adolescents should include muscle-strengthening physical\nactivity on at least 3 days a week.\n\n[who-pasb-2020:p037:para:06 | data/pdf/who-pasb-2020.pdf | page 37]\nThese results were consistent overall with\nother recent reviews (22, 35, 47) and provide support\nto retaining the recommendation that youth and\nadolescents should do regular vigorous-intensity activity\nto improve cardiorespiratory fitness.\nThe GDG concluded that:\n• Evidence affirms the previous WHO recommendation for\n60 minutes of moderate- to vigorous-intensity physical\nactivity per day.\n• Evidence supports amending the previous specification\nof a minimum daily threshold of 60 minutes of physical\nactivity to an average of 60 minutes per day per week,\nwhich more closely reflects the evidence.\n• There is moderate certainty evidence that greater\namounts of vigorous-intensity physical activity are\nassociated with improved cardiorespiratory fitness.\n\n[who-pasb-2020:p011:para:00 | data/pdf/who-pasb-2020.pdf | page 11]\nCHILDREN AND ADOLESCENTS\n(aged 5–17 years)\nIt is recommended that:\nChildren and adolescents should do at least\nan average of 60 minutes per day of moderate-\nto vigorous-intensity, mostly aerobic, physical\nactivity, across the week.\nStrong recommendation, moderate certainty evidence\nVigorous-intensity aerobic activities, as well\nas those that strengthen muscle and bone,\nshould be incorporated at least 3 days a week.\nStrong recommendation, moderate certainty evidence\n• Doing some physical activity is better than doing none.\n• If children and adolescents are not meeting the recommendations, doing some physical activity will benefit their health.",
+    "context_ids": [
+     "hhs-pag-2018:p053:para:01",
+     "hhs-pag-2018:p048:para:02",
+     "who-pasb-2020:p037:para:06",
+     "who-pasb-2020:p011:para:00"
+    ]
+   },
+   {
+    "event": "invalid_or_missing_citations"
+   }
+  ],
+  "seconds": 3.82,
+  "llm_calls": [
+   {
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+     "prompt_tokens": 449,
+     "completion_tokens": 34,
+     "total_tokens": 483,
+     "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+     },
+     "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+     }
+    },
+    "seconds": 0.86,
+    "tool_calls": [
+     {
+      "name": "search_documents",
+      "arguments": "{\"query\":\"2-year-old child physical activity minutes per day WHO guidelines under 5 years 180 minutes\"}"
+     }
+    ]
+   },
+   {
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+     "prompt_tokens": 963,
+     "completion_tokens": 33,
+     "total_tokens": 996,
+     "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+     },
+     "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+     }
+    },
+    "seconds": 0.93,
+    "tool_calls": [
+     {
+      "name": "search_documents",
+      "arguments": "{\"query\":\"WHO physical activity children under 5 years 180 minutes per day 2-year-old\"}"
+     }
+    ]
+   },
+   {
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+     "prompt_tokens": 1146,
+     "completion_tokens": 32,
+     "total_tokens": 1178,
+     "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+     },
+     "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+     }
+    },
+    "seconds": 0.85,
+    "tool_calls": [
+     {
+      "name": "search_documents",
+      "arguments": "{\"query\":\"WHO under 5 years 180 minutes per day physical activity 2 years old\"}"
+     }
+    ]
+   },
+   {
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+     "prompt_tokens": 1170,
+     "completion_tokens": 25,
+     "total_tokens": 1195,
+     "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+     },
+     "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+     }
+    },
+    "seconds": 0.93,
+    "tool_calls": [
+     {
+      "name": "answer",
+      "arguments": "{\"answer\":\"Not enough evidence in the documents.\",\"citations\":[]}"
+     }
+    ]
+   }
+  ],
+  "searches": 3,
+  "final_context": "[hhs-pag-2018:p053:para:01 | data/pdf/hhs-pag-2018.pdf | page 53]\nGetting and Staying Active: Real-Life Examples\nChildren and adolescents can meet the key guidelines and become regularly physically active in many ways.\nThe first example is for a preschool-aged child showing how light-, moderate-, and vigorous-intensity physical\nactivity can be incorporated throughout the day. The next examples are for a child and for an adolescent who\nare meeting the 60 minutes-a-day key guideline.\n\n[hhs-pag-2018:p048:para:02 | data/pdf/hhs-pag-2018.pdf | page 48]\nKey Guidelines for School-Aged Children and Adolescents\nIt is important to provide young people opportunities and encouragement to participate\nin physical activities that are appropriate for their age, that are enjoyable, and that\noffer variety.\nChildren and adolescents ages 6 through 17 years should do 60 minutes (1 hour) or\nmore of moderate-to-vigorous physical activity daily:\n• Aerobic: Most of the 60 minutes or more per day should be either moderate- or\nvigorous-intensity aerobic physical activity and should include vigorous-intensity\nphysical activity on at least 3 days a week.\n• Muscle-strengthening: As part of their 60 minutes or more of daily physical\nactivity, children and adolescents should include muscle-strengthening physical\nactivity on at least 3 days a week.\n\n[who-pasb-2020:p037:para:06 | data/pdf/who-pasb-2020.pdf | page 37]\nThese results were consistent overall with\nother recent reviews (22, 35, 47) and provide support\nto retaining the recommendation that youth and\nadolescents should do regular vigorous-intensity activity\nto improve cardiorespiratory fitness.\nThe GDG concluded that:\n• Evidence affirms the previous WHO recommendation for\n60 minutes of moderate- to vigorous-intensity physical\nactivity per day.\n• Evidence supports amending the previous specification\nof a minimum daily threshold of 60 minutes of physical\nactivity to an average of 60 minutes per day per week,\nwhich more closely reflects the evidence.\n• There is moderate certainty evidence that greater\namounts of vigorous-intensity physical activity are\nassociated with improved cardiorespiratory fitness.\n\n[who-pasb-2020:p011:para:00 | data/pdf/who-pasb-2020.pdf | page 11]\nCHILDREN AND ADOLESCENTS\n(aged 5–17 years)\nIt is recommended that:\nChildren and adolescents should do at least\nan average of 60 minutes per day of moderate-\nto vigorous-intensity, mostly aerobic, physical\nactivity, across the week.\nStrong recommendation, moderate certainty evidence\nVigorous-intensity aerobic activities, as well\nas those that strengthen muscle and bone,\nshould be incorporated at least 3 days a week.\nStrong recommendation, moderate certainty evidence\n• Doing some physical activity is better than doing none.\n• If children and adolescents are not meeting the recommendations, doing some physical activity will benefit their health.",
+  "final_context_ids": [
+   "hhs-pag-2018:p053:para:01",
+   "hhs-pag-2018:p048:para:02",
+   "who-pasb-2020:p037:para:06",
+   "who-pasb-2020:p011:para:00"
+  ],
+  "context_evidence": null
+ },
+ {
+  "query_id": "u05",
+  "split": "test",
+  "question": "How many milligrams of omega-3 fatty acids per day does FM 7-22 recommend for Soldiers?",
+  "answerable": false,
+  "filter": null,
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "query": "FM 7-22 omega-3 fatty acids per day Soldiers milligrams",
+    "filter": null,
+    "results": [
+     {
+      "id": "fm7-22-2020:p085:para:00",
+      "text": "Nutritional Readiness\n8-15. Soldiers need to limit sodium consumption. Healthy eating patterns limit sodium to less than 2,300\nmilligrams per day for adults. Sodium is an essential nutrient and is needed by the body in relatively small\nquantities, provided that substantial sweating does not occur.\n8-16. Soldiers need to limit alcohol consumption. In the strictest sense, alcohol is not a performance nutrient.\nIf Soldiers consume alcohol, it should be in moderation —up to one drink per day for women and up to two\ndrinks per day for men —and only by adults of legal drinking age. One alcoholic drink -equivalent consists\nof—\n• 12 fluid ounces of regular beer (5 percent alcohol).\n• 5 fluid ounces of wine (12 percent alcohol).",
+      "source_id": "fm7-22-2020",
+      "source": "data/pdf/fm7-22-2020.pdf",
+      "page": 85,
+      "metadata": {
+       "document_id": "fm7-22-2020",
+       "source": "data/pdf/fm7-22-2020.pdf",
+       "page": 85,
+       "char_start": 0,
+       "char_end": 729,
+       "publisher": "US Army",
+       "year": 2020,
+       "section": "Chapter 8. Nutritional Readiness"
+      },
+      "score": 0.03278688524590164,
+      "strategy": "hybrid"
+     },
+     {
+      "id": "fm7-22-2020:p090:para:02",
+      "text": "8-43. Although sports drinks containing electrolytes enhance endurance performance, many Soldiers use\nthese drinks as a recreational fluid. This only adds calories, artificial coloring and flavors to their dietary\nintake. Dietitians recommend sports drinks when exercise lasts longer than 60 minutes and then, Soldiers\nshould only ingest 237 milliliters (eight ounces or one cup) every 15 minutes. For activities less than one\nhour, water is the best choice for hydration needs. Short, low intensity workouts do not lose minimal sodium\nand potassium through sweat and do not deplete glycogen stores. The ideal sports drink contains —\n• 82–163 milligrams sodium per 237 milliliters (8 ounce) serving.\n• 18–46 milligrams potassium per 237 milliliters (8 ounce) serving.",
+      "source_id": "fm7-22-2020",
+      "source": "data/pdf/fm7-22-2020.pdf",
+      "page": 90,
+      "metadata": {
+       "document_id": "fm7-22-2020",
+       "source": "data/pdf/fm7-22-2020.pdf",
+       "page": 90,
+       "char_start": 1038,
+       "char_end": 1805,
+       "publisher": "US Army",
+       "year": 2020,
+       "section": "Chapter 8. Nutritional Readiness"
+      },
+      "score": 0.03007688828584351,
+      "strategy": "hybrid"
+     },
+     {
+      "id": "fm7-22-2020:p074:para:02",
+      "text": "7-22. Running Drills may be performed collectively or individually. Table 7-4 summarizes Running Drills\nused to develop running skill. ATP 7-22.02 discusses and illustrates the purpose and execution of all seven\nRunning Drills in detail. Soldiers perform the drills at least once per week to develop proper form. As with\nall physical training exercises, consistent adherence to precise execution provides optimal results.",
+      "source_id": "fm7-22-2020",
+      "source": "data/pdf/fm7-22-2020.pdf",
+      "page": 74,
+      "metadata": {
+       "document_id": "fm7-22-2020",
+       "source": "data/pdf/fm7-22-2020.pdf",
+       "page": 74,
+       "char_start": 1088,
+       "char_end": 1509,
+       "publisher": "US Army",
+       "year": 2020,
+       "section": "Chapter 7. Physical Readiness"
+      },
+      "score": 0.016129032258064516,
+      "strategy": "hybrid"
+     }
+    ],
+    "context": "[fm7-22-2020:p085:para:00 | data/pdf/fm7-22-2020.pdf | page 85]\nNutritional Readiness\n8-15. Soldiers need to limit sodium consumption. Healthy eating patterns limit sodium to less than 2,300\nmilligrams per day for adults. Sodium is an essential nutrient and is needed by the body in relatively small\nquantities, provided that substantial sweating does not occur.\n8-16. Soldiers need to limit alcohol consumption. In the strictest sense, alcohol is not a performance nutrient.\nIf Soldiers consume alcohol, it should be in moderation —up to one drink per day for women and up to two\ndrinks per day for men —and only by adults of legal drinking age. One alcoholic drink -equivalent consists\nof—\n• 12 fluid ounces of regular beer (5 percent alcohol).\n• 5 fluid ounces of wine (12 percent alcohol).\n\n[fm7-22-2020:p090:para:02 | data/pdf/fm7-22-2020.pdf | page 90]\n8-43. Although sports drinks containing electrolytes enhance endurance performance, many Soldiers use\nthese drinks as a recreational fluid. This only adds calories, artificial coloring and flavors to their dietary\nintake. Dietitians recommend sports drinks when exercise lasts longer than 60 minutes and then, Soldiers\nshould only ingest 237 milliliters (eight ounces or one cup) every 15 minutes. For activities less than one\nhour, water is the best choice for hydration needs. Short, low intensity workouts do not lose minimal sodium\nand potassium through sweat and do not deplete glycogen stores. The ideal sports drink contains —\n• 82–163 milligrams sodium per 237 milliliters (8 ounce) serving.\n• 18–46 milligrams potassium per 237 milliliters (8 ounce) serving.\n\n[fm7-22-2020:p074:para:02 | data/pdf/fm7-22-2020.pdf | page 74]\n7-22. Running Drills may be performed collectively or individually. Table 7-4 summarizes Running Drills\nused to develop running skill. ATP 7-22.02 discusses and illustrates the purpose and execution of all seven\nRunning Drills in detail. Soldiers perform the drills at least once per week to develop proper form. As with\nall physical training exercises, consistent adherence to precise execution provides optimal results.",
+    "context_ids": [
+     "fm7-22-2020:p085:para:00",
+     "fm7-22-2020:p090:para:02",
+     "fm7-22-2020:p074:para:02"
+    ]
+   },
+   {
+    "event": "search",
+    "query": "FM 7-22 omega-3 fatty acids Soldiers milligrams per day",
+    "filter": null,
+    "results": [
+     {
+      "id": "fm7-22-2020:p085:para:00",
+      "text": "Nutritional Readiness\n8-15. Soldiers need to limit sodium consumption. Healthy eating patterns limit sodium to less than 2,300\nmilligrams per day for adults. Sodium is an essential nutrient and is needed by the body in relatively small\nquantities, provided that substantial sweating does not occur.\n8-16. Soldiers need to limit alcohol consumption. In the strictest sense, alcohol is not a performance nutrient.\nIf Soldiers consume alcohol, it should be in moderation —up to one drink per day for women and up to two\ndrinks per day for men —and only by adults of legal drinking age. One alcoholic drink -equivalent consists\nof—\n• 12 fluid ounces of regular beer (5 percent alcohol).\n• 5 fluid ounces of wine (12 percent alcohol).",
+      "source_id": "fm7-22-2020",
+      "source": "data/pdf/fm7-22-2020.pdf",
+      "page": 85,
+      "metadata": {
+       "document_id": "fm7-22-2020",
+       "source": "data/pdf/fm7-22-2020.pdf",
+       "page": 85,
+       "char_start": 0,
+       "char_end": 729,
+       "publisher": "US Army",
+       "year": 2020,
+       "section": "Chapter 8. Nutritional Readiness"
+      },
+      "score": 0.03278688524590164,
+      "strategy": "hybrid"
+     },
+     {
+      "id": "fm7-22-2020:p090:para:02",
+      "text": "8-43. Although sports drinks containing electrolytes enhance endurance performance, many Soldiers use\nthese drinks as a recreational fluid. This only adds calories, artificial coloring and flavors to their dietary\nintake. Dietitians recommend sports drinks when exercise lasts longer than 60 minutes and then, Soldiers\nshould only ingest 237 milliliters (eight ounces or one cup) every 15 minutes. For activities less than one\nhour, water is the best choice for hydration needs. Short, low intensity workouts do not lose minimal sodium\nand potassium through sweat and do not deplete glycogen stores. The ideal sports drink contains —\n• 82–163 milligrams sodium per 237 milliliters (8 ounce) serving.\n• 18–46 milligrams potassium per 237 milliliters (8 ounce) serving.",
+      "source_id": "fm7-22-2020",
+      "source": "data/pdf/fm7-22-2020.pdf",
+      "page": 90,
+      "metadata": {
+       "document_id": "fm7-22-2020",
+       "source": "data/pdf/fm7-22-2020.pdf",
+       "page": 90,
+       "char_start": 1038,
+       "char_end": 1805,
+       "publisher": "US Army",
+       "year": 2020,
+       "section": "Chapter 8. Nutritional Readiness"
+      },
+      "score": 0.029850746268656716,
+      "strategy": "hybrid"
+     },
+     {
+      "id": "fm7-22-2020:p074:para:02",
+      "text": "7-22. Running Drills may be performed collectively or individually. Table 7-4 summarizes Running Drills\nused to develop running skill. ATP 7-22.02 discusses and illustrates the purpose and execution of all seven\nRunning Drills in detail. Soldiers perform the drills at least once per week to develop proper form. As with\nall physical training exercises, consistent adherence to precise execution provides optimal results.",
+      "source_id": "fm7-22-2020",
+      "source": "data/pdf/fm7-22-2020.pdf",
+      "page": 74,
+      "metadata": {
+       "document_id": "fm7-22-2020",
+       "source": "data/pdf/fm7-22-2020.pdf",
+       "page": 74,
+       "char_start": 1088,
+       "char_end": 1509,
+       "publisher": "US Army",
+       "year": 2020,
+       "section": "Chapter 7. Physical Readiness"
+      },
+      "score": 0.016129032258064516,
+      "strategy": "hybrid"
+     }
+    ],
+    "context": "[fm7-22-2020:p085:para:00 | data/pdf/fm7-22-2020.pdf | page 85]\nNutritional Readiness\n8-15. Soldiers need to limit sodium consumption. Healthy eating patterns limit sodium to less than 2,300\nmilligrams per day for adults. Sodium is an essential nutrient and is needed by the body in relatively small\nquantities, provided that substantial sweating does not occur.\n8-16. Soldiers need to limit alcohol consumption. In the strictest sense, alcohol is not a performance nutrient.\nIf Soldiers consume alcohol, it should be in moderation —up to one drink per day for women and up to two\ndrinks per day for men —and only by adults of legal drinking age. One alcoholic drink -equivalent consists\nof—\n• 12 fluid ounces of regular beer (5 percent alcohol).\n• 5 fluid ounces of wine (12 percent alcohol).\n\n[fm7-22-2020:p090:para:02 | data/pdf/fm7-22-2020.pdf | page 90]\n8-43. Although sports drinks containing electrolytes enhance endurance performance, many Soldiers use\nthese drinks as a recreational fluid. This only adds calories, artificial coloring and flavors to their dietary\nintake. Dietitians recommend sports drinks when exercise lasts longer than 60 minutes and then, Soldiers\nshould only ingest 237 milliliters (eight ounces or one cup) every 15 minutes. For activities less than one\nhour, water is the best choice for hydration needs. Short, low intensity workouts do not lose minimal sodium\nand potassium through sweat and do not deplete glycogen stores. The ideal sports drink contains —\n• 82–163 milligrams sodium per 237 milliliters (8 ounce) serving.\n• 18–46 milligrams potassium per 237 milliliters (8 ounce) serving.\n\n[fm7-22-2020:p074:para:02 | data/pdf/fm7-22-2020.pdf | page 74]\n7-22. Running Drills may be performed collectively or individually. Table 7-4 summarizes Running Drills\nused to develop running skill. ATP 7-22.02 discusses and illustrates the purpose and execution of all seven\nRunning Drills in detail. Soldiers perform the drills at least once per week to develop proper form. As with\nall physical training exercises, consistent adherence to precise execution provides optimal results.",
+    "context_ids": [
+     "fm7-22-2020:p085:para:00",
+     "fm7-22-2020:p090:para:02",
+     "fm7-22-2020:p074:para:02"
+    ]
+   },
+   {
+    "event": "search",
+    "query": "FM 7-22 omega-3 fatty acids Soldiers",
+    "filter": null,
+    "results": [
+     {
+      "id": "fm7-22-2020:p082:para:05",
+      "text": "• Considerations: Soldiers consume vegetables with limited additions such as salt, butter, or creamy\nsauces. When selecting frozen or canned vegetables, choose those lower in sodium. At every meal,\nstrive to make half of the plate fruit and vegetables.\n8-9. Eat fruits that meet the following requirements:",
+      "source_id": "fm7-22-2020",
+      "source": "data/pdf/fm7-22-2020.pdf",
+      "page": 82,
+      "metadata": {
+       "document_id": "fm7-22-2020",
+       "source": "data/pdf/fm7-22-2020.pdf",
+       "page": 82,
+       "char_start": 3109,
+       "char_end": 3415,
+       "publisher": "US Army",
+       "year": 2020,
+       "section": "Chapter 8. Nutritional Readiness"
+      },
+      "score": 0.01639344262295082,
+      "strategy": "hybrid"
+     },
+     {
+      "id": "fm7-22-2020:p190:para:01",
+      "text": "OSUT physical training schedule (22 weeks) (continued)\nSession OSUT Week 6 Uniform\n6-2 Preparation: Walk (10 min) Activities/Recovery: RUD\n6-3\nPreparation: PD (10 reps), 4C, HSD\nActivities: STC (2 rounds, 21 min, progress weight), SDC (2 reps, 1:3 rest ratio)\nRecovery: RD (30 secs)\n6-4\nPreparation: PD (10 reps), SSD, HSD\nActivities: FM 7 miles\nRecovery: RD (30 secs)\nACU\n6-5\nPreparation: PD (10 reps), 4C, SSD\nActivities: CD1 & CD2 (6 reps), CD3 (6 reps)\nRecovery: RD (30 secs)\n6-6\nPreparation: PD (10 reps), SSD, HSD\nActivities: RR 30 mins\nRecovery: RD (30 secs)\nOSUT Week 7\n7-1\nPreparation: PD (10 reps), 4C\nActivities: 3RM, SPT, HRP practice\nRecovery: PMCS\n7-2\nPreparation: PD (10 reps), MMD1 & MMD2, RUD\nActivities: HR-Down (6 reps)\nRecovery: RD (30 secs)\n7-3",
+      "source_id": "fm7-22-2020",
+      "source": "data/pdf/fm7-22-2020.pdf",
+      "page": 190,
+      "metadata": {
+       "document_id": "fm7-22-2020",
+       "source": "data/pdf/fm7-22-2020.pdf",
+       "page": 190,
+       "char_start": 13,
+       "char_end": 778,
+       "publisher": "US Army",
+       "year": 2020,
+       "section": "Chapter 14. Holistic Health and Fitness Schedules"
+      },
+      "score": 0.01639344262295082,
+      "strategy": "hybrid"
+     },
+     {
+      "id": "fm7-22-2020:p081:para:03",
+      "text": "HEALTH PROMOTION AND CHRONIC DISEASE PREVENTION\n8-3. The nutritional foundation established by a Soldier ’s usual dietary intake, or “everyday diet, ” can\ngreatly reduce preventable future disease. More than 60 years of peer -reviewed research has demonstrated\nthe importance of the everyday diet to the health and longevity of an individual. Soldiers can capitalize on\nthese findings by consuming more whole -grain products, fruits and vegetables, legumes, nuts, seeds, dairy\nproducts, and fish, and less processed grains, added sugars, and processed meats.",
+      "source_id": "fm7-22-2020",
+      "source": "data/pdf/fm7-22-2020.pdf",
+      "page": 81,
+      "metadata": {
+       "document_id": "fm7-22-2020",
+       "source": "data/pdf/fm7-22-2020.pdf",
+       "page": 81,
+       "char_start": 1949,
+       "char_end": 2507,
+       "publisher": "US Army",
+       "year": 2020,
+       "section": "Chapter 8. Nutritional Readiness"
+      },
+      "score": 0.016129032258064516,
+      "strategy": "hybrid"
+     }
+    ],
+    "context": "[fm7-22-2020:p085:para:00 | data/pdf/fm7-22-2020.pdf | page 85]\nNutritional Readiness\n8-15. Soldiers need to limit sodium consumption. Healthy eating patterns limit sodium to less than 2,300\nmilligrams per day for adults. Sodium is an essential nutrient and is needed by the body in relatively small\nquantities, provided that substantial sweating does not occur.\n8-16. Soldiers need to limit alcohol consumption. In the strictest sense, alcohol is not a performance nutrient.\nIf Soldiers consume alcohol, it should be in moderation —up to one drink per day for women and up to two\ndrinks per day for men —and only by adults of legal drinking age. One alcoholic drink -equivalent consists\nof—\n• 12 fluid ounces of regular beer (5 percent alcohol).\n• 5 fluid ounces of wine (12 percent alcohol).\n\n[fm7-22-2020:p090:para:02 | data/pdf/fm7-22-2020.pdf | page 90]\n8-43. Although sports drinks containing electrolytes enhance endurance performance, many Soldiers use\nthese drinks as a recreational fluid. This only adds calories, artificial coloring and flavors to their dietary\nintake. Dietitians recommend sports drinks when exercise lasts longer than 60 minutes and then, Soldiers\nshould only ingest 237 milliliters (eight ounces or one cup) every 15 minutes. For activities less than one\nhour, water is the best choice for hydration needs. Short, low intensity workouts do not lose minimal sodium\nand potassium through sweat and do not deplete glycogen stores. The ideal sports drink contains —\n• 82–163 milligrams sodium per 237 milliliters (8 ounce) serving.\n• 18–46 milligrams potassium per 237 milliliters (8 ounce) serving.\n\n[fm7-22-2020:p074:para:02 | data/pdf/fm7-22-2020.pdf | page 74]\n7-22. Running Drills may be performed collectively or individually. Table 7-4 summarizes Running Drills\nused to develop running skill. ATP 7-22.02 discusses and illustrates the purpose and execution of all seven\nRunning Drills in detail. Soldiers perform the drills at least once per week to develop proper form. As with\nall physical training exercises, consistent adherence to precise execution provides optimal results.\n\n[fm7-22-2020:p082:para:05 | data/pdf/fm7-22-2020.pdf | page 82]\n• Considerations: Soldiers consume vegetables with limited additions such as salt, butter, or creamy\nsauces. When selecting frozen or canned vegetables, choose those lower in sodium. At every meal,\nstrive to make half of the plate fruit and vegetables.\n8-9. Eat fruits that meet the following requirements:",
+    "context_ids": [
+     "fm7-22-2020:p085:para:00",
+     "fm7-22-2020:p090:para:02",
+     "fm7-22-2020:p074:para:02",
+     "fm7-22-2020:p082:para:05"
+    ]
+   },
+   {
+    "event": "invalid_or_missing_citations"
+   }
+  ],
+  "seconds": 3.67,
+  "llm_calls": [
+   {
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+     "prompt_tokens": 454,
+     "completion_tokens": 31,
+     "total_tokens": 485,
+     "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+     },
+     "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+     }
+    },
+    "seconds": 0.79,
+    "tool_calls": [
+     {
+      "name": "search_documents",
+      "arguments": "{\"query\":\"FM 7-22 omega-3 fatty acids per day Soldiers milligrams\"}"
+     }
+    ]
+   },
+   {
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+     "prompt_tokens": 992,
+     "completion_tokens": 31,
+     "total_tokens": 1023,
+     "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+     },
+     "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+     }
+    },
+    "seconds": 0.91,
+    "tool_calls": [
+     {
+      "name": "search_documents",
+      "arguments": "{\"query\":\"FM 7-22 omega-3 fatty acids Soldiers milligrams per day\"}"
+     }
+    ]
+   },
+   {
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+     "prompt_tokens": 1009,
+     "completion_tokens": 27,
+     "total_tokens": 1036,
+     "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+     },
+     "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+     }
+    },
+    "seconds": 0.92,
+    "tool_calls": [
+     {
+      "name": "search_documents",
+      "arguments": "{\"query\":\"FM 7-22 omega-3 fatty acids Soldiers\"}"
+     }
+    ]
+   },
+   {
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+     "prompt_tokens": 1123,
+     "completion_tokens": 25,
+     "total_tokens": 1148,
+     "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+     },
+     "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+     }
+    },
+    "seconds": 0.81,
+    "tool_calls": [
+     {
+      "name": "answer",
+      "arguments": "{\"answer\":\"Not enough evidence in the documents.\",\"citations\":[]}"
+     }
+    ]
+   }
+  ],
+  "searches": 3,
+  "final_context": "[fm7-22-2020:p085:para:00 | data/pdf/fm7-22-2020.pdf | page 85]\nNutritional Readiness\n8-15. Soldiers need to limit sodium consumption. Healthy eating patterns limit sodium to less than 2,300\nmilligrams per day for adults. Sodium is an essential nutrient and is needed by the body in relatively small\nquantities, provided that substantial sweating does not occur.\n8-16. Soldiers need to limit alcohol consumption. In the strictest sense, alcohol is not a performance nutrient.\nIf Soldiers consume alcohol, it should be in moderation —up to one drink per day for women and up to two\ndrinks per day for men —and only by adults of legal drinking age. One alcoholic drink -equivalent consists\nof—\n• 12 fluid ounces of regular beer (5 percent alcohol).\n• 5 fluid ounces of wine (12 percent alcohol).\n\n[fm7-22-2020:p090:para:02 | data/pdf/fm7-22-2020.pdf | page 90]\n8-43. Although sports drinks containing electrolytes enhance endurance performance, many Soldiers use\nthese drinks as a recreational fluid. This only adds calories, artificial coloring and flavors to their dietary\nintake. Dietitians recommend sports drinks when exercise lasts longer than 60 minutes and then, Soldiers\nshould only ingest 237 milliliters (eight ounces or one cup) every 15 minutes. For activities less than one\nhour, water is the best choice for hydration needs. Short, low intensity workouts do not lose minimal sodium\nand potassium through sweat and do not deplete glycogen stores. The ideal sports drink contains —\n• 82–163 milligrams sodium per 237 milliliters (8 ounce) serving.\n• 18–46 milligrams potassium per 237 milliliters (8 ounce) serving.\n\n[fm7-22-2020:p074:para:02 | data/pdf/fm7-22-2020.pdf | page 74]\n7-22. Running Drills may be performed collectively or individually. Table 7-4 summarizes Running Drills\nused to develop running skill. ATP 7-22.02 discusses and illustrates the purpose and execution of all seven\nRunning Drills in detail. Soldiers perform the drills at least once per week to develop proper form. As with\nall physical training exercises, consistent adherence to precise execution provides optimal results.\n\n[fm7-22-2020:p082:para:05 | data/pdf/fm7-22-2020.pdf | page 82]\n• Considerations: Soldiers consume vegetables with limited additions such as salt, butter, or creamy\nsauces. When selecting frozen or canned vegetables, choose those lower in sodium. At every meal,\nstrive to make half of the plate fruit and vegetables.\n8-9. Eat fruits that meet the following requirements:",
+  "final_context_ids": [
+   "fm7-22-2020:p085:para:00",
+   "fm7-22-2020:p090:para:02",
+   "fm7-22-2020:p074:para:02",
+   "fm7-22-2020:p082:para:05"
+  ],
+  "context_evidence": null
+ },
+ {
+  "query_id": "u06",
+  "split": "test",
+  "question": "What daily creatine supplement dose does FM 7-22 recommend for strength training?",
+  "answerable": false,
+  "filter": null,
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "query": "FM 7-22 creatine supplement dose strength training daily creatine",
+    "filter": null,
+    "results": [
+     {
+      "id": "fm7-22-2020:p054:para:02",
+      "text": "MICROCYCLE\n5-9. The microcycle consists of the detailed daily training structure across two to fourteen days. The day s\nin the microcycle alternate between endurance and strength sessions as well as between training and recovery\nsessions. Leaders develop these training cycles in conjunction with the operations planning process described\nin FM 7-0. FM 7-0 uses the operations process conducting training events in a step-by-step approach to help\ncommanders and other unit leaders train their Soldiers. With a focus on readiness and high levels of training\nproficiency, FM 7-0 provides the how-to processes of unit training along with practical applications. Leaders\ncomplete this meticulous planning well prior to the start of training.",
+      "source_id": "fm7-22-2020",
+      "source": "data/pdf/fm7-22-2020.pdf",
+      "page": 54,
+      "metadata": {
+       "document_id": "fm7-22-2020",
+       "source": "data/pdf/fm7-22-2020.pdf",
+       "page": 54,
+       "char_start": 1029,
+       "char_end": 1766,
+       "publisher": "US Army",
+       "year": 2020,
+       "section": "Chapter 5. Periodization"
+      },
+      "score": 0.01639344262295082,
+      "strategy": "hybrid"
+     },
+     {
+      "id": "who-pasb-2020:p066:para:06",
+      "text": "Statistically significant effects were found for high-\nintensity resistance training versus control groups on\nfasting insulin (MD= 4.60 [95% CI: 7.53 to 1.67], 5 trials;\nn= 174) (107). Another review of 7 RCTs (n= 189) reported\nthat interval training (2–5 times/week; intervals 1–4\nmins duration; total session lengths 20–60 mins) was\nassociated with statistically significantly decreased HbA1c\nby 0.26% (95% CI: 0.46 to 0.07%, 5 RCTs) compared with\nMICT, and by 0.83% (95% CI: 1.39% to 0.27%, 4 RCTs)\ncompared with no-exercise control groups (116).",
+      "source_id": "who-pasb-2020",
+      "source": "data/pdf/who-pasb-2020.pdf",
+      "page": 66,
+      "metadata": {
+       "document_id": "who-pasb-2020",
+       "source": "data/pdf/who-pasb-2020.pdf",
+       "page": 66,
+       "char_start": 3448,
+       "char_end": 3997,
+       "publisher": "WHO",
+       "year": 2020,
+       "section": "Recommendations: Adults and older adults with chronic conditions (aged 18 years and older)"
+      },
+      "score": 0.01639344262295082,
+      "strategy": "hybrid"
+     },
+     {
+      "id": "fm7-22-2020:p067:para:04",
+      "text": "The principle of precision ensures the development of perception and awareness of the body ’s\nposition in space—kinesthesia—to improve training, testing, and battlefield performance. See ATP 7-22.01\nfor H2F testing, and ATP 7-22.02 for drills and exercises.\nPROGRESSION\n7-3. Progression refers to the proper dose of frequency, intensity, duration, and type of exercise required to\noverload the body without causing overtrai ning, plateauing, or reversal of fitness. The goal is to develop\nphysical capacity to support the mastery of occupational and combat -specific tasks. Task analysis include s",
+      "source_id": "fm7-22-2020",
+      "source": "data/pdf/fm7-22-2020.pdf",
+      "page": 67,
+      "metadata": {
+       "document_id": "fm7-22-2020",
+       "source": "data/pdf/fm7-22-2020.pdf",
+       "page": 67,
+       "char_start": 2025,
+       "char_end": 2622,
+       "publisher": "US Army",
+       "year": 2020,
+       "section": "Chapter 7. Physical Readiness"
+      },
+      "score": 0.016129032258064516,
+      "strategy": "hybrid"
+     }
+    ],
+    "context": "[fm7-22-2020:p054:para:02 | data/pdf/fm7-22-2020.pdf | page 54]\nMICROCYCLE\n5-9. The microcycle consists of the detailed daily training structure across two to fourteen days. The day s\nin the microcycle alternate between endurance and strength sessions as well as between training and recovery\nsessions. Leaders develop these training cycles in conjunction with the operations planning process described\nin FM 7-0. FM 7-0 uses the operations process conducting training events in a step-by-step approach to help\ncommanders and other unit leaders train their Soldiers. With a focus on readiness and high levels of training\nproficiency, FM 7-0 provides the how-to processes of unit training along with practical applications. Leaders\ncomplete this meticulous planning well prior to the start of training.\n\n[who-pasb-2020:p066:para:06 | data/pdf/who-pasb-2020.pdf | page 66]\nStatistically significant effects were found for high-\nintensity resistance training versus control groups on\nfasting insulin (MD= 4.60 [95% CI: 7.53 to 1.67], 5 trials;\nn= 174) (107). Another review of 7 RCTs (n= 189) reported\nthat interval training (2–5 times/week; intervals 1–4\nmins duration; total session lengths 20–60 mins) was\nassociated with statistically significantly decreased HbA1c\nby 0.26% (95% CI: 0.46 to 0.07%, 5 RCTs) compared with\nMICT, and by 0.83% (95% CI: 1.39% to 0.27%, 4 RCTs)\ncompared with no-exercise control groups (116).\n\n[fm7-22-2020:p067:para:04 | data/pdf/fm7-22-2020.pdf | page 67]\nThe principle of precision ensures the development of perception and awareness of the body ’s\nposition in space—kinesthesia—to improve training, testing, and battlefield performance. See ATP 7-22.01\nfor H2F testing, and ATP 7-22.02 for drills and exercises.\nPROGRESSION\n7-3. Progression refers to the proper dose of frequency, intensity, duration, and type of exercise required to\noverload the body without causing overtrai ning, plateauing, or reversal of fitness. The goal is to develop\nphysical capacity to support the mastery of occupational and combat -specific tasks. Task analysis include s",
+    "context_ids": [
+     "fm7-22-2020:p054:para:02",
+     "who-pasb-2020:p066:para:06",
+     "fm7-22-2020:p067:para:04"
+    ]
+   },
+   {
+    "event": "search",
+    "query": "FM 7-22 creatine supplement dose strength training daily creatine",
+    "filter": null,
+    "results": [
+     {
+      "id": "fm7-22-2020:p054:para:02",
+      "text": "MICROCYCLE\n5-9. The microcycle consists of the detailed daily training structure across two to fourteen days. The day s\nin the microcycle alternate between endurance and strength sessions as well as between training and recovery\nsessions. Leaders develop these training cycles in conjunction with the operations planning process described\nin FM 7-0. FM 7-0 uses the operations process conducting training events in a step-by-step approach to help\ncommanders and other unit leaders train their Soldiers. With a focus on readiness and high levels of training\nproficiency, FM 7-0 provides the how-to processes of unit training along with practical applications. Leaders\ncomplete this meticulous planning well prior to the start of training.",
+      "source_id": "fm7-22-2020",
+      "source": "data/pdf/fm7-22-2020.pdf",
+      "page": 54,
+      "metadata": {
+       "document_id": "fm7-22-2020",
+       "source": "data/pdf/fm7-22-2020.pdf",
+       "page": 54,
+       "char_start": 1029,
+       "char_end": 1766,
+       "publisher": "US Army",
+       "year": 2020,
+       "section": "Chapter 5. Periodization"
+      },
+      "score": 0.01639344262295082,
+      "strategy": "hybrid"
+     },
+     {
+      "id": "who-pasb-2020:p066:para:06",
+      "text": "Statistically significant effects were found for high-\nintensity resistance training versus control groups on\nfasting insulin (MD= 4.60 [95% CI: 7.53 to 1.67], 5 trials;\nn= 174) (107). Another review of 7 RCTs (n= 189) reported\nthat interval training (2–5 times/week; intervals 1–4\nmins duration; total session lengths 20–60 mins) was\nassociated with statistically significantly decreased HbA1c\nby 0.26% (95% CI: 0.46 to 0.07%, 5 RCTs) compared with\nMICT, and by 0.83% (95% CI: 1.39% to 0.27%, 4 RCTs)\ncompared with no-exercise control groups (116).",
+      "source_id": "who-pasb-2020",
+      "source": "data/pdf/who-pasb-2020.pdf",
+      "page": 66,
+      "metadata": {
+       "document_id": "who-pasb-2020",
+       "source": "data/pdf/who-pasb-2020.pdf",
+       "page": 66,
+       "char_start": 3448,
+       "char_end": 3997,
+       "publisher": "WHO",
+       "year": 2020,
+       "section": "Recommendations: Adults and older adults with chronic conditions (aged 18 years and older)"
+      },
+      "score": 0.01639344262295082,
+      "strategy": "hybrid"
+     },
+     {
+      "id": "fm7-22-2020:p067:para:04",
+      "text": "The principle of precision ensures the development of perception and awareness of the body ’s\nposition in space—kinesthesia—to improve training, testing, and battlefield performance. See ATP 7-22.01\nfor H2F testing, and ATP 7-22.02 for drills and exercises.\nPROGRESSION\n7-3. Progression refers to the proper dose of frequency, intensity, duration, and type of exercise required to\noverload the body without causing overtrai ning, plateauing, or reversal of fitness. The goal is to develop\nphysical capacity to support the mastery of occupational and combat -specific tasks. Task analysis include s",
+      "source_id": "fm7-22-2020",
+      "source": "data/pdf/fm7-22-2020.pdf",
+      "page": 67,
+      "metadata": {
+       "document_id": "fm7-22-2020",
+       "source": "data/pdf/fm7-22-2020.pdf",
+       "page": 67,
+       "char_start": 2025,
+       "char_end": 2622,
+       "publisher": "US Army",
+       "year": 2020,
+       "section": "Chapter 7. Physical Readiness"
+      },
+      "score": 0.016129032258064516,
+      "strategy": "hybrid"
+     }
+    ],
+    "context": "[fm7-22-2020:p054:para:02 | data/pdf/fm7-22-2020.pdf | page 54]\nMICROCYCLE\n5-9. The microcycle consists of the detailed daily training structure across two to fourteen days. The day s\nin the microcycle alternate between endurance and strength sessions as well as between training and recovery\nsessions. Leaders develop these training cycles in conjunction with the operations planning process described\nin FM 7-0. FM 7-0 uses the operations process conducting training events in a step-by-step approach to help\ncommanders and other unit leaders train their Soldiers. With a focus on readiness and high levels of training\nproficiency, FM 7-0 provides the how-to processes of unit training along with practical applications. Leaders\ncomplete this meticulous planning well prior to the start of training.\n\n[who-pasb-2020:p066:para:06 | data/pdf/who-pasb-2020.pdf | page 66]\nStatistically significant effects were found for high-\nintensity resistance training versus control groups on\nfasting insulin (MD= 4.60 [95% CI: 7.53 to 1.67], 5 trials;\nn= 174) (107). Another review of 7 RCTs (n= 189) reported\nthat interval training (2–5 times/week; intervals 1–4\nmins duration; total session lengths 20–60 mins) was\nassociated with statistically significantly decreased HbA1c\nby 0.26% (95% CI: 0.46 to 0.07%, 5 RCTs) compared with\nMICT, and by 0.83% (95% CI: 1.39% to 0.27%, 4 RCTs)\ncompared with no-exercise control groups (116).\n\n[fm7-22-2020:p067:para:04 | data/pdf/fm7-22-2020.pdf | page 67]\nThe principle of precision ensures the development of perception and awareness of the body ’s\nposition in space—kinesthesia—to improve training, testing, and battlefield performance. See ATP 7-22.01\nfor H2F testing, and ATP 7-22.02 for drills and exercises.\nPROGRESSION\n7-3. Progression refers to the proper dose of frequency, intensity, duration, and type of exercise required to\noverload the body without causing overtrai ning, plateauing, or reversal of fitness. The goal is to develop\nphysical capacity to support the mastery of occupational and combat -specific tasks. Task analysis include s",
+    "context_ids": [
+     "fm7-22-2020:p054:para:02",
+     "who-pasb-2020:p066:para:06",
+     "fm7-22-2020:p067:para:04"
+    ]
+   },
+   {
+    "event": "search",
+    "query": "FM 7-22 creatine supplement strength training dose daily creatine",
+    "filter": null,
+    "results": [
+     {
+      "id": "who-pasb-2020:p066:para:00",
+      "text": "type-2 diabetes and cancer survivors. The variations in\nthe certainty and directness of the evidence according\nto the specific chronic condition and specific outcomes\nexamined was acknowledged. Where evidence showed\npositive outcomes from strength training exercise, the\nfrequency of activity was 2 or 3 sessions of resistance\ntraining per week.\nThe GDG concluded that:\n• There is moderate certainty evidence of a dose-response\nrelationship between physical activity and decreased all-\ncause mortality and cancer-specific mortality in cancer\nsurvivors.\n• There is high certainty evidence of a dose-\nresponse relationship between physical activity\nand cardiovascular disease mortality for adults with\nhypertension.",
+      "source_id": "who-pasb-2020",
+      "source": "data/pdf/who-pasb-2020.pdf",
+      "page": 66,
+      "metadata": {
+       "document_id": "who-pasb-2020",
+       "source": "data/pdf/who-pasb-2020.pdf",
+       "page": 66,
+       "char_start": 0,
+       "char_end": 713,
+       "publisher": "WHO",
+       "year": 2020,
+       "section": "Recommendations: Adults and older adults with chronic conditions (aged 18 years and older)"
+      },
+      "score": 0.026500526500526502,
+      "strategy": "hybrid"
+     },
+     {
+      "id": "fm7-22-2020:p054:para:02",
+      "text": "MICROCYCLE\n5-9. The microcycle consists of the detailed daily training structure across two to fourteen days. The day s\nin the microcycle alternate between endurance and strength sessions as well as between training and recovery\nsessions. Leaders develop these training cycles in conjunction with the operations planning process described\nin FM 7-0. FM 7-0 uses the operations process conducting training events in a step-by-step approach to help\ncommanders and other unit leaders train their Soldiers. With a focus on readiness and high levels of training\nproficiency, FM 7-0 provides the how-to processes of unit training along with practical applications. Leaders\ncomplete this meticulous planning well prior to the start of training.",
+      "source_id": "fm7-22-2020",
+      "source": "data/pdf/fm7-22-2020.pdf",
+      "page": 54,
+      "metadata": {
+       "document_id": "fm7-22-2020",
+       "source": "data/pdf/fm7-22-2020.pdf",
+       "page": 54,
+       "char_start": 1029,
+       "char_end": 1766,
+       "publisher": "US Army",
+       "year": 2020,
+       "section": "Chapter 5. Periodization"
+      },
+      "score": 0.01639344262295082,
+      "strategy": "hybrid"
+     },
+     {
+      "id": "who-pasb-2020:p066:para:06",
+      "text": "Statistically significant effects were found for high-\nintensity resistance training versus control groups on\nfasting insulin (MD= 4.60 [95% CI: 7.53 to 1.67], 5 trials;\nn= 174) (107). Another review of 7 RCTs (n= 189) reported\nthat interval training (2–5 times/week; intervals 1–4\nmins duration; total session lengths 20–60 mins) was\nassociated with statistically significantly decreased HbA1c\nby 0.26% (95% CI: 0.46 to 0.07%, 5 RCTs) compared with\nMICT, and by 0.83% (95% CI: 1.39% to 0.27%, 4 RCTs)\ncompared with no-exercise control groups (116).",
+      "source_id": "who-pasb-2020",
+      "source": "data/pdf/who-pasb-2020.pdf",
+      "page": 66,
+      "metadata": {
+       "document_id": "who-pasb-2020",
+       "source": "data/pdf/who-pasb-2020.pdf",
+       "page": 66,
+       "char_start": 3448,
+       "char_end": 3997,
+       "publisher": "WHO",
+       "year": 2020,
+       "section": "Recommendations: Adults and older adults with chronic conditions (aged 18 years and older)"
+      },
+      "score": 0.01639344262295082,
+      "strategy": "hybrid"
+     }
+    ],
+    "context": "[fm7-22-2020:p054:para:02 | data/pdf/fm7-22-2020.pdf | page 54]\nMICROCYCLE\n5-9. The microcycle consists of the detailed daily training structure across two to fourteen days. The day s\nin the microcycle alternate between endurance and strength sessions as well as between training and recovery\nsessions. Leaders develop these training cycles in conjunction with the operations planning process described\nin FM 7-0. FM 7-0 uses the operations process conducting training events in a step-by-step approach to help\ncommanders and other unit leaders train their Soldiers. With a focus on readiness and high levels of training\nproficiency, FM 7-0 provides the how-to processes of unit training along with practical applications. Leaders\ncomplete this meticulous planning well prior to the start of training.\n\n[who-pasb-2020:p066:para:06 | data/pdf/who-pasb-2020.pdf | page 66]\nStatistically significant effects were found for high-\nintensity resistance training versus control groups on\nfasting insulin (MD= 4.60 [95% CI: 7.53 to 1.67], 5 trials;\nn= 174) (107). Another review of 7 RCTs (n= 189) reported\nthat interval training (2–5 times/week; intervals 1–4\nmins duration; total session lengths 20–60 mins) was\nassociated with statistically significantly decreased HbA1c\nby 0.26% (95% CI: 0.46 to 0.07%, 5 RCTs) compared with\nMICT, and by 0.83% (95% CI: 1.39% to 0.27%, 4 RCTs)\ncompared with no-exercise control groups (116).\n\n[fm7-22-2020:p067:para:04 | data/pdf/fm7-22-2020.pdf | page 67]\nThe principle of precision ensures the development of perception and awareness of the body ’s\nposition in space—kinesthesia—to improve training, testing, and battlefield performance. See ATP 7-22.01\nfor H2F testing, and ATP 7-22.02 for drills and exercises.\nPROGRESSION\n7-3. Progression refers to the proper dose of frequency, intensity, duration, and type of exercise required to\noverload the body without causing overtrai ning, plateauing, or reversal of fitness. The goal is to develop\nphysical capacity to support the mastery of occupational and combat -specific tasks. Task analysis include s\n\n[who-pasb-2020:p066:para:00 | data/pdf/who-pasb-2020.pdf | page 66]\ntype-2 diabetes and cancer survivors. The variations in\nthe certainty and directness of the evidence according\nto the specific chronic condition and specific outcomes\nexamined was acknowledged. Where evidence showed\npositive outcomes from strength training exercise, the\nfrequency of activity was 2 or 3 sessions of resistance\ntraining per week.\nThe GDG concluded that:\n• There is moderate certainty evidence of a dose-response\nrelationship between physical activity and decreased all-\ncause mortality and cancer-specific mortality in cancer\nsurvivors.\n• There is high certainty evidence of a dose-\nresponse relationship between physical activity\nand cardiovascular disease mortality for adults with\nhypertension.",
+    "context_ids": [
+     "fm7-22-2020:p054:para:02",
+     "who-pasb-2020:p066:para:06",
+     "fm7-22-2020:p067:para:04",
+     "who-pasb-2020:p066:para:00"
+    ]
+   },
+   {
+    "event": "invalid_or_missing_citations"
+   }
+  ],
+  "seconds": 3.59,
+  "llm_calls": [
+   {
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+     "prompt_tokens": 449,
+     "completion_tokens": 30,
+     "total_tokens": 479,
+     "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+     },
+     "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+     }
+    },
+    "seconds": 0.95,
+    "tool_calls": [
+     {
+      "name": "search_documents",
+      "arguments": "{\"query\":\"FM 7-22 creatine supplement dose strength training daily creatine\"}"
+     }
+    ]
+   },
+   {
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+     "prompt_tokens": 1036,
+     "completion_tokens": 30,
+     "total_tokens": 1066,
+     "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+     },
+     "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+     }
+    },
+    "seconds": 0.82,
+    "tool_calls": [
+     {
+      "name": "search_documents",
+      "arguments": "{\"query\":\"FM 7-22 creatine supplement dose strength training daily creatine\"}"
+     }
+    ]
+   },
+   {
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+     "prompt_tokens": 1052,
+     "completion_tokens": 30,
+     "total_tokens": 1082,
+     "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+     },
+     "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+     }
+    },
+    "seconds": 0.79,
+    "tool_calls": [
+     {
+      "name": "search_documents",
+      "arguments": "{\"query\":\"FM 7-22 creatine supplement strength training dose daily creatine\"}"
+     }
+    ]
+   },
+   {
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+     "prompt_tokens": 1236,
+     "completion_tokens": 25,
+     "total_tokens": 1261,
+     "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+     },
+     "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+     }
+    },
+    "seconds": 0.79,
+    "tool_calls": [
+     {
+      "name": "answer",
+      "arguments": "{\"answer\":\"Not enough evidence in the documents.\",\"citations\":[]}"
+     }
+    ]
+   }
+  ],
+  "searches": 3,
+  "final_context": "[fm7-22-2020:p054:para:02 | data/pdf/fm7-22-2020.pdf | page 54]\nMICROCYCLE\n5-9. The microcycle consists of the detailed daily training structure across two to fourteen days. The day s\nin the microcycle alternate between endurance and strength sessions as well as between training and recovery\nsessions. Leaders develop these training cycles in conjunction with the operations planning process described\nin FM 7-0. FM 7-0 uses the operations process conducting training events in a step-by-step approach to help\ncommanders and other unit leaders train their Soldiers. With a focus on readiness and high levels of training\nproficiency, FM 7-0 provides the how-to processes of unit training along with practical applications. Leaders\ncomplete this meticulous planning well prior to the start of training.\n\n[who-pasb-2020:p066:para:06 | data/pdf/who-pasb-2020.pdf | page 66]\nStatistically significant effects were found for high-\nintensity resistance training versus control groups on\nfasting insulin (MD= 4.60 [95% CI: 7.53 to 1.67], 5 trials;\nn= 174) (107). Another review of 7 RCTs (n= 189) reported\nthat interval training (2–5 times/week; intervals 1–4\nmins duration; total session lengths 20–60 mins) was\nassociated with statistically significantly decreased HbA1c\nby 0.26% (95% CI: 0.46 to 0.07%, 5 RCTs) compared with\nMICT, and by 0.83% (95% CI: 1.39% to 0.27%, 4 RCTs)\ncompared with no-exercise control groups (116).\n\n[fm7-22-2020:p067:para:04 | data/pdf/fm7-22-2020.pdf | page 67]\nThe principle of precision ensures the development of perception and awareness of the body ’s\nposition in space—kinesthesia—to improve training, testing, and battlefield performance. See ATP 7-22.01\nfor H2F testing, and ATP 7-22.02 for drills and exercises.\nPROGRESSION\n7-3. Progression refers to the proper dose of frequency, intensity, duration, and type of exercise required to\noverload the body without causing overtrai ning, plateauing, or reversal of fitness. The goal is to develop\nphysical capacity to support the mastery of occupational and combat -specific tasks. Task analysis include s\n\n[who-pasb-2020:p066:para:00 | data/pdf/who-pasb-2020.pdf | page 66]\ntype-2 diabetes and cancer survivors. The variations in\nthe certainty and directness of the evidence according\nto the specific chronic condition and specific outcomes\nexamined was acknowledged. Where evidence showed\npositive outcomes from strength training exercise, the\nfrequency of activity was 2 or 3 sessions of resistance\ntraining per week.\nThe GDG concluded that:\n• There is moderate certainty evidence of a dose-response\nrelationship between physical activity and decreased all-\ncause mortality and cancer-specific mortality in cancer\nsurvivors.\n• There is high certainty evidence of a dose-\nresponse relationship between physical activity\nand cardiovascular disease mortality for adults with\nhypertension.",
+  "final_context_ids": [
+   "fm7-22-2020:p054:para:02",
+   "who-pasb-2020:p066:para:06",
+   "fm7-22-2020:p067:para:04",
+   "who-pasb-2020:p066:para:00"
+  ],
+  "context_evidence": null
+ }
+]

@@ -1,0 +1,53 @@
+q16 answered searches=1 ctx_evidence=True 4.23s 'The base period is the longest training period, lasting up to twelve weeks [fm7-22-2020:p057:para:01'
+q17 answered searches=1 ctx_evidence=True 2.56s 'Exercises lying on their backs [fm7-22-2020:p145:para:01].'
+q18 answered searches=1 ctx_evidence=True 2.13s '8 or more hours of sleep per night [fm7-22-2020:p127:para:05]'
+q19 answered searches=1 ctx_evidence=True 1.99s 'Older adults should include multicomponent physical activity that includes balance training as well '
+q20 answered searches=1 ctx_evidence=True 1.87s 'Adults aged 18–64 should do at least 150–300 minutes of moderate-intensity aerobic physical activity'
+q28 answered searches=1 ctx_evidence=True 1.9s 'Sleeping two or more hours longer on days off than on duty days indicates a significant sleep debt ['
+q29 answered searches=3 ctx_evidence=False 4.39s 'The physical therapist can oversee the gym-based reconditioning program Category 1, and the physical'
+q30 answered searches=1 ctx_evidence=True 2.1s 'Women should do at least 150 minutes (2 hours and 30 minutes) of moderate-intensity aerobic activity'
+u04 abstain  searches=3 ctx_evidence=None 3.7s 'Không đủ bằng chứng để trả lời.'
+u05 abstain  searches=3 ctx_evidence=None 3.97s 'Không đủ bằng chứng để trả lời.'
+u06 abstain  searches=3 ctx_evidence=None 3.88s 'Không đủ bằng chứng để trả lời.'
+{
+ "config": "dense",
+ "top_k": 3,
+ "budget": 3000,
+ "max_searches": 3,
+ "original_first": false,
+ "method": "dense",
+ "split": "test",
+ "model": "gpt-5.4-mini-2026-03-17",
+ "questions": 11,
+ "errors": [],
+ "status": {
+  "answered": 8,
+  "abstain": 3
+ },
+ "tool_use": {
+  "n": 11,
+  "N": 11
+ },
+ "searches_distribution": {
+  "1": 7,
+  "3": 4
+ },
+ "context_evidence_rate": {
+  "n": 7,
+  "N": 8
+ },
+ "abstained_unanswerable": {
+  "n": 3,
+  "N": 3
+ },
+ "abstained_answerable": {
+  "n": 0,
+  "N": 8
+ },
+ "llm_calls": 30,
+ "prompt_tokens": 24561,
+ "completion_tokens": 1279,
+ "cost_usd": 0.0242,
+ "median_seconds": 2.56,
+ "total_seconds": 32.7
+}

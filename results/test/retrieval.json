@@ -1,0 +1,468 @@
+{
+ "dense": {
+  "n": 8,
+  "hit1": 4,
+  "hit3": 7,
+  "median_ms": 38.5,
+  "misses_at_3": [
+   "q29"
+  ],
+  "traces": [
+   {
+    "query_id": "q16",
+    "filter": null,
+    "ms": 999.4,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p054:para:05",
+      "score": 0.7554,
+      "hit": false
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p057:para:01",
+      "score": 0.7507,
+      "hit": true
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p053:para:02",
+      "score": 0.7082,
+      "hit": false
+     }
+    ],
+    "hit1": false,
+    "hit3": true
+   },
+   {
+    "query_id": "q17",
+    "filter": null,
+    "ms": 40.8,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p145:para:01",
+      "score": 0.8405,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p145:para:02",
+      "score": 0.8206,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p146:para:03",
+      "score": 0.806,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q18",
+    "filter": {
+     "section": "Chapter 11. Sleep Readiness"
+    },
+    "ms": 34.5,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p134:para:01",
+      "score": 0.8146,
+      "hit": false
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p128:para:05",
+      "score": 0.7971,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p129:para:00",
+      "score": 0.7956,
+      "hit": true
+     }
+    ],
+    "hit1": false,
+    "hit3": true
+   },
+   {
+    "query_id": "q19",
+    "filter": null,
+    "ms": 38.3,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "hhs-pag-2018:p068:para:02",
+      "score": 0.8774,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "hhs-pag-2018:p069:para:00",
+      "score": 0.8383,
+      "hit": true
+     },
+     {
+      "rank": 3,
+      "id": "hhs-pag-2018:p070:para:00",
+      "score": 0.8329,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q20",
+    "filter": {
+     "publisher": "WHO"
+    },
+    "ms": 38.2,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "who-pasb-2020:p014:para:00",
+      "score": 0.8726,
+      "hit": false
+     },
+     {
+      "rank": 2,
+      "id": "who-pasb-2020:p053:para:01",
+      "score": 0.8709,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "who-pasb-2020:p042:para:01",
+      "score": 0.8688,
+      "hit": true
+     }
+    ],
+    "hit1": false,
+    "hit3": true
+   },
+   {
+    "query_id": "q28",
+    "filter": null,
+    "ms": 38.7,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p123:para:02",
+      "score": 0.7517,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p131:para:02",
+      "score": 0.7251,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p122:para:02",
+      "score": 0.7232,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q29",
+    "filter": null,
+    "ms": 39.5,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p136:para:00",
+      "score": 0.7527,
+      "hit": false
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p139:para:01",
+      "score": 0.7088,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p139:para:04",
+      "score": 0.7081,
+      "hit": false
+     }
+    ],
+    "hit1": false,
+    "hit3": false
+   },
+   {
+    "query_id": "q30",
+    "filter": {
+     "publisher": "HHS"
+    },
+    "ms": 30.8,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "hhs-pag-2018:p080:para:03",
+      "score": 0.8748,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "hhs-pag-2018:p044:para:01",
+      "score": 0.865,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "hhs-pag-2018:p080:para:00",
+      "score": 0.8632,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   }
+  ]
+ },
+ "hybrid_bm25": {
+  "n": 8,
+  "hit1": 6,
+  "hit3": 7,
+  "median_ms": 39.4,
+  "misses_at_3": [
+   "q29"
+  ],
+  "traces": [
+   {
+    "query_id": "q16",
+    "filter": null,
+    "ms": 39.2,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p057:para:01",
+      "score": 0.0325,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p054:para:05",
+      "score": 0.032,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p053:para:05",
+      "score": 0.0318,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q17",
+    "filter": null,
+    "ms": 40.8,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p145:para:01",
+      "score": 0.0328,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p145:para:02",
+      "score": 0.0323,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p145:para:04",
+      "score": 0.0296,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q18",
+    "filter": {
+     "section": "Chapter 11. Sleep Readiness"
+    },
+    "ms": 44.3,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p129:para:00",
+      "score": 0.0323,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p134:para:01",
+      "score": 0.0315,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p128:para:05",
+      "score": 0.0308,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q19",
+    "filter": null,
+    "ms": 41.0,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "hhs-pag-2018:p068:para:02",
+      "score": 0.0328,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "hhs-pag-2018:p069:para:00",
+      "score": 0.0311,
+      "hit": true
+     },
+     {
+      "rank": 3,
+      "id": "who-pasb-2020:p063:para:00",
+      "score": 0.0304,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q20",
+    "filter": {
+     "publisher": "WHO"
+    },
+    "ms": 38.4,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "who-pasb-2020:p014:para:00",
+      "score": 0.0325,
+      "hit": false
+     },
+     {
+      "rank": 2,
+      "id": "who-pasb-2020:p012:para:01",
+      "score": 0.032,
+      "hit": true
+     },
+     {
+      "rank": 3,
+      "id": "who-pasb-2020:p053:para:01",
+      "score": 0.0318,
+      "hit": false
+     }
+    ],
+    "hit1": false,
+    "hit3": true
+   },
+   {
+    "query_id": "q28",
+    "filter": null,
+    "ms": 38.7,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p123:para:02",
+      "score": 0.0325,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p122:para:02",
+      "score": 0.0323,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p130:para:02",
+      "score": 0.031,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   },
+   {
+    "query_id": "q29",
+    "filter": null,
+    "ms": 39.6,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "fm7-22-2020:p139:para:01",
+      "score": 0.0306,
+      "hit": false
+     },
+     {
+      "rank": 2,
+      "id": "fm7-22-2020:p140:para:00",
+      "score": 0.0306,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "fm7-22-2020:p136:para:00",
+      "score": 0.0303,
+      "hit": false
+     }
+    ],
+    "hit1": false,
+    "hit3": false
+   },
+   {
+    "query_id": "q30",
+    "filter": {
+     "publisher": "HHS"
+    },
+    "ms": 38.9,
+    "top3": [
+     {
+      "rank": 1,
+      "id": "hhs-pag-2018:p080:para:03",
+      "score": 0.0328,
+      "hit": true
+     },
+     {
+      "rank": 2,
+      "id": "hhs-pag-2018:p080:para:00",
+      "score": 0.032,
+      "hit": false
+     },
+     {
+      "rank": 3,
+      "id": "hhs-pag-2018:p044:para:01",
+      "score": 0.0318,
+      "hit": false
+     }
+    ],
+    "hit1": true,
+    "hit3": true
+   }
+  ]
+ }
+}

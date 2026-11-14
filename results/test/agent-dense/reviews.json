@@ -1,0 +1,92 @@
+[
+ {
+  "query_id": "q16",
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng base period, tối đa 12 tuần; p57 nêu nguyên văn.",
+  "answer_grade": 2,
+  "context_grade": 2
+ },
+ {
+  "query_id": "q17",
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng: không tập nằm ngửa; p145 nêu nguyên văn.",
+  "answer_grade": 2,
+  "context_grade": 2
+ },
+ {
+  "query_id": "q18",
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng ≥8 giờ/đêm; p127 (filter chương 11 đã áp).",
+  "answer_grade": 2,
+  "context_grade": 2
+ },
+ {
+  "query_id": "q19",
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng: multicomponent gồm balance training; p68.",
+  "answer_grade": 2,
+  "context_grade": 2
+ },
+ {
+  "query_id": "q20",
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng 150–300 phút/tuần; p42 (filter WHO đã áp).",
+  "answer_grade": 2,
+  "context_grade": 2
+ },
+ {
+  "query_id": "q28",
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng quy tắc ngủ dư ≥2 giờ ngày nghỉ = nợ ngủ; p123.",
+  "answer_grade": 2,
+  "context_grade": 2
+ },
+ {
+  "query_id": "q29",
+  "citation_support": [
+   false
+  ],
+  "reason": "Sai: không trả lời \"healthcare provider, lần khám đầu\" (p140) mà nói về PT giám sát Category 1 rồi kết luận \"tài liệu không nêu\". Thực chất là từ chối trá hình dù status=answered. Citation p139 chỉ hỗ trợ câu lạc đề, không hỗ trợ câu trả lời → false. Chunk gold không xuất hiện trong bất kỳ lần search nào (lỗi retrieval).",
+  "answer_grade": 0,
+  "context_grade": 0
+ },
+ {
+  "query_id": "q30",
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng ≥150 phút/tuần; câu thêm \"rải đều trong tuần\" cũng có trong p80.",
+  "answer_grade": 2,
+  "context_grade": 2
+ },
+ {
+  "query_id": "u04",
+  "citation_support": [],
+  "reason": "Từ chối, không đưa ra con số; HHS không xét trẻ <3 tuổi, WHO 2020 chỉ dẫn sang guideline khác.",
+  "abstention_correct": true
+ },
+ {
+  "query_id": "u05",
+  "citation_support": [],
+  "reason": "Từ chối, không bịa liều omega-3; corpus không nhắc omega-3.",
+  "abstention_correct": true
+ },
+ {
+  "query_id": "u06",
+  "citation_support": [],
+  "reason": "Từ chối, không bịa liều creatine; corpus chỉ có \"phosphocreatine\".",
+  "abstention_correct": true
+ }
+]
